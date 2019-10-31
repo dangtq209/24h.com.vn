@@ -1,31 +1,34 @@
 /*Begin template box pr 8,9 */
-.prTemp8 article .imgNwsMdm {
-  width: 140px;
-  height: 105px; }
-.prTemp8 article .nwsTitHm h2 {
-  font-size: 16px;
-  line-height: 1.4;
-  font-weight: normal; }
-  .prTemp8 article .nwsTitHm h2 .clrDft {
+.prTemp8 article {
+  margin-bottom: 10px; }
+  .prTemp8 article:last-child {
+    margin-bottom: 0; }
+  .prTemp8 article .imgNwsMdm {
+    width: 140px;
+    height: 105px; }
+  .prTemp8 article .nwsTitHm h2 {
+    font-size: 16px;
+    line-height: 1.4;
     font-weight: normal; }
-  @media screen and (max-width: 320px) {
-    .prTemp8 article .nwsTitHm h2 {
-      font-size: 14px; } }
-  @media screen and (min-width: 400px) {
-    .prTemp8 article .nwsTitHm h2 {
-      font-size: 18px; } }
-  @media screen and (min-width: 480px) {
-    .prTemp8 article .nwsTitHm h2 {
-      font-size: 16px; } }
-  @media screen and (min-width: 600px) {
-    .prTemp8 article .nwsTitHm h2 {
-      font-size: 18px; } }
-  @media screen and (min-width: 700px) {
-    .prTemp8 article .nwsTitHm h2 {
-      font-size: 20px; } }
+    .prTemp8 article .nwsTitHm h2 .clrDft {
+      font-weight: normal; }
+    @media screen and (max-width: 320px) {
+      .prTemp8 article .nwsTitHm h2 {
+        font-size: 14px; } }
+    @media screen and (min-width: 400px) {
+      .prTemp8 article .nwsTitHm h2 {
+        font-size: 18px; } }
+    @media screen and (min-width: 480px) {
+      .prTemp8 article .nwsTitHm h2 {
+        font-size: 16px; } }
+    @media screen and (min-width: 600px) {
+      .prTemp8 article .nwsTitHm h2 {
+        font-size: 18px; } }
+    @media screen and (min-width: 700px) {
+      .prTemp8 article .nwsTitHm h2 {
+        font-size: 20px; } }
 .prTemp8 .lin {
-  border-color: #eeeeee;
-  margin-top: 10px; }
+  border-color: #eeeeee; }
 .prTemp8 .swiper-active-switch {
   background-color: #78b43d; }
 .prTemp8 .pagination {
@@ -35,7 +38,8 @@
   display: flex;
   justify-content: space-between; }
   .prTemp9 .list article {
-    width: 166px; }
+    width: 166px;
+    margin-bottom: 0; }
     .prTemp9 .list article .imgNwsMdm {
       float: none;
       width: 100%;

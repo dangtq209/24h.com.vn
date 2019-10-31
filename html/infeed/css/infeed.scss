@@ -23,7 +23,7 @@
 		}
 		.title{
 			margin-top: 4px;
-			line-height: 1.1;
+			line-height: 1.2;
 		}
 	}
 }
@@ -31,16 +31,10 @@
 /* infeed_02 */
 .infeed_02{
 	flex-direction: row-reverse;
-	padding: 10px;
 	.img{
-		width: 110px;
-		height: 83px;
 		margin: 0;
 	}
 	.content{
-		margin-top: 0;
-		.title{
-			line-height: 1;
-		}
+		padding: 0 10px;
 	}
 }

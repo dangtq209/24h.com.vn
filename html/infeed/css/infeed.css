@@ -19,19 +19,14 @@
       color: #0155b8; }
     .infeed_01 .content .title {
       margin-top: 4px;
-      line-height: 1.1; }
+      line-height: 1.2; }
 
 /* infeed_02 */
 .infeed_02 {
-  flex-direction: row-reverse;
-  padding: 10px; }
+  flex-direction: row-reverse; }
   .infeed_02 .img {
-    width: 110px;
-    height: 83px;
     margin: 0; }
   .infeed_02 .content {
-    margin-top: 0; }
-    .infeed_02 .content .title {
-      line-height: 1; }
+    padding: 0 10px; }
 
 /*# sourceMappingURL=infeed.css.map */

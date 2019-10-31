@@ -1,6 +1,10 @@
 /*Begin template box pr 8,9 */
 .prTemp8{
 	article{
+		margin-bottom: 10px;
+		&:last-child{
+			margin-bottom: 0;
+		}
 		.imgNwsMdm{
 			width: 140px;
 			height: 105px;
@@ -31,7 +35,6 @@
 	}
 	.lin{
 		border-color: #eeeeee;
-		margin-top: 10px;
 	}
 	.swiper-active-switch{
 		background-color: #78b43d;
@@ -48,6 +51,7 @@
 		justify-content: space-between;
 		article{
 			width: 166px;
+			margin-bottom: 0;
 			.imgNwsMdm{
 				float: none;
 				width: 100%;
