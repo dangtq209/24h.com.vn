@@ -1,0 +1,165 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 10, 2018, 2:26:12 PM
+    Author     : HP1
+*/
+/*Begin 14-05-2018 trungcq XLCYCMHENG_31384_bo_sung_box_dac_biet_trang_chu*/
+.evtHot .nwsHotLt {
+    width: 337px;
+    position: relative;
+    margin-right: 10px;
+}
+
+.spNws {
+    position: absolute;
+    font-size: 18px;
+    font-weight: 700;
+    background-color: #78b43d;
+    padding: 5px 6px 2px 6px;
+    left: -6px;
+    top: 10px;
+}
+
+.nwsHotLt header a {
+    font-size: 18px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 7px 15px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+    text-align: justify;
+    line-height: 1.3;
+    color: #fff;
+}
+
+.imgHot {
+    display: block;
+    line-height: 0;
+}
+
+.evtHotTit .txtTrf {
+    background-color: #ef7930;
+    font-size: 12px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 3px 3px 0 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 20px;
+    line-height: 20px;
+    float: left;
+}
+/* Start duclv: css_box_hot_2082018 */
+.hotTb {
+    background-color: #faa460;
+    font-size: 11px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 3px 3px 0 0;
+    padding-right: 9px;
+    padding-left: 9px;
+    height: 18px;
+    line-height: 18px;
+    float: left;
+    margin-left: 3px;
+}
+/* End duclv: css_box_hot_2082018 */
+.evtHotTit .txtTrf:hover,
+.hotTb:hover {
+    text-decoration: none;
+}
+
+.evtHotTit a:hover {
+    color: #000;
+    cursor: pointer;
+}
+
+.evtHotTit {
+    border-bottom: 1px solid #ef7930;
+    display: inline-block;
+    width: 100%;
+}
+
+.evtHotTit a.flRt {
+    color: #ef7930;
+    font-size: 12px;
+    padding: 3px 0;
+    display: block;
+    float: right;
+}
+
+.nwsHotRt .bxDoIt {
+    padding-right: 0;
+}
+
+.nwsHotRt .nwsTit a {
+    font-size: 16px;
+    line-height: 20px;
+}
+
+.nwsHotRt .nwsTit {
+    height: auto;
+    margin-left: 130px;
+    text-align: justify;
+}
+
+.nwsHotRt .divSbNws {
+    padding-left: 130px;
+    line-height: 1.5;
+    padding-top: 0;
+}
+
+.nwsHotRt .bxDoMrNws {
+    padding-top: 3px;
+}
+
+.nwsHotRt .bxDoMrNws article {
+    line-height: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.nwsHotRt .bxDoMrNws article:last-child {
+    margin-bottom: 0;
+}
+
+.nwsHotRt .bxDoMrNws a {
+    font-size: 14px;
+}
+
+.evtHot {
+    display: inline-block;
+    width: 100%;
+}
+
+.linHot {
+    border-bottom: 1px solid #f8ceaf;
+}
+
+.nwsHotRt .divSbNws a:hover {
+    text-decoration: underline;
+}
+
+.nwsHotRt .lstNml {
+    background: none;
+    position: relative;
+}
+
+.nwsHotRt .lstNml:before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #f17921;
+    display: inline-block;
+    top: 7px;
+    left: 0;
+}
+/*End 14-05-2018 trungcq XLCYCMHENG_31384_bo_sung_box_dac_biet_trang_chu*/

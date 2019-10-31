@@ -1,0 +1,203 @@
+* {
+    font-size: 12px;
+}
+body {
+    background-color: #000;
+    margin: 0;
+}
+/*Start edit full album*/
+.gryTp {
+    height: 86%;
+    margin-right: 53px;
+}
+.slAlmImg {
+    border-top: 10px solid #000;
+    position: relative;
+    letter-spacing: 0;
+    text-align: center;
+    width: 800px;
+    height: 100%;
+    margin: auto;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-align: center;
+    -moz-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+    -webkit-box-pack: center;
+    -moz-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+}
+.gryThmb {
+    height: 14%;
+    margin-right: 53px;
+    box-sizing: border-box;
+    padding: 10px 0;
+    clear: both;
+}
+.gryThmb .swiper-slide {
+    width: 100px;
+    height: 100%;
+    opacity: 0.4;
+    margin-right: 10px;
+}
+.gryThmb .swiper-slide-active {
+    opacity: 1;
+}
+.slAlmImgIn {
+    cursor: pointer;
+    float: left;
+    overflow: hidden;
+    border: 2px solid #FFF;
+    border-radius: 4px;
+    -webkit-transition: border-color .25s ease;
+    -o-transition: border-color .25s ease;
+    transition: border-color .25s ease;
+}
+.gryThmb .slAlmImgIn img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+}
+.rtDtlImg {
+    position: absolute;
+    border-left: 1px solid #333;
+    right: 0;
+    top: 0;
+    height: 100%;
+    width: 52px;
+}
+.zmIn, .vidImg, .ntNws, .shrScl {
+    width: 52px;
+    height: 52px;
+    position: relative;
+    border-bottom: 1px solid #333;
+}
+.img-social {
+    display: none;
+}
+.shrScl:hover .img-social {
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: -72px;
+}
+.zmIn a, .vidImg a, .ntNws a, .shrScl a {
+    width: 52px;
+    height: 52px;
+    display: block;
+}
+.zmIn a:hover, .vidImg a:hover, .ntNws a:hover, .shrScl a:hover {
+    background: #5ca038;
+}
+.zmIn a img, .vidImg a img, .ntNws a img, .shrScl a>img, .numbImg div {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+}
+.imgScl {
+    display: none;
+}
+.ntNwsNo {
+    display: block;
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 53px;
+    width: 200px;
+    color: #fff;
+    text-align: justify;
+    padding: 10px;
+    z-index: 99999;
+    font-size: 14px;
+}
+.numbImg {
+    position: absolute;
+    bottom: 0;
+    width: 52px;
+    height: 52px;
+    display: block;
+    text-align: center;
+    border-top: 1px solid #333;
+    border-bottom: 1px solid #333;
+}
+.numbImg div {
+    color: #fff;
+}
+/*End edit full album*/
+
+.swiper-slide {
+    background-size: cover;
+    background-position: center;
+}
+.gryTp {
+    height: 86%;
+    margin-right: 53px;
+}
+.gallery-thumbs {
+    height: 14%;
+    margin-right: 53px;
+    box-sizing: border-box;
+    padding: 10px 0;
+}
+.gallery-thumbs .swiper-slide {
+    width: 100px;
+    height: 100%;
+    opacity: 0.4;
+}
+.gallery-thumbs .swiper-slide-active {
+    opacity: 1;
+}
+.gallery-thumbs .swiper-slide .slAlmImgIn img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+}
+/*Begin 18-05-2018 trungcq XLCYCMHENG_31477_toi_uu_chia_se_full_album*/
+.shrSclInner {
+    position: absolute;
+    display: none;
+    width: 130px;
+    right: 52px;
+    z-index: 1;
+    top: 0;
+    text-align: center;
+    background-color: #fff;
+}
+
+.shrScl:hover .shrSclInner {
+    display: block;
+}
+
+.shrScl .shrSclInner a {
+    display: inline-block;
+}
+
+.shrSclInner a img {
+    width: 35px;
+    height: 35px;
+    position: initial;
+    transform: translateX(0%) translateY(22%);
+}
+
+.shrScl .shrSclInner a:hover {
+    background: #fff;
+}
+
+.shrSclInner:before {
+    content: "";
+    position: absolute;
+    top: 18px;
+    right: -16px;
+    border-width: 8px;
+    border-style: solid;
+    border-color: transparent transparent transparent #fff;
+}
+/*End 18-05-2018 trungcq XLCYCMHENG_31477_toi_uu_chia_se_full_album*/

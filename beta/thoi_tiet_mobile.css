@@ -1,0 +1,218 @@
+*, body, h1, h2, h3 {
+    margin: 0;
+    padding: 0
+}
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.8em;
+    width: 100%;
+    margin: 0 auto
+}
+.font-nho {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+}
+.font-lon {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+body.font-lon h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+body.font-nho h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+a {
+    color: #390;
+    text-decoration: none
+}
+img {
+    border-style: none
+}
+.hdr img {
+    float: left
+}
+.hdr form {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.menu {
+    clear: both;
+    text-align: center;
+    padding: 5px 0;
+    color: #FFF
+}
+.menu a {
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 5px
+}
+.menu a#active {
+    text-decoration: none
+}
+.cate {
+    margin-top: 10px;
+}
+.cateNm {
+    line-height: 16px;
+    padding: 1px 0px 3px 2%;
+    color: #FFF;
+    margin-top: 5px;
+}
+.cateNm a {
+    color: #FFF;
+    text-decoration: none
+}
+.cateNm a:hover {
+    color: #000
+}
+/*Begin 12-05-2016 : Thangnb xu_ly_ty_gia_doi_tac_mbbank*/
+
+.cateNm h2, .cateNm h1 {
+    font-weight: 700;
+    font-size: 13px;
+    display: inline
+}
+/*End 12-05-2016 : Thangnb xu_ly_ty_gia_doi_tac_mbbank*/
+.cate ul a {
+    color: #B14000
+}
+.NsImg {
+    margin-top: 5px;
+    overflow: auto;
+    padding: 0 2%;
+    position: relative;
+}
+.NsImg h3 {
+    display: inline;
+}
+.NsImg h3 a {
+    font-size: 14px;
+    font-weight: 700;
+}
+.tin-anh {
+    margin-top: 5px;
+    overflow: auto;
+    padding: 0 2%;
+    position: relative;
+}
+.bxTl{background:url(//static.24h.com.vn/images/ttcb/box-ttcn-tl.gif) no-repeat;width:3px;height:30px;overflow:hidden;}
+.bxTc {background:url(//static.24h.com.vn/images/ttcb/box-ttcn-tc.gif) repeat-x;height:30px;}
+.bxTr {background:url(//static.24h.com.vn/images/ttcb/box-ttcn-tr.gif) no-repeat;width:3px;height:30px;overflow:hidden;}
+
+.bxCl{background:url(//static.24h.com.vn/images/ttcb/box-cl.gif) repeat-y;width:3px;overflow:hidden;}
+.bxCc{background:#fff;}
+.bxCr{background:url(//static.24h.com.vn/images/ttcb/box-cr.gif) repeat-y;width:3px;overflow:hidden;}
+
+.bxBl{background:url(//static.24h.com.vn/images/ttcb/box-bl.gif) no-repeat;width:3px;height:3px;overflow:hidden;}
+.bxBc{background:url(//static.24h.com.vn/images/ttcb/box-bc.gif) repeat-x;height:3px;}
+.bxBr{background:url(//static.24h.com.vn/images/ttcb/box-br.gif) no-repeat;width:3px;height:3px;overflow:hidden;}
+
+.centBxTit{text-align:center;color:#fff;font-weight:bold;font-size:14px;}
+.centBxTit a,.centBxTit strong{color:#fff;font-weight:bold;font-size:13px;}
+.centBxTit h2{margin:0;display:inline;font-size:13px; text-transform:uppercase;}
+.centBxTit a:hover{color:#FF0}
+.tbTp{height:41px;overflow:hidden;padding: 0 0 0 5px;white-space:nowrap}
+.upDte {font-weight:bold;font-style:italic;color:#C30;font-size:12px;white-space:nowrap}
+
+.tbBlu{background:#d0ebfa;}
+.tbGry1 {background:#ececec;}
+.tnhTp{background:#0a6eba;color:#fff;padding:5px 10px;font-size:11px}
+.tnhTp strong{color:#fff;font-size:13px}
+.tnhTp h3{margin:0;padding:0;}
+.tnhTp a{color:#fff;display:block;}
+.ndBig{font-size:24px;font-weight:bold;}
+.ndBig sup{font-size:18px;font-weight:bold;}
+.ndSml{font-size:14px;font-weight:bold;}
+.ndSml sup{font-size:12px;font-weight:bold;}
+.ttCel{padding:5px 5px;}
+.ttSbPic{height:65px;}
+.ttSbTxt{}
+.ttSbSml{font-size:11px;}
+.cate ul {
+    border-top: 1px solid #C2C2C2;
+    margin: 5px 2% 0 2%;
+    padding-top: 5px;
+    list-style-image: url(//static.24h.com.vn/images/ttcb/iconNew.gif);
+    list-style-position: inside;
+    clear: both;
+    line-height: 21px;
+}
+.cate ul li{
+    background: url(//static.24h.com.vn/images/ttcb/iconNew.gif) no-repeat 0 7px;
+    padding-left: 10px;
+}
+.cate .NsImg p {
+    font-size: 12px;
+    line-height: 16px;
+}
+.NsImg .line-break {
+    clear: both;
+    border-top: 1px solid #C2C2C2
+}
+.seMr {
+    margin-top: 5px;
+    text-align: right;
+    color: #390;
+    margin-bottom: 5px;
+    background: none;
+}
+.seMr a {
+    color: #666;
+    padding: 0 10px;
+}
+.phan-trang {
+        margin: 5px 0px;
+    text-align: center;
+    padding: 5px 0;
+    background: #efefef;
+    font-size: 15px;
+    font-weight: bold;
+}
+.phan-trang a {
+    color: #390;
+    text-decoration: none;
+}
+.NsImg img {
+    margin: 0 5px 5px 0;
+}
+.NsImg a {
+    font-size: 14px;
+    font-weight: 700;
+}
+.NsImg .tnhTp a {
+    font-size: 11px;
+    font-weight: 400;
+}
+.img-thumb {
+    float: left;
+}
+.NsImg p {
+    margin: 5px 0 8px 0;
+    text-align: justify;
+}
+.nguon {
+    color: #666;
+    text-align: center;
+    padding: 5px 10px;
+}
+#doi-font {
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px 0 0px 0;
+}
+#doi-font span {
+    font-weight: 700;
+}
+#doi-font #font-nho {
+    font-size: 9px;
+}
+#doi-font a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 2px;
+}

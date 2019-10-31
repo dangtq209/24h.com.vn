@@ -1,0 +1,352 @@
+ .evtHlt .tbTcb {
+    padding: 10px;
+}
+.evtBx .imgNwsMdm {
+    width: 45%;
+    height: auto;
+    margin-right: 4%;
+}
+.evtBx .imgNwsMdm a img {
+    width: 100%;
+    display: block;
+}
+.evtBx .evtBxSp {
+    float: left;
+    width: 51%;
+    color: #333;
+    margin-top: -5px;
+    background: none;
+    padding: 0;
+    margin-bottom: 5px;
+    display: inline;
+    line-height: 1.5;
+}
+
+/*---Start box nhieu nguoi doc---*/
+.bxRdPsn {
+    padding: 7px;
+    border: 1px solid #f17920;
+    border-top: 6px solid #f17920;
+}
+.tbLngrn {
+    color: #f17920;
+    border-bottom: 0;
+    padding: 0 0 10px;
+    font-weight: 700;
+    position: relative;
+}
+.tbLngrn a, .tbLngrn h2 {
+    margin: 0;
+}
+.tbLngrn h2 {
+    color: #f17920;
+}
+.bxRdPsnLt a {
+    line-height: 1.5;
+} 
+.bxRdPsn .boxGrey {
+    background: none;
+    padding: 0;
+}
+.bxRdPsn .nwsItHm {
+    display: inline-block;
+    width: 100%;
+    clear: both;
+}
+.bxRdPsn .bxRdPsnLt {
+    width: 70%;
+    float: left;
+    background: none;
+    padding-left: 0;
+    padding-right: 10px;
+}
+.bxRdPsn .nwsIt {
+    width: 30%;
+    float: left;
+    position:relative;
+}
+/*---End box nhieu nguoi doc---*/
+/*---Start media query---*/
+@media only screen and (max-width: 598px) {
+    .imgFlt {
+        margin-right: 10px;
+    }    
+    .tbCmg ul {
+        height: 38px;
+        overflow: hidden;
+        width: 100%;
+    }
+    /*.tbCmg ul li h2, .tbCmg ul li h1, .tbCmg ul li h3 {
+        font-size: 14px;
+    }*/
+    /*.tbCmg ul li a {
+        font-size: 14px;
+    }*/
+    .mnCM-expand {
+        width: 38px;
+        height: 38px;
+        right: 0;
+        top: 0;
+        background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 8px -1485px;
+    }
+    .m_banner_show > div {
+        width: 100% !important;
+        overflow: hidden;
+    }
+}
+@media only screen and (min-width: 668px) {
+    .txtBnrHor span {
+        font-size: 16px;
+    }
+    .nwsTit .ifTtr, .blqPr .extTit, .extTit span {
+        font-size: 18px;
+    }
+    .tmPst a, .extTit a, .tmPst, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, #footer p, .pagPge, .nguontin, .menutp ul li a, .tmEvt .nmEvt , .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .blk .ftLstVid .vidSeMr a, .pagS2 .pagPge {
+        font-size: 20px;
+    }
+    .icoSkn span, .txtMn, .icoSkn a, .nwsTitHm, .tpcHt .tpcLitIt li a, .tbCmg ul li a, .cateOthr li a, .mnRtQk ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .mnRtCls {
+        font-size: 22px;
+    }
+    .bdBrk, .nwsTitSlHm, .titTp a, .tbCmg ul li, .ldIt a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tcbIt li a, .tbCmg h1, .ftMn2 a, .tbTcb a, .ctTp, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .content-video .vdFul a, .bxVidTit .mnItTit a, .bxMncm li a, .chuyen-huong a {
+        font-size: 24px;
+    }
+    .tbCmCent a, .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .bxDoRt .nwsTitHm a {
+        font-size: 26px;
+    }
+    .titNws a {
+        font-size: 28px;
+    }
+    .atclTit h1 {
+        font-size: 32px;
+    }
+}
+@media only screen and (min-width: 569px) and (max-width: 667px) {
+    .txtBnrHor span {
+        font-size: 14px;
+    }
+    .nwsTit .ifTtr, .blqPr .extTit, .extTit span {
+        font-size: 16px;
+    }
+    .tmPst a, .extTit a, .tmPst, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, #footer p, .pagPge, .nguontin, .menutp ul li a, .tmEvt .nmEvt , .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .blk .ftLstVid .vidSeMr a, .pagS2 .pagPge {
+        font-size: 18px;
+    }
+    .icoSkn span, .txtMn, .icoSkn a, .nwsTitHm, .tpcHt .tpcLitIt li a, .tbCmg ul li a, .cateOthr li a, .mnRtQk ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .mnRtCls {
+        font-size: 20px;
+    }
+    .bdBrk, .nwsTitSlHm, .titTp a, .tbCmg ul li, .ldIt a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tcbIt li a, .tbCmg h1, .ftMn2 a, .tbTcb a, .ctTp, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .content-video .vdFul a, .bxVidTit .mnItTit a, .bxMncm li a, .chuyen-huong a {
+        font-size: 22px;
+    }
+    .tbCmCent a, .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .bxDoRt .nwsTitHm a {
+        font-size: 24px;
+    }
+    .titNws a {
+        font-size: 26px;
+    }
+    .atclTit h1 {
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 568px) {
+    .txtBnrHor span {
+        font-size: 12px;
+    }
+    .nwsTit .ifTtr, .blqPr .extTit, .extTit span {
+        font-size: 14px;
+    }
+    .tmPst a, .extTit a, .tmPst, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, #footer p, .pagPge, .nguontin, .menutp ul li a, .tmEvt .nmEvt , .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .blk .ftLstVid .vidSeMr a, .pagS2 .pagPge {
+        font-size: 16px;
+    }
+    .icoSkn span, .txtMn, .icoSkn a, .nwsTitHm, .tpcHt .tpcLitIt li a, .tbCmg ul li a, .cateOthr li a, .mnRtQk ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .mnRtCls {
+        font-size: 18px;
+    }
+    .bdBrk, .nwsTitSlHm, .titTp a, .tbCmg ul li, .ldIt a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tcbIt li a, .tbCmg h1, .ftMn2 a, .tbTcb a, .ctTp, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .content-video .vdFul a, .bxVidTit .mnItTit a, .bxMncm li a, .chuyen-huong a {
+        font-size: 20px;
+    }
+    .tbCmCent a, .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .bxDoRt .nwsTitHm a {
+        font-size: 22px;
+    }
+    .titNws a {
+        font-size: 24px;
+    }
+    .atclTit h1 {
+        font-size: 28px;
+    }
+}
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    .txtBnrHor span {
+        font-size: 10px;
+    }
+    .nwsTit .ifTtr, .blqPr .extTit, .extTit span {
+        font-size: 12px;
+    }
+    .tmPst a, .extTit a, .tmPst, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, #footer p, .pagPge, .nguontin, .menutp ul li a, .tmEvt .nmEvt , .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .blk .ftLstVid .vidSeMr a, .pagS2 .pagPge {
+        font-size: 14px;
+    }
+    .icoSkn span, .txtMn, .icoSkn a, .nwsTitHm, .tpcHt .tpcLitIt li a, .tbCmg ul li a, .cateOthr li a, 
+    .mnRtQk ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .mnRtCls {
+        font-size: 16px;
+    }
+    .bdBrk, .nwsTitSlHm, .titTp a, .tbCmg ul li, .ldIt a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tcbIt li a, .tbCmg h1,
+    .ftMn2 a, .tbTcb a, .ctTp, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .content-video .vdFul a, .bxVidTit .mnItTit a, .bxMncm li a, .chuyen-huong a {
+        font-size: 18px;
+    }
+    .tbCmCent a, .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .bxDoRt .nwsTitHm a {
+        font-size: 20px;
+    }
+    .titNws a {
+        font-size: 22px;
+    }
+    .atclTit h1 {
+        font-size: 26px;
+    }
+}
+@media only screen and (min-width: 480px) {
+    .mnRtQk {
+        width: 320px;
+    }
+    .menutp ul li {
+        padding: 10px 7px;
+    }
+}
+@media only screen and (min-width: 599px) {
+    .tbCmg ul {
+        height: 60px;
+        overflow: hidden;
+    }
+    .tbCmg {
+        max-height: 60px;
+    }
+    .mnRtQk {
+        width: 400px;
+    }
+    .mnCM-expand {
+        width: 38px;
+        height: 38px;
+        right: 0;
+        top: 5px;
+        background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 8px -1485px;
+    }
+    .pagS2 a.Next {
+        background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat right -580px;
+    }
+    .pagS2 a.Prev {
+        background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -620px;
+    }
+    .tmPst a {
+        background-position: 0 -120px;
+    }
+    .nwsTitSlHm {
+        background-position: 0 -1528px;  
+    }
+    .mnRtClsBtn {
+        right: 320px;
+    }
+    .menRt {
+        width: 320px;
+    }
+    .mnRt li a {
+        font-size: 20px;
+    }
+}
+/* begin BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
+.txtRt {
+    text-align: right;
+}
+.asiad-bxh {
+    margin-left: -7px;
+    margin-right: -7px;
+}
+.asiadTit {
+    height: 37px;
+    background: url(//static.24h.com.vn/images/bxh/asiad-bg.png) center right;
+    line-height: 37px;
+}
+.asiadTit span {
+    font-size: 14px;
+}
+.asiadTb {
+    width: 100%;
+    border-collapse: collapse;
+}
+.asiadTb thead {
+    border-bottom: 1px solid #ddd;
+}
+.asiadTb thead th{
+    padding: 10px 4px;
+    font-size: 14px;
+    font-weight: 400;
+    min-width: 32px;
+}
+.asiadTb thead th.txtLt {
+    text-align: left;
+}
+.asiadTb thead th img {
+    width: 24px;
+    height: 28px !important;
+}
+.asiadTb tbody tr td {
+    padding: 10px 4px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 14px;
+}
+.asiadTb tbody tr td.txtLt {
+    text-align: left;
+    word-break: break-all;
+}
+.asiadTb tbody tr td.txtLt img {
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 5px;
+    width: 32px;
+}
+.asiadVN {
+    background-color: #fff2da;
+}
+.asiad-detail {
+    padding-right: 10px;
+}
+.asiad-detail a {
+    font-size: 12px;
+    color: #78b43d;
+    font-style: italic;
+    text-decoration: underline;
+}
+@media only screen and (min-width: 668px) {
+    .asiadTb tbody tr td, .asiadTb thead th {
+        font-size: 22px;
+    }
+    .asiad-detail a {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 569px) and (max-width: 667px) {
+    .asiadTb tbody tr td, .asiadTb thead th {
+        font-size: 20px;
+    }
+    .asiad-detail a {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 568px) {
+    .asiadTb tbody tr td, .asiadTb thead th {
+        font-size: 18px;
+    }
+    .asiad-detail a {
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    .asiadTb tbody tr td, .asiadTb thead th {
+        font-size: 16px;
+    }
+    .asiad-detail a {
+        font-size: 14px;
+    }
+}
+@media only screen and (min-width: 375px) {
+    .asiadTit span {
+        font-size: 16px;
+    }
+}
+/* end BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */

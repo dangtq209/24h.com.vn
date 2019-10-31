@@ -1,0 +1,487 @@
+/*==================================== album.css =============================*/
+@charset "utf-8";
+/* CSS Document */
+.clLtImg{width: 699px;float: left;margin-bottom: 18px!important;}
+.clRtImg{width:300px;margin-left:5px;float:left}/* Edit Tytv 17/04/2017- dfp_code_ghep_trang(ghep_trang_chi_tiet) */
+.imgCtnImg,.otherAlbums{background-color:#111111;color:#FFFFFF;padding:20px;position:relative;width:687px;overflow: hidden;box-sizing: border-box;}
+.hdrBxRtTxt{background:#111111;color:#FFFFFF;line-height:18px;padding:15px 20px;text-align:justify;font-size: 14px;}
+.hdrBxRtTxt p{color:#ffffff;margin:0;}
+.hdrBxRtTxt a{color:#ff0;text-decoration:underline;}
+.seAutoImg{float:left;width:300px;background:#111111;margin-bottom: 15px;}
+.thumb-list{padding:10px 0px;padding-bottom: 0;background:#111111;}
+.image-thumb{width:55px;height:80px;border:#dddddd solid 1px;opacity:0.7;filter:alpha(opacity=70);}
+.image-thumb:hover{width:55px;height:80px;border:#78b43d solid 1px;opacity:1;filter:alpha(opacity=100);}
+.thmbAtv{width:55px;height:80px;border:#78b43d solid 1px;opacity:1;filter:alpha(opacity=100);}
+.thumb-8080{width:80px;height:80px;border:#dddddd solid 1px;}
+.thumb-130{width:130px;height:130px;border:#dddddd solid 1px;}
+.thumbnavi-wrap{left:0;position:absolute;display:block;z-index:99;width:100%;}
+ul.thumbnavi{list-style:none;padding:0;margin:0;overflow:hidden;height:82px;}
+ul.thumbnavi li{float:left;margin:3px 2px;}
+.thumbwrap{position:relative;border:0px solid black;overflow:hidden;width:190px;height:86px;}
+.thumbwrap .baongoai{position:absolute;left:0;top:0;}
+.thumbwrap .noidung{float:left;overflow:hidden;margin:3px;width:60px;}
+.thmbImg{position:relative;border:0px solid black;overflow:hidden;width:265px;height:86px;margin-left: -7px;}
+.thmbImg .baongoai{position:absolute;left:0;top:0;}
+.thmbImg .noidung{float:left;overflow:hidden;margin:3px 7px;width:60px;}
+/* Begin Tytv 17/04/2017- dfp_code_ghep_trang(ghep_trang_chi_tiet) */
+.boSuuTapItem-doc{width:128px;float:left;padding:5px 4px 5px 5px;text-align:center}.boSuuTapItem-doc span.img{width:130px;height:98px;display:block;margin-bottom:5px;} /* edit VinhLQ 22/08/2014*/
+.boSuuTapItem-doc a{color:#333333;font-size:12px}.boSuuTapItem-doc a:hover{color:#5ca038}
+
+.greenBoxCnt-trangAnh{border-left:#e6e6e6 solid 1px;border-right:#e6e6e6 solid 1px;padding:5px 6px;margin-bottom: 10px;}
+/* End Tytv 17/04/2017- dfp_code_ghep_trang(box_album_cung_chuyen_muc) */
+.topMn {
+    display: inline-block;
+    width: 100%;
+}
+.topMn .topMnRt {
+    width: 915px;
+    float: left;
+}
+.topMn .topMnRt .brm {
+    float: left;
+    height: 20px;
+}
+.topMnSbRt {
+    float: right;
+    text-align: right;
+    color: #333;
+}
+.topMnSbRt a {
+    color: #333;
+    text-transform: uppercase;
+    font-weight: 400;
+}
+.topMnSbRt a:hover {
+    color: #438212;
+}
+.imgTit{
+    padding-bottom: 10px;
+    padding-right: 50px;
+}
+.imgTit h1{margin:0;}.imgTit a{color:#a6ce39;font-size:20px;font-weight:bold}
+.flSrenTp {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    height: 37px;
+}
+.flSren {
+    float: left;
+}
+.flSren a {
+    padding: 5px;
+    border: 1px solid #666;
+    color: #fff;
+}
+.flSren a img {
+    vertical-align: middle;
+    margin-top: -0px;
+    margin-right: 10px;
+    width: 13px;
+}
+.flSrenTp a img {
+    margin-right: 0;
+}
+
+.flFt{float:left}
+.flRt{float:right}
+.imgEvt{font-size:11px;color:#fff;padding-bottom:20px;}
+.imgEvt a{text-decoration:underline;color:#FFFFFF;font-size:11px;font-weight: normal;}
+.imgDte{font-size:11px;color:#cdcdcd;padding-bottom:5px;}
+.seImgLst{color:#fff;right:0;padding:13px 0 0 0;text-align:right}
+.seImgLst a{padding-left:7px;color:#ffffff}
+.seImgLst a:hover{color:#f17920;text-decoration:underline}
+.xemTuDong{font-size:12px;margin-right:10px;font-weight:bold}
+.imgCtImg{position:relative;width:654px}
+/* Begin 15-02-2017 : Thangnb tinh_chinh_giao_dien_trang_bai_viet_anh_24h_pc */
+/* Begin 18/08/2017 Tytv toi_uu_trang_bai_anh_thuong_va_anh_mo_rong */
+.imgCtImg .shwImg{position:relative;text-align:center}
+/* Begin 18/08/2017 Tytv toi_uu_trang_bai_anh_thuong_va_anh_mo_rong */
+.imgCtImg .shwImg #MainIMG {max-width:100%;}
+/* End 15-02-2017 : Thangnb tinh_chinh_giao_dien_trang_bai_viet_anh_24h_pc */
+.btnNxt{position:absolute;top:50%;right:15px;margin-top:-26px}
+
+/* Begin 15-02-2017 : Thangnb tinh_chinh_giao_dien_trang_bai_viet_anh_24h_pc */
+.btnNxt a{display:block;background:url(//cdn.24h.com.vn/images/2014/temp.gif) repeat}
+.btnPre{position:absolute;top:50%;left:15px;margin-top:-26px}
+*html .btnPre{position:absolute;top:0;left:5px}
+.btnPre a{display:block;background:url(//cdn.24h.com.vn/images/2014/temp.gif) repeat}
+/* End 15-02-2017 : Thangnb tinh_chinh_giao_dien_trang_bai_viet_anh_24h_pc */
+.yellow-arrow{position:absolute;top:5px;right:10px;background:url(//cdn.24h.com.vn/images/2014/yellow-arrow.gif) no-repeat;width:66px;height:37px;}
+
+.taitro-album{width:300px;float:left;padding:13px 0 0 0}
+.image-line{border-bottom:#333 solid 1px;padding-top:7px;margin-bottom:7px}
+.imgFtr{color:#fff;line-height:18px;position:relative;padding:20px 0 0 0; margin-bottom: 20px; font-size: 13px;}
+.imgFtr a{color: #ff0; text-decoration: underline;}
+.imgBt {
+    height: 40px;
+    line-height: 40px;
+}
+.image-button{-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:#78b43d url(//cdn.24h.com.vn/images/2014/arrow-back-trangAnh.png) no-repeat 7px 7px;padding:5px 15px 5px 30px;font-weight:bold;color:#fff;float:right;margin:0 0 5px 0}
+.image-button h4{display:inline}
+.image-button a{color:#fff}
+.image-button:hover{color:#fff}
+.album-tags {    color: #78b43d;   line-height: 18px;    padding: 10px 12px 10px 0;    text-align: left}
+.album-tags-title {    color: #FFFFFF;    font-size: 14px;    font-weight: bold;    margin: 0;    padding-bottom: 5px}
+.album-tags a {    color: #78b43d;    font-weight: bold}.album-tags a:hover {text-decoration:underline}
+.image-button-bg{float:right;}
+.image-button-left{float:left;background:url(//cdn.24h.com.vn/images/2014/sprites.gif) -230px -477px no-repeat;height:25px;width:5px;overflow:hidden;}
+.image-button-right{float:left;background:url(//cdn.24h.com.vn/images/2014/sprites.gif)  right -477px  no-repeat;height:20px;padding:5px 10px 0px 5px;width:auto;color:#fff;font-weight:bold}
+.image-button-right h4{display:inline;}
+.image-button-right a{font-weight:bold;color:#000;font-size:12px;text-transform:uppercase;}
+.image-button-right a:hover{color:#fff000;}
+
+.boxDoi-sub-Item-anhDoc{width:344px;float:left;padding:0px 0px 5px 0px;margin-right:0px}
+.banner300250-R-trangAnh{float:left;width:349px;margin-left:5px}
+.scroll-div-trangAnh{width:342px;padding-left:0}
+.seImgAtv{color:#f27920}
+.xemAnhNormal{color:#ffffff}
+
+/*background*/
+.fixed-top  {position:fixed;bottom:auto;top:0px; background: url(//cdn.24h.com.vn/images/2014/temp.gif) repeat scroll 0 0 transparent;}
+.fixed-top2  {position:fixed;bottom:auto;top:0px; background: url(//cdn.24h.com.vn/images/2014/temp.gif) repeat scroll 0 0 transparent;}
+* html .fixed-top    {position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop));}
+* html .fixed-top2    {position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop));}
+
+/* 26-03-2015*/
+.boxDoi-sub-Item-anhDoc1{width:330px;float:left;padding:0px 0px 5px 0px;margin-right:0px}
+#doanhNghiepItemPt{float:left;width:325px;padding:5px 0px 5px 10px }
+#doanhNghiepItemPt{float:right;width:325px;padding:5px 0px 5px 10px }
+.boxTTDN-c11{width:672px;border-left:#e6e6e6 solid 1px;border-right:#e6e6e6 solid 1px;border-bottom:#e6e6e6 solid 1px;padding:5px 0px 5px 0px;margin:0 0 5px 0;box-shadow:0px 0px 5px #333}
+.TTDN-sapo11{width:70%; color:#333;display:block;padding:0px 0 0 90px}
+.TTDN-sapo:hover{color:#5ca038}
+
+/* 26-03-2015*/
+/* box bai PR 26-03*/
+.boxbaiPR{width:672px;padding:5px 0px 5px 0px;margin:0 0 5px 0}
+.boxbaiPR-shadow{box-shadow:0px 0px 12px #d7d7d7}
+.boxbaiPR-sub-Item{width:320px;float:left;padding:0px 0px 0px 10px}
+.boxbaiPR-titlePad{border-radius: 3px 3px 0 0;background-color: #78b43d;padding:5px 10px;color:#fff;font-size:12px;font-weight:bold;box-shadow:0px 3px 3px #e3e3e3;text-align:center;text-transform:uppercase}
+.boxbaiPR-titlePad a{color:#fff;font-size:12px;font-weight:bold}
+.boxbaiPR-titlePad a:hover{ color:#000}
+
+.TTDN-sapo:hover{color:#5ca038}
+.boxDoi-sub-t{}
+.boxDoi-sub-tab{width:534px;padding-left:0px;height:27px;overflow:hidden}
+.boxDoi-sub-c{width:534px;padding:6px 0}
+.boxDoi-sub-b{}
+.boxDoi-sub-Item{width:339px;float:left;padding:0px 10px 0px 0px}
+.boxDoi-sub-Item-trangtrong1{width:323px;float:left;padding:0px 0px 0px 0px}
+.boxDoi-sub-Item-cap2{width:289px;float:left}
+
+#doanhNghiepItem2{float:left;width:320px;padding:5px 0px 5px 10px }
+#doanhNghiepItem2{float:right;width:320px;padding:5px 0px 5px 10px }
+
+/* End box bai PR 26-03*/
+/*Begin 15-02-2017 : Thangnb tinh_chinh_giao_dien_trang_bai_viet_anh_24h_pc*/
+.boxTTDN-c {
+    width: 697px;/* Edit Tytv 17/04/2017- dfp_code_ghep_trang(ghep_trang_chi_tiet) */
+}
+.boxcungsukien .boxDoi-sub-Item-trangtrong {
+    width : 328px;  
+}
+/* Begin 18/08/2017 Tytv toi_uu_trang_bai_anh_thuong_va_anh_mo_rong */
+.silde_allbum_anh_full .swiper-wrapper {
+    overflow:hidden;
+    height: 620px !important;
+}
+.silde_allbum_anh_full .swiper-container {
+    margin-left: 3px !important;
+    margin-right: 3px !important;
+    margin-top: -40px !important;
+    height: 620px !important;
+}
+.silde_allbum_anh_full .swiper-slide, .silde_allbum_anh_full .slide-album-anh {
+    height: 600px !important;
+    margin-top: 10px;
+}
+.silde_allbum_anh_full .right-detail-anhDoc {
+    height: 610px;
+}
+#zoneListThumbImg {
+    margin-bottom: 10px;
+}
+/* End 18/08/2017 Tytv toi_uu_trang_bai_anh_thuong_va_anh_mo_rong */
+.silde_allbum_anh_full .shwImg {
+    width: 800px;   
+}
+.silde_allbum_anh_full .slide-album-anh {
+    margin: auto;  
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.silde_allbum_anh_full .slide-album-anh img{
+    margin: auto;  
+    position: absolute;
+    left:0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+.silde_allbum_anh_full #btnPre, .silde_allbum_anh_full #btnNxt {
+    display: block;
+    visibility: visible;
+}
+#div_box_thong_tin_doanh_nghiep .tm-bv {
+    width: 48%;
+    float: left;
+    padding: 0px 5px;   
+}
+/* Begin: Tytv - 09/05/2017 - hien_thi_menu_cap2_trang_trong */
+.top-menu {
+    border: none;
+    background: #fff;
+    height: auto;
+    margin-bottom: 10px;
+}
+/* End: Tytv - 09/05/2017 - hien_thi_menu_cap2_trang_trong */
+#leftBannerBackground , #rightBannerBackground{
+    /* top : 50px !important; */
+}
+.top-menu-right-trangtrong {
+    width: 915px;   
+}
+.clLtImg .imgCtImg {
+    margin-top: 5px;
+}
+.clLtImg .green-box-bg-light {padding: 0}
+/*End 15-02-2017 : Thangnb tinh_chinh_giao_dien_trang_bai_viet_anh_24h_pc*/
+/* Begin: Tytv - 09/05/2017 - hien_thi_menu_cap2_trang_trong */
+.zone_menu_cap2_breakcum ul li {
+    padding: 0;
+}
+.zone_menu_cap2_breakcum ul li a {
+    text-transform: none;
+    font-size: 12px;
+}
+.breadcum-CMtab ul li.zone_li_cap2_breakcum{padding:4px 5px 3px 0;}
+/* End: Tytv - 09/05/2017 - hien_thi_menu_cap2_trang_trong */
+/* Begin 18/08/2017 Tytv toi_uu_trang_bai_anh_thuong_va_anh_mo_rong */
+.top-menu .cate_breadcrum {
+    height: 20px;
+}
+.imgDte {
+    padding-bottom: 5px;
+    /*float: left;*/
+}
+/*.imgCtnImg .flFt {
+    float: none;
+}*/
+.gallery-thumbs .swiper-slide {
+    margin-right: 5px;
+}
+.gallery-thumbs .slide-album-anh-inner img {
+    width: 100px;
+    height: 80px;
+    object-fit: cover;
+}
+.slide-album-anh-inner {
+    cursor: pointer;
+    float: left;
+    overflow: hidden;
+    border: 2px solid #FFF;
+    border-radius: 4px;
+    -webkit-transition: border-color .25s ease;
+    -o-transition: border-color .25s ease;
+    transition: border-color .25s ease;
+}
+.slide-album-anh-inner.active, .slide-album-anh-inner:hover {
+    border-color: #1376bb;
+}
+.gallery-thumbs .swiper-slide-active {
+    opacity: 1;
+}
+.gallery-thumbs {
+    clear: both;
+}
+/* End 18/08/2017 Tytv toi_uu_trang_bai_anh_thuong_va_anh_mo_rong */
+
+/* album */
+.clLtImgD .imgTit a{
+    font-size: 24px;
+    color: #fff;
+}
+.clLtImgD .imgEvt, .clLtImgD .imgEvt a{
+    color: #cdcdcd;
+}
+.icoSocialD{
+    margin-top: -30px;
+}
+.clLtImgD .imgCtImg .shwImg #MainIMG{
+    width: auto;
+    max-height: 610px;
+}
+.clLtImgD .imgCtImg .shwImg, .clLtImgD .imgCtImg{
+    width: 100%;
+}
+.clLtImgD .imgFtr, .clLtImgD .txtRtD strong{
+    font-size: 15px;
+}
+.clLtImgD .txtRtD span{
+    font-weight: normal;
+    font-style: italic;
+    font-size: 15px;
+}
+.clLtImgD .seImgLst a{
+    border: 1px solid #666;
+    padding: 6px 10px;
+    color: #acacac;
+}
+.clLtImgD .seImgLst a.seAuto{
+    background: url(//cdn.24h.com.vn/images/Polygon-1c.png) no-repeat 10px 6px;
+    padding-left: 25px;
+    font-weight: 600;
+    color: #fff;
+}
+.clLtImgD .seImgLst a.seImgAtv{
+    background-color: #78b43d;
+    color: #fff;
+    border: 0;
+    padding: 7px 11px;
+}
+.clLtImgD .seImgLst{
+    padding-top: 0;
+}
+.clLtImgD .lin{
+    border-bottom: 1px solid #363636;
+    margin: 8px 0;
+}
+.bstak .tit{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.bstak .btn{
+    display: inline-block;
+    float: right;
+}
+.bstak .btn a{
+    margin: 0 5px;
+}
+.bstak .list{
+    margin: 0 -6px;
+}
+.bstak .vidItm{
+    position: relative;
+    padding: 0 4px;
+}
+.bstak .vidItmImg{
+    /*width: 156px;*/
+    /*height: 116px;*/
+    margin: 0;
+}
+.bstak .vidItmImg a img{
+    width: 100%;
+}
+.bstak .vidItmTxt a{
+    color: #fff;
+    font-size: 13px;
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 4px;
+    right: 4px;
+    /* height: 58px;
+    overflow: hidden; */
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 5px;
+    background: url(//cdn.24h.com.vn/images/Rectangle-10.png) no-repeat center -45px;
+    line-height: 1.5;
+}
+.bstak .vidItmTxt a.active{
+    height: 75px;
+    padding-top: 40px;
+}
+.seAutoImgD .hdrBxRtTxt{
+    padding-top: 0;
+    font-size: 14px;
+}
+.seAutoImgD .thmbAtv{
+    border-color: #72aa3a;
+}
+.clLtImgD .imgTit a:hover{
+    color: #78b43d;
+}
+/* /album */
+.imgCtnImg {
+    padding-bottom: 0;
+}
+.otherAlbums {
+    padding-top: 0;
+}
+
+/* begin change 21/10/2018 DangTQ */
+.bnrPtn{
+    /*margin-top: 5px;*/ /*07/01/2019 dangtq Kiểm tra + Fix lỗi banner cổng chào thừa khoảng trắng - PC*/
+}
+/* end change 21/10/2018 DangTQ */
+
+/* begin 23/10/2018 DangTQ */
+.bnrPtn{
+    /*margin-top: 5px;*/ /*07/01/2019 dangtq Kiểm tra + Fix lỗi banner cổng chào thừa khoảng trắng - PC*/
+}
+.clLtImgD .txtRtD{
+    padding-bottom: 5px;
+}
+.nwsTthEvt{
+    margin-top: 25px;
+}
+.flSren a:hover{
+    border-color: #78b43d;
+}
+.clLtImgD .imgEvt a:hover, .bstak .vidItmTxt a:hover{
+    color: #78b43d;
+}
+.bdmHmTb, .brmCmTb{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.flSren.flSrenTp a img{
+    margin-top: -4px;
+    width: auto;
+}
+.flSren.flSrenTp a{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 25px;
+    text-align: center;
+}
+/* end 23/10/2018 DangTQ */
+.social_wrap {
+    position: relative;
+    top: 10px;
+}
+
+/* begin 1/11/2018 dangtq */
+.brmCmAnh{
+    border-bottom: 0;
+}
+/* end 1/11/2018 dangtq */
+
+/* Begin 18/7/2019: dangtq fix_banner_va_ghi_chu */
+.inbl .brkNs{
+    overflow: hidden;
+}
+#zone_banner_sponser_product{
+    margin-top: -8px;
+}
+.txtRt.txtRtD{
+    margin-top: 10px;
+    width: 687px;
+}
+.txtRt.txtRtD *{
+    font-size: 17px;
+}
+.txtRt.txtRtD em{
+    font-weight: normal;
+}
+/* End 18/7/2019: dangtq fix_banner_va_ghi_chu */

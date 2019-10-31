@@ -1,0 +1,116 @@
+/*---Start common---*/
+@charset "utf-8";
+* {
+    margin: 0 auto;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+a {
+    text-decoration:none;
+}
+a:hover {
+    color:#78b43d;
+}
+p {
+    line-height: 1.4;
+}
+img { 
+    border:0;
+}
+.clF {
+    clear:both;
+}
+.contnr { 
+    width: 1004px;
+    padding-bottom: 20px;
+    margin: 0 auto;
+}
+.brd24h {
+    border: #090 solid 1px;
+}
+.brd24hIn {
+    display: inline-block;
+    width: 100%;
+}
+.hdr24h {
+    background: url(//static.24h.com.vn/upload/html/header404) no-repeat;
+    width: 1004px;
+    height: 125px;
+}
+.lgo404 {
+    width: 250px;
+    float: left;
+    text-align: center;
+}
+.lgoTit {
+    width: 754px;
+    float: left;
+    color: #FFFFFF;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 21px;
+    font-weight: bold;
+    text-align: center;
+    line-height: 20px;
+    text-decoration: none;
+    padding: 40px 0 0;
+}
+.lgoTit a {
+    text-decoration: none;
+    color: #FFFFFF;
+}
+.grnTit {
+    font-size: 18px;
+    color: #0a5b2f;
+    font-weight: bold;
+    padding-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+.wrLnk {
+    color: #00C;
+}
+.blkTit {
+    padding-left: 40px;
+    color: #000000;
+    font-size: 18px;
+    padding-bottom: 20px;
+    float: left;
+    width: 450px;
+}
+.lstPg {
+    float: left;
+    width: 255px;
+    color: #3660a9;
+    font-size: 18px;
+    line-height: 27px;
+}
+.lstNumb {
+    width: 20px;
+    float: left;
+    text-align: right;
+    font-size: 17px;
+    color: #3660a9;
+    padding-right: 5px;
+}
+.lstPg a {
+    color: #3660a9;
+    font-size: 17px;
+    padding-left: 5px;
+    display: block;
+}
+.orOther {
+    float: left;
+    clear: both;
+    width: 100%;
+    font-size: 17px;
+    color: #005C27;
+    font-weight: bold;
+    padding: 0 0 0 10px;
+}
+.divSearch {
+    float: left;
+    clear: both;
+    width: 100%;
+    padding: 0 0 0 10px;
+}

@@ -1,0 +1,634 @@
+body {
+    font-size: 0.8em;
+}
+.font-nho {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.7em;
+}
+.font-lon {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 0.9em;
+}
+body.font-lon h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+}
+body.font-nho h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 11px;
+}
+a {
+    color: #390;
+    text-decoration: none
+}
+img {
+    border-style: none
+}
+.hdr img {
+    float: left
+}
+.hdr form {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+}
+.menu {
+    clear: both;
+    background: url("//static.24h.com.vn/images/ttcb/bgTopmenu.gif") repeat-x scroll 0 0;
+    text-align: center;
+    padding: 5px 0;
+    color: #FFF
+}
+.menu a {
+    color: #FFF;
+    text-decoration: none;
+    cursor: pointer;
+    margin: 0 5px
+}
+.menu a#active {
+    text-decoration: none
+}
+.cateNm {
+    background: #76B732 url("//static.24h.com.vn/images/ttcb/bgChannel.gif") repeat-x 0px 100%;
+    line-height: 16px;
+    padding: 1px 0px 3px 2%;
+    color: #FFF;
+    margin-top: 5px;
+}
+.cateNm a {
+    color: #FFF;
+    text-decoration: none
+}
+.cateNm a:hover {
+    color: #000
+}
+/*Begin 12-05-2016 : Thangnb xu_ly_ty_gia_doi_tac_mbbank*/
+
+.cateNm h2, .cateNm h1 {
+    font-weight: 700;
+    font-size: 13px;
+    display: inline
+}
+/*End 12-05-2016 : Thangnb xu_ly_ty_gia_doi_tac_mbbank*/
+.cate ul {
+    border-top: 1px solid #C2C2C2;
+    margin: 5px 2% 0 2%;
+    padding-top: 5px;
+    list-style-position: inside;
+    clear: both;
+    line-height: 21px;
+}
+.cate ul a {
+    color: #B14000;
+    font-size: 13px;
+}
+.cate ul li {
+    background: url(//static.24h.com.vn/images/ttcb/iconNew.gif) no-repeat 0 7px;
+    padding-left: 10px;
+}
+.NsImg {
+    margin-top: 5px;
+    overflow: auto;
+    padding: 0 2%;
+    position: relative;
+}
+.NsImg h3 {
+    display: inline;
+}
+.NsImg h3 a {
+    font-size: 14px;
+    font-weight: 700;
+}
+body.font-lon .NsImg h3 a {
+    font-size: 15px;
+    font-weight: 700
+}
+body.font-nho .NsImg h3 a {
+    font-size: 10px;
+    font-weight: 700
+}
+.NsImg h4 {
+    clear: both;
+    margin-bottom: 2px
+}
+.NsImg p {
+    margin: 5px 0 8px 0;
+    text-align: justify;
+    font-size: 13px;
+    line-height: 1.2;
+}
+.NsImg img {
+    margin: 0 5px 5px 0;
+}
+.img-thumb {
+    float: left;
+}
+.NsImg .line-break {
+    clear: both;
+    border-top: 1px solid #C2C2C2
+}
+.seMr {
+    margin-top: 5px;
+    text-align: right;
+    color: #390;
+    background: none;
+}
+.seMr a {
+    color: #666
+}
+.phan-trang {
+    margin: 5px 0px;
+    text-align: center;
+    padding: 5px 0;
+    background: #efefef;
+    font-size: 15px;
+    font-weight: bold
+}
+.NsImg amp-img {
+    margin: 0 5px 5px 0;
+}
+.NsImg a {
+    font-size: 14px;
+    font-weight: 700;
+}
+.NsImg .tnhTp a {
+    font-size: 11px;
+    font-weight: 400;
+}
+.NsImg a amp-img {
+    width: 100px;
+    height: 70px;
+    float: left;
+}
+.thong-bao-loi {
+    margin-top: 5px;
+    text-align: center;
+    color: #A50020
+}
+#breadcrumb {
+    margin-top: 5px
+}
+.chgFnt {
+    background: url("//static.24h.com.vn/images/ttcb/bgviewfont.gif") repeat-x 0 0 transparent;
+    margin-top: 10px;
+    text-align: center;
+    padding: 5px 0 0px 0;
+    text-align: center;
+}
+.chgFnt span {
+    font-weight: 700
+}
+.chgFnt a {
+    text-decoration: none;
+    color: #000;
+    margin: 0 2px
+}
+.chgFnt #font-nho {
+    font-size: 9px
+}
+.chgFnt #font-vua {
+    font-size: 11px
+}
+.chgFnt #font-lon {
+    font-size: 13px
+}
+/*.cateOthr {
+    background: url("//static.24h.com.vn/images/ttcb/bgChannel.gif") 0 0 repeat-x;
+    text-align: center;
+    color: #FFF;
+    padding: 5px 0;
+    margin: 0 0 5px;
+    font-size: 11px;
+    font-weight: 700
+}*/
+.cateOthrNd {
+    text-align: center;
+    color: #000;
+    margin: 5px 0;
+    font-size: 11px;
+    font-weight: 700
+}
+.ftr {
+    border-top: 1px solid #C2C2C2;
+    font-size: 10px;
+    font-weight: 400;
+    padding: 5px 0;
+    text-align: center
+}
+.seFdSet {
+    border: none;
+}
+.link-top-content {
+    background-color: #F0F0F0;
+    border: 1px solid #DFE7D5;
+    color: #990000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    font-weight: bold;
+    margin-left: 20px;
+    margin-right: 25px;
+    padding: 8px;
+    text-align: justify;
+}
+.link-top-content a {
+    color: blue;
+    text-decoration: underline;
+}
+.readmore {
+    text-align: right;
+}
+.banner {
+    text-align: center;
+}
+.banner-txt {
+    text-align: center;
+    margin-top: 5px;
+    border-top: #dddddd dashed 1px;
+    border-bottom: #dddddd dashed 1px;
+    padding: 5px 0;
+    background: #efefef
+}
+.fontlabel {
+    float: left;
+    width: 38%;
+    text-align: right;
+    font-weight: bold;
+    padding: 7px 5px 0 0
+}
+.pageup {
+    margin: 0 2% 5px 2%;
+    text-align: right;
+}
+.pageup a {
+    background: url(//static.24h.com.vn/images/ttcb/btup.jpg) no-repeat;
+    font-weight: bold;
+    color: #F30;
+    padding: 7px 0 8px 35px;
+    display: inline-block;
+}
+.picIcon {
+    position: absolute;
+    top: 10px;
+    left: 3%
+}
+.clear {
+    clear: both;
+}
+.nguon {
+    color: #666;
+    text-align: center;
+    padding: 5px 10px;
+}
+.nguon a {
+    color: #666
+}
+.GldTpTit {
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+    background: #efefef;
+    padding: 7px 0 0 0
+}
+.GldTpTit a {
+    font-weight: bold;
+    color: #000;
+}
+
+.gv-none {
+    font-weight: bold;
+    display: block;
+    width: 60px;
+    text-align: right;
+    padding-right: 10px;
+}
+.NsImg table {
+    font-size: inherit;
+    border-collapse: collapse;
+}
+.NsImg td {
+    padding: 5px;
+    border: 1px solid #ddd;
+}
+.gv-type {
+    font-weight: bold;
+    color: #000;
+}
+.tgTit {
+    color: #ff0000;
+    font-weight: bold;
+    padding: 10px 0 0px 0;
+}
+.tgLnk {
+    text-align: justify;
+    padding: 0 0 10px 0
+}
+.tgLnk ul {
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+.tgLnk ul li {
+    display: inline;
+    list-style: none;
+}
+.tgLnk ul li a {
+    text-align: justify;
+    color: #333;
+    font-size: 12px;
+}
+.tgLnk ul li a:hover {
+    text-decoration: underline;
+}
+.upDte {
+    font-style: italic;
+    background: url(//static.24h.com.vn/images/ttcb/update-bg.gif) repeat;
+    padding: 0px 8px;
+    overflow: hidden;
+    height: 25px;
+    margin: 3px 0;
+    display: inline-block;
+    font-weight: normal
+}
+.upNum {
+    font-size: 18px;
+    color: #ff0000;
+}
+.tb-greenBold {
+    background: #76b834;
+    padding: 5px;
+    font-weight: bold;
+    text-align: center
+}
+.tb-greenLight {
+    background: #d5f6d6;
+    font-weight: bold;
+    padding: 5px 5% 5px 5%;
+    text-align: center
+}
+.tb-white {
+    background: #fff;
+    padding: 5px 5px 5px 5px
+}
+.tb-grey {
+    background: #f2f2f2;
+    padding: 5px 5px 5px 5px
+}
+.drpTp {
+    color: #FF0000;
+    font-weight: bold;
+    width: 200px;
+    padding: 3px;
+}
+.m_banner_hide {
+    display: none
+}
+.m_banner_show {
+    display: block;
+}
+/*Begin 12-05-2016 : Thangnb xu_ly_ty_gia_doi_tac_mbbank*/
+
+.mb-logo {
+    width: 100%;
+    text-align: center;
+}
+.mb-right--tygia {
+    width: 80%;
+    float: left;
+}
+.mb-table--tygia tr td {
+    text-align: center;
+    font-size: 14px;
+    padding: .75rem;
+    line-height: 1.5;
+    border: 1px solid #8ab9e3;
+}
+.mb-table--tygia {
+    border-collapse: collapse;
+}
+.mb-color--tygia td {
+    background-color: #0170bf;
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 14px;
+}
+.mb-table--tygia tbody tr:nth-of-type(odd) {
+    background-color: #f1f1f1;
+}
+.mb-nguontin--tygia {
+    margin-top: 10px;
+    text-align: right;
+    padding: 0 2%;
+}
+.mb-title--tygia {
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+.mb-title--tygia .divChonNgay {
+    clear: both;
+    margin-right: 2.5%;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+/* 
+.mb-title--tygia .divChonNgay .chonNgayText {
+    width: 40px;
+} */
+
+.table-mb--tygia {
+    padding: 0 2%;
+}
+.chonNgayText {
+    float: left;
+    padding: 3px 0 0 0;
+    width: 40px;
+}
+.chonNgayTextbox {
+    padding: 0px 0 0 0;
+    width: 150px;
+    height: 23px;
+    position: relative;
+}
+.txtSearchDate {
+    border: #dddddd solid 1px;
+    width: 150px;
+    height: 25px;
+}
+.chonNgayBtn {
+    position: absolute;
+    width: 23px;
+    height: 23px;
+    text-align: center;
+    right: 0px;
+    top: 3px;
+}
+/* calender */
+
+#calender {
+    width: 200px;
+    font-family: tahoma, ms sans serif, sans serif;
+    font-size: 7pt
+}
+#calenderTable {
+    border-style: outset;
+    border-width: 2px;
+    border-color: black;
+    background-color: #EEE;
+    display: none;
+    position: absolute;
+    z-index: 9999;
+    top: 0px;
+    left: 0px
+}
+#calenderTable TD {
+    text-align: center;
+    font-size: 7pt;
+    width: 19px
+}
+#calenderTableHead TR {
+    background-color: white
+}
+#calenderTableDays TR {
+    background-color: #C3D4E7
+}
+#selectMonth, #selectYear {
+    font-family: tahoma, ms sans serif, sans serif;
+    font-size: 7pt;
+    border-width: 0px;
+    border-style: none
+}
+#calenderTable A {
+    color: blue;
+    text-decoration: none;
+    font-size: 11pt;
+    font-family: "courier new"
+}
+#calenderTable A:hover {
+    color: red;
+    text-decoration: none
+}
+.normalDay {
+    border: 1px dotted black;
+    cursor: pointer
+}
+.hlDay {
+    border: 1px dotted black;
+    background-color: #FFF;
+    color: red;
+    cursor: pointer
+}
+.toDay {
+    border: 1px solid #E70;
+    background-color: #FD8;
+    color: #E70;
+    font-weight: bold;
+    cursor: pointer
+}
+.choosenDay {
+    border: 1px solid green;
+    background-color: #A8FAA8;
+    color: green;
+    font-weight: bold;
+    cursor: pointer
+}
+/*style cho calendar*/
+
+.TESTcpYearNavigation, .TESTcpMonthNavigation {
+    text-align: center;
+    text-decoration: none;
+    color: #333;
+    font-weight: 700;
+}
+.TESTcpDayColumnHeader, .TESTcpYearNavigation, .TESTcpMonthNavigation, .TESTcpCurrentMonthDate, .TESTcpCurrentMonthDateDisabled, .TESTcpOtherMonthDate, .TESTcpOtherMonthDateDisabled, .TESTcpCurrentDate, .TESTcpCurrentDateDisabled, .TESTcpTodayText, .TESTcpTodayTextDisabled, .TESTcpText {
+    background-color: #FFF;
+    font-family: arial;
+    font-size: 8pt;
+    color: #333;
+    padding: 2px;
+}
+TD.TESTcpDayColumnHeader {
+    background-color: #FFF;
+    text-align: center;
+    border: solid thin red;
+    border-width: 0;
+}
+.TESTcpCurrentMonthDate, .TESTcpOtherMonthDate, .TESTcpCurrentDate {
+    text-align: right;
+    text-decoration: none;
+}
+.TESTcpCurrentMonthDateDisabled, .TESTcpOtherMonthDateDisabled, .TESTcpCurrentDateDisabled {
+    color: #00F;
+    text-align: right;
+    text-decoration: line-through;
+}
+.TESTcpCurrentMonthDate {
+    color: #F60;
+    font-weight: 700;
+}
+.TESTcpCurrentDate {
+    color: #00F;
+    font-weight: 700;
+}
+.TESTcpOtherMonthDate {
+    color: gray;
+}
+TD.TESTcpCurrentDate {
+    color: #FFF;
+    background-color: #67D;
+    border-width: 1px;
+}
+TD.TESTcpCurrentDateDisabled {
+    border: solid 1px #FAA;
+    border-width: 1px;
+}
+A.TESTcpTodayText, SPAN.TESTcpTodayTextDisabled {
+    height: 20px;
+}
+SPAN.TESTcpTodayTextDisabled {
+    color: #D0D0D0;
+}
+.TESTcpBorder {
+    background-color: #FFF;
+    border: solid 1px #CCC;
+    width: 160px;
+}
+.NsImg table {
+    font-size: inherit;
+}
+.NsImg a {
+    font-size: 14px;
+    /*font-weight: 700;*/
+}
+.cate {
+    margin-top: 10px;
+}
+/*End 12-05-2016 : Thangnb xu_ly_ty_gia_doi_tac_mbbank*/
+
+/**** gia vang ****/
+.giaVangTopTitle{text-align:center;font-weight:bold;color:#000;background:#efefef;padding:7px 0 0 0}
+.giaVangTopTitle a{font-weight:bold;color:#000;}
+.gv-down{background:url(//static.24h.com.vn/images/ttcb/down.gif) no-repeat 80px 6px;color:#ff0000;}
+.gv-up{background:url(//static.24h.com.vn/images/ttcb/up.gif) no-repeat 80px 6px;color:#02a9e7;}
+.gv-none{font-weight: bold;}
+.gv-type{font-weight:bold;color:#000;}
+.tagTitle{color:#ff0000;font-weight:bold;padding:0 10px;}
+.tagLink{text-align:justify;padding:0 10px}
+.tagLink ul {margin:0;padding:0;border:none;line-height: 21px;}
+.tagLink ul li{display:inline;list-style:none;}
+.tagLink ul li a{text-align:justify;color:#333;font-size:12px;}
+.tagLink ul li a:hover {text-decoration:underline;}
+/*gia vang option 1*/
+.giavang{border:0;border-bottom:dashed 1px #999999;padding:7px 0;line-height:16px;}
+/*gia vang option 2*/
+.gv-loai{
+    color: #538edc;
+    font-weight: bold;
+    margin-bottom: 5px;
+    display: block;
+}
+.gv-item{border-bottom:dashed 1px #999999;padding:3px 0}
+
+.capNhatDate{font-style:italic;background:url(//static.24h.com.vn/images/ttcb/update-bg.gif) repeat;padding:0px 8px;overflow:hidden;height:25px;margin:3px 0;display:inline-block;font-weight:normal}
+.capNhatNum{font-size:18px;color:#ff0000;}
+
+.m_banner_hide{display:none} 
+.m_banner_show{display:block;}

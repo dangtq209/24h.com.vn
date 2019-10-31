@@ -1,0 +1,588 @@
+.marTB10 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.brmCm2 {
+    width: 693px;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+.bdmHmTb {
+    float: left;
+    height: auto;
+    line-height: 14px;
+    padding: 2px 0 3px 0;
+    font-size: 11px!important;
+    font-weight: bold;
+    color: #fff;
+}
+.bdmHmTb ul li {
+    display: block;
+    list-style: none;
+}
+.bdmHmTb a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #78b43d;
+    line-height: 12px;
+}
+.brmCmTb {
+    padding: 1px 3px;
+    display: inline-block;
+    float: left;
+    color: #78b43d;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-left: 2px;
+}
+.brmCmTb ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 0 3px;
+}
+.brmCmTb a {
+    color: #78b43d;
+    padding-left: 5px;
+}
+.znMnCm2Brm {
+    z-index: 99999;
+    position: absolute;
+}
+.bmTpSeoBlk {
+    height: 15px;
+    overflow: hidden;
+}
+.bmTpSeo {
+    text-align: right;
+    float: right;
+}
+.bmTpSeo a {
+    font-size: 11px;
+}
+.sbMnCate {
+    position: relative;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+.sbMnCate ul li a {
+    display: inline-block;
+    margin-right: 2px;
+    border-radius: 2px;
+    padding: 5px 9px;
+    background: #e1e1e1;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    transition: background .3s,color .3s;
+    -webkit-transition: background .3s,color .3s;
+    -moz-transition: background .3s,color .3s;
+    float: left;
+    color: #212121;
+    font-size: 11px;
+}
+.sbMnCate ul li.dnSltUpn {
+    background-color: #fff;
+}
+.dnSltUpn .icoUpSlt {
+    background: #fff url(//static.24h.com.vn/images/icon-upselect.png) no-repeat;
+    width: 22px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.znMnCm2Brm ul li a {
+    font-weight: 400;
+    border-right: 0;
+    background: #aad862 url(//static.24h.com.vn/images/2014/menuDot.gif) 13px 10px no-repeat;
+    padding: 6px 0 5px 25px;
+    width: 185px;
+    line-height: 16px;
+    color: #000!important;
+    text-decoration: none;
+    border-bottom: #78b43d solid 1px;
+    float: left;
+    transition: background .3s,color .3s;
+    -webkit-transition: background .3s,color .3s;
+    -moz-transition: background .3s,color .3s;
+}
+.sbMnCate ul li.dnSltUpn a.icoDnSlt {
+    background: #fff url(//static.24h.com.vn/images/icon-downselect.png) no-repeat;
+    width: 22px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    top: 1px;
+    right: 0;
+    padding: 0;
+    cursor: pointer;
+}
+/*.dnSltUpn ul li {
+    display: inline-block;
+}*/
+.sbMnCate ul.sbMnCateUpn li:hover a, .sbMnCateUl>li:hover>a, .sbMnCate ul.sbMnCateUpn li:hover a {
+    color: #fff;
+    background: #666;
+}
+.sbMnCate ul li.dnSltUpn:hover .icoUpSlt {
+    background: #fff url(//static.24h.com.vn/images/icon-upselect.png) no-repeat;
+}
+.znMnCm2Brm {
+    display: none;
+}
+.mainCate {
+    display: inline-block;
+    width: 100%;
+}
+.atclMnBxImg {
+    width: 180px;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+}
+.imgNwsMdm {
+    width: 180px;
+    height: 135px;
+    position: relative;
+}
+.qteImg {
+    font-size: 11px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #666;
+}
+.atclTpCt {
+    width: 500px;
+    float: left;
+}
+.titSb {
+    font-size: 11px;
+    padding: 0 0 3px 0;
+}
+.titSb a {
+    font-size: 11px;
+    text-decoration: none;
+}
+.nwsTitg {
+    display: block;
+    font-weight: bold;
+    color: #5ca038;
+    padding: 0 0 5px 0;
+    font-size: 16px;
+}
+.updTm {
+    font-size: 10px;
+    color: #999;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+.nwSp {
+    text-align: justify;
+    display: block;
+    color: #333;
+    font-size: 13px;
+    line-height: 16px;
+}
+.grnBxBg {
+    background: #d5ecab;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+.grnBxBg .lstNws article a {
+    font-size: 12px;    
+    line-height: 18px;
+}
+.bxDoiSbIt {
+    width: 342px;
+    display: inline-block;
+    padding: 0;
+}
+.bxDoiSbIt .nwsSp {
+    padding-left: 120px;
+}
+.seMr {
+    text-align: right;
+    display: block;
+    padding: 6px 0 0 0;
+}
+.seMr a {
+    font-size: 11px;
+    text-decoration: none;
+    padding-left: 10px;
+    background: url(//static.24h.com.vn/images/2014/sprites.png) 0 -615px no-repeat;
+}
+.bnrAtcl {
+    display: inline-block;
+    width: 100%;
+}
+.ttdnTr .bx4TBtmHm{
+    width: 687px;
+    border-radius: 0;
+}
+.bxCmSbPg {
+    width: 100%;
+    display: inline-block;
+}
+.sclDivSbPg .grnBxT {
+    background-color: #d2577e;
+}
+.bxGrtt {
+    border-left: #ebebeb solid 1px;
+    border-right: #ebebeb solid 1px;
+    border-bottom: #ebebeb solid 1px;
+    padding: 6px 0 3px 6px;
+    height: 245px;
+}
+.sclDiv {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 339px;
+    height: 100%;
+    _height: 213px;
+    padding-left: 5px;
+    _padding-left: 0;
+}
+.sclDivSbPg {
+    width: 185px;
+    padding-left: 0;
+}
+.bxCmSbPg .sclDivSbPg {
+    width: 100%;
+}
+.bxCmSbPg .sclDiv article {
+    float: left;
+    padding: 2px 3px 6px 15px;
+    width: 47%;
+}
+.bxCmSbPg .lstNml {
+    background: url(//static.24h.com.vn/images/2014/sprites-eva.png) 2px -548px no-repeat;
+}
+.bxCmSbPg .lstNml a {
+    color: #333;
+}
+.bxCmSbPg .lstNml a:hover {
+    color: #08b089;
+}
+.bnrSbPg {
+    display: inline-block;
+    width: 358px;
+    margin-left: 5px;
+}
+.bnrSbPg .bxCmSbPg .sclDiv article {
+    width: 320px;
+}
+.bnrSbPg .bxCmSbPg .lstNml {
+    background: url(//static.24h.com.vn/images/2014/ty_gia/sprites.png) 1px -547px no-repeat;
+}
+
+/*Start content tygia*/
+.bxGrnBr {
+    border: #08b089 solid 2px;
+    padding: 8px;
+    margin: 0 0 5px 0;
+    display: inline-block;
+    width: 100%;
+    box-sizing: border-box;
+}
+.notiTxt {
+    float: left;
+    width: 384px;
+    padding: 0 0 0 10px;
+}
+.notiImg {
+    float: left;
+    width: 120px;
+    text-align: center;
+}
+.txt17 {
+    font-size: 17px;
+}
+.capNhat {
+    text-align: center;
+    padding: 5px 0;
+    margin: 0 0 8px 0;
+}
+.capNhatDate {
+    font-style: italic;
+    background: url(//static.24h.com.vn/images/2014/ty_gia/update-bg.gif) repeat;
+    padding: 5px 8px;
+    overflow: hidden;
+    height: 18px;
+    margin: 3px 0;
+}
+.capNhatNum {
+    font-size: 18px;
+    font-weight: bold;
+    color: #ff0000;
+}
+.tb-giaVang {
+    background: #e7e7e7;
+}
+.giaVangHeader {
+    background: #cde6c3;
+    height: 40px;
+    margin: 1px 0 0 0;
+    text-align: center;
+    font-weight: bold;
+    color: #000;
+}
+.giaVangHeaderDate {
+    color: #ff0000;
+    font-style: italic;
+}
+.giaVangHeader2 {
+    background: #1c7964;
+    height: 28px;
+    margin: 1px;
+    padding: 5px;
+    font-weight: bold;
+    color: #fff;
+    text-align: center;
+}
+.cellWhite {
+    background: #fff;
+    padding: 0 5px;
+    height: 28px;
+    text-align: right;
+}
+.cellGrey {
+    background: #f4f4f4;
+    padding: 5px;
+    height: 28px;
+    text-align: right;
+}
+.loaiVang {
+    font-weight: bold;
+    color: #000;
+}
+.cellYellow {
+    background: #f0f9de;
+    padding: 0 5px 0 5px;
+    height: 28px;
+    font-weight: bold;
+    text-align: right;
+}
+.priceNormal {
+    color: #333333;
+    padding-right: 15px;
+    display: inline-block;
+    text-align: right;
+}
+.print {
+    text-align: right;
+    padding: 0 0 20px 0;
+}
+.print a {
+    background: url(//static.24h.com.vn/images/2014/ty_gia/print.png) 3px 0 no-repeat;
+    color: #000;
+    text-decoration: underline;
+    padding: 5px 0 10px 40px;
+}
+.orange-box-bg {
+    background: #cde6c3;
+    padding: 10px 10px;
+    margin: 0 0 5px 0;
+}
+.listLink {
+    line-height: 20px;
+    color: #333;
+}
+.listLink a {
+    color: #333;
+}
+.listLink a:hover {
+    text-decoration: underline;
+}
+.priceDown {
+    color: #ff0000;
+    padding-right: 3px;
+    display: inline-block;
+    text-align: right;
+}
+.priceUp {
+    color: #029906;
+    padding-right: 3px;
+    display: inline-block;
+    text-align: right;
+}
+.bx4Tbg {
+    background: none;
+}
+/*End content tygia*/
+.giaVang *{
+	box-sizing: border-box;
+}
+.giaVang h1, .giaVang h2, .giaVang h3, .giaVang h4, .giaVang h5{
+	font-weight: normal;
+}
+.gvTit{
+	font-size: 20px;
+	font-weight: 600;
+	color: #1c7964;
+}
+.inputDate{
+	background: url(//cdn.24h.com.vn/images/sprites092018.png) no-repeat -47px -3333px;
+	border: 1px solid #eee;
+	text-align: right;
+	color: #787878;
+	padding-top: 1px;
+	margin-left: 15px;
+	outline: none;
+}
+.icoPrevDate{
+	display: inline-block;
+	background: url(../images/pc_trang_gia_vang_b.jpg) no-repeat center;
+	width: 21px;
+	height: 21px;
+	cursor: pointer;
+	border: 1px solid #eee;
+	vertical-align: bottom;
+}
+.icoNextDate{
+	display: inline-block;
+	background: url(../images/pc_trang_gia_vang_c.jpg) no-repeat center;
+	width: 21px;
+	height: 21px;
+	cursor: pointer;
+	border: 1px solid #eee;
+	vertical-align: bottom;
+}
+.tabTit{
+	background-color: #fcf5db;
+	height: 28px;
+}
+.tabTit .fl{
+	width: 50%;
+	text-align: right;
+	padding-right: 37px;
+}
+.tabTit .fr{
+	width: 50%;
+	text-align: right;
+	padding-right: 90px;
+}
+.tabTit strong{
+	font-size: 13px;
+	color: #000000;
+	line-height: 28px;
+}
+.giaVang table{
+	width: 100%;
+	border-spacing: 0;
+}
+.colorGrey{
+	color: #787878;
+}
+.colorBlur{
+	color: #c6c6c6;
+}
+.tabHead{
+	background-color: #c4efe5;
+	height: 28px;
+}
+.tabHead strong, .tabBody *{
+	font-size: 13px;
+}
+.tabHead i{
+	font-size: 11px;
+}
+.colorGreen{
+	color: #008000;
+}
+.colorRed{
+	color: #ff0000;
+}
+.tabBody{
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
+}
+.tabBody td{
+	height: 30px;
+	border-bottom: 1px solid #eee;
+}
+.tabBody .icoUpDown{
+	margin-left: 5px;
+}
+.tabBody .fixW{
+	width: 60px;
+	display: inline-block;
+}
+.pdL10{
+	padding-left: 10px;
+}
+.tabBody{
+	height: 150px;
+	overflow: hidden;
+	overflow-y: scroll;
+}
+.tabBody::-webkit-scrollbar-track {
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5
+}
+
+.tabBody::-webkit-scrollbar {
+	width: 5px;
+	background-color: #F5F5F5
+}
+
+.tabBody::-webkit-scrollbar-thumb {
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	background-color: #7C7C7C
+}
+.gvNote .imgUp{
+	vertical-align: -1px;
+}
+.gvNote i{
+	color: #8c8c8c;
+}
+.gvChart{
+	padding-top: 10px;
+	border-top: 1px solid #1c7964;
+}
+.gvChart .fl{
+	width: 60%;
+}
+.gvChart .fr{
+	padding-top: 60px;
+	width: 40%;
+	padding-left: 20px;
+}
+.gvChart select{
+	height: 34px;
+	border: 2px solid #dddddd;
+	outline: none;
+	margin-left: 15px;
+	background-color: #fff;
+}
+.colorDefault{
+	color: #333;
+}
+.choiseMB a:first-child img{
+	vertical-align: -2px;
+}
+.choiseMB a:last-child img{
+	vertical-align: -1px;
+}
+.mgR5{
+	margin-right: 5px;
+}
+.gvTitArt{
+	border-bottom: 2px solid #1c7964;
+	width: 309px;
+	padding-bottom: 10px;
+	margin-bottom: 30px;
+	display: inline-block;
+}
+.imgFlag{
+	width: 40px;
+	display: inline-block;
+	vertical-align: -2px;
+	line-height: 0;
+}

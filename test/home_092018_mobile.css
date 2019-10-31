@@ -1,0 +1,1416 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 10, 2018, 2:26:20 PM
+    Author     : HP1
+    */
+
+    /*Begin 20/6/ box s? ki?n hot*/
+    .evtHotTit a.clrWh {
+        color: #fff;
+    }
+    /*End 20/6/ box s? ki?n hot*/
+    /*Begin 14-05-2018 trungcq XLCYCMHENG_31384_bo_sung_box_dac_biet_trang_chu*/
+
+    /*begin dangtq toi_uu_css_sau_nang_cap_giao_dien*/
+    .evtHotTit .txtTrf {
+        background-color: #ef7930;
+        font-size: 12px;
+        padding: 5px 10px;
+        display: inline-block;
+        font-weight: 700;
+        float: left;
+    }
+    /*end dangtq toi_uu_css_sau_nang_cap_giao_dien*/
+
+    /*begin dangtq toi_uu_css_sau_nang_cap_giao_dien*/
+    .evtHotCt {
+        border-left: 4px double #ef7930;
+        display: inline-block;
+        width: 100%;
+    }
+    /*end dangtq toi_uu_css_sau_nang_cap_giao_dien*/
+    .evtHotTit a {
+        color: #ef7930;
+        font-size: 14px;
+        padding: 5px;
+        display: block;
+    }
+
+    .lstHot {
+        padding-left: 10px;
+    }
+    /*Begin 20/6/ box s? ki?n hot*/
+    .lstHot .nwsTitSlHm {
+        background: none;
+        font-size: 14px;
+        display: block;
+        position: relative;
+        line-height: 1.3;
+    }
+    .evtHotCt .lstHot .nwsTitSlHm {
+        font-weight: 700;
+        /*display: inline;*/ /*sua 8/11/2018*/
+    }
+    /*End 20/6/ box s? ki?n hot*/
+    .lstHot .nwsTitSlHm:before {
+        content: "";
+        position: absolute;
+        width: 5px;
+        height: 5px;
+        background-color: #ef7930;
+        display: inline-block;
+        top: 8px;
+        left: 0;
+    }
+
+    .evtHot .imgNwsMdm {
+        width: 90px;
+        height: 68px;
+    }
+
+    .evtHotCt .pdLt {
+        padding-left: 100px;
+    }
+
+    .evtHotCt .nwsTitHm {
+        font-size: 14px;
+    }
+
+    @media only screen and (min-width: 668px) {
+        .evtHotCt .nwsTitHm {
+            font-size: 20px;
+        }
+        .lstHot .nwsTitSlHm,
+        .evtHotTit a {
+            font-size: 22px;
+        }
+        .evtHotTit .txtTrf{
+            font-size: 18px;
+        }
+    }
+
+    @media only screen and (min-width: 569px) and (max-width: 667px) {
+        .evtHotCt .nwsTitHm {
+            font-size: 18px;
+        }
+        .lstHot .nwsTitSlHm,
+        .evtHotTit a {
+            font-size: 20px;
+        }
+        .evtHotTit .txtTrf{
+            font-size: 16px;
+        }
+    }
+
+    @media only screen and (min-width: 480px) and (max-width: 568px) {
+        .evtHotCt .nwsTitHm {
+            font-size: 16px;
+        }
+        .lstHot .nwsTitSlHm,
+        .evtHotTit a {
+            font-size: 18px;
+        }
+        .evtHotTit .txtTrf{
+            font-size: 14px;
+        }
+    }
+
+    @media only screen and (min-width: 321px) and (max-width: 479px) {
+        .evtHotCt .nwsTitHm {
+            font-size: 14px;
+        }
+        .evtHotTit a {
+            font-size: 16px;
+        }
+    }
+    /*End 14-05-2018 trungcq XLCYCMHENG_31384_bo_sung_box_dac_biet_trang_chu*/
+
+    /*---Start media query---*/
+
+    @media only screen and (max-width: 598px) {    
+        .tbCmg ul {
+            width: 100%; /*begin dangtq toi_uu_css_sau_nang_cap_giao_dien*/
+        }
+    /*.tbCmg ul li h2, .tbCmg ul li h1, .tbCmg ul li h3 {
+        font-size: 14px;
+        }*/
+    /*.tbCmg ul li a {
+        font-size: 14px;
+        }*/
+        /*.mnCM-expand {
+            width: 38px;
+            height: 38px;
+            right: 0;
+            top: 0;
+            background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 8px -1485px; 
+            }*/
+            .m_banner_show > div {
+                width: 100% !important;
+                overflow: hidden;
+            }
+        }
+        @media only screen and (min-width: 668px) {
+            .txtBnrHor span {
+                font-size: 16px;
+            }
+            .tmPst a, .ifTtr, .blqPr .extTit, .extTit span, .extTit a, .tpcHt .tpcLitIt li a, #footer p {
+                font-size: 18px;
+            }
+            .ftMn2 a, .cateOthr li a, .tbCmg ul li a, .nwsTitSlHm, .tmPst, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, .pagPge, .nguontin, .menutp ul li a, .tmEvt .nmEvt , .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .blk .ftLstVid .vidSeMr a, .pagS2 .pagPge, .pollTop {
+                font-size: 20px;
+            }
+            .tcbIt li a, .ldIt a, .nwsTitHm, .icoSkn span, .txtMn, .icoSkn a, .tbCmg ul li, .mnRtQk ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .mnRtCls, .seeMrMul span, .plTp {
+                font-size: 22px;
+            }
+            .bdBrk, .titTp a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tbCmg h1, .tbTcb a, .ctTp, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .content-video .vdFul a, .bxVidTit .mnItTit a, .bxMncm li a, .chuyen-huong a {
+                font-size: 24px;
+            }
+            .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .content-bv-lq p, .see-now a, .pgS3 a {
+                font-size: 26px;
+            }
+            .titNws a {
+                font-size: 28px;
+            }
+            .atclTit h1, .title-bv a {
+                font-size: 32px;
+            }
+            .tbCmCent a{
+                font-size: 23px;
+            }
+        }
+        @media only screen and (min-width: 569px) and (max-width: 667px) {
+            .txtBnrHor span {
+                font-size: 14px;
+            }
+            .ifTtr, .blqPr .extTit, .extTit span, .tmPst a, .extTit a, .tpcHt .tpcLitIt li a, #footer p {
+                font-size: 16px;
+            }
+            .ftMn2 a, .cateOthr li a, .vidItRt a, .tbCmg ul li a, .nwsTitSlHm, .ctTp, .tmPst, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, .pagPge, .nguontin, .menutp ul li a, .tmEvt .nmEvt , .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .blk .ftLstVid .vidSeMr a, .pagS2 .pagPge, .pollTop {
+                font-size: 18px;
+            }
+            .tcbIt li a, .ldIt a, .nwsTitHm, .icoSkn span, .txtMn, .icoSkn a, .tbCmg ul li, .mnRtQk ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .mnRtCls, .seeMrMul span, .plTp {
+                font-size: 20px;
+            }
+            .bdBrk, .titTp a, .ldIt2 a, .vidIt a, .tbTcb, .tbCmg h1, .tbTcb a, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .content-video .vdFul a, .bxVidTit .mnItTit a, .bxMncm li a, .chuyen-huong a {
+                font-size: 22px;
+            }
+            .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .content-bv-lq p, .see-now a, .pgS3 a {
+                font-size: 24px;
+            }
+            .titNws a {
+                font-size: 26px;
+            }
+            .atclTit h1, .title-bv a {
+                font-size: 30px;
+            }
+            .tbCmCent a{font-size: 21px;}
+        }
+        @media only screen and (min-width: 480px) and (max-width: 568px) {
+            .txtBnrHor span {
+                font-size: 12px;
+            }
+            #footer p, .ifTtr, .blqPr .extTit, .extTit span, .tmPst a, .extTit a, .tpcHt .tpcLitIt li a, .tmPst{
+                font-size: 14px;
+            }
+            .ftMn2 a, .cateOthr li a, .vidItRt a, .vidIt a, .tbCmg ul li a, .nwsTitSlHm, .ctTp, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, .pagPge, .nguontin, .menutp ul li a, .tmEvt .nmEvt , .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .blk .ftLstVid .vidSeMr a, .pagS2 .pagPge, .pollTop {
+                font-size: 16px;
+            }
+            .tcbIt li a, .ldIt a, .nwsTitHm, .icoSkn span, .txtMn, .icoSkn a, .tbCmg ul li, .mnRtQk ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .mnRtCls, .seeMrMul span, .plTp {
+                font-size: 18px;
+            }
+            .bdBrk, .titTp a, .ldIt2 a, .tbTcb, .tbCmg h1, .tbTcb a, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .content-video .vdFul a, .bxVidTit .mnItTit a, .bxMncm li a, .chuyen-huong a {
+                font-size: 20px;
+            }
+            .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .content-bv-lq p, .see-now a, .pgS3 a {
+                font-size: 22px;
+            }
+            .titNws a {
+                font-size: 24px;
+            }
+            .atclTit h1, .title-bv a {
+                font-size: 28px;
+            }
+            .tbCmCent a{
+                font-size: 19px;
+            }
+        }
+        @media only screen and (min-width: 321px) and (max-width: 479px) {
+            .txtBnrHor span {
+                font-size: 10px;
+            }
+            .ifTtr, .blqPr .extTit, .extTit span {
+                font-size: 12px;
+            }
+            .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, .pagPge, .nguontin, .tmEvt .nmEvt , .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .blk .ftLstVid .vidSeMr a, .pagS2 .pagPge, .pollTop {
+                font-size: 14px;
+            }
+            .icoSkn span, .icoSkn a,
+            .mnRtQk ul li a, .mveCte span, .sbNws, .mnRtCls, .seeMrMul span, .plTp {
+                font-size: 16px;
+            }
+            .bdBrk, .nwsTitSlHm, .titTp a, .nwsTitHm a, .ldIt a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tcbIt li a, .tbCmg h1,
+            .ftMn2 a, .tbTcb a, .ctTp, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .content-video .vdFul a, .bxVidTit .mnItTit a, .bxMncm li a, .chuyen-huong a {
+                /*font-size: 18px;*/
+            }
+            .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .content-bv-lq p, .see-now a, .pgS3 a {
+                font-size: 20px;
+            }
+            .titNws a {
+                font-size: 22px;
+            }
+            .atclTit h1, .title-bv a {
+                font-size: 26px;
+            }
+        }
+        @media only screen and (min-width: 480px) {
+            .mnRtQk {
+                width: 320px;
+            }
+            .menutp ul li {
+                padding: 10px 7px;
+            }
+            .pagS2 a.Prev {
+                background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -620px;
+            }
+            .pagS2 a.Next {
+                background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat right -580px;
+            }
+            .gopy {
+                width: 480px;
+                margin: 0 auto;
+            }
+        }
+        @media only screen and (min-width: 599px) {
+        /*.tbCmg ul {
+            height: 60px;
+            overflow: hidden;
+        }
+        .tbCmg {
+            max-height: 60px;
+            }*/
+            .mnRtQk {
+                width: 400px;
+            }
+        /* .mnCM-expand {
+            width: 38px;
+            height: 38px;
+            right: 0;
+            top: 5px;
+            background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 8px -1485px; 
+            }*/
+            .pgS2 a.Nxt {
+                background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat right -580px;
+            }
+            .pgS2 a.Prv {
+                background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -620px;
+            }
+            .tmPst a {
+                /* background-position: 0 -120px; */
+            }
+            .nwsTitSlHm {
+                background-position: 0 -1528px;  
+            }
+            .mnRtClsBtn {
+                right: 320px;
+            }
+            .menRt {
+                width: 320px;
+            }
+            .mnRt li a {
+                font-size: 20px;
+            }
+            .sbNws {
+                background: url(//static.24h.com.vn/images/m2014/images/sprites.png) 0 -118px no-repeat;
+            }
+        }
+
+        .evtHotTit {
+            border-bottom: 1px solid #ef7930;
+            overflow: hidden;
+        }
+        .evtHotTit .hotTb {
+            background-color: #faa460;
+            font-size: 11px;
+            display: inline-block;
+            border-radius: 4px;
+            padding-right: 10px;
+            padding-left: 10px;
+            float: left;
+            margin-left: 3px;
+        }
+        .seMore {
+            font-size: 14px;
+            padding: 5px;
+            color: #ef7930;
+            display: block;
+        }
+        @media only screen and (min-width: 668px) {
+            .evtHotTit .hotTb {
+                font-size: 17px;
+            }
+            .seMore {
+                font-size: 22px;
+            }
+        }
+        @media only screen and (max-width: 667px) and (min-width: 569px) {
+            .evtHotTit .hotTb {
+                font-size: 15px;
+            }
+            .seMore {
+                font-size: 20px;
+            }
+        }
+        @media only screen and (max-width: 568px) and (min-width: 480px) {
+            .evtHotTit .hotTb {
+                font-size: 13px;
+            }
+            .seMore {
+                font-size: 18px;
+            }
+        }
+        @media only screen and (max-width: 479px) and (min-width: 321px) {
+
+        }
+        @media only screen and (max-width: 479px) {
+            .evtHotTit {
+                height: 25px;
+            }
+            .evtHotTit a.clrWh {
+                margin-bottom: 10px;
+            }
+        }
+        .flRt {
+            float: right;
+        }
+
+        /*Begin 01-10-2018 update giao dien moi*/
+        .mgt5{
+           margin-top: 5px;
+       }
+       .mgt10{
+           margin-top: 10px;
+       }
+       .mgt20{
+           margin-top: 20px;
+       }
+       .mgbt5{
+           margin-bottom: 5px;
+       }
+       .mgbt10{
+           margin-bottom: 10px;
+       }
+       .mgbt20{
+           margin-bottom: 20px;
+       }
+       .mg5{
+           margin: 5px 0;
+       }
+       .mg10{
+           margin: 10px 0;
+       }
+       .mg20{
+           margin: 20px 0;
+       }
+       .pd10{
+           padding: 10px 0;
+       }
+       .pd15{
+           padding: 15px 0;
+       }
+       .pd20{
+           padding: 20px 0;
+       }
+       .w100{
+           width: 100%;
+           height: 100%;
+           object-fit: cover;
+       }
+       .inbl{
+           display: inline-block;
+       }
+       .ct{
+           text-align: center;
+       }
+       .tt{
+           display: block;
+           font-size: 18px;
+           text-transform: uppercase;
+           font-weight: bold;
+       }
+       .c333{
+           color: #333!important;
+       }
+       .fz14{
+           font-size: 14px;
+       }
+       .fz12{
+           font-size: 12px;
+       }
+       .fz16{
+           font-size: 16px;
+       }
+       .fz18{
+           font-size: 18px;
+       }
+       .mg7{
+           margin-left: 7px;
+           margin-right: 7px;
+       }
+       .wrapper{
+           margin: 0;
+           padding: 0;
+           position: relative;
+           width: 100%;
+           overflow: hidden;
+       }
+
+/* 
+header */
+.log1 a{
+    background-image: url(//cdn.24h.com.vn/images/24h_logo_H_white-092018.png);
+}
+.mnDm1 .imgMn{
+    margin-left: -4px;
+}
+.menutp1>ul{
+    margin-left: 10px;
+}
+.menutp1 ul li a, .txtMn1{
+    font-size: 11px;
+}
+.menutp1 ul li{
+    padding: 10px 8px;
+}
+
+/* main */
+.logD a{
+    background: url(//cdn.24h.com.vn/images/24h_logo_H_white-092018.png) no-repeat center center;
+}
+.menutpD ul li a{
+    font-size: 11px;
+}
+.menutpD ul li{
+    padding: 10px 8px;
+}
+.txtMnD{
+    font-size: 11px;
+    padding-left: 3px;
+}
+/*.liveimg{
+    background: url(//cdn.24h.com.vn/images/Ellipse-10-092018.jpg) no-repeat center;
+    background-size: 100%;
+    width: 68px;
+    height: 28px;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.picimg{
+    background: url(//cdn.24h.com.vn/images/Shape-539-copy-3-092018.jpg) no-repeat 0 0;
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+}
+.playimg{
+    background: url(//cdn.24h.com.vn/images/Color-Fill-7-copy-10-092018.jpg) no-repeat 0 0;
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+}
+.sttimg{
+    background: url(//cdn.24h.com.vn/images/Shape-645-copy-4b-092018.jpg) no-repeat 0 0;
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+}
+.mimg{
+    background: url(//cdn.24h.com.vn/images/M--copy-7-092018.png) no-repeat 0 0;
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+    }*/
+    .hotart{
+     margin-top: -4px;
+ }
+ .tmPstD a{
+     font-size: 12px;
+     font-weight: normal;
+ }
+ /*begin dangtq toi_uu_css_sau_nang_cap_giao_dien*/
+ .ctTpD{
+    font-size: 14px;
+    overflow: hidden;
+    margin-top: 0;
+    padding-top: 2px;
+}
+/*end dangtq toi_uu_css_sau_nang_cap_giao_dien*/
+.nwsTitSlHmD{
+ font-size: 14px;
+ display: block;
+}
+.clrGrD{
+ font-size: 12px;
+ display: block;
+ margin-top: 10px;
+}
+.linD{
+ margin-left: 7px;
+ margin-right: 7px;
+}
+.extTitD a, .extTitD span{
+ font-size: 12px;
+}
+.tmPstD{
+ margin-bottom: 0;
+}
+/*.mico{
+    background: url(//cdn.24h.com.vn/images/M--copy-092018.png) no-repeat center 2px;
+    width: 14px;
+    height: 13px;
+    display: inline-block;
+}
+.newico{
+    background: url(//cdn.24h.com.vn/images/New-092018.png) no-repeat top left;
+    width: 29px;
+    height: 12px;
+    display: inline-block;
+}
+.chatico{
+    background: url(//cdn.24h.com.vn/images/Color-Fill-5-copy-20-092018.png) no-repeat top left;
+    width: 12px;
+    height: 10px;
+    display: inline-block;
+    }*/
+    .tpcHtD .tpcLitIt li a{
+     font-size: 12px;
+ }
+ .tpcHtD .tpcLitIt li a img{
+     height: 20px;
+     width: auto;
+ }
+ .tbCmgD ul li .mnAtv, .tbCmgD ul li a{
+     font-size: 14px;
+ }
+ .boxart .imgNwsMdm{
+     width: 139px;
+     height: 104px;
+ }
+ .boxart .nwsTitHm{
+     font-size: 18px;
+ }
+ .boxart .tmPst.clrGr{
+     font-size: 12px;
+ }
+ .boxart .nwsTitSlHm{
+     font-size: 14px;
+     background-position: 0 -1532px;
+     padding-left: 16px;
+     display: block;
+ }
+ .nwsTitSlHm.mbg{
+     background: url(//cdn.24h.com.vn/images/M--copy-092018.png) no-repeat left 5px;
+ }
+ .nwsTitSlHm.cbg{
+     background: url(//cdn.24h.com.vn/images/Forma-1-copy-2-092018.png) no-repeat left 4px;
+ }
+ .nwsTitSlHm.sttbg{
+     background: url(//cdn.24h.com.vn/images/Shape-645-092018.png) no-repeat left 5px;
+ }
+ .nwsTitSlHm.vbg{
+     background: url(//cdn.24h.com.vn/images/Forma-1-copy-4-092018.png) no-repeat left 5px;
+ }
+ .boxart .seMr a{
+     text-transform: initial;
+     font-weight: normal;
+ }
+ .boxart .seMr a .ico{
+     vertical-align: initial;
+ }
+ .boxps .mnCM-close{
+     bottom: 0;
+     right: 0;
+ }
+ .boxps .bxMncm li a{
+     font-size: 16px;
+     background-position: 0 -228px;
+ }
+ .boxps .tbCmg ul li a{
+     font-size: 14px;
+ }
+ .vdcl .tbCmCent{
+     background: url(//cdn.24h.com.vn/images/icons8-video-playlist-96-copy-092018.png) no-repeat 7px 5px;
+     padding-left: 35px;
+     text-align: left;
+     border-bottom: 2px solid #78b43d;
+ }
+ .vdcl .tbCmCent a{ 
+     color: #78b43d;
+     font-size: 17px;
+ }
+ .vdcl .first{
+     width: 100%;
+     position: relative;
+     overflow: hidden;
+ }
+ .videoimg{
+     position: absolute;
+     top: 37%;
+     left: 50%;
+     background: url(//cdn.24h.com.vn/images/Color-Fill-7-copy-3-092018.png) no-repeat;
+     width: 58px;
+     height: 58px;
+     display: inline-block;
+     transform: translate(-50%);
+     -webkit-transform: translate(-50%);
+     -o-transform: translate(-50%);
+ }
+ .videoimgxs{
+     position: absolute;
+     top: 37%;
+     left: 50%;
+     background: url(//cdn.24h.com.vn/images/Color-Fill-7-copy-5-092018.png) no-repeat;
+     width: 40px;
+     height: 40px;
+     display: inline-block;
+     transform: translate(-50%);
+     -webkit-transform: translate(-50%);
+     -o-transform: translate(-50%);
+ }
+ .vdcl .first header{
+     display: block;
+     position: absolute;
+     bottom: 10px;
+     left: 0;
+     width: 100%;
+     z-index: 9999;
+     color: #fff;
+     background: #0000008c;
+     padding: 10px;
+     font-size: 16px;
+ }
+ .vdcl .list{
+     padding: 7px;
+     padding-top: 0;
+     display: inline-block;
+ }
+ .vdcl .col{
+     width: 49%;
+ }
+ .vdcl .list header{
+     font-size: 14px;
+     font-weight: normal;
+     line-height: 1.3;
+ }
+ .dots li{
+     display: inline-block;
+     background: #cccccc;
+     width: 6px;
+     height: 6px;
+     border-radius: 50%;
+     margin: 0 2px;
+ }
+ .dots li.active{
+     background: #78b43d;
+     width: 8px;
+     height: 8px;
+ }
+ .dots .vuot{
+     font-size: 12px;
+     color: #757575;
+     font-style: italic;
+     margin-top: 5px;
+ }
+ .vdcl .bxVidLst{
+     background: #eeeeee;
+ }
+ .ld .list{
+     padding: 7px 0;
+ }
+ .ld .playimg{
+     bottom: 10px;
+ }
+ .ld .list header{
+     font-size: 16px;
+     font-weight: bold;
+ }
+ .lady .tit{
+     display: block;
+     font-size: 18px;
+     color: #d2577e;
+     text-transform: uppercase;
+     padding: 7px;
+     border-bottom: 2px solid;
+     background: url(//cdn.24h.com.vn/images/Vector-Smart-Objectx-092018.png) no-repeat left;
+     padding-left: 25px;
+ }
+ .nwsTitSlHm.pinkbg{
+     background: url(//cdn.24h.com.vn/images/Ellipse-7-copy-3-092018.png) no-repeat left 8px;
+ }
+ .nwsTitSlHm.picbg{
+     background: url(//cdn.24h.com.vn/images/Shape-547-copy-092018.png) no-repeat left 5px;
+ }
+ .lady .dots li.active{
+     background: #d2577e;
+ }
+ .gv .tcbIt li a{
+     font-size: 16px;
+ }
+ .tcbGldD{
+     background: url(//cdn.24h.com.vn/images/Color-Fill-8-092018.png) no-repeat 5px 10px;
+ }
+ .tcbNgtD{
+     background: url(//cdn.24h.com.vn/images/tygia-092018.png) no-repeat 6px;
+ }
+ .tcbVlmD{
+     background: url(//cdn.24h.com.vn/images/tuyendung-092018.png) no-repeat 5px 8px;
+ }
+ .tcbVidD{
+     background: url(//cdn.24h.com.vn/images/video-092018.png) no-repeat 9px 8px;
+ }
+ .tcbLcpD{
+     background: url(//cdn.24h.com.vn/images/Shape-29-092018.png) no-repeat 9px 8px;
+ }
+ .ccmk .tit{
+     display: block;
+     font-size: 18px;
+     text-transform: uppercase;
+     text-align: left;
+     border-bottom: 2px solid #78b43d;
+     line-height: 1.5;
+ }
+ .ccmk .cateOthr li a{
+     font-size: 14px;
+     text-align: left;
+ }
+ .ccmk .cateOthr li:last-child{
+     width: 100%;
+     border: 0;
+ }
+ .ftMn2D{
+     background-color: #464646;
+     color: #fff;
+ }
+ .ftMn2D a{
+     color: #fff;
+     font-size: 14px;
+ }
+ .footerD li{
+     display: inline-block;
+ }
+ .footerD li a{
+     display: block;
+     font-weight: bold;
+     font-size: 14px;
+     color: #333;
+     border-right: 2px solid;
+     padding-right: 5px;
+ }
+ #footer.footerD p {
+     font-size: 12px;
+ }
+
+ @media screen and (min-width: 480px) and (max-width: 767px) {
+     #footer.footerD p, .boxart .nwsTitSlHm, .dots .vuot, .extTitD a, .extTitD span, .nwsTitSlHmD, .ctTpD{
+      font-size: 16px;
+  }
+  .footerD li a, .ftMn2D a, .ccmk .cateOthr li a, .gv .tcbIt li a, .tpcHtD .tpcLitIt li a{
+      font-size: 18px;
+  }
+  .boxart .nwsTitHm, .lady .tit, .tbCmgD ul li .mnAtv, .tbCmgD ul li a, .boxps .tbCmg ul li a{
+      font-size: 24px;
+  }
+  .boxart .tmPst.clrGr, .clrGrD{
+      font-size: 14px;
+  }
+  .ld .list header, .vdcl .list header, .vdcl .first header, .boxps .bxMncm li a{
+      font-size: 20px;
+  }
+  .ccmk .tit, .vdcl .tbCmCent a{
+      font-size: 22px;
+  }
+  .tmPst a{
+      /*background-position: 0 -119px;*/
+  }
+  .vdcl .tbCmCent{
+      background-position: 7px 10px;
+  }
+  .tmPstD a{
+      font-size: 14px;
+      background-position: 0 -121px;
+  }
+  .nwsTitSlHmD{
+      background-position: 0 -1531px;
+  }
+
+}
+
+/* begin su kien noi bat co anh 28/9/2018 TQD */
+.hSknb .head{
+ border-bottom: 1px solid #ef7930;
+}
+.hSknb .head .ftit{
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #ef7930;
+    padding: 5px;
+    color: #fff;
+    border-radius: 3px 3px 0 0;
+}
+.hSknb .head .tit{
+    display: inline-block;
+    font-size: 11px;
+    background-color: #f8a466;
+    color: #fff;
+    padding: 5px;
+    border-radius: 3px;
+    height: 20px;
+}
+.hSknb .list{
+    border-color: #ef7930;
+    padding-left: 10px;
+    border-style: double;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding-top: 10px;
+}
+.hSknb .more{
+    text-align: right;
+}
+.hSknb .more a{
+    font-size: 14px;
+    color: #ef7930;
+    margin-top: 10px;
+    display: inline-block;
+}
+.hSknb .nwsTitHm{
+    font-size: 14px;
+}
+.hSknb .imgNwsMdm{
+    width: 90px;
+    height: 68px;
+}
+.hSknb .pdLt{
+    padding-left: 100px;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .hSknb .head .ftit, .hSknb .nwsTitHm{
+        font-size: 22px;
+    }
+    .hSknb .head .tit{
+        font-size: 18px;
+        height: 28px;
+    }
+    .hSknb .more a{
+        font-size: 18px;
+    }
+
+}
+/* end su kien noi bat co anh 28/9/2018 TQD */
+
+/* begin su kien noi bat khong anh 28/9/2018 TQD */
+.hSknb2 .head .ftit{
+    display: inline-block;
+    font-size: 12px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: #ef7930;
+    padding: 5px;
+    color: #fff;
+    border-radius: 3px 3px 0 0;
+}
+.hSknb2 .list{
+    border-color: #ef7930;
+    padding-left: 10px;
+    border-style: double;
+    border-top: 0;
+    border-right: 0;
+    border-bottom: 0;
+    padding-top: 10px;
+}
+.hSknb2 .more{
+    font-size: 14px;
+    color: #ef7930;
+    float: right;
+}
+.hSknb2 .nwsTitHm{
+    font-size: 14px;
+}
+.hSknb2 .pdLt{
+    background: url(Rectangle-683-copy-3-092018) no-repeat 0 7px;
+    padding-left: 15px;
+}
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    .hSknb2 .head .ftit, .hSknb2 .nwsTitHm{
+        font-size: 22px;
+    }
+    .hSknb2 .more{
+        font-size: 18px;
+    }
+
+}
+/* end su kien noi bat khong anh 28/9/2018 TQD */
+
+/* navigation */
+.dots .swiper-pagination-switch{
+    display: inline-block;
+    background: #cccccc;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 0 4px;
+}
+.dots .swiper-active-switch{
+    background: #78b43d;
+    width: 8px;
+    height: 8px;
+    margin-bottom: -1px;
+}
+.lady .dots .swiper-active-switch{
+    background: #d2577e;
+}
+/* navigation */
+
+/* sknb */
+.sknb .evtHotTit a{
+    display: inline-block;
+    font-size: 11px;
+    background-color: #f8a466;
+    color: #fff;
+    border-radius: 4px;
+}
+.sknb .evtHotCt{
+    border-top: 1px solid #ef7930;
+}
+.sknb header .txtTrf{
+    font-size: 12px;
+    background-color: #ef7930;
+    border-radius: 0;
+}
+.sknb .evtHotCt{
+    padding-left: 0;
+    padding-top: 0;
+}
+.sknb .seMore{
+    font-size: 14px;
+    color: #ef7930;
+    margin-bottom: 10px;
+}
+/*sknb */
+/*End 01-10-2018 update giao dien moi*/
+
+/* begin 13/10/2018 by dangtq */
+.bdTp{
+    margin-left: -10px;
+    margin-right: -10px;
+    display: block;
+    line-height: 0;
+}
+.extTit{
+    line-height: 0.5;
+    margin-bottom: 10px;
+}
+.imgNwsMdm{
+    width: 139px;
+    height: 104px;
+}
+@media screen and (min-width: 767px) and (max-width: 812px) {
+    .ctTpD{
+        height: auto;
+        font-size: 24px;
+    }
+    .tmPst, .nwsItHm>.tmPst>a{
+        font-size: 16px;
+    }
+}
+/* end 13/10/2018 by dangtq */
+/* begin bangnd 24/10/2018 */
+.tth-wrap .imgNwsMdm {
+    width: 100px;
+    height: 75px;
+}
+/* end bangnd 24/10/2018 */
+
+/* begin media dangtq */
+/* chieu_ngang */
+@media only screen and (max-width: 812px) and (min-width: 569px){
+    .ctTp{
+        font-size: 20px;
+    }
+    .barToggle .icoTit:before{
+        bottom: -5px;
+    }
+    .icoTit:before{
+        font-size: 15px;
+    }
+    .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li{
+        font-size: 22px;
+    }
+    .evtHotCt .nwsTitHm, .seMore, .nwsItHm>.tmPst>a, .ctTpD, .vidIt a, .evtHotCt .lstHot .nwsTitSlHm{
+        font-size: 18px;
+    }
+    .clrGrD, .vuot, a.flRt.seMore{
+        font-size: 16px;
+    }
+    .tmPst a{
+        background-position: -50px -1770px;
+    }
+    header.tbTcb.txtCent.clrWh.bld.fs18, .vidIt.first a{
+        font-size: 22px!important;
+    }
+    .mnCM-expand{
+        /*background-position: 8px -1480px;*/
+    }
+    .lady a.title.tt{
+        background-position: -50px -4138px;
+    }
+    .tmPst.pt8{
+        font-size: 16px;
+    }
+    .evtBxSp .clrTit{
+        font-size: 17px;
+    }
+}
+@media screen and (min-width: 736px) and (max-width: 812px) {
+    .ctTp{
+        font-size: 22px;
+    }
+    .barToggle .icoTit:before{
+        bottom: -5px;
+    }
+    .icoTit:before{
+        font-size: 17px;
+        right: 3px;
+    }
+    .barToggle .icoTit:before{
+        bottom: -8px;
+    }
+    .clrGrD, .tmPst.pt8, .vuot, a.flRt.seMore{
+        font-size: 18px;
+    }
+    .seMore, .evtHotCt .nwsTitHm, .nwsItHm>.tmPst>a, .vidIt a, .vidItRt a, .evtHotCt .lstHot .nwsTitSlHm{
+        font-size: 20px;
+    }
+    .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li{
+        font-size: 24px;
+    }
+    .evtBxSp .clrTit{
+        font-size: 19px;
+    }
+    header.tbTcb.txtCent.clrWh.bld.fs18, .vidIt.first a{
+        font-size: 24px!important;
+    }
+}
+@media screen and (min-width: 812px) {
+    .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li{
+        font-size: 24px;
+    }
+    .tmPst.pt8, .nwsItHm>.tmPst>a, .vuot, .evtBxSp .clrTit{
+        font-size: 20px;
+    }
+    .vidIt a, header.tbTcb.txtCent.clrWh.bld.fs18{
+        font-size: 24px!important;
+    }
+}
+@media screen and (min-width: 481px) and (max-width: 568px) {
+    .ctTp{
+        font-size: 18px;
+    }
+    .barToggle .icoTit:before {
+        right: 5px;
+        bottom: -1px;
+    }
+    /*.barToggle .mnWrap .inner {
+        max-height: 60px;
+        }*/
+        .icoTit:before{
+            font-size: 13px;
+            right: 6px;
+        }
+        .seMore, .nwsItHm>.tmPst>a, .evtHotCt .nwsTitHm, .evtHotCt .lstHot .nwsTitSlHm{
+            font-size: 16px;
+        }
+        .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li{
+            font-size: 20px;
+        }
+        .lady a.title.tt{
+            background-position: -50px -4140px;
+        }
+        .evtBxSp .clrTit{
+            font-size: 15px;
+        }
+        header.tbTcb.txtCent.clrWh.bld.fs18, .vidIt.first a{
+            font-size: 20px!important;
+        }
+        .vuot, .clrGrD, a.flRt.seMore{
+            font-size: 14px;
+        }
+    }
+    /* chieu_doc */
+    @media screen and (min-width: 360px) and (max-width: 413px) {
+
+        .clrGrD, .tmPst a, .evtHotTit .txtTrf, .extTit a, .tpcHt .tpcLitIt li a, .tmPst.pt8, .vuot, #footer p, a.flRt.seMore{
+            font-size: 14px;
+        }
+        .evtHotCt .lstHot .nwsTitSlHm, .ftMn2 a, .cateOthr li a, .ctTp.ctTpD, .seMore, .ctTp, .nwsTitSlHm, .evtHotCt .nwsTitHm, .tbCmg ul li, .tbCmg ul li a, .nwsItHm>.tmPst>a, .seMr a, .tbCmg ul li .mnAtv, .vidIt a, .vidItRt a, .lady .nwsTitSlHm{
+            font-size: 16px;
+        }
+        .nwsTitHm, .ldIt a, .ldIt2 a, .tcbIt li a, .ctTp{
+            font-size: 18px;
+        }
+        .titTp a, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li{
+            font-size: 20px;
+        }
+        .menutp ul li{
+            padding: 10px 2px;
+        }
+        .menutp ul li a, .txtMn, .evtHotTit .hotTb, .icoTit:before{
+            font-size: 13px;
+        }
+        .tbCmCent a{
+            font-size: 19px;
+        }
+        header.tbTcb.txtCent.clrWh.bld.fs18, .vidIt.first a{
+            font-size: 20px!important;
+        }
+        .lady a.title.tt{
+            background-position: -50px -4140px;
+        }
+        .evtBxSp .clrTit{
+            font-size: 15px;
+        }
+        .titNws a.clrTit.bld{
+            font-size: 24px;
+        }
+    }
+    @media screen and (min-width: 414px) and (max-width: 487px) {
+        .barToggle .icoTit:before {
+            right: 5px;
+            bottom: -3px;
+        }
+        .barToggle .icoBars {
+            width: 40px;
+        }
+    /*.barToggle .mnCM-expand, .barToggle .mnCM-close {
+            margin-top: -23px;
+            }*/
+    /*.barToggle .mnWrap .inner {
+        max-height: 60px;
+        }*/
+        .clrGrD, .tmPst a, .evtHotTit .txtTrf, .extTit a, .tpcHt .tpcLitIt li a, .tmPst.pt8, .vuot, #footer p, a.flRt.seMore{
+            font-size: 16px;
+        }
+        .evtHotCt .lstHot .nwsTitSlHm, .ftMn2 a, .cateOthr li a, .ctTp.ctTpD, .seMore, .ctTp, .nwsTitSlHm, .evtHotCt .nwsTitHm, .tbCmg ul li, .tbCmg ul li a, .nwsItHm>.tmPst>a, .seMr a, .tbCmg ul li .mnAtv, .vidIt a, .vidItRt a, .lady .nwsTitSlHm{
+            font-size: 18px;
+        }
+        .nwsTitHm, .vidIt.first a, .ldIt a, .ldIt2 a, .tcbIt li a, .ctTp{
+            font-size: 20px;
+        }
+        .titTp a, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li{
+            font-size: 22px;
+        }
+        .menutp ul li{
+            padding: 10px 2px;
+        }
+        .menutp ul li a, .txtMn, .evtHotTit .hotTb, .icoTit:before{
+            font-size: 15px;
+        }
+        .tbCmCent a{
+            font-size: 21px;
+        }
+        header.tbTcb.txtCent.clrWh.bld.fs18, .vidIt.first a{
+            font-size: 22px!important;
+        }
+        .lady a.title.tt{
+            background-position: -50px -4140px;
+        }
+        .evtBxSp .clrTit{
+            font-size: 17px;
+        }
+        .titNws a.clrTit.bld{
+            font-size: 26px;
+        }
+        .tmPst a{
+            background-position: -50px -1771px;
+        }
+    }
+    @media screen and (max-width: 320px) {
+    /*.ctTp{
+        font-size: 16px;
+        }*/
+        .menutp ul{
+            padding-left: 13px;
+        }
+        .menutp ul li{
+            padding: 10px 4px;
+        }
+    }
+    @media screen and (min-width: 321px) and (max-width: 360px) {
+        .menutp ul{
+            padding-left: 8px;
+        }
+        .menutp ul li{
+            padding: 10px 1px;
+        }
+    }
+    /* end media dangtq*/
+
+    /* begin 29/10/2018 */
+    a.flRt.seMore{
+        display: inline-block;
+        font-size: 12px;
+        color: #f17920;
+        background: url(//cdn.24h.com.vn/images/sprites092018.png) no-repeat 15px -2657px;
+        padding-right: 25px;
+        float: right;
+    }
+    /* end 29/10/2018 */
+
+    /* begin 1/11/2018 dangtq */
+    .ldIt{
+        padding-left: 0;
+        width: 48%;
+    }
+    /* end 1/11/2018 dangtq */ 
+
+    /*begin vietlot dangtq*/
+    .vietLot{
+        height: 30px;
+        background: url('http://t.24h.com.vn/upload/dangtq/24h.com.vn/mobile/images/gt_jackpot_bg.jpg') no-repeat #ed273b;
+        margin: -5px 10px -5px 10px;
+        position: relative;
+        line-height: 30px;
+        background-size: contain;
+    }
+    .vietLot:before{
+        content: '';
+        height: 2px;
+        background-color: #f6939d;
+        position: absolute;
+        top: 50%;
+        margin-top: -0.5px;
+        right: 10px;
+        width: 12%;
+    }
+    .vietLot span{
+        font-size: 10px;
+        font-weight: 600;
+        font-style: italic;
+        color: #fff;
+        padding-left: 10px;
+        text-transform: uppercase;
+    }
+    .vietLot img{
+        vertical-align: -6px;
+        padding-left: 5px;
+    }
+
+    @media screen and (min-width: 321px) and (max-width: 375px){
+        .vietLot span{
+            font-size: 12px;
+        }
+        .vietLot:before{
+            width: 17%;
+        }
+        .vietLot img{
+            vertical-align: -5px;
+        }
+    }
+    @media screen and (min-width: 321px) and (max-width: 360px){
+        .vietLot:before{
+            width: 13%;
+        }
+    }
+    @media screen and (min-width: 376px) and (max-width: 414px){
+        .vietLot span{
+            font-size: 14px;
+            display: inline-block;
+        }
+        .vietLot:before{
+            width: 17%;
+        }
+        .vietLot img{
+            vertical-align: -5px;
+        }
+    }
+    @media screen and (min-width: 480px) and (max-width: 568px){
+        .vietLot span{
+            font-size: 12px;
+            padding-left: 55px;
+        }
+        .vietLot:before{
+            width: 38%;
+        }
+        .vietLot img{
+            vertical-align: -6px;
+        }
+    }
+    @media screen and (min-width: 569px) and (max-width: 667px){
+        .vietLot span{
+            font-size: 14px;
+            display: inline-block;
+            padding-left: 55px;
+        }
+        .vietLot:before{
+            width: 43%;
+        }
+        .vietLot img{
+            vertical-align: -5px;
+        }
+    }
+    @media screen and (min-width: 569px) and (max-width: 640px){
+        .vietLot:before{
+            width: 40%;
+        }
+    }
+    @media screen and (min-width: 668px) and (max-width: 736px){
+        .vietLot span{
+            font-size: 16px;
+            padding-top: 2px;
+            display: inline-block;
+            padding-left: 55px;
+        }
+        .vietLot img{
+            vertical-align: -4px;
+        }
+        .vietLot:before{
+            width: 44%;
+        }
+    }
+    @media screen and (min-width: 812px){
+        .vietLot span{
+            font-size: 14px;
+            display: inline-block;
+            padding-left: 55px;
+        }
+        .vietLot img{
+            vertical-align: -5px;
+        }
+        .vietLot:before{
+            width: 53%;
+        }
+    }
+    /*end vietlot dangtq*/

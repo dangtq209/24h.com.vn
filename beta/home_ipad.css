@@ -1,0 +1,141 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Mar 10, 2018, 2:26:25 PM
+    Author     : HP1
+*/
+/*Begin 14-05-2018 trungcq XLCYCMHENG_31384_bo_sung_box_dac_biet_trang_chu*/
+.evtHot .nwsHotLt {
+    width: 337px;
+    position: relative;
+    margin-right: 10px;
+    float: left;
+}
+
+.spNws {
+    position: absolute;
+    font-size: 16px;
+    font-weight: 700;
+    background-color: #78b43d;
+    padding: 5px 10px 2px 10px;
+    left: -10px;
+    top: 10px;
+}
+
+.nwsHotLt header a {
+    font-size: 22px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 0;
+    display: inline-block;
+    width: 100%;
+    padding: 15px;
+    box-sizing: border-box;
+    background: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.imgHot {
+    display: block;
+    line-height: 0;
+}
+
+.evtHotTit .txtTrf {
+    background-color: #ef7930;
+    font-size: 13px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 3px 3px 0 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    height: 22px;
+    line-height: 22px;
+}
+
+.hotTb {
+    background-color: #faa460;
+    font-size: 13px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 3px 3px 0 0;
+    padding-right: 7px;
+    padding-left: 7px;
+    height: 19px;
+    line-height: 19px;
+}
+
+.evtHotTit {
+    border-bottom: 1px solid #ef7930;
+}
+
+.evtHotTit a.flRt {
+    color: #ef7930;
+    font-size: 14px;
+    padding: 5px 0;
+    display: block;
+    float: right;
+}
+
+.nwsHotRt .nwsTit a {
+    font-size: 16px;
+    line-height: 20px;
+    color: #000;
+}
+
+.nwsHotRt .nwsTit {
+    height: auto;
+}
+
+.nwsHotRt .bxDoMrNws article {
+    line-height: 16px;
+    margin-bottom: 5px;
+    margin-top: 5px;
+}
+
+.nwsHotRt .bxDoMrNws article:last-child {
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+.nwsHotRt .bxDoMrNws a {
+    font-size: 16px;
+}
+
+.evtHot {
+    display: inline-block;
+    width: 100%;
+}
+
+.linHot {
+    border-bottom: 1px solid #f8ceaf;
+}
+
+.evtHot .nwsHotRt {
+    width: 347px;
+    padding: 0 0 0 5px;
+    overflow: initial;
+}
+
+.nwsHotRt .imgFlt {
+    width: 120px;
+    height: 90px;
+}
+
+.evtHot .divSbNws a {
+    font-size: 14px;
+}
+
+.nwsHotRt .lstNml:before {
+    content: "";
+    position: absolute;
+    width: 6px;
+    height: 6px;
+    background-color: #f17921;
+    display: inline-block;
+    top: 5px;
+    left: 0;
+}
+/*End 14-05-2018 trungcq XLCYCMHENG_31384_bo_sung_box_dac_biet_trang_chu*/

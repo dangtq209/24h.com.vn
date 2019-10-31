@@ -1,0 +1,1683 @@
+/*---Start common---*/
+* {
+    font-family: Helvetica,Arial,sans-serif;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -ms-box-sizing: border-box;
+    box-sizing: border-box;
+}
+body {
+    ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+}
+h1, h2, h3 {
+    margin: 0;
+}
+a {
+    text-decoration: none;
+}
+img {
+    border: 0;
+}
+body, html, ul {
+    margin: 0;
+    padding: 0;
+}
+p {
+    margin-bottom: 15px;
+    margin-top: 15px;
+    line-height: 26px;
+    font-size: 18px;
+    text-align: justify;
+}
+ul, li {
+    list-style: none;
+}
+.contnr, .blk {
+    padding-left: 7px;
+    padding-right: 7px;
+}
+.clF {
+    clear:both;
+}
+.mrB20 {
+    margin-bottom: 20px;
+}
+.mrT20 {
+    margin-top: 20px;
+}
+.mrT10 {
+    margin-top: 10px;
+}
+.mrT5 {
+    margin-top: 5px;
+}
+.mrB5 {
+    margin-bottom: 5px;
+}
+.mrB10 {
+    margin-bottom: 10px;
+}
+.pdB20 {
+    padding-top: 20px;
+}
+.pdT20 {
+    padding-top: 20px;
+}
+.pdB10 {
+    padding-bottom: 10px;
+}
+.pdT10 {
+    padding-top: 10px;
+}
+.pdT5 {
+    padding-top: 5px;
+}
+.pdB5 {
+    padding-bottom: 5px;
+}
+.pd5 {
+    padding: 5px;
+}
+.pdR5 {
+    padding-right: 5px;
+}
+.pdLt {
+    padding-left: 110px;
+}
+.clrWh {
+    color: #fff;
+}
+.bld {
+    font-weight: 700;
+}
+.clrTit {
+    color: #333;
+}
+.clrGr {
+    color: #757575;
+}
+.clrDft {
+    color: #000;
+}
+.clrEx {
+    color: #78b43d;
+}
+.clrBlu {
+    color: blue;
+}
+.lin {
+    border-bottom: 1px solid #ddd;
+}
+.lind {
+    border-bottom: 1px dotted #78b43d;
+}
+.lindBlu {
+    border-bottom: 1px dotted #78b43d;
+}
+.txtTrf {
+    text-transform: uppercase;
+}
+.txtCent {
+    text-align: center;
+}
+/*-----Start icon-----*/
+.icoSpites, .tpcHt a {
+    background: url(//static.24h.com.vn/images/2014/icon-24h-2018.png) no-repeat;
+    display: inline-block;
+}
+/*-----Start icon trong anh-----*/
+.vidIcoLt {
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    background: url(//static.24h.com.vn/images/m2014/images-small/iconVideo2-small.png) no-repeat 0 0;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+.picIco {
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    background: url(//static.24h.com.vn/images/2014/icon-album.gif) no-repeat 0 0;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+.quizIco {
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    background: url(//static.24h.com.vn/images/2014/icon-24h-2018.png) no-repeat -795px -30px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+.infoIco {
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    background: url(//static.24h.com.vn/images/2014/icon-24h-2018.png) no-repeat -698px -30px;
+    width: 20px;
+    height: 20px;
+    z-index: 1;
+}
+.magzIco {
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    background: url(//static.24h.com.vn/images/2014/icon-24h-2018.png) no-repeat -533px -30px;
+    width: 14px;
+    height: 20px;
+    z-index: 1;
+}
+/*-----End icon trong anh-----*/
+
+/*-----Start icon truoc tieu de-----*/
+.vdNml .icoSpites {
+    width: 13px;
+    height: 20px;
+    background-position: -918px -147px;
+}
+.lstNml .icoSpites {
+    width: 10px;
+    height: 20px;
+    background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) 4px -1529px no-repeat;
+}
+.phtHt .icoSpites {
+    width: 13px;
+    height: 20px;
+    background-position: -885px -58px;
+}
+.viHt .icoSpites {
+    width: 13px;
+    height: 20px;
+    background-position: -882px -151px;
+}
+.lstRdStr .icoSpites {
+    width: 10px;
+    height: 20px;
+    background-position: -642px -97px;
+}
+.phtNml .icoSpites {
+    width: 13px;
+    height: 20px;
+    background-position: -907px -59px;
+}
+.icoquz .icoSpites {
+    width: 13px;
+    height: 20px;
+    background-position: -798px -25px;
+}
+.icoInfo .icoSpites {
+    width: 13px;
+    height: 20px;
+    background-position: -702px -25px;
+}
+.icoMaz .icoSpites {
+    width: 13px;
+    height: 20px;
+    background-position: -534px -24px;
+}
+.nwsTitSlHm {
+    background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) 0 -1531px no-repeat;
+    padding: 0 0 0 10px;
+}
+.vdNml .nwsTitSlHm, .viHt .nwsTitSlHm, .lstNml .nwsTitSlHm, .phtHt .nwsTitSlHm, .lstRdStr .nwsTitSlHm, 
+.phtNml .nwsTitSlHm, .icoquz .nwsTitSlHm, .icoInfo .nwsTitSlHm, .icoMaz .nwsTitSlHm {
+    background: none;
+    padding: 0;
+}
+/*-----End icon truoc tieu de-----*/
+.redStar {
+    background: url(//static.24h.com.vn/images/2014/red-star.gif) 0px 0px no-repeat;
+    width: 10px;
+    height: 10px;
+    margin-left: 2px;
+    display: inline-block;
+}
+.icoLiv {
+    display: inline-block;
+    color: #fff;
+    font-size: 7px;
+    line-height: 12px;
+    position: relative;
+    top: -3px;
+    text-transform: uppercase;
+    font-weight: 700;
+    background: red;
+    padding: 0 3px;
+    border-radius: 3px;
+    margin-left: 5px;
+}
+.icoNws {
+    background: url(//static.24h.com.vn/images/m2014/images-small/iconNew-small.png) no-repeat 3px 0px;
+    width: 26px;
+    height: 13px;
+    margin-left: 2px;
+    display: inline-block;
+}
+.tpcHt a.vNxt {
+    position: absolute;
+    right: 0;
+    top: 19px;
+    width: 35px;
+    height: 35px;
+    background-position: -349px -78px;
+}
+.tpcHt a.vPrv {
+    position: absolute;
+    left: 0;
+    top: 19px;
+    width: 35px;
+    height: 35px;
+    background-position: -326px -78px;
+}
+/*-----End icon-----*/
+.seMr {
+    background: #ebebeb;
+}
+.seMr a{
+    padding: 10px;
+    display: inline-block;
+    font-size: 12px;
+}
+.seMr a .ico {
+    background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) 0 -162px;
+    width: 20px;
+    height: 16px;
+    display: inline-block;  
+}
+.vidIco {
+    position: absolute;
+    top: 37%;
+    left: 40%;
+    background: url(//static.24h.com.vn/images/m2014/images-small/videoPlay-small.png) no-repeat;
+    width: 30px;
+    height: 30px;
+    display: block;
+}
+.atrHdr {
+    height: 40px;
+}
+article {
+    display: inline-block;
+    width: 100%;
+}
+.mnAtv {
+    font-weight: 700;
+}
+article {
+    display: inline-block;
+    width: 100%;
+}
+.txtIl {
+    font-style: italic;
+}
+.btnGrn {
+    background-color: #78b43d;
+    color: #FFF;
+    padding: 5px 15px;
+    display: inline-block;
+    text-align: center;
+}
+.brnGry {
+    background-color: #ebebeb;
+    color: #000;
+    padding: 5px 15px;
+    display: inline-block;
+    text-align: center;
+}
+/*---End common---*/
+
+/*---Start banner---*/
+.txtBnrHor {
+    text-align: left;
+    padding-left: 10px;
+    margin-bottom: 2px;
+}
+.txtBnrVel span, .txtBnrHor span {
+    color: #999;
+    text-transform: uppercase;
+    font-size: 9px;
+    font-weight: 700;
+    position: relative;
+}
+.txtBnrVel span:before, .txtBnrHor span:before {
+    content: "ad zone of 24h";
+}
+/*---End banner---*/
+
+/*---Start header---*/
+.hdr {
+    height: 60px;
+    background: #78b43d;
+    width: 100%;
+    z-index: 99999;
+}
+.log {
+    width: 75px;
+    height: 40px;
+    float: left;
+    padding: 10px 0px;
+    margin-left: -5px;
+}
+.log a {
+    width: 80px;
+    height: 40px;
+    background: url(//static.24h.com.vn/images/m2014/images/logo24h.png) no-repeat center center;
+    margin: 0 auto;
+    text-align: center;
+    display: inline-block;
+    line-height: 56px;
+}
+.mnDm {
+    height: 60px;
+    padding: 10px 0;
+    position: relative;
+    float: right;
+    margin-left: 0;
+    line-height: 26px;
+}
+.mnDm .imgMn{
+    font-size: 12px;
+    color: #fff;
+    background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 7px 0px;
+    display: block;
+    height: 20px;
+    width: 34px;
+    margin: 0 auto;
+}
+.txtMn {
+    font-size: 14px;
+}
+.menutp {
+    height: 60px;
+    top: 0;
+    left: 75px;
+    padding-left: 0;
+    padding-right: 0;
+    position: absolute;
+    right: 50px;
+    overflow: hidden;
+}
+.Home {
+    width: 23px;
+    height: 20px;
+    margin-bottom: -5px;
+    background: url(//static.24h.com.vn/images/m2014/images-small/iconHome-small.png) no-repeat;
+    background-size: 20px;
+}
+.menutp ul li {
+    display: inline-block;
+    list-style: none;
+    height: 60px;
+    line-height: 26px;
+    padding: 10px 3px;
+}
+.menutp ul li a {
+    display: block;
+    font-size: 14px;
+}
+.txtMn {
+    font-size: 14px;
+}
+/*---End header---*/
+
+/*---Start home---*/
+
+/*---Start breaking news---*/
+.icoSkn span {
+    font-size: 14px;
+    text-decoration: none;
+    color: #666;
+    padding-left: 15px;
+    background: url(//static.24h.com.vn/images/2014/sprites.png) 0 2px no-repeat;
+}
+.icoSkn a {
+    color: #666;
+    font-weight: 700;
+}
+.bdBrk {
+    text-align: justify;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 4;
+    -webkit-box-orient: vertical;
+    line-height: 1.4;
+}
+/*---End breaking news---*/
+
+.nwsHt, .bdTp, .nwsHtIn {
+    position: relative;
+}
+.nwsHtIn span {
+    bottom: 10px;
+    left: 10px;
+}
+.titTp {
+    position: absolute;
+    display: block;
+    padding: 3px 5px;
+    background: #78b43d;
+    text-transform: uppercase;
+    font-weight: bold;
+    color: #FFF;
+    top: 5px;
+    left: -3px;
+    z-index: 1000;
+}
+.nwsItAtcl .tmPst {
+    color: #000;
+}
+.tmPst {
+    display: block;
+}
+.titNws a {
+    font-size: 22px;
+}
+.tmPst a {
+    text-decoration: none;
+    padding-left: 20px;
+    background: url(//static.24h.com.vn/images/m2014/images/sprites.png) 0 -122px no-repeat;
+    font-size: 12px;
+}
+.ctTp {
+    line-height: 1.5;
+}
+.nwsItHm:last-child {
+    border-bottom: 0;
+}
+.bxLlq .nwsItHm {
+    background: #eaf8d2;
+    border-bottom: 0;
+    padding-left: 10px;
+    padding-bottom: 7px;
+    padding-top: 7px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+.nwsTitSlHm {
+    background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) 0 -1534px no-repeat;
+    padding: 0 0 0 10px;
+    line-height: 1.5;
+    display: inline;
+}
+.imgFlt {
+    float: left;
+    margin-right: 10px;
+    display: block;
+    background: #f5f5f5;
+    position: relative;
+}
+.imgNwsMdm {
+    width: 100px;
+    height: 75px;
+}
+.evtBx .imgNwsMdm {
+    width: 45%;
+    height: auto;
+    margin-right: 4%;
+}
+.evtBx .evtBxSp {
+    float: left;
+    width: 51%;
+    color: #333;
+    margin-top: -5px;
+    background: none;
+    padding: 0;
+    margin-bottom: 5px;
+    display: inline;
+    line-height: 1.5;
+}
+.tmPst {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+}
+.extTit a {
+    font-size: 12px;
+}
+.nwsTitHm {
+    font-size: 16px;
+}
+.blqPr {
+    background: url(//static.24h.com.vn/images/2014/box4T-bg.png) repeat;
+    display: inline-block;
+    width: 100%;
+}
+.extTit span {
+    font-size: 10px;
+    color: #757575;
+}
+.tpcHtBlk {
+    border-top: 2px solid #f17920;
+    padding-left: 0;
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 2;
+    background-color: #eee;
+    user-select: none;
+    -webkit-user-select: none;
+    margin-left: -10px;
+    margin-right: -10px;
+    backface-visibility: hidden;
+}
+.tpcHt {
+    position: relative;
+    padding-top: 10px;
+}
+.tpcHt a {
+    color: #f17920;
+    text-align: center;
+    padding: 10px 5px;
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    background: #fff;
+    margin-right: 7px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.tpcHt a amp-img {
+    vertical-align: middle;
+}
+.tpcHt div {
+    padding-left: 10px;
+}
+.vNxt {
+    position: absolute;
+    right: 0;
+    top: 19px;
+    z-index: 10;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(//static.24h.com.vn/images/2014/icon_next_prev_common_slider.png) right -28px no-repeat;
+}
+.vPrv {
+    position: absolute;
+    left: -3px;
+    top: 19px;
+    z-index: 10;
+    display: block;
+    width: 35px;
+    height: 35px;
+    background: url(//static.24h.com.vn/images/2014/icon_next_prev_common_slider.png) 0 -28px no-repeat;
+}
+.tpcHtBlk .vPrev {
+    left: 0;
+}
+.tpcHt #interact_wrap {
+    overflow: hidden;
+    position: relative;
+    box-sizing: border-box;
+    z-index: 2;
+    background-color: #eee;
+    user-select: none;
+    -webkit-user-select: none;
+    margin-left: -10px;
+    margin-right: -10px;
+    margin: 0 auto;
+    backface-visibility: hidden;
+}
+.tpcHt .tpcLitIt {
+    /*overflow: hidden;*/
+    padding: 10px 0 0 5px;
+    margin: 0;
+    margin-bottom: 10px;
+    margin-left: 10px;
+}
+.tpcHt .swiper-wrapper {
+    position: relative;
+    height: 100%;
+    z-index: 1;
+    display: -webkit-box;
+    display: -moz-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-transition-property: -webkit-transform;
+    -moz-transition-property: -moz-transform;
+    -o-transition-property: -o-transform;
+    -ms-transition-property: -ms-transform;
+    transition-property: transform;
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.tpcHt .swiper-slide {
+    -webkit-transform-style: preserve-3d;
+    -moz-transform-style: preserve-3d;
+    -ms-transform-style: preserve-3d;
+    transform-style: preserve-3d;
+    -webkit-flex-shrink: 0;
+    -ms-flex: 0 0 auto;
+    flex-shrink: 0;
+    height: 100%;
+    position: relative;
+}
+.tpcHt .tpcLitIt li.swiper-slide {
+    opacity: 1;
+}
+.tpcHt .tpcLitIt{
+    float: left;
+    box-sizing: border-box;
+    list-style: none;
+}
+.tpcHt .tpcLitIt li a {
+    color: #f17920;
+    text-align: center;
+    padding: 10px 5px;
+    display: block;
+    font-weight: 700;
+    font-size: 14px;
+    background: #fff;
+    float: left;
+    margin-right: 7px;
+    border-radius: 5px;
+    border: 1px solid #ddd;
+}
+.tpcHt .tpcLitIt li a amp-img {
+    vertical-align: middle;
+    margin-right: 5px;
+    width: 24px;
+    height: 24px;
+    margin-top: -5px;
+    float: left;
+}
+
+/*---Start menu quick---*/
+.icoQkOpn {
+    background: #f17920 url(//static.24h.com.vn/images/2014/quick-menu.png) no-repeat center;
+    width: 63px;
+    height: 63px;
+    position: fixed;
+    right: 0;
+    top: 100px;
+    display: block;
+    border-radius: 50%;
+    z-index: 9999;
+    opacity: .6;
+}
+.icoqkBd {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156425-icon-bongda.png);
+}
+.icoqkTt {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156418-icon-tintuc.png);
+}
+.icoqkSk {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156217-icon-skds.png);
+}
+.icoqkBt {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156309-icon-bantre.png);
+}
+.icoqkAt {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156138-icon-amthuc.png);
+}
+.icoqkDl {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499155689-icon-dulich.png);
+}
+.icoqkC24h {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156296-icon-cuoi.png);
+}
+.icoqkHit {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156203-icon-hitech.png);
+}
+.icoqkTg {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156408-icon-thegioi.png);
+}
+.icoqkAn {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156378-icon-anxh.png);
+}
+.icoqkXm {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156169-icon-xemay-xedap.png);
+}
+.icoqkTtr {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156368-icon-thoitrang.png);
+}
+.icoqkDs {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156239-icon-ds-showbiz.png);
+}
+.icoqkGt {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156228-icon-giaitri.png);
+}
+.icoqkLd {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156358-icon-lamdep.png);
+}
+.icoqkTth {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156257-icon-thethao.png);
+}
+.icoqkGd {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499155983-icon-giaoduc.png);
+}
+.icoqkCn {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156190-icon-cntt.png);
+}
+.icoqkOto {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156180-icon-oto.png);
+}
+.icoqkPht {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156150-icon-phitruong-kiquac.png);
+}
+.icoqkTch {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156336-icon-taichinh-bds.png);
+}
+.icoqkTd {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156319-icon-thitruong.png);
+}
+.icoqkDh {
+    background: url(//image.24h.com.vn/upload/3-2017/images/2017-07-04/1499156104-icon-gocdohoa.png);
+}
+.icoqkBd, .icoqkDh, .icoqkTd, .icoqkTch, .icoqkPht, .icoqkOto, .icoqkCn, .icoqkGd, .icoqkTth, .icoqkLd, .icoqkGt, .icoqkDs,
+.icoqkTtr, .icoqkXm, .icoqkAn, .icoqkTg, .icoqkHit, .icoqkC24h, .icoqkDl, .icoqkAt, .icoqkBt, .icoqkSk , .icoqkTt {    
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+    background-repeat: no-repeat;
+}
+.mnRtQk ul {
+    list-style: none;
+    padding-left: 15px;
+    margin-top: 5px;
+    overflow-x: hidden;
+    height: 355px;
+    margin-bottom: 0;
+}
+.dvQkMn {
+    height: 100%;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    z-index: 99999;
+    display: none;
+}
+.icoQkMnCls {
+    background: rgba(0,0,0,0.7) url(//static.24h.com.vn/images/2014/icon-quick-close.png) no-repeat 15px 12px;
+    width: 50px;
+    height: 50px;
+    position: fixed;
+    right: 0;
+    top: 402px;
+    z-index: 10000;
+}
+.mnRtQk {
+    width: 270px;
+    position: fixed;
+    top: 0;
+    right: 0;
+    z-index: 999999;
+    background: #fff;
+    display: block;
+    overflow-y: auto;
+    border-left: #ddd solid 1px;
+    border-bottom: #ebebeb 2px solid;
+}
+.fadeInRt {
+    -webkit-animation-name: fadeInRight;
+    -moz-animation-name: fadeInRight;
+    -o-animation-name: fadeInRight;
+    animation-name: fadeInRight;
+}
+.animated {
+    -webkit-animation-duration: .4s;
+    -moz-animation-duration: .4s;
+    -o-animation-duration: .4s;
+    animation-duration: .4s;
+    -webkit-animation-fill-mode: both;
+    -moz-animation-fill-mode: both;
+    -o-animation-fill-mode: both;
+    animation-fill-mode: both;
+}
+.mveCte {
+    height: 40px;
+    line-height: 40px;
+    background-color: #f5f5f5;
+    text-align: center;
+}
+.mveCte span {
+    font-size: 14px;
+}
+.mnRtQk ul li {
+    display: inline-block;
+    width: 100%;
+}
+.mnRtQk ul li > span {
+    float: left;
+    margin-top: 10px;
+    padding-right: 10px;
+}
+.mnRtQk ul li > span a {
+    padding-left: 0;
+}
+.mnRtQk ul li a {
+    font-size: 14px;
+    color: #212121;
+    height: 40px;
+    display: block;
+    line-height: 40px;
+    padding-left: 35px;
+}
+.mnRtQk ul::-webkit-scrollbar {
+    width: 12px;
+}
+.mnRtQk ul::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+}
+.mnRtQk ul::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.5);
+}
+/*---End menu quick---*/
+
+/*---End home---*/
+
+/*---Start box chuyen muc don---*/
+.tbCmg {
+    background: #78b43d;
+    position: relative;
+    max-height: 49px;
+    overflow: hidden;
+    text-align: left;
+}
+.tbCmg ul {
+    display: table-cell;
+    -webkit-text-size-adjust: 100%;
+    padding: 3px 35px 3px 5px;
+    margin: 0;
+    vertical-align: middle;
+}
+.tbCmg ul li {
+    font-size: 16px;
+    display: inline;
+    border: none;
+    margin: 5px 0;
+    margin-right: 7px;
+    padding-right: 5px;
+    padding-left: 0;
+    border-right: #aad862 solid 1px;
+    list-style: none;
+    color: #fff;
+}
+.tbCmg ul li.last {
+    border-right: 0;
+}
+.tbCmg ul li.tbMn.first {
+    padding-left: 10px;
+    margin-left: -5px;
+    background-image: url(//static.24h.com.vn/images/m2014/images/breadcumb-sereprate.png);
+    background-position: 0 0;
+    background-repeat: no-repeat;
+    background-size: auto 100%;
+}
+.tbCmg ul li h2 {
+    font-size: 18px;
+}
+.tbCmg ul li h2, .tbCmg ul li h1 {
+    margin: 0;
+    padding: 0;
+    display: inline;
+    color: #fff;
+}
+.tbCmg ul li a {
+    padding: 0;
+    display: inline;
+    line-height: 22px;
+    color: #fff;
+}
+.mnAtv {
+    font-weight: 700;
+}
+.tbCmg ul li .mnAtv {
+    font-size: 16px;
+}
+.tbCmg ul li.last, .tbCmg ul li:last-of-type {
+    border: none;
+}
+.mnCM-expand {
+    display: block;
+    position: absolute;
+}
+.bxDoRt {
+    margin-left: 110px;
+}
+/*---End box chuyen muc don---*/
+
+/*---Start box chuyen muc doi---*/
+.ldIt, .doanhNghiep-item {
+    width: 48%;
+    float: left;
+    margin-bottom: 10px;
+}
+.ldIt2, .doanhNghiep-item2 {
+    width: 48%;
+    float: right;
+    margin-bottom: 10px;
+}
+.ldImg {
+    margin-bottom: 5px;
+    position: relative;
+}
+.ldIt a, .ldIt2 a {
+    font-size: 16px;
+    /*line-height: 1.5;*/
+}
+.nwsTitSl {
+    background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) 0 -1531px no-repeat;
+    padding: 0 0 0 10px;
+    line-height: 1.5;
+}
+/*---End box chuyen muc doi---*/
+
+/*---Start clip dac sac---*/
+.tbCmCent {
+    background: #78b43d;
+    position: relative;
+    padding: 7px;
+}
+.tbVidIco {
+    background: url(//static.24h.com.vn/images/m2014/images-small/iconVideoClip-small.png) no-repeat 0 2px;
+    width: 25px;
+    height: 15px;
+    display: inline-block;
+}
+.tbCmCent a {
+    font-size: 18px;
+}
+.bxVidLst {
+    width: 100%;
+    overflow: hidden;
+    position: relative;
+}
+.vidIt {
+    width: 48%;
+    float: left;
+}
+.vidItRt {
+    width: 48%;
+    float: right;
+}
+.vidIt a, .vidItRt a {
+    font-weight: 700;
+    color: #000;
+}
+.vidIt .img, .vidItRt .img {
+    position: relative;
+    display: block;
+    margin-bottom: 5px;
+}
+.pagS2 {
+    background: #ebebeb;
+    padding: 0 10px;
+    text-align: center;
+    clear: both;
+}
+.pagS2 a {
+    padding: 10px 5px;
+}
+.pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New {
+    font-size: 12px;
+    text-transform: uppercase;
+}
+.pagS2 a.Prev {
+    background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -624px;
+    padding-left: 15px;
+    float: left;
+}
+.pagPge {
+    font-size: 12px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    color: #7d7d7d;
+    border-left: #d7d7d7 solid 1px;
+    border-right: #d7d7d7 solid 1px;
+}
+.pagS2 a.Next {
+    background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat right -584px;
+    padding-right: 15px;
+    float: right;
+}
+/*---End clip dac sac---*/
+
+/*---Start danh cho phai dep---*/
+.tbTcb {
+    background: #f17920;
+    padding: 7px;
+}
+.tbTcb a {
+    font-weight: 700;
+    color: #fff;
+    font-size: 16px;
+}
+.dcpdMbl .nwsTitSlHm {
+    position: relative;
+    background: none;
+}
+.dcpdMbl .nwsTitSlHm:before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #d2577e;
+    display: inline-block;
+    top: 8px;
+    left: 0px;
+}
+.chuyen-huong {
+    text-align: right;
+    padding: 0 10px;
+}
+.chuyen-huong a {
+    color: #d2577e;
+    font-weight: 700;
+}
+.chuyen-huong a amp-img {
+    width: 18px;
+    height: 12px;
+    display: inline-block;
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-left: 5px;
+}
+/*---End danh cho phai dep---*/
+
+/*---Start ttcb---*/
+.ttcb-cnt {
+    padding: 0 10px;
+    border-bottom: #e1e1e1 solid 1px;
+    border-left: #e1e1e1 solid 1px;
+    border-right: #e1e1e1 solid 1px;
+}
+.tcbIt li {
+    display: block;
+    vertical-align: top;
+    list-style: none;
+}
+.tcbIt li a {
+    border-bottom: #ebebeb solid 1px;
+    display: block;
+    padding: 10px 0 10px 45px;
+    font-size: 16px;
+}
+.tcbIt li:last-child a {
+    border-bottom: 0;
+}
+.tcbGld {
+    background: url(//static.24h.com.vn/images/m2014/images/ttcb.png) 5px 10px no-repeat;
+}
+.tcbNgt {
+    background: url(//static.24h.com.vn/images/m2014/images/ttcb.png) 5px -34px no-repeat;
+}
+.tcbVlm {
+    background: url(//static.24h.com.vn/images/m2014/images/orange_tuyen_dung-22px.png) 5px 5px no-repeat;
+    background-size: 25px;
+}
+.tcbXso {
+    background: url(//static.24h.com.vn/images/m2014/images/ttcb.png) 5px -78px no-repeat;
+}
+.tcbTht {
+    background: url(//static.24h.com.vn/images/m2014/images/ttcb.png) 5px -164px no-repeat;
+}
+.tcbVid {
+    background: url(//static.24h.com.vn/images/m2014/images/icon-video-ttcb1.png) no-repeat 7px 10px;
+}
+.tcbLcp {
+    background: url(//static.24h.com.vn/images/m2014/images/ttcb.png) 5px -210px no-repeat;
+}
+/*---End ttcb---*/
+
+/*---Start CM khac---*/
+.cateOthr li {
+    display: inline-block;
+    list-style: none;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 5px 0;
+}
+.cateOthr li:nth-child(odd) {
+    width: 47%;
+    margin-right: 2%;
+}
+.cateOthr li:nth-child(even) {
+    width: 47%;
+    margin-left: 2%;
+}
+.cateOthr li a {
+    background: none;
+    font-size: 14px;
+    padding: 8px 0 8px 5px;
+    color: #000;
+    display: block;
+}
+.btnTpHm {
+    border: #e1e1e1 solid 1px;
+    padding: 5px 16px;
+    font-size: 14px;
+    background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 5px -32px;
+    margin-right: 5px;
+}
+.btnTpDt {
+    border: #e1e1e1 solid 1px;
+    padding: 5px 16px;
+    font-size: 14px;
+    background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 8px -449px;
+}
+.updTm {
+    font-size: 10px;
+}
+.titSb a, .titSb, .qteImg, .sbMnCate ul li a, .bmTpSeo a, .bdmHmTb {
+    font-size: 11px;
+}
+.grnBxBg .lstNws article a, .bdmHmTb a {
+    font-size: 12px;
+}
+.nwSp {
+    font-size: 13px;
+}
+.bxRdPsnLt a, .nwsTitg {
+    font-size: 16px;
+}
+.tbLngrn a, .tbLngrn h2 {
+    font-size: 18px;
+}
+.evtHlt h2, .tbLngrn a, .tbLngrn h2, .evtBxTit a {
+    font-size: 18px;
+}
+/*---End CM khac---*/
+
+/*---Start footer---*/
+.ftMn2 {
+    height: 38px;
+    line-height: 38px;
+    background-color: #78b43d;
+}
+.ftMn2 a {
+    font-size: 16px;
+    color: #000;
+    padding: 0 10px;
+    font-weight: 700;
+}
+#footer p{
+    padding: 0 5px;
+    font-size: 12px;
+    text-align: center;
+}
+.arrowPageUp {
+    position: fixed;
+    bottom: 60px;
+    right: 0;
+}
+/*---End footer---*/
+
+.event-box .imgNewsSmall a img, 
+.newsItem a img, 
+.new-blq .bailienquan-trangtrong span.imgFloat a img, .img img, 
+.ldImg img {
+    max-width: 100%;
+    max-height: 100%;
+    height: inherit;
+}
+/*---Start swiper---*/
+.swiper-container {
+ margin:0 auto;
+ position:relative;
+ overflow:hidden;
+ -webkit-backface-visibility:hidden;
+ -moz-backface-visibility:hidden;
+ -ms-backface-visibility:hidden;
+ -o-backface-visibility:hidden;
+ backface-visibility:hidden;
+
+ z-index:1;
+}
+.swiper-wrapper {
+ -webkit-transition-property:-webkit-transform, left, top;
+ -webkit-transition-duration:0s;
+ -webkit-transform:translate3d(0px,0,0);
+ -webkit-transition-timing-function:ease;
+ 
+ -moz-transition-property:-moz-transform, left, top;
+ -moz-transition-duration:0s;
+ -moz-transform:translate3d(0px,0,0);
+ -moz-transition-timing-function:ease;
+ 
+ -o-transition-property:-o-transform, left, top;
+ -o-transition-duration:0s;
+ -o-transform:translate3d(0px,0,0);
+ -o-transition-timing-function:ease;
+ -o-transform:translate(0px,0px);
+ 
+ -ms-transition-property:-ms-transform, left, top;
+ -ms-transition-duration:0s;
+ -ms-transform:translate3d(0px,0,0);
+ -ms-transition-timing-function:ease;
+ 
+ transition-property:transform, left, top;
+ transition-duration:0s;
+ transform:translate3d(0px,0,0);
+ transition-timing-function:ease;
+
+ -webkit-box-sizing: content-box;
+ -moz-box-sizing: content-box;
+ box-sizing: content-box;
+}
+.swiper-free-mode > .swiper-wrapper {
+ -webkit-transition-timing-function: ease-out;
+ -moz-transition-timing-function: ease-out;
+ -ms-transition-timing-function: ease-out;
+ -o-transition-timing-function: ease-out;
+ transition-timing-function: ease-out;
+ margin: 0 auto;
+}
+.swiper-slide {
+ float: left;
+ -webkit-box-sizing: content-box;
+ -moz-box-sizing: content-box;
+ box-sizing: content-box;
+}
+.swiper-wp8-horizontal {
+ -ms-touch-action: pan-y;
+}
+.swiper-wp8-vertical {
+ -ms-touch-action: pan-x;
+}
+/*---End swiper---*/
+
+
+.width-100{
+    width: 100%;
+}
+
+/*---Start media query---*/
+.clblue {
+    color: blue;
+}
+.disnone{display:none}
+.disblk{display:block}
+
+/* Begin popup*/
+.box-popup {overflow: hidden;position: relative;_position: relative;z-index: 1000000;_background: transparent;background-color:#F8F8F8;margin: 0;padding: 0px;-moz-border-radius: 6px;border-radius: 6px;border: none;font: normal 12px Tahoma,Arial, sans-serif;}
+.popup-overlay {z-index: 999999;border: none;position: absolute;_position: absolute;top: 0;left: 0;right: 0;bottom: 0;top: 0;background-color:#F8F8F8;_background: transparent;}
+.modal-noscroll {
+    /*position: fixed;*/
+    overflow: hidden;
+    width: 100%;
+    position:fixed;
+}
+/* End popup*/
+/*Start poll*/
+.popup {
+    border: #78b43d solid 2px;
+    margin: 2%;
+}
+.popupCnt {
+    padding: 2%;
+}
+#box_gop_y .popupCnt p a {
+    margin: 0 auto;
+}
+/*End poll*/
+
+/* begin poll*/
+.plTp {
+    padding: 3px 10px 7px 10px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+.plCt {
+    background: #fff;
+    padding: 10px 8px;
+    text-align: left;
+}
+.txtBx {
+    border: #e1e1e1 solid 1px;
+    padding: 5px;
+    color: #666;
+    width: 100%;
+}
+.linDsh {
+    border-top: 1px dashed #e5e5e5;
+    display: block;
+    line-height: 23px;
+    margin: 10px 0 0;
+    padding: 5px 0 0;
+}
+.fdNte {
+    background: #e6e6e6;
+    padding: 10px;
+}
+.btnGrn {
+    background-color: #78b43d;
+    color: #FFF;
+    padding: 5px 15px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+    margin-top: 10px;
+}
+.btnGry {
+    background-color: #ebebeb;
+    color: #000;
+    padding: 5px 15px;
+    display: inline-block;
+    text-align: center;
+    text-decoration: none;
+}
+.fdNte i{
+    font-size: 11px;
+}
+.plQA {
+    display: block;
+    padding: 0 0 10px 0;
+    font-weight: 400;
+}
+.plAnwr {
+    font-weight: 700;
+    font-size: 14px;
+    color: #000;
+}
+.plAnwrBr {
+    height: 15px;
+    float: left;
+    margin: 3px 10px 0 0;
+}
+.txtSch {
+    padding: 5px 0;
+}
+span.close {
+    display: inline-block;
+    width: 20px;
+    height: 12px;
+    background: url(//static.24h.com.vn/images/m2014/images/iconClose.png) 0 0 no-repeat;
+}
+.aCenter {
+    text-align: center;
+}
+.plNum {
+    font-size: 12px;
+    color: #666;
+    font-weight: 700;
+}
+.txtBx {
+    border: #e1e1e1 solid 1px;
+    padding: 5px 10px;
+    color: #666;
+}
+.btn-green {
+    background-color: #78b43d;
+    color: #FFF;
+    padding: 5px 15px;
+    display: block;
+    white-space: nowrap;
+    text-align: center;
+    margin: 5px 0;
+}
+.boxGreyBr {
+    background: #ebebeb;
+    border: #d7d7d7 solid 1px;
+    padding: 10px;
+    margin-bottom: 10px;
+}
+.btn-green-big {
+    -webkit-border-radius: 6px;
+    -moz-border-radius: 6px;
+    border-radius: 6px;
+    background-color: #78b43d;
+    -webkit-box-shadow: inset 0 -2px rgba(0,0,0,.2);
+    -moz-box-shadow: inset 0 -2px rgba(0,0,0,.2);
+    box-shadow: inset 0 -2px rgba(0,0,0,.2);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px;
+    display: block;
+}
+.pollTop {
+    padding: 3px 10px 7px;
+    color: #fff;
+    text-align: center;
+    font-weight: 700;
+    background: #78b43d;
+}
+/*End poll*/
+
+.borders_td {
+    border-right-style: solid; 
+	border-right-width: 1px; 
+	border-bottom-style: solid; 
+	border-bottom-width: 1px;
+	background: #65A530;
+	color: #fff;
+}
+.twentytwenty-container amp-img {
+    margin-bottom: 15px;
+}
+/*Start menu*/
+.mnTpImg amp-img {
+    width: 20px;
+    height: 20px;
+    margin: 0 auto;
+}
+/*End menu*/
+
+.icoSocial a amp-img {
+    width: 100%;
+}
+
+.icoSocialCm {
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    margin-left: 5px;
+}
+
+.bmTpSeoBlk .icoSocial {
+    float: right;
+    margin-top: -6px;
+    margin-left: 5px;
+}
+
+.bmTpSeoBlk {
+    height: initial;
+    overflow: initial;
+}
+
+.brmCm2 {
+    display: inline-block;
+    width: 100%;
+    overflow: initial;
+}
+
+.flRt {
+    float: right;
+}
+.mrL4{
+    margin-left: 4px;
+}
+/*Start 15/08/2018: duclv_box_cm*/
+.blk .vdNml .nwsTitSlHm, .blk .viHt .nwsTitSlHm, .blk .lstNml .nwsTitSlHm, .blk .phtHt .nwsTitSlHm, .blk .lstRdStr .nwsTitSlHm, 
+.blk .phtNml .nwsTitSlHm, .blk .icoquz .nwsTitSlHm, .blk .icoInfo .nwsTitSlHm, .blk .icoMaz .nwsTitSlHm, .blk .dcpdMbl .nwsTitSlHm {
+    margin-left: 17px;
+    display: block;
+}
+.vdNml .icoSpites, .viHt .icoSpites, .lstNml .icoSpites, .phtHt .icoSpites, .lstRdStr .icoSpites, .phtNml .icoSpites, .icoquz .icoSpites, .icoInfo .icoSpites, .icoMaz .icoSpites {
+    position: absolute;
+}
+/*End 15/08/2018: duclv_box_cm*/
+
+/* Start fix recommend video duclv: 16/8 */
+.video-time-highlight .icon-event-highlight {
+    height: 26px;
+    margin-top: -2px;
+}
+/* End fix recommend video duclv: 16/8*/
+.ltdTb {
+    width: 100%;
+    border-collapse: collapse;
+}
+.ltdTb tbody tr:nth-child(even) {
+    background-color: #eff5e9;
+}
+.ltd-detail {
+    padding-top: 10px;
+    margin-bottom: 10px;
+}
+.ltd-detail a {
+    font-size: 12px;
+    color: #78b43d;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/*Start less-bxh*/
+.less-ltd {
+    margin-top: 5px;
+}
+.less-ltd .ltdTb tbody tr td {
+    padding: 10px 4px;
+    border: 1px solid #ddd;
+    text-align: center;
+}
+.less-ltd .ltdTb tbody tr td a {
+    color: #000;
+}
+.less-ltd .ltdTb tbody tr td amp-img {
+    width: 35px;
+    height: 35px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+}
+.ltdNb {
+    font-size: 14px;
+    width: 20%;
+}
+.ltdTeam {
+    font-size: 12px;
+}
+.ltdTit {
+    text-align: center;
+    background-color: #7ab345;
+    padding: 6px 4px;
+}
+.ltdTit span {
+    font-size: 18px;
+    color: #fff;
+    font-weight: 700;
+}
+.ltdTit .ltd-detail {
+    float: right;
+    padding-right: 0;
+}
+.ltdTit .ltd-detail a {
+    font-size: 11px;
+    text-decoration: none;
+}
+.ltdTit .ltd-detail a:hover {
+    text-decoration: underline;
+}
+.ltdTime {
+    font-size: 12px;
+}
+/*End less-bxh*/
+@media only screen and (min-width: 668px) {
+    .ltdTit span {
+        font-size: 26px;
+    }
+    .ltdNb {
+        font-size: 22px;
+    }
+    .ltdTit .ltd-detail a, .ltdTime, .ltdTeam, .ltd-detail a {
+        font-size: 20px;
+    }
+}
+@media only screen and (min-width: 569px) and (max-width: 667px) {
+    .ltdTit span {
+        font-size: 24px;
+    }
+    .ltdNb {
+        font-size: 20px;
+    }
+    .ltdTit .ltd-detail a, .ltdTime, .ltdTeam, .ltd-detail a {
+        font-size: 18px;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 568px) {
+    .ltdTit span {
+        font-size: 22px;
+    }
+    .ltdNb {
+        font-size: 18px;
+    }
+    .ltdTit .ltd-detail a, .ltdTime, .ltdTeam, .ltd-detail a {
+        font-size: 16px;
+    }
+}
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    .ltdTit span {
+        font-size: 20px;
+    }
+    .ltdNb {
+        font-size: 16px;
+    }
+    .ltdTit .ltd-detail a, .ltdTime, .ltdTeam, .ltd-detail a {
+        font-size: 14px;
+    }
+}
+
+/*begin 23/01/2019 dangtq*/
+.manyReader{
+    padding-bottom: 4px;
+  }
+  .manyReader .ldItHm{
+    width: 100%;
+    float: none;
+    margin-bottom: 0;
+  }
+  .manyReader .ldImg{
+    width: 140px;
+    height: 105px;
+    float: left;
+    margin-right: 10px;
+    margin-bottom: 0;
+  }
+  .manyReader .tbLngrn{
+    padding: 5px 0;
+  }
+  .pagination{
+    left: 0;
+    text-align: center;
+    bottom: 5px;
+    width: 100%;
+  }
+  .swiper-pagination-switch{
+    display: inline-block;
+    width: 6px;
+    height: 6px;
+    background: #ccc;
+    border-radius: 50%;
+    margin: 0 3px;
+  }
+  .swiper-active-switch{
+    background: #78b43d;
+    width: 8px;
+    height: 8px;
+    top: 1px;
+    position: relative;
+  }
+  /*end 23/01/2019 dangtq*/

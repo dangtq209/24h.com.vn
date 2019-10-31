@@ -1,0 +1,2044 @@
+/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : Aug 21, 2015, 10:14:00 AM
+    Author     : tytv
+*/
+/* Begin: Css box danh sach tran dau hot trong ngay */
+a{text-decoration:none;color:#333;background:none}
+a:hover{color:#78b43d}
+.line1-thidau{width:100%;text-align:center;border-bottom:1px solid #9fcc74;position:relative}
+.lastline1-thidau{width:100%;text-align:center;}
+img{border:0}
+.hightling-Match{background:#fafac1}
+.title-big-thidau a:hover{color: #fff}
+
+.box_ds_tran_dau_hot_trong_ngay{background:#fff;}
+.box_ds_tran_dau_hot_trong_ngay {max-width:100%;font-size:12px;}
+.box_ds_tran_dau_hot_trong_ngay a{font-size: 17px;color:#333;background:none;position: relative;}
+.box_ds_tran_dau_hot_trong_ngay a span {position:absolute;top:-25px;left: -161%;white-space:nowrap;font-size:12px;font-family:arial,sans-serif;padding:6px 12px;border-radius:3px;border: 1px solid #75b43a;color:red;background-color:#fff;visibility: hidden;opacity: 0;font-weight: 500;-moz-transition:top 0.4s,opacity 0.4s ease;-webkit-transition:top 0.4s,opacity 0.4s ease;-o-transition:top 0.4s,opacity 0.4s ease;transition:top 0.4s,opacity 0.4s ease;}
+.box_ds_tran_dau_hot_trong_ngay a:hover span {visibility: visible;top: -40px;opacity: 1;}
+.box_ds_tran_dau_hot_trong_ngay .content_ipad a:hover span {display: none}
+/*copy from this place to the mobile ver..*/
+/*.block{padding:0 13px 13px 13px}*/
+/*.boxHot-Lichthidau{border:1px solid #75b43a;width:100%;background:#FFF;font-size:14px}*/
+
+.box_ds_tran_dau_hot_trong_ngay .title-big-thidau{background: #378b36;text-transform:uppercase;font-weight:bold;text-align:center;height: 25px;line-height: 25px;padding: 5px;}
+
+.box_ds_tran_dau_hot_trong_ngay .tbl-ds-hot{background: #fff; border-collapse: collapse;border: 1px solid #9fcc74;text-align: center}
+.box_ds_tran_dau_hot_trong_ngay .tbl-ds-hot tr{border: 1px solid #9fcc74;min-height: 30px;}
+.box_ds_tran_dau_hot_trong_ngay .tbl-ds-hot tr td{border: 1px solid #e1e1e1;line-height: 20px;}
+.box_ds_tran_dau_hot_trong_ngay a:focus span {opacity: 0;display:none;}
+
+/**/
+/*End-copy from this place*/
+@media only screen and (max-width: 300px){
+    .box_ds_tran_dau_hot_trong_ngay .flag-hot-thidau{position:absolute;width:32px;height:17px;display:block;right:-2px;top:-2px;background:url(//livescore.24h.com.vn/images/flag.gif) 0 0 no-repeat;background-size:30px;z-index:1000}
+    .box_ds_tran_dau_hot_trong_ngay a span {display: none;}
+}
+
+@media only screen and (max-width: 400px) {/* giao dien 400 */
+	.box_ds_tran_dau_hot_trong_ngay .tbl-ds-hot{font-size:16px;}
+        .box_ds_tran_dau_hot_trong_ngay a span {display: none;}
+}
+@media only screen and (max-width: 450px) { /*giao dien 450 */
+	.box_ds_tran_dau_hot_trong_ngay .tbl-ds-hot{font-size:16px;}
+        .box_ds_tran_dau_hot_trong_ngay a span {display: none;}
+}
+/*@media only screen and (max-width: 600px) { giao dien 600 
+	.box_ds_tran_dau_hot_trong_ngay .tbl-ds-hot{font-size:16px;}
+}
+@media only screen and (max-width: 800px) { giao dien 800 
+	.box_ds_tran_dau_hot_trong_ngay .tbl-ds-hot{font-size:16px;}
+}*/
+@media only screen and (max-width: 479px) {/* giao dien 320 */
+	.box_ds_tran_dau_hot_trong_ngay .tbl-ds-hot{font-size:16px;}
+        .box_ds_tran_dau_hot_trong_ngay a span {display: none;}
+}
+@media only screen and (max-width: 319px) {/* giao dien 240 */
+	.box_ds_tran_dau_hot_trong_ngay .tbl-ds-hot{font-size:16px;}
+        .box_ds_tran_dau_hot_trong_ngay a span {display: none;}
+}
+@media only screen and (max-width: 1024px) {/* giao dien 1024px - fix ipad */
+    .box_ds_tran_dau_hot_trong_ngay a:focus span {
+        display: none;
+        visibility: hidden;
+    }
+}
+@media screen and (max-width: 780px) {
+   .box_ds_tran_dau_hot_trong_ngay a:focus span{
+    display: none !important;
+   }
+}
+@media only screen and (min-width: 768px) {
+ .box_ds_tran_dau_hot_trong_ngay .ten-doi-tran-dau-hot-left, .box_ds_tran_dau_hot_trong_ngay .ten-doi-tran-dau-hot-right {
+     width: 70%;
+     margin-top: 5px;
+ }
+ .box_ds_tran_dau_hot_trong_ngay .ten-doi-tran-dau-hot-left{float: left;}
+ .box_ds_tran_dau_hot_trong_ngay .ten-doi-tran-dau-hot-right{float: right;}
+   
+}
+.box_ds_tran_dau_hot_trong_ngay .boxHot-Lichthidau .tbl-ds-hot tr td span {
+    width: 100%;
+}
+#box_ds_tran_dau_hot_trong_ngay1 .tbl-ds-hot{
+    font-size:12px;  
+}
+#box_ds_tran_dau_hot_trong_ngay1 .tbl-ds-hot tr td{
+    height: 36px;
+    line-height: 15px;
+}
+#box_ds_tran_dau_hot_trong_ngay1 .tbl-ds-hot .title-big-thidau{height: 24px}
+/* End: Css box danh sach tran dau hot trong ngay */
+.tbl-ds-tran-dau{background: #fff; border-collapse: collapse;border: 1px solid #9fcc74;text-align: center}
+.tbl-ds-tran-dau tr{border: 1px solid #9fcc74;min-height: 30px;}
+.tbl-ds-tran-dau tr td{border: 1px solid #9fcc74;line-height: 25px;overflow: hidden;}
+
+
+
+/* CSS Trang chi tiet tran dau */ 
+/*BEGIN*/
+/* .boxHot-Lichthidau{border: 1px solid #2f2f2f; width: 532px; background: #FFF;font-size: 14px;float: left;} */
+
+
+.chi_tiet_tran_dau .boxHot-Lichthidau{border: 1px solid #75b43a;width: 99%;background: #FFF;font-size: 14px;float: left;}
+.chi_tiet_tran_dau .title-big-thidau{
+	width: 100%;
+    color: #252525;
+    font-weight: bold;
+    padding: 10px 0px;
+    font-size: 30px;
+}
+.chi_tiet_tran_dau .chu-y{border-bottom:1px solid #75b43a;width:559px;float:left;padding:15px 5px;font-weight:bold;background:#f1f1f1;font-size:14px;text-align:center}
+.chi_tiet_tran_dau .ty-so-avatar{width:100%;float:left;padding:15px 0px;}
+.ty-so-avatar:nth-child(2){
+background: url(//cdn.24h.com.vn/images/Layer-5701510-092018.jpg) no-repeat center;
+    background-size: 100% 100%;
+    color: #fff;
+    padding-bottom: 10px!important;
+}
+.chi_tiet_tran_dau .Name-team-1{
+	width: 37%;
+    float: left;
+    word-break: break-word;
+}
+.chi_tiet_tran_dau .ty-so-midle{
+	width: 160px;
+    float: left;
+}
+.chi_tiet_tran_dau .name{
+	font-size: 18px;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 5px 0;
+    color: #fff;
+}
+.chi_tiet_tran_dau .image-1{text-align:center}
+.chi_tiet_tran_dau .tyso{width:160px;float:left}
+.chi_tiet_tran_dau .tyso-1{color:#fff;
+width: 60px;
+    font-size: 60px;
+    font-weight: 700;
+}
+.chi_tiet_tran_dau .text-tyso{
+	width: 32px;
+    font-size: 60px;
+    font-weight: 700;
+}
+
+	
+	
+.chi_tiet_tran_dau .status-midle{width:160px;float:left;padding:0px 35px }
+.chi_tiet_tran_dau .tyso{width:160px;float:left;text-align:center;margin-top: 0!important;}
+.chi_tiet_tran_dau .tysohiep{width:192px;float:left;margin-top:10px;display: none;}
+.chi_tiet_tran_dau .tyso > div {float: left;}
+
+	
+.chi_tiet_tran_dau .tb1{width:42%;padding:3px 0px;height:30px;}
+.chi_tiet_tran_dau .tb2{width:10%;padding:3px 0px;height:30px;}
+.chi_tiet_tran_dau .grey-bg{
+	font-size: 15px;
+    font-weight: bold;}
+.chi_tiet_tran_dau .icon-1{position:absolute;right:5px;top:1px;with:16px;height:15px;display:block}
+.chi_tiet_tran_dau .icon-2{position:absolute;left:5px;top:1px;with:16px;height:15px;display:block}
+
+.chi_tiet_tran_dau .tb3{width:30%;padding:3px 0px;height:30px;}
+.chi_tiet_tran_dau .tb4{width:15%;padding:3px 0px;height:30px;}
+	
+	
+.chi_tiet_tran_dau .left-team-1-left{text-align:right;width:101px;padding-right:30px ;background:url(//livescore.24h.com.vn/images/icon.png) right -39px no-repeat;}
+.chi_tiet_tran_dau .left-team-2-left{text-align:right;width:101px;padding-right:30px;background:url(//livescore.24h.com.vn/images/icon.png) right -73px no-repeat;}
+.chi_tiet_tran_dau .left-team-3-left{text-align:right;width:101px;padding-right:30px;background:url(//livescore.24h.com.vn/images/icon.png) right -39px no-repeat;}
+.chi_tiet_tran_dau .left-team-4-left{text-align:right;width:101px;padding-right:30px;background:url(//livescore.24h.com.vn/images/icon.png) right -114px no-repeat;}
+.chi_tiet_tran_dau .left-team-5-left{text-align:right;width:101px;padding-right:30px;background:url(//livescore.24h.com.vn/images/icon.png) right -154px no-repeat;}
+	
+.chi_tiet_tran_dau .right-team-1-right{text-align:left;width:101px;padding-left:30px;background:url(//livescore.24h.com.vn/images/icon.png) left -39px no-repeat;}
+.chi_tiet_tran_dau .right-team-2-right{text-align:left;width:101px;padding-left:30px;background:url(//livescore.24h.com.vn/images/icon.png) left -73px no-repeat;}
+.chi_tiet_tran_dau .right-team-3-right{text-align:left;width:101px;padding-left:30px;background:url(//livescore.24h.com.vn/images/icon.png) left -39px no-repeat;}
+.chi_tiet_tran_dau .right-team-4-right{text-align:left;width:101px;padding-left:30px;background:url(//livescore.24h.com.vn/images/icon.png) left -114px no-repeat;}
+.chi_tiet_tran_dau .right-team-5-right{text-align:left;width:101px;padding-left:30px;background:url(//livescore.24h.com.vn/images/icon.png) left -154px no-repeat;}
+.chi_tiet_tran_dau .heigh-name{height:23px;margin-bottom:2px}
+.chi_tiet_tran_dau .tab-chon{width:100%;float:left;position:relative;}
+	
+	
+.chi_tiet_tran_dau .tab-active{
+	display: block;
+    text-align: center;
+    width: 100%;
+    font-weight: 700;
+    font-size: 22px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #78b43d;
+    line-height: 2;
+}
+.chi_tiet_tran_dau .tab-inactive{padding:8px 3px 6px 3px;display:inline-block;text-align:center;background:#9e9e9e;width:125px;font-weight:bold;color:#fff;border-radius:2px 2px 0 0;margin-left:3px}
+.chi_tiet_tran_dau .tab-inactive:hover{color:#000}
+	
+	
+.chi_tiet_tran_dau .thong-tin-tab{width:100%;float:left;padding:25px 0;text-align:center;line-height:20px;border-bottom:#d7d7d7 solid 1px}
+.chi_tiet_tran_dau .luan-luu-tab{width:100%;float:left;padding:5px 0px;text-align:center;background:#f6f6f6;line-height:20px;border-top:#d7d7d7 solid 1px;border-bottom:#d7d7d7 solid 1px}
+.chi_tiet_tran_dau .thong-so-tab{width:100%;float:left;text-align:center;}
+.chi_tiet_tran_dau .table-grey{margin: 0px;border-bottom: 0!important;}
+.chi_tiet_tran_dau .table-white{background:#FFF;border-bottom: 0!important}
+.chi_tiet_tran_dau .col1{height:30px;width:33%;border-right:#d7d7d7 solid 1px;text-align:center;border-bottom:#d7d7d7 solid 1px;vertical-align:middle}
+.chi_tiet_tran_dau .content-thongtin p{margin: 0px 0px 8px 0px}
+.chi_tiet_tran_dau .marTop20{margin-top:20px}
+.chi_tiet_tran_dau .tab-chon  .tag{margin:0px}
+
+.nguontin {text-align: right;margin-right: 10px;font-family: Arial,Helvetica,sans-serif;font-size: 12px;font-weight: bold;color: #333;}
+
+/*doi-hinh*/
+.tab-1{
+	width: 33%;
+    font-weight: bold;
+    height: 60px;
+    border-bottom: #eeeeee solid 1px;
+    font-weight: normal;
+}
+.font-size{font-size:15px}
+.col-dh-1{width:49%;height:40px;font-weight:bold;text-align:center;border: 0!important;}
+.col-dh-1:nth-child(1){
+	    text-align: right;
+    padding-right: 30px;
+}
+.col-dh-1:nth-child(2){
+	text-align: left;
+    padding-left: 30px;
+}
+.col-dh-2{width:49%;border-left:#d7d7d7 solid 1px;height:32px;font-weight:bold;font-size:14px;text-align:center}
+.red-texxt{font-size: 15px;
+    font-weight: normal;}	
+
+/*Duclv: 5/10/2015 ----
+Start Tỉ lệ cược*/
+.ti-le-dat-cuoc {
+    margin: 0 auto;
+}
+.ti-le-dat-cuoc h3 a.tab-active{
+    border-bottom: 1px solid #fff;
+}
+.bang-ti-le-1 {
+    background: #fff;
+    color: #000;
+}
+.ti-le-dat-cuoc .tag{
+    margin-bottom: 0px;
+}
+.bang-ti-le-1 .tba {
+    width: 50%;
+}
+.bang-ti-le-1 td.lbl-tile-l {
+    border-right: solid 1px #75b43a;
+    border-top: solid 1px #75b43a;
+}
+.bang-ti-le-1 td.lbl-tile-r {
+    border-top: solid 1px #75b43a;
+}
+.bang-ti-le-1 tr td, .bang-ti-le-2 tr td {
+    font-size: 14px;
+}
+.bang-ti-le-2 tr.table-white td {
+    font-weight: bold;
+}
+.tlc {
+    border-right: solid 1px #75b43a;
+    border-top: solid 1px #75b43a;
+    padding: 12px 0px;
+    word-break: break-word;
+    text-align: center;
+    width: 16.8%;
+}
+.tlk {
+    border-top: solid 1px #75b43a;
+    padding: 12px 0px;
+    word-break: break-word;
+    text-align: center;
+}
+.tba,.tbb,.tbc,.tbd {
+    font-weight: bold;
+    padding: 8px 0;
+    text-align: center;
+}
+	
+/*Start Sửa ngày 8/10/2015-Chuẩn theo html*/
+.lich_thi_dau .boxHot-Lichthidau, .lich_thi_dau_mot_giai .boxHot-Lichthidau {
+    /*width: 534px;*/
+    border: 1px solid #75b43a;
+}
+.lich_thi_dau .title-big-thidau ,.lich_thi_dau_mot_giai .title-big-thidau {
+    background: #75b43a;
+    color: #fff !important;
+}
+.lich_thi_dau .tba , .lich_thi_dau_mot_giai .tba {
+    width: 10%!important;
+}
+.lich_thi_dau .tbl-ds-hot tr:nth-of-type(1) td, .lich_thi_dau .tbl-ds-hot tr:nth-of-type(2) td , .lich_thi_dau_mot_giai .tbl-ds-hot tr:nth-of-type(1) td, .lich_thi_dau_mot_giai .tbl-ds-hot tr:nth-of-type(2) td{
+    font-size: 15px;
+    font-weight: 700;
+}
+.lich_thi_dau .tbl-ds-hot tr.table-2 td, .lich_thi_dau_mot_giai .tbl-ds-hot tr.table-2 td {
+    font-size: 17px;
+    text-transform: uppercase;
+}
+.lich_thi_dau_mot_giai .tbl-ds-hot tr.table-2 td.td-mobile {
+    border-top: none !important;background: none;color: #363636;
+}
+.tbl-ds-hot td.tbb2 a, .lich_thi_dau_mot_giai .tbl-ds-hot td.tbb2 a {
+    color: red;
+    font-size: 19px;
+    text-decoration: none;
+}
+/*End Sửa ngày 8/10/2015-Chuẩn theo html*/
+/*---------------------End tỉ lệ cược*/
+/*---------------------Lịch thi đấu hôm nay*/
+		td.tlc-hn {
+		    padding: 8px 0;
+		    border-left: 1px solid;
+		    border-top: 1px solid;
+		    text-align: center;
+		}
+		.tba, .tbb, .tbc, .tbd {
+			text-align: center;
+		    padding: 8px 0px;
+		    font-weight: bold;
+		}
+		.tba {
+			width: 10%;
+		}
+		.tbb {
+			width: 46%;
+		}
+		.tbc {
+			width: 10%;
+		}
+		.tbb1 {
+			border-top: solid 1px #75b43a;
+			border-right:solid 1px #75b43a;
+			text-align:center;
+			padding:8px 0px;
+			font-weight:bold;
+			width: 18%;
+		}
+		.tbb2 {
+			border-top: solid 1px #75b43a;
+			border-right:solid 1px #75b43a;
+			text-align:center;
+			padding:8px 0px;
+			font-weight:bold;
+			width: 10.3%;
+		}
+		.tbb3 {
+			border-top: solid 1px #75b43a;
+			border-right:solid 1px #75b43a;
+			text-align:center;
+			padding:8px 0px;
+			font-weight:bold;
+			width: 18%;
+		}
+		.tbd1, .tbd2, .tbd3 {
+			border-top: solid 1px #75b43a;
+			border-right:solid 1px #75b43a;
+			padding:8px 0px;
+			font-weight:bold;
+		}
+		.tbd1 {
+			width: 10%;
+		}
+		td.tbd2 {
+			width: 8%;
+		}
+		td.tbd3 {
+		    width: 9.6%;
+		}
+		.tbd4 {
+			border-top: solid 1px #75b43a;
+			padding:8px 0px;
+			font-weight:bold;
+		}
+		.boxHot-Lichthidau .tb-top {
+			border-left: none;
+		}
+		td.tlc-hn.tlc-hn1 {
+			width: 10%;
+		}
+		td.tlc-hn.tlc-h2 {
+		    width: 8%;
+		}
+		.boxHot-Lichthidau .table-3 {
+			border-bottom: 2px solid #75b43a;
+			border-top: 1px solid #75b43a;
+		}
+		.boxHot-Lichthidau #table-1 {
+			border-bottom: 2px solid #ddd;
+		}
+		.thong-tin-ket-qua-tran-dau-trong-ngay {
+		    margin-top: 10px;
+		}
+		.inside-1 span {
+			color: red;
+		}
+		@media only screen and (max-width:580px) {
+			.boxHot-Lichthidau {
+				width: 99%;
+			}
+		}
+		td.tbd1-mobile {
+		    height: 30px;
+		    line-height: 30px;
+		}
+	/*---------------------End lịch thi đấu hôm nay*/
+    /*Start Lich thi dau 1 giai cu the*/
+		.table-4 {
+			background: #e1f8cb;
+		    text-align: center;
+		    font-weight: bold;
+		    color: #363636;
+		    font-size: 14px;
+		    border-bottom: 1px solid #75b43a;
+		    padding: 10px;
+		}
+		
+	/*End lich thi dau 1 giai cu the*/
+
+	/*Start lịch thi đấu cụ thể theo mobile*/
+		.tba-mobile, .tbb-mobile, .tbc-mobile, .tbd-mobile, .tbc1-mobile, .tlc-mobile {
+			text-align: center;
+		    padding: 8px 0px;
+		    font-weight: bold;
+		}
+		.tba1-mobile, .tbb1-mobile, .tbb2-mobile, .tbb3-mobile, .tbd1-mobile, .tbc1-mobile, .tlc-mobile{
+			border-right: 1px solid #75b43a;
+			border-top: 1px solid #75b43a;
+		}
+		td.tbd-mobile, .tbd1-mobile, .tlc-mobile:last-child {
+			border-right: none;
+		}
+		.tba-mobile, .tbc-mobile, td.tbc1-mobile, .tba1-mobile {
+			width: 12%;
+		}
+		.tbb-mobile {
+			width: 57.7%;
+		}
+		td.tbb1-mobile, td.tbb3-mobile {
+		    width: 24%;
+		}
+		td.tbb2-mobile {
+		    width: 10%;
+		}
+		.name-chau-luc a {
+			color: red;
+			text-decoration: underline;
+		}
+		.name-chau-luc a:hover {
+			text-decoration: underline;
+		}
+		.tlc-mobile {
+			width: 24%;
+		}
+		.tlc-mobile-bg {
+			background: #e1f8cb;
+		}
+		.table-mobile-2 {
+			background: #e1f8cb;
+		    padding: 10px;
+		    font-weight: bold;
+		    color: #363636;
+		    font-size: 14px;
+		    text-align: center;
+		    border-top: 2px solid #75b43a;	
+		}
+		.table-mobile-show-1 {
+			border-bottom: 3px solid #75b43a;
+		}
+		.tlc-mobile.border-top {
+			border-top: 2px solid #75b43a;
+		}
+		.boxHot-Lichthidau .table-3 .tbb2 a, .boxHot-Lichthidau .table-3 .tbb2-mobile a {
+			color: red;
+		}
+		img {
+			border: 0;
+		}
+		/*.table-mobile-3 {
+			display: none;
+		}*/
+
+	/*End lịch thi đáu cụ thể theo mobile*/
+/*END*/
+
+
+/* CSS trang chi ti?t tr?n ??u mobile */
+/* BEGIN */
+	.chi_tiet_tran_dau_mobile .soossss{margin-left:3px;font-weight:bold}
+	.chi_tiet_tran_dau_mobile .loat-luan-luu{position:relative;padding-right:17%}
+	/*End-Style chung*/
+	.chi_tiet_tran_dau_mobile .soccer-name{position:relative;padding-right:12%}
+	.chi_tiet_tran_dau_mobile .soccer-name-left{position:relative;padding-left:12%}
+	
+	/*style tab1*/
+	.chi_tiet_tran_dau_mobile .title-big-thidau{width:100%;background:#75b43a;color:#FFF;text-transform:uppercase;font-weight:bold;text-align:center;padding:10px 0px;float:left}
+	.chi_tiet_tran_dau_mobile .chu-y{border-bottom:1px solid #75b43a;width:522px;float:left;padding:15px 5px;font-weight:bold;background:#f1f1f1;font-size:14px;text-align:center}
+	
+	.chi_tiet_tran_dau_mobile .above-tyso{width:100%;float:left}
+	.chi_tiet_tran_dau_mobile .above-tyso-left{width:20%;float:left;text-align:center;padding:20px 0px;font-weight:bold}
+	.chi_tiet_tran_dau_mobile .above-tyso-right{width:20%;float:left;text-align:center;font-size:18px;font-weight:bold}
+	.chi_tiet_tran_dau_mobile .above-tyso-midle{width:60%;float:left;text-align:center;font-size:18px;font-weight:bold}
+	.chi_tiet_tran_dau_mobile .goal-mobile{color:#F00;margin-left:10px;font-weight:bold}
+	.chi_tiet_tran_dau_mobile .above-tyso-midle-1{margin-top:5px}
+	.chi_tiet_tran_dau_mobile .tysomobile{text-align:center;margin-top:5px}
+	
+	
+	.chi_tiet_tran_dau_mobile .tb1{width:39%;padding:3px 0px;height:30px;}
+	.chi_tiet_tran_dau_mobile .tb2{width:13%;padding:3px 0px;height:30px;}
+	.chi_tiet_tran_dau_mobile .grey-bg{padding:5px 10px;background:#75b43a;border-radius:5px;color:#FFF}
+	.chi_tiet_tran_dau_mobile .red-bg{padding:1px 2px;background:#F00;border-radius:3px;color:#FFF;margin-right:3px;font-weight:bold}
+	.chi_tiet_tran_dau_mobile .icon-1{position:absolute;right:5px;top:1px;with:16px;height:15px;display:block}
+	.chi_tiet_tran_dau_mobile .icon-2{position:absolute;left:5px;top:1px;with:16px;height:15px;display:block}
+	
+	
+	/*Style loat luan l?u */
+	.chi_tiet_tran_dau_mobile .luan-luu-tab{width:532px;float:left;padding:5px 0px;text-align:center;background:#f6f6f6;line-height:20px;border-top:#d7d7d7 solid 1px;border-bottom:#d7d7d7 solid 1px}
+	.chi_tiet_tran_dau_mobile .tb3{width:35%;padding:3px 0px;height:30px;}
+	.chi_tiet_tran_dau_mobile .tb4{width:30%;padding:3px 0px;height:30px;}
+	.chi_tiet_tran_dau_mobile .heigh-name{height:23px;margin-bottom:2px}
+	.chi_tiet_tran_dau_mobile .tab-chon{width:534px;float:left;position:relative;}
+	.chi_tiet_tran_dau_mobile .tab-chon-1{width:534px;float:left;position:relative;}
+	.chi_tiet_tran_dau_mobile .tab-chon-last{width:534px;float:left;position:relative;}
+	
+	/*style c?c ti?u ?? tab*/
+	.chi_tiet_tran_dau_mobile .tab-active{border-right:#d7d7d7 solid 1px;border-left:#d7d7d7 solid 1px;padding:5px 3px 7px 3px;display:inline-block;text-align:center;background:#75b43a;width:122px;font-weight:bold;color:#FFFFFF;border-top:#d7d7d7 solid 1px;border-radius:2px 2px 0 0;z-index:10}
+	.chi_tiet_tran_dau_mobile .tab-inactive{padding:8px 3px 6px 3px;display:inline-block;text-align:center;background:#9e9e9e;width:125px;font-weight:bold;color:#fff;border-radius:2px 2px 0 0;margin-left:3px}
+	.chi_tiet_tran_dau_mobile .tab-inactive:hover{color:#000}
+	.chi_tiet_tran_dau_mobile .nguontin {text-align: right;margin-right: 10px;font-family: Arial,Helvetica,sans-serif;font-size: 12px;font-weight: bold;color: #333;}
+	
+	/*thong-tin-tab*/
+	.chi_tiet_tran_dau_mobile .content-thongtin p{margin: 0px 0px 8px 0px}
+	
+	
+	/*tthong-so-tab*/
+	.chi_tiet_tran_dau_mobile .col1{height:30px;width:33%;border-right:#d7d7d7 solid 1px;text-align:center;border-bottom:#d7d7d7 solid 1px;vertical-align:middle}
+	.chi_tiet_tran_dau_mobile .midle-text1{text-align:center;font-weight:bold;width:10%}
+	.chi_tiet_tran_dau_mobile .midle-text2{text-align:center;font-weight:bold;width:20%}
+	.chi_tiet_tran_dau_mobile .midle-text3{text-align:center;font-weight:bold;width:30%}
+	.chi_tiet_tran_dau_mobile .midle-text4{text-align:center;font-weight:bold;width:20%}
+	.chi_tiet_tran_dau_mobile .midle-text5{text-align:center;font-weight:bold;width:10%}
+	.chi_tiet_tran_dau_mobile .firt-line{padding:15px 0px 2px 0px;}
+	.chi_tiet_tran_dau_mobile .second-line{font-size:18px;font-weight:bold;margin-top:5px}
+	
+	
+	/*Tab-Doi-Dau*/
+	
+	.chi_tiet_tran_dau_mobile .field-1{height:36px;width:20% ;font-size:12px;padding-left:5px}
+	.chi_tiet_tran_dau_mobile .field-2{height:36px;width:25%;font-size:12px}
+	.chi_tiet_tran_dau_mobile .field-3{height:36px;width:20%;font-size:12px}
+	.chi_tiet_tran_dau_mobile .field-4{height:36px;width:10%;font-size:12px}
+	.chi_tiet_tran_dau_mobile .field-5{height:36px;width:20%;font-size:12px}
+	.chi_tiet_tran_dau_mobile .field-6{height:36px;width:10%;font-size:12px;padding-right:5px}
+	
+	
+	/*doi-hinh*/
+	.chi_tiet_tran_dau_mobile .tab-1{width:33%;font-weight:bold;text-align:center;height:36px;border-bottom:#d7d7d7 solid 1px}
+	.chi_tiet_tran_dau_mobile .font-size{font-size:18px}
+	.chi_tiet_tran_dau_mobile .col-dh-1{width:50%;height:32px;font-weight:bold;text-align:center}
+	.chi_tiet_tran_dau_mobile .col-dh-2{width:49%;border-left:#d7d7d7 solid 1px;height:32px;font-weight:bold;font-size:14px;text-align:center}
+	.chi_tiet_tran_dau_mobile .red-texxt{color:#F00}
+	
+	
+	.chi_tiet_tran_dau_mobile .boxHot-Lichthidau{border:1px solid #2f2f2f;max-width:100%;background:#FFF;font-size:14px;margin:0 auto;}
+	.chi_tiet_tran_dau_mobile .title-big-thidau{width:100%;background:#75b43a;color:#FFF;text-transform:uppercase;font-weight:bold;text-align:center;padding:10px 0px;float:left}
+	.chi_tiet_tran_dau_mobile .chu-y{border-bottom:1px solid #75b43a;width:90%;float:left;padding:15px 5%;font-weight:bold;background:#f1f1f1;font-size:14px;text-align:center}
+	.chi_tiet_tran_dau_mobile .ty-so-avatar-1{display:none}
+	.chi_tiet_tran_dau_mobile .ty-so-avatar{width:100%;float:left;padding:15px 0px}
+	.chi_tiet_tran_dau_mobile .ty-so-avatar-2{width:100%;float:left;padding:15px 0px;display:block}
+	.chi_tiet_tran_dau_mobile .table-grey{background:#e1f8cb}
+	.chi_tiet_tran_dau_mobile .soccer-name{position:relative;padding-right:20%}
+	.chi_tiet_tran_dau_mobile .soccer-name-left{position:relative;padding-left:20%}
+	
+	/* .chi_tiet_tran_dau_mobile .tb1{width:45%;padding:3px 0px;height:30px;} */
+	/* .chi_tiet_tran_dau_mobile .tb2{width:10%;padding:3px 0px;height:30px;} */
+	.chi_tiet_tran_dau_mobile .grey-bg{padding:5px 10px;background:#75b43a;border-radius:5px;color:#FFF}
+	.chi_tiet_tran_dau_mobile .red-bg{padding:1px 2px;background:#F00;border-radius:3px;color:#FFF;margin-right:3px;font-weight:bold}
+	.chi_tiet_tran_dau_mobile .icon-1{position:absolute;right:5px;top:1px;with:16px;height:15px;display:block}
+	.chi_tiet_tran_dau_mobile .icon-2{position:absolute;left:5px;top:1px;with:16px;height:15px;display:block}
+	
+	
+	.chi_tiet_tran_dau_mobile .tab-chon{width:100%;float:left;}
+	.chi_tiet_tran_dau_mobile .thong-so-tab{width:100%;float:left;text-align:center;background:#f6f6f6;border-top:#d7d7d7 solid 1px}
+	.chi_tiet_tran_dau_mobile .thong-tin-tab{width:90%;float:left;padding:5%;text-align:center;background:#f6f6f6;line-height:20px;border-top:#d7d7d7 solid 1px;border-bottom:#d7d7d7 solid 1px}
+	.chi_tiet_tran_dau_mobile .luan-luu-tab{width:100%;float:left;padding:5px 0px;text-align:center;background:#f6f6f6;line-height:20px;border-top:#d7d7d7 solid 1px;border-bottom:#d7d7d7 solid 1px}
+	.chi_tiet_tran_dau_mobile .loat-luan-luu{position:relative;padding-right:22%}
+	.chi_tiet_tran_dau_mobile .loat-luan-luu-left{position:relative;padding-left:22%}
+	.chi_tiet_tran_dau_mobile .tab-chon-1{display:none}
+	.chi_tiet_tran_dau_mobile .tab-chon-last{width:100%}
+	
+	.chi_tiet_tran_dau_mobile .field-1{height:36px;width:28%;font-size:12px}
+	.chi_tiet_tran_dau_mobile .field-3{height:36px;width:20%;font-size:12px}
+	.chi_tiet_tran_dau_mobile .field-4{height:36px;width:15%;font-size:12px}
+	.chi_tiet_tran_dau_mobile .field-5{height:36px;width:20%;font-size:12px}
+	.chi_tiet_tran_dau_mobile .field-6{height:36px;width:15%;font-size:12px}
+        
+        
+        /* Begin css 21/09/2015 bo xung toi uu giao dien chi tiet mobile*/
+        .chi_tiet_tran_dau_mobile .info-match {width: 100%;padding: 20px 0;float:left}
+        .chi_tiet_tran_dau_mobile .info-match td {text-align: center;}
+        .chi_tiet_tran_dau_mobile .team-one {width: 33.3%;}
+        .chi_tiet_tran_dau_mobile .tiso-middle {width: 33.3%;}
+        .chi_tiet_tran_dau_mobile .team-two {width: 33.3%;}
+        .chi_tiet_tran_dau_mobile .team-name {font-size: 18px;font-weight: bold;}
+        .chi_tiet_tran_dau_mobile .tiso-watch {margin-bottom: 10px;}
+        .chi_tiet_tran_dau_mobile .status-watch {color: red;margin-bottom: 10px;}
+        .chi_tiet_tran_dau_mobile .color-watch {width: 36px;color: red;font-weight: bold;padding: 6px 12px;background-color: #e1f8cb;border: 2px solid #75b43a;display: inline-block;border-radius: 10px;}
+        .chi_tiet_tran_dau_mobile .tiso-hiep span {color: red;font-weight: bold;padding: 0 2px;}
+        /* End css 21/09/2015 bo xung toi uu giao dien chi tiet mobile*/
+/*END*/
+
+/* CSS lich thi dau hom nay */
+/* BEGIN */
+        .lich_thi_dau .boxHot-Lichthidau{border:0px solid #75b43a;background:#FFF;font-size:14px;margin:auto}
+        .lich_thi_dau_mot_giai .boxHot-Lichthidau .tab-chon-lich-thi-dau, .lich_thi_dau .boxHot-Lichthidau .tab-chon-lich-thi-dau {
+            font-size: 12px;
+        }
+        .lich_thi_dau .title-big-thidau{
+        	    font-size: 17px;
+			    width: 100%;
+			    background: #378b36;
+			    color: #FFF;
+			    text-transform: uppercase;
+			    font-weight: bold;
+			    text-align: center;
+			    padding: 10px 0px;
+        }
+        .lich_thi_dau .tbl-ds-hot{background: #fff; border-collapse: collapse;border: 1px solid #9fcc74;text-align: center;max-width:100%;}
+        .lich_thi_dau .tbl-ds-hot tr{border: 1px solid #e1e1e1;min-height: 30px;}
+        .lich_thi_dau .tbl-ds-hot tr td{border: 1px solid #e1e1e1;line-height: 25px;}
+        .lich_thi_dau .inside-1{width:100%;margin-bottom:16px}
+        .lich_thi_dau .drop-box{width:100%;float:left;padding-bottom: 9px;}
+        .lich_thi_dau .chon-ngay-xem{width:58%;float:left;margin-left:3%;padding:5px 0px;}
+        .lich_thi_dau .ty-so-avatar{padding-left: 10px;}
+        .lich_thi_dau a{text-decoration:underline;color:#333;background:none;font-weight: bold;position: relative;}
+        .lich_thi_dau a span {position:absolute;top:-25px;left: -134%;white-space:nowrap;font-size:12px;font-family:arial,sans-serif;padding:6px 12px;border-radius:3px;border: 1px solid #75b43a;color:red;background-color:#fff;visibility: hidden;opacity: 0;font-weight: 500;-moz-transition:top 0.4s,opacity 0.4s ease;-webkit-transition:top 0.4s,opacity 0.4s ease;-o-transition:top 0.4s,opacity 0.4s ease;transition:top 0.4s,opacity 0.4s ease;}
+        .lich_thi_dau a:hover span {visibility: visible;top: -40px;opacity: 1;}
+        
+        .lich_thi_dau .xem-date-1{width:35%;float:left;line-height:25px}
+        .lich_thi_dau .xem-date-2{width:55%;float:left}
+        .lich_thi_dau .xem-date-3{width:10%;float:right}
+
+        .lich_thi_dau .bar-bl-sort{background:#FFFFFF;padding:5px 0px 5px 0px;text-align:left;border-top:#c2c2c2 solid 0px;border-right:#c2c2c2 solid 0px;border-left:#c2c2c2 solid 0px;margin-bottom:3px;width:63%;margin: 5px;float:left}
+        .lich_thi_dau .dropdown{border:#abadb3 solid 1px;background:#FFF;height:25px;font-weight:bold;border-radius:2px;width:90%}
+
+        .lich_thi_dau .bar-bl-sort-1{background:#FFFFFF;text-align:right;border-top:#c2c2c2 solid 0px;border-right:#c2c2c2 solid 0px;border-left:#c2c2c2 solid 0px;margin-bottom:3px;width:90%;float:right;margin-right:5%}
+        .lich_thi_dau .dropdown-1{border:#abadb3 solid 1px;background:#FFF;height:25px;font-weight:bold;border-radius:2px;width:100%}
+
+        .lich_thi_dau .tab-chon-lich-thi-dau{width:100%;float:left;position:relative;padding-bottom: 12px;}
+        /*style cĂ¡c tiĂªu Ä‘á» tab*/
+        .lich_thi_dau .tab-active{margin-left: 5px;padding:7px 3px 7px 3px;display:inline-block;text-align:center;font-weight:bold;color:#378b36;z-index:10; font-size: 15px;}
+        .lich_thi_dau .tab-inactive{padding:5px 3px 5px 3px;display:inline-block;text-align:center;background:#FFFFFF;font-weight:normal;color:#959595;margin-left:5px; font-size: 15px;}
+        .lich_thi_dau .tab-inactive:hover{color:#000}
+        .lich_thi_dau .tab-active:hover{color:#000}
+        .lich_thi_dau .table-grey{background:#e1f8cb}
+        
+        .lich_thi_dau .tab-dislabe{
+        	padding: 5px 3px 5px 3px;
+    display: inline-block;
+    text-align: center;
+    font-size: 15px;
+    color: #959595;
+    margin-left: 5px;
+    border: 0;
+    font-weight: normal;
+        }
+        .lich_thi_dau .tab-dislabe1{margin-left: 5px;padding: 7px 3px 7px 3px;display: inline-block;text-align: center;background: #75b43a;font-weight: bold;color: #FFFFFF;z-index: 10;}
+
+        .lich_thi_dau .table-1{background:#75b43a;color:#FFF;}
+        .lich_thi_dau .table-2 {background: #e1f8cb;text-align: center;padding: 10px 0px;font-weight: bold;color: #363636;}
+        .lich_thi_dau .table-3{border-top:solid 1px #75b43a;background:#FFFFFF;text-align:center;font-weight:bold;color:#363636}
+
+        .lich_thi_dau .tba{width:15%;border-right:solid 1px #75b43a;text-align:center;padding:13px 0px 8px 0px;font-weight:bold;color:#363636;}
+        .lich_thi_dau .last-tb{border-right:none}
+        .lich_thi_dau .tbb{width:70%;border-right:solid 1px #75b43a;text-align:center;padding:8px 0px;font-weight:bold;color:#363636}
+        .lich_thi_dau .tbc{width:30%;border-right:solid 1px #75b43a;border-top:solid 1px #75b43a;padding:12px 0px;word-break:break-word; font-weight:bold;color:#363636;}
+        .lich_thi_dau .tbd{width:10%;border-right:solid 1px #75b43a}
+        .lich_thi_dau .td1{position:relative;height:100%;font-size: 17px;}
+        .lich_thi_dau .flag-hot-thidau{position:absolute;width:32px;height:17px;display:block;right:-2px;top:-14px;background:url(//livescore.24h.com.vn/images/flag.gif) 0 0 no-repeat;background-size:30px;z-index:1000}
+        .lich_thi_dau .tbd a{color:#363636}
+        .lich_thi_dau .tbd a:hover{color:#75b43a;}
+        @media only screen and (max-width:480px)
+        {
+        .lich_thi_dau .drop-box{width:100%;float:left;}
+        .lich_thi_dau .chon-ngay-xem{width:100%;float:left;padding:5px 0px;margin-left:0px}
+        .lich_thi_dau .bar-bl-sort{background:#FFFFFF;padding:5px 0px 5px 0px;text-align:left;border-top:#c2c2c2 solid 0px;border-right:#c2c2c2 solid 0px;border-left:#c2c2c2 solid 0px;margin-bottom:3px;margin: 5px;width:96%;float:left}
+        .lich_thi_dau .dropdown{border:#abadb3 solid 1px;background:#FFF;height:25px;font-weight:bold;border-radius:2px;width:100%}
+        .lich_thi_dau .xem-date-1{width:35%;float:left;line-height:15px}
+        .lich_thi_dau .tbc{width:30%;border-right:solid 1px #75b43a;border-top:solid 1px #75b43a;padding:12px 0px;word-break:break-word; font-weight:bold;color:#363636;}
+        .lich_thi_dau .tbd{width:16%;border-right:solid 1px #75b43a}
+        .lich_thi_dau a span{display: none;}
+        }
+/*END*/
+
+/* CSS trang lich thi dau day du */
+/* BEGIN */
+    .box_ds_tran_dau_hot_day_du .boxHot-Lichthidau{border:0px solid #75b43a;background:#FFF;font-size:14px;margin:auto}
+    .box_ds_tran_dau_hot_day_du .title-big-thidau{font-size: 17px;width:100%;background: #378b36;color:#FFF;text-transform:uppercase;font-weight:bold;text-align:center;padding:10px 0px;}
+    .box_ds_tran_dau_hot_day_du .tbl-ds-hot{background: #fff; border-collapse: collapse;border: 1px solid #9fcc74;text-align: center}
+    .box_ds_tran_dau_hot_day_du .tbl-ds-hot tr{
+    	border: 1px solid #e1e1e1;
+    	min-height: 30px;
+    }
+    .box_ds_tran_dau_hot_day_du .tbl-ds-hot tr td{
+    	border: 1px solid #e1e1e1;
+	    line-height: 25px;
+	    overflow: hidden;
+	    font-size: 15px;
+	    font-weight: normal;
+    }
+    .box_ds_tran_dau_hot_day_du .inside-1{width:100%;}
+    .box_ds_tran_dau_hot_day_du .inside-1 b{
+    	display: block;
+	    font-size: 17px;
+	    text-transform: uppercase;
+	    text-align: center;
+	    background-color: #eaf8d2;
+	    padding: 10px;
+	    color: #333;
+    }
+    .box_ds_tran_dau_hot_day_du .drop-box{width:39%;float:left;}
+    .box_ds_tran_dau_hot_day_du .chon-ngay-xem{width:58%;float:left;margin-left:3%;padding:5px 0px;}
+
+    .box_ds_tran_dau_hot_day_du .xem-date-1{width:35%;float:left;line-height:25px}
+    .box_ds_tran_dau_hot_day_du .xem-date-2{width:55%;float:left}
+    .box_ds_tran_dau_hot_day_du .xem-date-3{width:10%;float:right}
+
+    .box_ds_tran_dau_hot_day_du .bar-bl-sort{background:#FFFFFF;padding:5px 0px 5px 0px;text-align:left;border-top:#c2c2c2 solid 0px;border-right:#c2c2c2 solid 0px;border-left:#c2c2c2 solid 0px;margin-bottom:3px;width:90%;float:left}
+    .box_ds_tran_dau_hot_day_du .dropdown{border:#abadb3 solid 1px;background:#FFF;height:25px;font-weight:bold;border-radius:2px;width:90%}
+
+    .box_ds_tran_dau_hot_day_du .bar-bl-sort-1{background:#FFFFFF;text-align:right;border-top:#c2c2c2 solid 0px;border-right:#c2c2c2 solid 0px;border-left:#c2c2c2 solid 0px;margin-bottom:3px;width:90%;float:right;margin-right:5%}
+    .box_ds_tran_dau_hot_day_du .dropdown-1{border:#abadb3 solid 1px;background:#FFF;height:25px;font-weight:bold;border-radius:2px;width:100%}
+
+    .box_ds_tran_dau_hot_day_du .tab-chon-lich-thi-dau{width:100%;float:left;position:relative;}
+    /*style cĂ¡c tiĂªu Ä‘á» tab*/
+    .box_ds_tran_dau_hot_day_du .tab-active{padding:5px 3px 5px 3px;display:inline-block;text-align:center;background:#75b43a;width:125px;font-weight:bold;color:#FFFFFF;z-index:10}
+    .box_ds_tran_dau_hot_day_du .tab-inactive{padding:5px 3px 5px 3px;display:inline-block;text-align:center;background:#FFFFFF;width:125px;font-weight:bold;color:#75b43a;margin-left:5px;border:2px solid #75b43a}
+    .box_ds_tran_dau_hot_day_du .tab-inactive:hover{color:#000}
+    .box_ds_tran_dau_hot_day_du .tab-active:hover{color:#000}
+    .box_ds_tran_dau_hot_day_du .tbd a b{font-size: 19px;}
+    .logo-team-a{float: right;margin-left: 10px;}
+    .txt-ten-team-a{padding-top: 5px;}
+    .logo-team-b{float: left; margin-right: 10px;}
+    .box_ds_tran_dau_hot_day_du .title-big-thidau .italic{
+    	font-size: 13px;
+	    font-style: italic;
+	    font-weight: normal;
+    }
+
+    .box_ds_tran_dau_hot_day_du .table-1 b, div.txt-ten-team-a{font-size: 15px;}
+    .box_ds_tran_dau_hot_day_du .tbl-ds-hot tr td.tbc, .box_ds_tran_dau_hot_day_du .tbl-ds-hot tr td.tbd{border: 0;}
+    .box_ds_tran_dau_hot_day_du .table-2{border-top:solid 1px #75b43a;background:#FFFFFF;text-align:center;padding:8px 0px;font-weight:bold;color:#363636}
+    .box_ds_tran_dau_hot_day_du .table-3{border-top:solid 1px #75b43a;background:#FFFFFF;text-align:center;font-weight:bold;color:#363636}
+
+    .box_ds_tran_dau_hot_day_du .tba{width:15%;border-right:solid 1px #75b43a;text-align:center;padding:8px 0px;font-weight:bold;color:#363636;}
+    .box_ds_tran_dau_hot_day_du .last-tb{border-right:none}
+    .box_ds_tran_dau_hot_day_du .tbb{width:70%;border-right:solid 1px #75b43a;text-align:center;padding:8px 0px;font-weight:bold;color:#363636}
+    .box_ds_tran_dau_hot_day_du .tbc{width:30%;border-right:solid 1px #75b43a;border-top:solid 1px #75b43a;padding:12px 0px;word-break:break-word; font-weight:bold;color:#363636;}
+    .box_ds_tran_dau_hot_day_du .tbd{width:10%;border-right:solid 1px #75b43a}
+    .box_ds_tran_dau_hot_day_du .td1{position:relative;height:100%}
+    .box_ds_tran_dau_hot_day_du .flag-hot-thidau{position:absolute;width:32px;height:17px;display:block;right:-2px;top:-14px;background:url(//livescore.24h.com.vn/images/flag.gif) 0 0 no-repeat;background-size:30px;z-index:1000}
+    .box_ds_tran_dau_hot_day_du .tbd a{color:#363636}
+    .box_ds_tran_dau_hot_day_du .tbd a:hover{color:#75b43a;}
+    @media only screen and (max-width:480px)
+    {
+    .box_ds_tran_dau_hot_day_du .drop-box{width:100%;float:left;}
+    .box_ds_tran_dau_hot_day_du .chon-ngay-xem{width:100%;float:left;padding:5px 0px;margin-left:0px}
+    .box_ds_tran_dau_hot_day_du .bar-bl-sort{background:#FFFFFF;padding:5px 0px 5px 0px;text-align:left;border-top:#c2c2c2 solid 0px;border-right:#c2c2c2 solid 0px;border-left:#c2c2c2 solid 0px;margin-bottom:3px;width:100%;float:left}
+    .box_ds_tran_dau_hot_day_du .dropdown{border:#abadb3 solid 1px;background:#FFF;height:25px;font-weight:bold;border-radius:2px;width:100%}
+    .box_ds_tran_dau_hot_day_du .xem-date-1{width:35%;float:left;line-height:15px}
+    .box_ds_tran_dau_hot_day_du .tbc{width:30%;border-right:solid 1px #75b43a;border-top:solid 1px #75b43a;padding:12px 0px;word-break:break-word; font-weight:bold;color:#363636;}
+    .box_ds_tran_dau_hot_day_du .tbd{width:16%;border-right:solid 1px #75b43a}
+    }
+/*END*/
+/**/
+/*End-copy from this place*/
+
+
+/*Start Not bootstrap*/
+.form-control {
+	width: 70%;
+	margin-top: -5px;
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+.table-responsive {
+    min-height: .01%;
+}
+.table-charts .table-one .nav {
+    padding-left: 0;
+    list-style: none;
+}
+.table-charts .table-one .nav-justified {
+	width: 100%;
+}
+.table-one .nav-pills>li.active>a, .table-one .nav-pills>li.active>a:focus, .table-one .nav-pills>li.active>a:hover {
+    background: #65a530;
+}
+.nav>li>a {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+}
+.nav-justified>li>a {
+    text-align: center;
+}
+.nav-justified>li {
+    float: none;
+}
+.charts .table-bordered {
+	border: 1px solid #ddd;
+}
+.markermenu ul li a {
+	text-align: left;
+}
+.charts .table-two .table>thead>tr>th {
+	padding: 5px 0;
+}
+.charts .table-one .nav a {
+	margin-right: 0;
+    background: none;
+    border-bottom: 0;
+    color: #959595;
+    font-size: 15px;
+}
+.table-one .nav li:hover a {
+	background: none;
+}
+/*Sua 23/9/2015*/
+.charts .table {
+	width: 100%;
+    max-width: 100%;
+    border-spacing: 0;
+    border-collapse: collapse;
+    clear: both;
+}
+.charts .table-bordered>thead>tr>td, .charts .table-bordered>thead>tr>th {
+	vertical-align: bottom;
+}
+.charts .table>tbody>tr>td,.charts .table>tbody>tr>th,.charts .table>tfoot>tr>td,.charts .table>tfoot>tr>th,.charts .table>thead>tr>td,.charts .table>thead>tr>th {
+	padding: 8px;
+	line-height: 1.42857143;
+}
+.charts .label {
+    display: inline;
+    padding: 0.7em 1em;
+    font-size: 75%;
+    font-weight: 700;
+    line-height: 1;
+    color: #fff;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: baseline;
+    border-radius: .25em;
+}
+.charts .table-bordered>tbody>tr>td {
+	border-bottom: 1px solid #e1e1e1;
+	font-size: 15px;
+}
+.charts .table-bordered>tbody>tr>td b{
+	font-size: 15px;
+}
+.label-danger {
+	color: #ff0000!important;
+    font-size: 15px!important;
+}
+.charts .label-alert-danger {
+	background-color: #dca7a7;
+}
+.charts .label-progress {
+	background-color: #337ab7;
+}
+.charts .labela-lert-success {
+	background-color: #b2dba1;
+}
+.charts .label-fin {
+	background-color: #009900;
+}
+.charts .label-fiop{
+	background-color: #FF9933;
+}
+.charts .title-charts {
+	font-family: inherit;
+    font-weight: 500;
+    line-height: 1.1;
+}
+.charts .title-charts{
+	margin-top: 20px;
+}
+/*Sửa giao diện Css 23/9/2015*/
+section {
+    font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #333;
+    background-color: #fff;
+}
+input[type="text"], input[type="password"], input[type="phone"],  textarea {
+        font-size:12px;
+}
+/*End Not Bootstrap*/
+/*Begin BXH  */
+	.box_bxh_doi_bong section .table {
+		margin-bottom: 0;
+	}
+	
+	.box_bxh_doi_bong .container-charts header {
+		display: table;
+		width: 100%;
+	}
+	.box_bxh_doi_bong .charts-header .title-charts {
+		color:#0000FF;
+		font-size: 18px;
+		text-align: center;
+		margin-bottom: 20px;
+		text-transform: capitalize;
+	}
+	.box_bxh_doi_bong .container-charts {
+		margin: 0 auto;
+	}
+	.box_bxh_doi_bong .table-one .nav-pills>li.active>a,.box_bxh_doi_bong .table-one .nav-pills>li.active>a:focus,.box_bxh_doi_bong .table-one .nav-pills>li.active>a:hover {
+		background: #eeeeee;
+	    color: #378b36;
+	    font-size: 15px;
+	    font-weight: bold!important;
+	}
+	.box_bxh_doi_bong .charts-left {
+	    width: 48%;
+	    float: left;
+	    margin-bottom: 20px;
+	}
+	.box_bxh_doi_bong .charts-right {
+	    width: 48%;
+	    float: right;
+	    margin-bottom: 20px;
+	}
+	.box_bxh_doi_bong tr th{
+		text-align: center;
+	}
+	.box_bxh_doi_bong td:not(.teams) {
+		text-align: center;
+	}
+	.box_bxh_doi_bong .table-responsive>.table>tbody>tr>td {
+		white-space: nowrap;
+	}
+
+	/*Table One*/
+	.box_bxh_doi_bong .table-one ul {
+		margin:0px 0px 10px 0px;
+		_margin:0px 0px 10px 0px;
+	}
+	.box_bxh_doi_bong .table-one tr th {
+		background-color: #378b36;
+	    color: #fff;
+	    font-size: 15px;
+	}
+	.box_bxh_doi_bong .table-one .label {
+		padding: 0.7em 1em;
+	}
+	.box_bxh_doi_bong .table-one .nav>li>a:focus, .table-one .nav>li>a:hover {
+		background-color: #ccc;
+		color: #fff;
+	}
+	.box_bxh_doi_bong .table-one .nav>li {
+		font-weight: 700;
+	}
+	.box_bxh_doi_bong .table-one .nav-pills>li+li {
+		border: 1px solid #eee;
+	}
+	.box_bxh_doi_bong .table-one .nav-justified>li>a {
+		margin-bottom: 0;
+	}
+	.box_bxh_doi_bong .table-one .label-primary {
+		color: #78b43d;
+    	font-size: 15px;
+	}
+	.box_bxh_doi_bong .table-one .label-info {
+		background-color: #2DBE00;
+	}
+	.box_bxh_doi_bong .table-one .label-success {
+		color: #4684d1;
+    	font-size: 15px;
+	}
+	.box_bxh_doi_bong .table-one .same-color {
+		color: #252525;
+    	font-size: 15px;
+	}
+	.box_bxh_doi_bong .table-one .label-group-one, .table-one .label-group-two {
+		background-color: #0094BE;
+	}
+	.box_bxh_doi_bong .table-one .label-group-three {
+		background-color: #005770;
+	}
+	.box_bxh_doi_bong .table-one .label-group-four {
+		background-color: #4F4F4F;
+	}
+	.box_bxh_doi_bong .bang_xep_hang_theo_group .table-one td.name-charts {
+	    background-color: #65a530;
+        color: #fff;
+	    text-align: left;
+	    font-weight: bold;
+	}
+	/*Table two*/
+	.box_bxh_doi_bong .table-two tr{
+		background-color: #65a530;
+	}
+	.box_bxh_doi_bong .table-two tr th span {
+		font-weight: 500;
+	}
+	.box_bxh_doi_bong .table-two th {
+		color: #fff;
+	}
+
+	/*Table three*/
+	.box_bxh_doi_bong .table-three tr {
+		width: 25%; 
+	}
+	.box_bxh_doi_bong .table-three tr td .label {
+		float: left;
+    margin-right: 1em;
+    width: 15px;
+    height: 15px;
+    padding: 0;
+    margin-top: 3px;
+	}
+	.box_bxh_doi_bong .table-three tr td > div {
+		float: left;
+	}
+	.box_bxh_doi_bong .table-three .label-primary {
+		background-color: #78b43d;
+	}
+	.box_bxh_doi_bong .table-three .label-info {
+		background-color: #2DBE00;
+	}
+
+	.box_bxh_doi_bong .table-three .label-success {
+		background-color: #4684d1;
+	}
+
+	.box_bxh_doi_bong .table-three .label-danger {
+		background-color: #ff0000;
+	}
+	.box_bxh_doi_bong .table-three .label-group-one, .box_bxh_doi_bong .table-three .label-group-two {
+		background-color: #0094BE;
+	}
+	.box_bxh_doi_bong .table-three .label-group-three {
+		background-color: #005770;
+	}
+
+	.box_bxh_doi_bong .table-three .label-group-four {
+		background-color: #4F4F4F;
+	}
+
+	/*footer*/
+	.box_bxh_doi_bong .charts footer {
+		margin-bottom: 20px;
+	}
+	.box_bxh_doi_bong .footer-quote {
+		color: red;
+	}
+	.box_bxh_doi_bong  .table-one .nav-justified>li a {
+		width: 100%;
+	}
+	.box_bxh_doi_bong  .table-one .nav-justified>li a.tag {
+		width: 100%;
+		padding:10px 0px !important;
+		font-weight: normal;
+		font-size: 15px;
+	}
+	
+	.box_bxh_doi_bong #header {
+		background: none;
+	}
+	/*Start Mobile Bảng Xếp hạng*/
+		@media screen and (min-width: 769) and (max-width: 1024px) {
+			.charts {
+				overflow: hidden;
+			}
+			.box_bxh_doi_bong .table-one .nav-justified>li>a {
+				width: 100%;
+			}
+		}
+		@media screen and (max-width: 767px) {
+			.box_bxh_doi_bong .table-three tr td > div {
+				float: none;
+				text-align: left;
+				font-size: 0.9em;
+			}
+			.box_bxh_doi_bong  .charts {
+				overflow: hidden;
+			}
+			.box_bxh_doi_bong #header {
+				background: none;
+			}
+			.box_bxh_doi_bong .table-two .table-bordered>thead>tr>th{
+				padding: 0;
+				text-align: center;
+				font-size: 1em;
+			}
+			.box_bxh_doi_bong .table-one .nav-justified>li {
+				float: left;
+				width: 32.7%;
+			}
+			.box_bxh_doi_bong .charts .table-one .table-bordered>thead>tr>th:first-child {
+				width: 5%;
+			}
+		}
+		@media screen and (max-width: 668px) {
+			.box_bxh_doi_bong .table-one .nav-justified>li a {
+				width: 180px;
+			}
+		}
+		@media screen and (max-width: 580px) {
+			.box_bxh_doi_bong .table-two .table-bordered>thead>tr>th{
+				padding: 0;
+				text-align: center;
+				font-size: 0.8em;
+			}
+			.box_bxh_doi_bong #header {
+				background: none;
+			}
+			.box_bxh_doi_bong .table-three .table>tbody>tr>td {
+				padding: 3px;
+			}
+			.box_bxh_doi_bong .table-three tr td > div {
+				padding-left: 22px;
+			}
+			.box_bxh_doi_bong .table-three tr td span {
+				margin-right: 0.5em;
+			}
+			.box_bxh_doi_bong .table-three tr{
+				width: 50%;
+			}
+			.box_bxh_doi_bong .charts .table-one .table-bordered>thead>tr>th:first-child {
+				width: 5%;
+			}
+            .box_bxh_doi_bong .table-one .nav-justified>li a {
+				width: auto;
+			}
+		}
+	@media screen and (max-width: 480px) {
+        .box_bxh_doi_bong #header {
+            background: none;
+        }
+		.box_bxh_doi_bong .table {
+			width: 100%;
+			overflow-y: hidden;
+			overflow-x: auto;
+		}
+		.box_bxh_doi_bong .table-two .table-bordered>thead>tr>th{
+			padding: 0;
+			text-align: center;
+			font-size: 1em;
+		}
+		.box_bxh_doi_bong .table-two {
+			width: 100%;
+		}
+		.box_bxh_doi_bong .charts-left,.box_bxh_doi_bong .charts-right {
+			width: 100%;
+		}
+		.box_bxh_doi_bong .table-three tr{
+			width: 100%;
+		}
+		.box_bxh_doi_bong .table>tbody>tr>td,.box_bxh_doi_bong .table>tbody>tr>th, .box_bxh_doi_bong .table>tfoot>tr>td, .box_bxh_doi_bong .table>tfoot>tr>th, .table>thead>tr>td {
+			border-top: none;
+		}
+		.box_bxh_doi_bong .charts .table>tbody>tr>td {
+			/*border-top: 1px solid #65a530;*/
+		}
+		.box_bxh_doi_bong .table-one .nav-justified>li {
+			width: 32.7%;
+		}
+		.box_bxh_doi_bong .table-one .nav-pills>li+li {
+			margin-left: 0;
+		}
+        .box_bxh_doi_bong .charts .table-one .table-bordered>thead>tr>th:first-child {
+            width: 5%;
+        }
+		.box_bxh_doi_bong .table-one .nav-justified>li a {
+			font-size: 12px;
+			width: auto;
+		}
+		.charts #header {
+			background: #fff;
+		}
+	}
+	@media screen and (min-width: 768px) {
+		.box_bxh_doi_bong .nav-justified>li {
+		    display: table-cell;
+		    width: 1%;
+		}
+	}
+	@media screen and (max-width: 320px) {
+        .box_bxh_doi_bong #header {
+            background: none;
+        }
+		.box_bxh_doi_bong .table-one .nav-justified>li a {
+			font-size: 12px;
+			width: auto;
+		}
+        .box_bxh_doi_bong .charts .table-one .table-bordered>thead>tr>th:first-child {
+            width: 5%;
+            padding: 8px 0px;
+        }
+		.box_bxh_doi_bong .table-one .nav-justified>li {
+			width: 32.5%;
+		}
+	}
+    .box_bxh_doi_bong .table-one .nav-pills>li {
+        border: 1px solid #eee;
+    }
+	/*End mobile Bảng xếp hạng*/
+
+
+/* End Bxh */
+
+
+/* CSS lich thi dau hom nay mot giai */
+/* BEGIN */
+        .lich_thi_dau_mot_giai .boxHot-Lichthidau{border:0px solid #75b43a;background:#FFF;font-size:14px;margin:auto}
+        .lich_thi_dau_mot_giai .title-big-thidau{
+        	width: 100%;
+    color: #fff!important;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-align: center;
+    padding: 10px 0px;
+    background-color: #378b36;
+    font-size: 17px;
+    margin-bottom: 15px;
+        }
+        .lich_thi_dau_mot_giai .tbl-ds-hot{background: #fff; border-collapse: collapse;border: 1px solid #9fcc74;text-align: center;max-width:100%;}
+        .lich_thi_dau_mot_giai .tbl-ds-hot tr{border: 1px solid #e1e1e1;;min-height: 30px;}
+        .lich_thi_dau_mot_giai .tbl-ds-hot tr td{border: 1px solid #e1e1e1;;line-height: 25px;}
+        .lich_thi_dau_mot_giai .inside-1{width:100%;margin-bottom:16px}
+        .lich_thi_dau_mot_giai .drop-box{width:100%;float:left;padding-bottom: 9px;}
+        .lich_thi_dau_mot_giai .chon-ngay-xem{width:58%;float:left;margin-left:3%;padding:5px 0px;}
+        .lich_thi_dau_mot_giai .ty-so-avatar{padding-left: 10px;}
+        .lich_thi_dau_mot_giai a{text-decoration:underline;color:#333;background:none;font-weight: bold;position: relative;}
+        .lich_thi_dau_mot_giai a span {position:absolute;top:-25px;left: -134%;white-space:nowrap;font-size:12px;font-family:arial,sans-serif;padding:6px 12px;border-radius:3px;border: 1px solid #75b43a;color:red;background-color:#fff;visibility: hidden;opacity: 0;font-weight: 500;-moz-transition:top 0.4s,opacity 0.4s ease;-webkit-transition:top 0.4s,opacity 0.4s ease;-o-transition:top 0.4s,opacity 0.4s ease;transition:top 0.4s,opacity 0.4s ease;}
+        .lich_thi_dau_mot_giai a:hover span {visibility: visible;top: -40px;opacity: 1;}
+        
+        .lich_thi_dau_mot_giai .xem-date-1{width:35%;float:left;line-height:25px}
+        .lich_thi_dau_mot_giai .xem-date-2{width:55%;float:left}
+        .lich_thi_dau_mot_giai .xem-date-3{width:10%;float:right}
+
+        .lich_thi_dau_mot_giai .bar-bl-sort{background:#FFFFFF;padding:5px 0px 5px 0px;text-align:left;border-top:#c2c2c2 solid 0px;border-right:#c2c2c2 solid 0px;border-left:#c2c2c2 solid 0px;margin-bottom:3px;width:50%;margin: 5px 0px;float:left}
+        .lich_thi_dau_mot_giai .dropdown{
+        	width: 70%;
+    margin-top: -5px;
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        }
+        .lich_thi_dau_mot_giai .lbl-select{
+        	width: 11%;
+    float: left;
+    height: 25px;
+    line-height: 25px;
+    padding-left: 3%;
+    font-size: 15px;
+        }
+
+        .lich_thi_dau_mot_giai .bar-bl-sort-1{background:#FFFFFF;text-align:right;border-top:#c2c2c2 solid 0px;border-right:#c2c2c2 solid 0px;border-left:#c2c2c2 solid 0px;margin-bottom:3px;width:90%;float:right;margin-right:5%}
+        .lich_thi_dau_mot_giai .dropdown-1{border:#abadb3 solid 1px;background:#FFF;height:25px;font-weight:bold;border-radius:2px;width:100%}
+
+        .lich_thi_dau_mot_giai .tab-chon-lich-thi-dau{width:100%;float:left;position:relative;padding-top: 12px;border-top: 1px solid #e1e1e1;border-bottom: 0;}
+        /*style cĂ¡c tiĂªu Ä‘á» tab*/
+        .lich_thi_dau_mot_giai .tab-active{margin-left: 5px;padding:7px 3px 7px 3px;display:inline-block;text-align:center;font-size: 15px;color:#378b36;z-index:10;font-size: 15px;}
+        .lich_thi_dau_mot_giai .tab-inactive{padding:5px 3px 5px 3px;display:inline-block;text-align:center;background:#FFFFFF;font-weight:bold;color:#75b43a;margin-left:5px;border:2px solid #75b43a}
+        .lich_thi_dau_mot_giai .tab-inactive:hover{color:#000}
+        .lich_thi_dau_mot_giai .tab-active:hover{color:#000}
+        .lich_thi_dau_mot_giai .table-grey{background:#e1f8cb}
+        
+        .lich_thi_dau_mot_giai .tab-dislabe{padding: 5px 3px 5px 3px;display: inline-block;text-align: center;font-size: 15px;;color: #959595;margin-left: 5px;}
+        .lich_thi_dau_mot_giai .tab-dislabe1{margin-left: 5px;padding: 7px 3px 7px 3px;display: inline-block;text-align: center;background: #75b43a;font-weight: bold;color: #FFFFFF;z-index: 10;}
+
+        .lich_thi_dau_mot_giai .table-1{background:#75b43a;color:#FFF;}
+        .lich_thi_dau_mot_giai .table-2 {background: #e1f8cb;text-align: center;padding: 10px 0px;font-weight: bold;color: #363636;}
+        .lich_thi_dau_mot_giai .table-3{border-top:solid 1px #75b43a;background:#FFFFFF;text-align:center;font-weight:bold;color:#363636}
+
+        .lich_thi_dau_mot_giai .tba{width:15%;border-right:solid 1px #75b43a;text-align:center;padding:13px 0px 8px 0px;font-weight:bold;color:#363636;}
+        .lich_thi_dau_mot_giai .last-tb{border-right:none}
+        .lich_thi_dau_mot_giai .tbb{width:70%;border-right:solid 1px #75b43a;text-align:center;padding:8px 0px;font-weight:bold;color:#363636}
+        .lich_thi_dau_mot_giai .tbc{width:30%;border-right:solid 1px #75b43a;border-top:solid 1px #75b43a;padding:12px 0px;word-break:break-word; font-weight:bold;color:#363636;}
+        .lich_thi_dau_mot_giai .tbd{width:10%;border-right:solid 1px #75b43a}
+        .lich_thi_dau_mot_giai .td1{position:relative;height:100%;font-size: 17px;}
+        .lich_thi_dau_mot_giai .flag-hot-thidau{position:absolute;width:32px;height:17px;display:block;right:-2px;top:-14px;background:url(//livescore.24h.com.vn/images/flag.gif) 0 0 no-repeat;background-size:30px;z-index:1000}
+        .lich_thi_dau_mot_giai .tbd a{color:#363636}
+        .lich_thi_dau_mot_giai .tbd a:hover{color:#75b43a;}
+        @media only screen and (max-width:736px){
+            .lich_thi_dau_mot_giai .dropdown {
+                width: 72%;
+            }
+            .lich_thi_dau_mot_giai .lbl-select {
+                width: 27%;
+            }
+        }
+        @media only screen and (max-width:480px)
+        {
+        .lich_thi_dau_mot_giai .drop-box{width:100%;float:left;}
+        .lich_thi_dau_mot_giai .chon-ngay-xem{width: 100%;float:left;padding:5px 0px;margin-left:0px}
+        .lich_thi_dau_mot_giai .bar-bl-sort{backgidth:100%;float:left;padding:5px 0px;margin-left:0px}
+        .lich_thi_dau_mot_giai .bar-bl-sort{background:#FFFFFF;padding:5px 0px 5px 0px;text-align:left;border-top:#c2c2c2 solid 0px;border-right:#c2c2c2 solid 0px;border-left:#c2c2c2 solid 0px;margin-bottom:3px;margin: 5px;width:96%;float:left}
+        .lich_thi_dau_mot_giai .dropdown{border:#abadb3 solid 1px;background:#FFF;height:25px;font-weight:bold;border-radius:2px;width:72%}
+        .lich_thi_dau_mot_giai .xem-date-1{width:35%;float:left;line-height:15px}
+        .lich_thi_dau_mot_giai .tbc{width:30%;border-right:solid 1px #75b43a;border-top:solid 1px #75b43a;padding:12px 0px;word-break:break-word; font-weight:bold;color:#363636;}
+        .lich_thi_dau_mot_giai .tbd{width:16%;border-right:solid 1px #75b43a}
+        .lich_thi_dau_mot_giai a span{display: none;}
+        }
+/*END*/
+
+
+/* CSS ket qua thi dau mot giai */
+/* BEGIN */
+        .ket_qua_thi_dau_mot_giai .boxHot-Lichthidau{border:0px solid #75b43a;background:#FFF;font-size:14px;margin:auto}
+        .ket_qua_thi_dau_mot_giai .title-big-thidau{
+        	width: 100%;
+		    color: #fff!important;
+		    text-transform: uppercase;
+		    font-weight: bold;
+		    text-align: center;
+		    padding: 10px 0px;
+		    background-color: #378b36;
+		    font-size: 17px;
+		    margin-bottom: 15px;
+        }
+        .ket_qua_thi_dau_mot_giai .tbl-ds-hot{background: #fff; border-collapse: collapse;border: 1px solid #9fcc74;text-align: center;max-width:100%;}
+        .ket_qua_thi_dau_mot_giai .tbl-ds-hot tr{border: 1px solid #9fcc74;min-height: 30px;}
+        .ket_qua_thi_dau_mot_giai .tbl-ds-hot tr td{border: 1px solid #e1e1e1;line-height: 25px;font-size: 17px;}
+        .ket_qua_thi_dau_mot_giai .inside-1{width:100%;margin-bottom:16px}
+        .ket_qua_thi_dau_mot_giai .drop-box{width:100%;float:left;padding-bottom: 9px;}
+        .ket_qua_thi_dau_mot_giai .chon-ngay-xem{width:58%;float:left;margin-left:3%;padding:5px 0px;}
+        .ket_qua_thi_dau_mot_giai .ty-so-avatar{padding-left: 10px;}
+        .ket_qua_thi_dau_mot_giai a{text-decoration:underline;color:#333;background:none;font-weight: bold;position: relative;}
+        .ket_qua_thi_dau_mot_giai a span {position:absolute;top:-25px;left: -134%;white-space:nowrap;font-size:12px;font-family:arial,sans-serif;padding:6px 12px;border-radius:3px;border: 1px solid #75b43a;color:red;background-color:#fff;visibility: hidden;opacity: 0;font-weight: 500;-moz-transition:top 0.4s,opacity 0.4s ease;-webkit-transition:top 0.4s,opacity 0.4s ease;-o-transition:top 0.4s,opacity 0.4s ease;transition:top 0.4s,opacity 0.4s ease;}
+        .ket_qua_thi_dau_mot_giai a:hover span {visibility: visible;top: -40px;opacity: 1;}
+        
+        .ket_qua_thi_dau_mot_giai .xem-date-1{width:35%;float:left;line-height:25px}
+        .ket_qua_thi_dau_mot_giai .xem-date-2{width:55%;float:left}
+        .ket_qua_thi_dau_mot_giai .xem-date-3{width:10%;float:right}
+
+        .ket_qua_thi_dau_mot_giai .bar-bl-sort{background:#FFFFFF;padding:5px 0px 5px 0px;text-align:left;border-top:#c2c2c2 solid 0px;border-right:#c2c2c2 solid 0px;border-left:#c2c2c2 solid 0px;margin-bottom:3px;width:50%;margin: 5px 0px;float:left}
+        .ket_qua_thi_dau_mot_giai .dropdown{
+        	width: 70%;
+    margin-top: -5px;
+    display: block;
+    height: 34px;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857143;
+    color: #555;
+    background-color: #fff;
+    background-image: none;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,.075);
+    -webkit-transition: border-color ease-in-out .15s,-webkit-box-shadow ease-in-out .15s;
+    -o-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+        }
+        .ket_qua_thi_dau_mot_giai .lbl-select{
+        	    width: 11%;
+			    float: left;
+			    height: 25px;
+			    line-height: 25px;
+			    padding-left: 3%;
+			    font-size: 15px;
+        }
+        .ket_qua_thi_dau_mot_giai .bar-bl-sort-1{background:#FFFFFF;text-align:right;border-top:#c2c2c2 solid 0px;border-right:#c2c2c2 solid 0px;border-left:#c2c2c2 solid 0px;margin-bottom:3px;width:90%;float:right;margin-right:5%}
+        .ket_qua_thi_dau_mot_giai .dropdown-1{border:#abadb3 solid 1px;background:#FFF;height:25px;font-weight:bold;border-radius:2px;width:100%}
+
+        .ket_qua_thi_dau_mot_giai .tab-chon-lich-thi-dau{width:100%;float:left;position:relative;padding-bottom: 12px;}
+        /*style cĂ¡c tiĂªu Ä‘á» tab*/
+        .ket_qua_thi_dau_mot_giai .tab-active{margin-left: 5px;padding:7px 3px 7px 3px;display:inline-block;text-align:center;background:#75b43a;width:125px;font-weight:bold;color:#FFFFFF;z-index:10}
+        .ket_qua_thi_dau_mot_giai .tab-inactive{padding:5px 3px 5px 3px;display:inline-block;text-align:center;background:#FFFFFF;width:125px;font-weight:bold;color:#75b43a;margin-left:5px;border:2px solid #75b43a}
+        .ket_qua_thi_dau_mot_giai .tab-inactive:hover{color:#000}
+        .ket_qua_thi_dau_mot_giai .tab-active:hover{color:#000}
+        .ket_qua_thi_dau_mot_giai .table-grey{background:#e1f8cb}
+        
+        .ket_qua_thi_dau_mot_giai .tab-dislabe{padding: 5px 3px 5px 3px;display: inline-block;text-align: center;background: #FFFFFF;width: 125px;font-weight: bold;color: #75b43a;margin-left: 5px;border: 2px solid #75b43a;}
+        .ket_qua_thi_dau_mot_giai .tab-dislabe1{margin-left: 5px;padding: 7px 3px 7px 3px;display: inline-block;text-align: center;background: #75b43a;width: 125px;font-weight: bold;color: #FFFFFF;z-index: 10;}
+
+        /* .ket_qua_thi_dau_mot_giai .table-1{background:#75b43a;color:#FFF;} */
+        .ket_qua_thi_dau_mot_giai .table-2 {background: #e1f8cb;text-align: center;padding: 10px 0px;font-weight: bold;color: #363636;}
+        .ket_qua_thi_dau_mot_giai .table-3{border-top:solid 1px #75b43a;background:#FFFFFF;text-align:center;font-weight:bold;color:#363636}
+
+        .ket_qua_thi_dau_mot_giai .tba{width:15%;border-right:solid 1px #75b43a;text-align:center;padding:13px 0px 8px 0px;font-weight:bold;color:#363636;}
+        .ket_qua_thi_dau_mot_giai .last-tb{border-right:none}
+        .ket_qua_thi_dau_mot_giai .tbb{width:70%;border-right:solid 1px #75b43a;text-align:center;padding:8px 0px;font-weight:bold;color:#363636}
+        .ket_qua_thi_dau_mot_giai .tbc{width:30%;border-right:solid 1px #75b43a;border-top:solid 1px #75b43a;padding:12px 0px;word-break:break-word; font-weight:bold;color:#363636;}
+        .ket_qua_thi_dau_mot_giai .tbd{width:10%;border-right:solid 1px #75b43a}
+        .ket_qua_thi_dau_mot_giai .td1{position:relative;height:100%}
+        .ket_qua_thi_dau_mot_giai .flag-hot-thidau{position:absolute;width:32px;height:17px;display:block;right:-2px;top:-14px;background:url(//livescore.24h.com.vn/images/flag.gif) 0 0 no-repeat;background-size:30px;z-index:1000}
+        .ket_qua_thi_dau_mot_giai .tbd a{color: #363636!important;font-size: 19px;}
+        .ket_qua_thi_dau_mot_giai .tbd a:hover{color:#75b43a;}
+        @media only screen and (max-width:736px){
+            .ket_qua_thi_dau_mot_giai .dropdown {
+                width: 72%;
+            }
+            .ket_qua_thi_dau_mot_giai .lbl-select {
+                width: 26%;
+            }
+        }
+        @media only screen and (max-width:480px)
+        {
+            .ket_qua_thi_dau_mot_giai .drop-box{width:100%;float:left;}
+            .ket_qua_thi_dau_mot_giai .chon-ngay-xem{width:100%;float:left;padding:5px 0px;margin-left:0px}
+            .ket_qua_thi_dau_mot_giai .bar-bl-sort{background:#FFFFFF;padding:5px 0px 5px 0px;text-align:left;border-top:#c2c2c2 solid 0px;border-right:#c2c2c2 solid 0px;border-left:#c2c2c2 solid 0px;margin-bottom:3px;margin: 5px;width:96%;float:left}
+            .ket_qua_thi_dau_mot_giai .dropdown{border:#abadb3 solid 1px;background:#FFF;height:25px;font-weight:bold;border-radius:2px;width:72%}
+            .ket_qua_thi_dau_mot_giai .xem-date-1{width:35%;float:left;line-height:15px}
+            .ket_qua_thi_dau_mot_giai .tbc{width:30%;border-right:solid 1px #75b43a;border-top:solid 1px #75b43a;padding:12px 0px;word-break:break-word; font-weight:bold;color:#363636;}
+            .ket_qua_thi_dau_mot_giai .tbd{width:16%;border-right:solid 1px #75b43a}
+            .ket_qua_thi_dau_mot_giai a span{display: none;}
+        }
+/*END*/
+/*Fix IE7*/
+ .box_bxh_doi_bong .charts .title-charts {
+  text-align: center\9;
+  color: #0000FF\9;
+  padding-bottom: 20px\9;
+ }
+ .box_bxh_doi_bong .charts .table-charts {
+  width: 100%\9;
+ }
+ .box_bxh_doi_bong .charts .table-charts .table-one li {
+  width: 33%\9;
+  float: left\9;
+ }
+ .lich_thi_dau_mot_giai .tab-chon-lich-thi-dau {padding-top: 10px\9;}
+ .box_bxh_doi_bong .charts .table-charts .table-one li {
+     width: 32%\0/;
+ }
+
+/*End fix IE7 */
+
+/*------------------start Dulv update 15/10/2015-------------*/
+	tr.ti-le-cuoc-hidden {
+	    display: none;
+	}
+	@media only screen and (max-width:760px) {
+        .lich_thi_dau .tbl-ds-hot,.lich_thi_dau_mot_giai .tbl-ds-hot{font-size:12px}
+        .lich_thi_dau .tbl-ds-hot tr.table-2 td ,.lich_thi_dau_mot_giai .tbl-ds-hot tr.table-2 td {
+            background: #e1f8cb;
+            color: #000;
+            border: 1px solid #9fcc74;
+        }
+        .zone_ty_le_cuoc_mobile  .table-mobile-2 {
+            border-left: 1px solid #9fcc74;
+            border-right: 1px solid #9fcc74;
+        }
+        .tlc-mobile-bg td.tlc-mobile {
+            background: #e1f8cb !important;
+            border: 1px solid #9fcc74 !important;
+            color: #000 !important;
+        }
+        .zone_ty_le_cuoc_mobile  .table-mobile-3 tr:nth-of-type(2) td {
+            background: #fff !important;
+            color: #000;
+            border: 1px solid #9fcc74;
+        }
+        .table-mobile-show-1 {
+            border-bottom: 2px solid #75b43a;
+        }
+        .tlc-chaua a{
+            cursor: pointer;
+            color: red;
+            text-decoration: underline;
+        }
+        td.tbb1-mobile, td.tbb3-mobile {
+            width: 24%;
+        }
+        .lich_thi_dau_mot_giai .tbl-ds-hot .tbb1 {width: 23%;}
+        
+    }
+/*------------------end Dulv update 15/10/2015-------------*/
+.lich_thi_dau_mot_giai .tbl-ds-hot td.td-lbl-mobile {
+    background:#e1f8cb none repeat scroll 0 0;
+    color: #363636;
+}
+@media only screen and (max-width:1024px) {
+	.lich_thi_dau .tbd1 {
+		width: 15%;
+	}
+    .lich_thi_dau_mot_giai .tbd1 {
+		width: 15%;
+	}
+}
+/*------------------start Dulv update 21/10/2015-------------*/
+@media only screen and (min-width: 960px) and (max-width:1024px) {
+	.lich_thi_dau_mot_giai .tbd1 {
+		width: 15%;
+	}
+    .lich_thi_dau .tbd1 {
+		width: 15%;
+	}
+	.tbd1, .tbd2, .tbd3, .tbd4, .tbb1, .tbb2, .tbb3  {
+		border-right: 0;
+	}
+    .lich_thi_dau_mot_giai td.tba:last-child {
+        word-break: break-all;
+    } 
+}
+@media only screen and (max-width:320px) {
+	.lich_thi_dau_mot_giai .tbb {
+		width: 60%;
+	}
+	td.last-tb.color-white:last-child {
+		width: 10%;
+	}
+	.lich_thi_dau_mot_giai .tbd {
+		width: 20%;
+	}
+	.lich_thi_dau_mot_giai .tbl-ds-hot .tbb1 {
+		width: 20%;
+        font-weight: normal;
+	}
+	.lich_thi_dau_mot_giai .tbb2 {
+		width: 10%;
+	}
+	.lich_thi_dau_mot_giai .tbb3 {
+		width: 20%;
+	}
+	.lich_thi_dau_mot_giai .tbd1 {
+		width: 20%;
+	}
+    .lich_thi_dau_mot_giai td.tba:last-child {
+        word-break: break-all;
+    } 
+	.lich_thi_dau_mot_giai .tba, .lich_thi_dau_mot_giai .tbd1, .lich_thi_dau_mot_giai .tbb3 {
+		font-weight: normal;
+	}
+    .lich_thi_dau_mot_giai a {
+        font-weight: normal;
+    }
+    .lich_thi_dau .tbl-ds-hot tr td.tba, .lich_thi_dau .tbl-ds-hot tr td.tbd1, .lich_thi_dau .tbl-ds-hot tr td.tbb3, .lich_thi_dau .tbl-ds-hot tr td.tbb1  {
+		font-weight: normal;
+	}
+    .lich_thi_dau .tlc-chaua a, .lich_thi_dau_mot_giai .tlc-chaua a{font-weight: normal;}
+}
+/*------------------end Dulv update 21/10/2015-------------*/
+.lich_thi_dau_mot_giai a.text_decoration_none , .lich_thi_dau a.text_decoration_none ,.ket_qua_thi_dau_mot_giai a.text_decoration_none {text-decoration:none;}
+.lich_thi_dau td.tba:last-child , .lich_thi_dau_mot_giai td.tba:last-child {
+    word-break: break-all;
+} 
+.tb-bottom{border-bottom:1px solid #75b43a;}
+.lich_thi_dau_mot_giai .bar-bl-sort{
+     width: 49%\9;
+ } 
+/*Ngay 30-10 Duclv*/
+.box_bxh_doi_bong .teams img.logo-bxh {
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.logo-ket-qua-thi-dau-mot-giai-right {
+	vertical-align: middle;
+	padding-right: 5px;
+}
+.logo-ket-qua-thi-dau-mot-giai-left {
+	vertical-align: middle;
+	padding-left: 5px;
+}
+.logo-tran-dau-hot-left {
+	vertical-align: middle;
+    padding: 0 5px;
+}
+.logo-tran-dau-hot-right {
+	vertical-align: middle;
+    padding: 0 5px;
+}
+@media only screen and (max-width:800px) {
+    .ten-doi-bong-thi-dau-right{
+        width: 100%;
+    }
+    .ten-doi-bong-thi-dau-left{
+        width: 100%;
+    }
+}
+/*Chi tiet tran dau*/
+.logo_pc_chi-tiet-tran-dau{text-align: center}
+.bxh-anh-doi-bong-da {
+ float: left;
+    width: 30px;
+}
+.bxh-ten-doi-bong-da {
+    width: 74%;
+    vertical-align: middle;
+    float: right;
+    line-height: 30px;
+    font-size: 15px;
+}
+.box_bxh_doi_bong .table-one tr th.position-title{
+    width: 30px;
+    padding:8px 0px;
+}
+@media only screen and (max-device-width:736px) {
+    .logo-tran-dau-hot-left, .logo-tran-dau-hot-right{
+        display: none;
+    }
+}
+_:-ms-fullscreen, :root .ie11up {
+    .box_bxh_doi_bong .charts .charts-left, .box_bxh_doi_bong .charts .charts-right {
+    display: none;
+    }
+}
+/*End ngay 30/10*/
+.text-conent table.tbl-ds-hot{max-width: 100%}
+/* --- Begin: DUCLV - bo xung  12/11/2015 ---*/
+.content .baiviet-container .box_ds_tran_dau_hot_day_du a * {
+ color: red;
+}
+.box_ds_tran_dau_hot_trong_ngay .tbl-ds-hot {
+ font-size: 12px;
+}
+/* --- End: DUCLV - bo xung  12/11/2015 ---*/
+.playing-match-liv{text-align: center;}
+.chi_tiet_tran_dau .minute-playing{font-size:15px;}
+.box_ds_tran_dau_hot_day_du .tbd a {
+    text-decoration: underline;
+}
+
+.lich_thi_dau_mot_giai .tab-dislabe1{
+ font-size: 12px;
+}
+@media screen and (max-device-width: 736px){
+    .box_ds_tran_dau_hot_day_du .logo-team-a,.box_ds_tran_dau_hot_day_du .logo-team-b,.box_ds_tran_dau_hot_trong_ngay .logo-team-a, .box_ds_tran_dau_hot_trong_ngay .logo-team-b, .ket_qua_thi_dau_mot_giai .logo-team-b, .ket_qua_thi_dau_mot_giai .logo-team-a {
+        display: none;
+    }
+    .ket_qua_thi_dau_mot_giai .ketqua_ten-doi-bong-left, .ket_qua_thi_dau_mot_giai .ketqua_ten-doi-bong-right{width: 100%}
+}
+@media screen and (max-device-width: 320px){
+    .ket_qua_thi_dau_mot_giai .tbc{word-break: normal; }
+}
+@media only screen and (max-width: 736px){
+    .ket_qua_thi_dau_mot_giai .lbl-select {
+        width: 27%;
+    }
+}
+@media screen and (max-width: 736px){
+    .box_ds_tran_dau_hot_day_du .boxHot-Lichthidau,.ket_qua_thi_dau_mot_giai .tbl-ds-hot, .box_ds_tran_dau_hot_trong_ngay .tbl-ds-hot{
+        font-size: 18px !important;
+    }
+}
+@media screen and (max-width: 320px){
+    .box_ds_tran_dau_hot_day_du .boxHot-Lichthidau,.ket_qua_thi_dau_mot_giai .tbl-ds-hot, .box_ds_tran_dau_hot_trong_ngay .tbl-ds-hot, .ket_qua_thi_dau_mot_giai .boxHot-Lichthidau {
+        font-size: 14px !important;
+    }
+}
+
+/* begin 30/06/2016 TuyenNT xay_dung_box_lich_thi_dau_livescore_tennis */
+/* Start duclv livescore tennis */
+
+.text-conent .lich_thi_dau_mot_giai .tbl-ds-hot tr.giaidau-tennis td{
+    background-color: #fff;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    line-height: 25px;
+}
+.text-conent .lich_thi_dau_mot_giai .tbl-ds-hot tr td {
+    line-height: 2;
+    padding: 0;
+}
+.text-conent .lich_thi_dau_mot_giai .tbl-ds-hot tr.table-3 td {
+    background-color: #e1f8cb;
+    font-size: 14px;
+}
+.colCenter .lich_thi_dau_mot_giai_tennis img {
+    vertical-align: middle;
+    margin: 0 5px;
+}
+.lich_thi_dau_mot_giai .flag-icon-live {
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    display: block;
+    right: 10%;
+    top: 40%;
+    background: url(//livescore.24h.com.vn/images/icon-live_tennis.png) no-repeat;
+    z-index: 1000;
+}
+.lich_thi_dau_mot_giai .tbl-ds-hot tr td table.content-name-tennis tr {
+    border: 0;
+}
+.lich_thi_dau_mot_giai .tbl-ds-hot tr td table.content-name-tennis tr td{
+    background: 0;
+    border: 0;
+    color: #000;
+    padding: 0;
+    font-weight: 400;
+}
+.tayvot-win {
+    font-size: 15px;
+}
+.lich_thi_dau_mot_giai .color-red-datetime .flag-hot-thidau {
+    top: -0px;
+}
+/* End duclv livescore tennis */
+/* Start duclv livescore tennis */
+
+.text-conent .lich_thi_dau_mot_giai .tbl-ds-hot tr.giaidau-tennis td{
+    background-color: #efebf9;
+    color: #000;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 17px;
+    padding: 10px;
+}
+.text-conent .lich_thi_dau_mot_giai .tbl-ds-hot tr.table-3 td {
+    background-color: #e1f8cb;
+    font-size: 14px;
+}
+.colCenter .lich_thi_dau_mot_giai_tennis img {
+    vertical-align: middle;
+    margin: 0 10px;
+}
+.lich_thi_dau_mot_giai .tbl-ds-hot tr.flag-bocuoc {
+    background-color: #e9e9e9;
+}
+/* Start duclv Mobile */
+.title-big-thidau-tennis {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+    background-color: #362960;
+	padding: 10px;
+}
+.box_ds_tran_dau_hot_day_du .tbl-ds-hot tr.table-back {
+    background-color: #e1e1e1;
+}
+.box_ds_tran_dau_hot_day_du .tbl-ds-hot tr.table-back td {
+    text-align: center;
+    font-size: 14px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+.box_ds_tran_dau_hot_day_du_tennis .table-grey {
+    text-align: left;
+    font-weight: 700;
+}
+.date-time--tennis {
+    text-align: left;
+    color: #06007f;
+    font-weight: 700;
+    position: relative;
+}
+.box_ds_tran_dau_hot_day_du .date-time--tennis .flag-hot-thidau {
+    top: 0;
+}
+.box_ds_tran_dau_hot_day_du_tennis .txt-ten-team-a img {
+    vertical-align: middle;
+}
+.img-tennis {
+    width: 10%;
+    float: left;
+    margin: 5px 3px 0 3px;
+}
+.content-tennis {
+    width: 80%;
+    float: left;
+}
+.img-flag {
+    width: 12%;
+    float: right;
+    margin: 11px 3px 0 3px;
+}
+.content-tennis .give-up {
+    color: #ff0000;
+}
+.box_ds_tran_dau_hot_day_du .tbd .ket-qua-thidau a {
+    text-decoration: none;
+}
+.text-conent .lich_thi_dau_mot_giai_tennis .tbl-ds-hot table tr.table-grey td{
+ font-weight: 700;
+    text-align: left;
+    padding-left: 10px;
+}
+.date-time--tennis {
+ padding-left: 10px;
+}
+.text-conent .lich_thi_dau_mot_giai_tennis td {
+ font-size: 16px;
+}
+/* End duclv Mobile */
+/* end 30/06/2016 TuyenNT xay_dung_box_lich_thi_dau_livescore_tennis */
+.ltdTb {
+    width: 100%;
+    border-collapse: collapse;
+}
+.ltdTb tbody tr td {
+    padding: 10px 4px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 11px;
+}
+.ltdTb tbody tr:nth-child(even) {
+    background-color: #eff5e9;
+}
+.ltdTb tbody tr td span {
+    font-size: 11px;
+}
+.ltd-detail {
+    padding-right: 10px;
+}
+.ltd-detail a {
+    font-size: 12px;
+    color: #78b43d;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/*Start less-bxh*/
+.less-ltd {
+    margin-top: 5px;
+}
+.less-ltd .ltdTb tbody tr td {
+    padding: 4px;
+    border: 1px solid #ddd;
+}
+.less-ltd .asiadTb td, .less-ltd .ltdTb td span {
+    font-size: 11px;
+}
+.ltdTit span {
+    font-size: 11px;
+    color: #f3a346;
+    display: inline-block;
+    text-align: center;
+    width: 78%;
+    position: relative;
+}
+.ltdTit span:before {
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #f3a346;
+    top: 5px;
+    left: 0;
+    width: 145px;
+    height: 1px;
+}
+.ltdTit span:after {
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #f3a346;
+    top: 5px;
+    right: 0;
+    width: 145px;
+    height: 1px;
+}
+.ltdTit .ltd-detail {
+    float: right;
+    padding-right: 0;
+}
+.ltdTit .ltd-detail a {
+    font-size: 11px;
+    text-decoration: none;
+}
+.ltdTit .ltd-detail a:hover {
+    text-decoration: underline;
+}
+.ltdTit {
+    margin-bottom: 5px;
+}
+/*End less-bxh*/
+
+/* begin lich_thi_dau_hom_nay 16/10/2018 by DangTQ */
+.tab-chon-lich-thi-dau{
+	text-align: center;
+	margin-bottom: 15px;
+}
+.tbb1 div{
+	float: right;
+	margin-right: 15px;
+}
+.tbb3 div{
+	float: left;
+    margin-left: 15px;
+}
+/* end lich_thi_dau_hom_nay 16/10/2018 by DangTQ */
+
+/* begin lich_thi_dau_1_giai 17/10/2018 by DangTQ */
+/* .nwsHt strong{
+	font-size: 17px;
+    background-color: #378b36;
+    display: block;
+    padding: 10px;
+    color: #fff;
+} */
+.lich_thi_dau_mot_giai .table-2:nth-child(2){
+	background-color: #bfe29d;
+}
+.lich_thi_dau_mot_giai .tbl-ds-hot tr td.tbb1, .lich_thi_dau_mot_giai .tbl-ds-hot tr td.tbb3{
+	font-size: 15px;
+	font-weight: normal;
+}
+.ket_qua_thi_dau_mot_giai .table-1 b{
+	font-size: 15px;
+}
+.ket_qua_thi_dau_mot_giai .table-2:nth-child(2){
+	background-color: #bfe29d;
+}
+.ket_qua_thi_dau_mot_giai .td1 text{
+	font-size: 17px;
+}
+/* end lich_thi_dau_1_giai 17/10/2018 by DangTQ */
+
+/* begin box_5_tran 17/10/2018 by DangTQ */
+.box_ds_tran_dau_hot_trong_ngay .tbl-ds-hot tr td div{
+	font-size: 15px;
+	font-weight: normal;
+}
+.box_ds_tran_dau_hot_trong_ngay a
+/* end box_5_tran 17/10/2018 by DangTQ */
+
+/* begin livescore_tennis 17/10/2018 by DangTQ */
+div.title-big-thidau-tennis{
+	background-color: #362960;
+	padding: 10px;
+}
+.text-conent .lich_thi_dau_mot_giai .tbl-ds-hot tr.table-3 td{
+	background-color: #f4fbed;
+	font-size: 15px;
+	padding: 5px;
+}
+.lich_thi_dau_mot_giai .td1 div{
+	font-size: 15px;
+	font-weight: normal;
+}
+#id_box_ds_lich_thi_dau_trong_ngay_tennis .tbb2 div{
+	font-size: 19px;
+}
+div#id_box_ds_lich_thi_dau_trong_ngay_tennis .tbb1, div#id_box_ds_lich_thi_dau_trong_ngay_tennis .tbb2, div#id_box_ds_lich_thi_dau_trong_ngay_tennis .tbb3{
+	border: 0!important;
+}
+/* end livescore_tennis 17/10/2018 by DangTQ */
+
+/* begin 24/10/2018 DangTQ */
+.lbl-select{
+	float: left;
+    font-size: 15px;
+    margin-right: 10px;
+}
+.more-2410, .thidau-italic{
+	font-size: 13px;
+    font-style: italic;
+    font-weight: normal;
+    text-transform: initial;
+}
+.ket_qua_thi_dau_mot_giai .tbc:nth-child(2), .tbb1, .box_ds_tran_dau_hot_trong_ngay .tbc:nth-child(2){
+	border-right: 0!important;
+}
+.ket_qua_thi_dau_mot_giai .tbc:nth-child(4), .tbb3, .box_ds_tran_dau_hot_trong_ngay .tbc:nth-child(4){
+	border-left: 0!important;
+}
+.ket_qua_thi_dau_mot_giai .tbd, .tbb2, .box_ds_tran_dau_hot_trong_ngay .tbd{
+	border-left: 0!important;
+    border-right: 0!important;
+}
+*{
+	font-family: "Helvetica Neue",Helvetica,Arial,sans-serif;
+	line-height: 1.5;
+}
+.info-match-top{
+	font-size: 15px;
+    width: 100%;
+    text-transform: uppercase;
+    font-weight: 700;
+    text-align: center;
+    padding: 10px 0;
+    float: left;
+}
+.info-match-top-time{
+	font-size: 11px;
+    font-weight: normal;
+}
+.chi_tiet_tran_dau .tb2 > div{
+	background: none!important;
+}
+.chi_tiet_tran_dau .tab-chon > div{
+	width: auto!important;
+	height: auto!important;
+	float: none!important;
+}
+.tab-1:nth-child(2){
+	width: 9%;
+    border-bottom: 0;
+}
+.box_bxh_doi_bong .charts .table-charts .table-one li:last-child{
+	border-left: 0;
+}
+
+@media screen and (max-width: 414px) {
+	.lbl-select{
+		width: 20%;
+		margin-right: 2%;
+	}
+	.form-control{
+		width: 78%;
+	}
+	.table-charts .table-one .nav-justified{
+		overflow: hidden;
+		margin-bottom: 20px;
+	}
+	.table-three{
+		margin-bottom: 15px;
+	}
+	.box_bxh_doi_bong .table-three tr td .label{
+		margin-right: 0;
+		margin-top: 0;
+	}
+
+}
+/* end 24/10/2018 DangTQ */
+

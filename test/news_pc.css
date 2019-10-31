@@ -1,0 +1,1634 @@
+/*Start duclv: fix_font_size_bai_viet*/
+.TextlinkBaiviet, .nwsHt a, .nwsHt strong {
+    font-size: 13px;
+}
+/*End duclv: fix_font_size_bai_viet*/
+.artleBk {
+    font-size: 16px;
+    font-weight: bold;
+    color: #333;
+    background: url(//static.24h.com.vn/images/2014/arrow-green-back.png) no-repeat;
+    padding: 2px 0 5px 40px;
+    margin-top: 5px;
+    display: inline-block;
+}   
+.atclTit .clrTit {
+    color: #5ca038;
+    font-size: 20px;
+}
+.txtCt a {
+    color: #00f;
+}
+.txtCt p {
+    font-size: 13px;
+}
+.ctTp {
+    font-size: 13px;
+    display: block;
+    margin-bottom: 10px;
+	line-height: 1.5;
+}
+.nwsImg {
+    max-width: 660px;
+}
+.nwsHt p {
+    font-size: 13px;
+    text-align: justify;
+}
+.nwsHt p[align="center"], .nwsHt td[align="center"] p{
+    text-align: center;
+}
+.media-player {
+    margin: 0 auto;
+}
+.nwsHt a {
+    color: #00f;
+}
+.bv-lq {
+    display: inline-block;
+    width: 100%;
+    border-radius: 3px;
+    background-color: #eaf8d2;
+    border-top: 3px solid #378b36;
+    position: relative;
+    margin-top: 5px;
+}
+.img-bv-lq {
+    width: 200px;
+    height: 150px;
+    margin-right: 15px;
+}
+.bv-lq a {
+    text-decoration: none;
+}
+.bv-lq .imgFloat {
+    float: left;
+    display: block;
+    position: relative;
+}
+.img-bv-lq img {
+    width: 100%;
+    height: 100%;
+}
+.bv-lq .content-bv-lq {
+    padding: 10px 10px 0 10px;
+}
+.bv-lq .title-bv a {
+    font-size: 16px;
+    color: #378b36;
+    font-weight: bold;
+}
+.bv-lq .ct-bv p {
+    color: #333;
+    margin: 5px 0;
+}
+.bv-lq .see-now {
+    text-align: right;
+    padding: 10px 0 0 10px;
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
+.bv-lq .see-now a {
+    font-size: 16px;
+    color: #378b36;
+    font-weight: bold;
+}
+/*Start 18-06-2018 duclv http://jira.24h.com.vn/browse/XLCYCMHENG-31853#add-comment*/
+.nguontin {
+    text-align: right;
+    clear: both;
+}
+/*End 18-06-2018 duclv http://jira.24h.com.vn/browse/XLCYCMHENG-31853#add-comment*/
+.atclRdSb {
+    margin-bottom: 5px;
+}
+.atclRdSbIn {
+    display: inline-block;
+    width: 100%;
+}
+.atclRdSbIn .nwsTit .bld {
+    font-size: 13px;
+    display: inline;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    line-height: 20px;
+    margin-right: 5px;
+}
+/*.atclRdSb .imgNws {
+    width: 100px;
+    height: 70px;
+}*/
+/*Start duclv: 28/6 fixed task http://jira.24h.com.vn/browse/XLCYCMHENG-31924#add-comment*/
+.atclRdSb .atclRdSbIn .imgNws img{
+    height: 83px;
+}
+/*End duclv: 28/6 fixed task http://jira.24h.com.vn/browse/XLCYCMHENG-31924#add-comment*/
+.atclRdSb .atclRdSbIn .imgNws {
+    height: initial;
+}
+.video_bamXemVideo {
+    font-size: 16px;
+    font-weight: bold;
+    text-decoration: underline;
+    padding: 3px 0 10px 45px;
+    background: url(//static.24h.com.vn/images/2014/arrow-orange-back.png) no-repeat;
+    color: #333;
+    display: inline-block;
+}
+.video_bamXemVideo:hover {
+    text-decoration: underline;
+    color: #78b43d;
+}
+.nwsTthEvt .imgNws {
+    width: 110px;
+    height: 83px;
+}
+.tbLngble {
+    border-radius: 3px 3px 0 0;
+    background-color: #78b43d;
+    padding: 5px 10px;
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+    clear: both;
+}
+.tbLngble a {
+    color: #fff;
+    font-size: 12px;
+    font-weight: bold;
+}
+.tbLngble a:hover {
+    color: #000;
+}
+.nwsTthEvt .atclRdSbIn {
+    padding: 0px 10px;
+    width: 328px;
+    float: left;
+    height: 107px;
+}
+.nwsTthEvt .nwsRd-100 {
+    border-bottom: 1px solid #ddd;
+    padding-bottom: 10px;
+}
+/*Start duclv: bai pr*/
+.nwsTthEvt .atclRdSbIn.atclRdPr {
+    /*float: initial;*/
+    display: inline-block;
+}
+/*End duclv: bai pr*/
+/*.nwsTthEvt .atclRdSbIn:nth-child(2n+1) {
+    clear: both;
+}*/
+.nwsTthEvt .atclRdSbIn a {
+    display: block;
+}
+/*Start blq tren*/
+.GrnBxBgLht {
+    background: #fff;
+    padding: 0 10px;
+    margin-top: 10px;
+}
+.GrnBxBgLht p{
+    margin: 0;
+    padding-left: 15px;
+    color: #000;
+    background: url(//static.24h.com.vn/images/2014/sprites.png) 1px -550px no-repeat;
+    text-decoration: none;
+    padding-bottom: 5px;
+}
+.GrnBxBgLht a {
+    color: #000;
+    font-weight: 700;
+}
+.GrnBxBgLht a:hover {
+    color: #78b43d;
+}
+/*End blq tren*/
+.disnone {
+    display: none;
+}
+.nwsTthEvt .nwsRd {
+    border-left: #e6e6e6 solid 1px;
+    border-right: #e6e6e6 solid 1px;
+    border-bottom: #e6e6e6 solid 1px;
+    padding: 10px 0;
+    margin: 0 0 5px 0;
+    display: inline-block;
+}
+.nwsRd-100 {
+    width: 100%;
+    display: inline-block;
+}
+.atclRdPr {
+    background: url(//static.24h.com.vn/images/2014/box4T-bg.png) repeat;
+}
+.bxDoiTrtr {
+    width: 353px;
+    display: inline-block;
+}
+.bxDoiTrtr .sclDiv article {
+    float: left;
+    padding: 2px 3px 6px 15px;
+    height: 27px;
+}
+.bxDoiTrtr .sclDiv {
+    padding-left: 0;
+    width: auto;
+}
+.bxDoiTrtr .sclDiv article a {
+    color: #333;
+}
+.vidItm {
+    float: left;
+    width: 125px;
+    padding: 6px;
+    text-align: center;
+}
+.vidItmImg {
+    width: 125px;
+    height: 93px;
+    position: relative;
+    margin-bottom: 5px;
+    margin: 5px 0 10px 0;
+}
+.vidItmImg a img {
+    width: 125px;
+}
+.bxGrtt.bxVidCm {
+    padding: 5px;
+    height: auto;
+}
+.vidItmTxt a {
+    color: #000;
+}
+.vidItmTxt a:hover {
+    color: #5ca038;
+}
+.seeMrArtcl {
+    font-size: 16px;
+    background: url(//static.24h.com.vn/images/2014/arrow-green.png) no-repeat;
+    padding: 2px 0 5px 40px;
+}
+.txtCt a.clrTit {
+    color: #333;
+    display: block;
+}
+.bxPicOthr .bxGrtt {
+    display: inline-block;
+    width: 100%;
+}
+
+/*Start bai nhieu ky*/
+.seeMrMul a {
+    text-decoration: underline;
+    color: #7d7d7d;
+}
+.seeMrMul a:hover, .pgS2 a:hover {
+    color: #78b43d;
+}
+.pgS2 a {
+    padding: 0 3px;
+    color: #333;
+}
+/*End bai nhieu ky*/
+
+/*Start bai tuong thuat bong da*/
+.tb-euroInfo {
+    background: #78b43d;
+    padding: 2px;
+}
+.table-grey, .tb-euroInfo table {
+    max-width: 699px;
+}
+.euro-team {
+    color: #666;
+    font-size: 16px;
+    font-weight: bold;
+    padding: 7px 0;
+}
+.euro-tiso {
+    font-family: "Times New Roman",Times,serif;
+    color: #f20000;
+    font-size: 55px;
+    font-weight: bold;
+    padding: 0 0 10px 0;
+    letter-spacing: 10px;
+}
+.euroTb-sub {
+    background: #adadad;
+    border-top: #adadad solid 1px;
+}
+.euroTb-sub td {
+    background: #ebebeb;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: #333;
+}
+.euroTb-sub td:nth-child(odd) {
+    border-right: 1px solid #ddd;
+}
+.ttTt a{
+    width: 100%;
+    font-size: 14px;
+    padding: 5px;
+}
+.brLt {
+    background: #ebebeb;
+    padding: 5px 10px;
+    font-weight: bold;
+    color: #333;
+}
+.euroGroupLink {
+    display: flex;
+}
+.euroLink {
+    background: #378b36;
+    display: inline-block;
+    margin-right: 1px;
+    padding: 5px 7px;
+    color: #fff;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+    width: 33%;
+}
+.euroLink:hover {
+    background: #297728;
+    text-decoration: none;
+    color: #fff;
+}
+.table-grey {
+    margin: 10px 0;
+    background: #d7d7d7;
+}
+.row-W td {
+    background: #fff;
+    padding: 9px 5px;
+}
+.row-H td, div.row-H {
+    background: #eaf8d2;
+    padding: 9px 0;
+}
+.row-G td {
+    background: #f6f6f6;
+    padding: 9px 5px;
+}
+.sptTit {
+    background: #78b43d;
+    font-size: 14px;
+    padding: 3px 0 7px 0;
+}
+.icon-video {
+        background: url(//static.24h.com.vn/images/2014/icon-video.gif) no-repeat 5px 0;
+    width: 19px;
+    height: 8px;
+    display: inline-block;
+}
+/*End bai tuong thuat bong da*/
+
+/*Start bai tuong thuat tennis*/
+.thethao-tit {
+    background: #78b43d;
+    text-align: center;
+    font-size: 14px;
+    font-weight: bold;
+    color: #fff;
+    padding: 3px 0 7px 0;
+}
+.euroLink {
+    background: #378b36;
+    display: inline-block;
+    margin-right: 1px;
+    padding: 5px 7px;
+    color: #fff!important;
+    font-weight: bold;
+    text-decoration: none;
+    text-align: center;
+}
+.sptLt {
+    width: 20%;
+    float: left;
+}
+.sptRt {
+    width: 20%;
+    float: right;
+}
+.sptCnt {
+    width: 60%;
+    float: left;
+}
+.tbSpt {
+    font-size: 12px;
+    background: #ebebeb;
+}
+.rwGry td {
+    background: #e1e1e1;
+    color: #000;
+    padding: 5px 5px;
+}
+.rwWh td {
+    background: #fff;
+    color: #000;
+    padding: 5px 5px;
+}
+.nwsImg {
+    /*max-width: 100%;*/
+    height: auto!important;
+}
+/*End bai tuong thuat tennis*/
+
+/*Start video highlight*/
+.frmZplayer {
+    border: 1px solid #ddd;
+    max-width: 658px;
+    display: inline-block;
+    max-height: 140px;
+    overflow-x: hidden;
+    width: 100%;
+}
+.ptVidZplayer {
+    text-align: left;
+}
+.ptVidZplayer span {
+    width: 20px;
+    display: block;
+    padding: 5px 10px;
+    background: #ddd;
+    color: #000;
+    font-weight: 700;
+}
+.bxTmHgLit {
+    margin-left: -1%;
+    margin-right: -1%;
+}
+.tmHgLit {
+    width: 94%;
+    float: left;
+    padding: 10px;
+    text-align: left;
+    border-top: 1px solid #ddd;
+    margin-left: 1%;
+    margin-right: 1%;
+}
+.tmHgLit:hover {
+    background-color: #eaf8d2;
+}
+.tmHgLit a.HgLit {
+    color: #000;
+}
+.icoEvtHgLit {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-top: -3px;
+    float: left;
+}
+.icoEvtHgLit img {
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 5px;
+    position: absolute;
+    top: 3px;
+    right: -5px;
+    width: 18px;
+    height: 29px;
+}
+.frmZplayer::-webkit-scrollbar {
+    width: 10px;
+    background-color: #f5f5f5;
+}
+.frmZplayer::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #a1a1a1;
+}
+.frmZplayer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+    border-radius: 10px;
+    background-color: #f5f5f5;
+}
+#pinListzplayer {
+    width: 660px;
+    margin: 0 auto;
+}
+/*End video highlight*/
+/*Start poll*/
+.plContnr {
+    border: #13B307 solid 3px;
+    font-size: 16px;
+}
+.plTp {
+    padding: 10px;
+    text-align: center;
+    font-weight: 700;
+    background: #78b43d;
+    font-size: 14px;
+}
+.plCt {
+    background: #fff;
+    padding: 10px 8px;
+    text-align: left;
+}
+.plChse {
+    line-height: 1.5;
+}
+.plCt input[type="radio"] {
+    width: 14px;
+    height: 14px;
+    vertical-align: middle;
+    margin-top: -3px;
+}
+.txtCt .btnGrn {
+    color: #fff;
+}
+.btnGrn, .btn-green {
+    background-color: #78b43d;
+    padding: 5px 15px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 3px;
+    color: #fff;
+}
+.btnGrn:hover, .btn-green:hover {
+    color: #fff;
+}
+.plCt .brnGry {
+    color: #78B43D;
+    text-decoration: underline;
+}
+.brnGry {
+    display: inline-block;
+    text-align: center;
+}
+.pollContainer {
+    background: #78b43d;
+    padding: 3px;
+}
+.pollTop {
+    padding: 3px 10px 7px 10px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+.pollContent {
+    background: #fff;
+    padding: 10px 8px;
+    text-align: left;
+}
+.pollAnswer {
+    padding: 5px 10px 5px 0;
+    text-align: right;
+}
+.pollQA {
+    padding: 0 0 10px 0;
+}
+/*End poll*/
+
+/*Start dang bang, quote*/
+.tblArtl {
+    border: 1px solid rgb(187, 187, 187);
+    background-color: rgb(222, 241, 200);
+    padding: 5px;
+    z-index: 3;
+    position: relative;
+    margin: 5px;
+}
+.tblArtl p {
+    margin: 0;
+}
+blockquote {
+    font-style: italic;
+    font-family: Georgia,Times,"Times New Roman",serif;
+    padding: 2px 0;
+    border-style: solid;
+    border-color: #ccc;
+    border-width: 0;
+    padding-left: 20px;
+    padding-right: 8px;
+    border-left-width: 5px;
+}
+/*End dang bang*/
+
+/*Start danh so sanh*/
+.twentytwenty-container {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+    overflow: hidden;
+    position: relative;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+.twentytwenty-container img {
+    position: absolute;
+    top: 0;
+    display: block;
+    width: 100%;
+}
+.twentytwenty-container * {
+    -webkit-box-sizing: content-box;
+    -moz-box-sizing: content-box;
+    box-sizing: content-box;
+}
+.twentytwenty-container.active .twentytwenty-overlay, .twentytwenty-container.active :hover.twentytwenty-overlay {
+    background: rgba(0,0,0,0);
+}
+.twentytwenty-overlay {
+    display: none;
+    -webkit-transition-property: background;
+    -moz-transition-property: background;
+    transition-property: background;
+    background: rgba(0,0,0,0);
+    z-index: 25;
+}
+.twentytwenty-before-label, .twentytwenty-after-label, .twentytwenty-overlay {
+    position: absolute;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    -webkit-transition-duration: .5s;
+    -moz-transition-duration: .5s;
+    transition-duration: .5s;
+}
+.twentytwenty-container.active .twentytwenty-overlay .twentytwenty-before-label, .twentytwenty-container.active .twentytwenty-overlay .twentytwenty-after-label, .twentytwenty-container.active :hover.twentytwenty-overlay .twentytwenty-before-label, .twentytwenty-container.active :hover.twentytwenty-overlay .twentytwenty-after-label {
+    opacity: 0;
+}
+.twentytwenty-before-label, .twentytwenty-after-label {
+    -webkit-transition-property: opacity;
+    -moz-transition-property: opacity;
+    transition-property: opacity;
+}
+.twentytwenty-handle {
+    height: 38px;
+    width: 38px;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin-left: -22px;
+    margin-top: -22px;
+    border: 3px solid #fff;
+    -webkit-border-radius: 1000px;
+    -moz-border-radius: 1000px;
+    border-radius: 1000px;
+    -webkit-box-shadow: 0 0 12px rgba(51,51,51,0.5);
+    -moz-box-shadow: 0 0 12px rgba(51,51,51,0.5);
+    box-shadow: 0 0 12px rgba(51,51,51,0.5);
+    z-index: 40;
+}
+.twentytwenty-handle:before, .twentytwenty-handle:after {
+    content: " ";
+    display: block;
+    width: 3px;
+    background: #fff;
+    height: 9999px;
+    position: absolute;
+    left: 50%;
+    margin-left: -1.5px;
+    z-index: 30;
+    -webkit-box-shadow: 0 0 12px rgba(51,51,51,0.5);
+    -moz-box-shadow: 0 0 12px rgba(51,51,51,0.5);
+    box-shadow: 0 0 12px rgba(51,51,51,0.5);
+}
+.twentytwenty-handle:before {
+    bottom: 50%;
+    margin-bottom: 22px;
+    -webkit-box-shadow: 0 3px 0 white, 0 0 12px rgba(51,51,51,0.5);
+    -moz-box-shadow: 0 3px 0 white,0 0 12px rgba(51,51,51,0.5);
+    box-shadow: 0 3px 0 white, 0 0 12px rgba(51,51,51,0.5);
+}
+.twentytwenty-left-arrow, .twentytwenty-right-arrow {
+    width: 0;
+    height: 0;
+    border: 6px inset transparent;
+    position: absolute;
+    top: 50%;
+    margin-top: -6px;
+}
+.twentytwenty-left-arrow {
+    border-right: 6px solid #fff;
+    left: 50%;
+    margin-left: -17px;
+}
+.twentytwenty-right-arrow {
+    border-left: 6px solid #fff;
+    right: 50%;
+    margin-right: -17px;
+}
+
+/*End danh so sanh*/
+.brmCm2 {
+    width: 693px;
+    height: auto;
+    overflow: hidden;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+.bdmHmTb {
+    float: left;
+    height: auto;
+    line-height: 14px;
+    padding: 1px 3px;
+    font-size: 11px!important;
+    font-weight: bold;
+}
+.bdmHmTb ul li {
+    display: block;
+    list-style: none;
+}
+.bdmHmTb a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #78b43d;
+    line-height: 12px;
+}
+.brm {
+    color: #78b43d;
+}
+.brmCmTb {
+    padding: 1px 3px;
+    display: inline-block;
+    float: left;
+    color: #78b43d;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-left: 2px;
+}
+.brmCmTb ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 0 3px;
+}
+.brmCmTb a {
+    color: #78b43d;
+    padding-left: 5px;
+}
+.znMnCm2Brm {
+    z-index: 99999;
+    position: absolute;
+}
+.bmTpSeoBlk {
+    height: 15px;
+    overflow: hidden;
+}
+.bmTpSeo {
+    text-align: right;
+    float: right;
+}
+.bmTpSeo a {
+    font-size: 11px;
+    font-weight: 700;
+}
+.sbMnCate {
+    position: relative;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+/*Start duclv: 19/6/2018 tab wc*/
+.sbMnCate ul li a {
+    display: inline-block;
+    margin-right: 2px;
+    border-radius: 2px;
+    padding: 5px;
+    background: #e1e1e1;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    transition: background .3s,color .3s;
+    -webkit-transition: background .3s,color .3s;
+    -moz-transition: background .3s,color .3s;
+    float: left;
+    color: #212121;
+    font-size: 11px;
+}
+/*End duclv: 19/6/2018 tab wc*/
+.sbMnCate ul li.dnSltUpn {
+    background-color: #fff;
+}
+.dnSltUpn .icoUpSlt {
+    background: #fff url(//static.24h.com.vn/images/icon-upselect.png) no-repeat;
+    width: 22px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.znMnCm2Brm ul li a {
+    font-weight: 400;
+    border-right: 0;
+    background: #aad862 url(//static.24h.com.vn/images/2014/menuDot.gif) 13px 10px no-repeat;
+    padding: 6px 0 5px 25px;
+    width: 185px;
+    line-height: 16px;
+    color: #000!important;
+    text-decoration: none;
+    border-bottom: #78b43d solid 1px;
+    float: left;
+    transition: background .3s,color .3s;
+    -webkit-transition: background .3s,color .3s;
+    -moz-transition: background .3s,color .3s;
+}
+.sbMnCate ul li.dnSltUpn a.icoDnSlt {
+    background: #fff url(//static.24h.com.vn/images/icon-downselect.png) no-repeat;
+    width: 22px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    top: 1px;
+    right: 0;
+    padding: 0;
+    cursor: pointer;
+}
+/*.dnSltUpn ul li {
+    display: inline-block;
+}*/
+.sbMnCate ul.sbMnCateUpn li:hover a, .sbMnCateUl>li:hover>a, .sbMnCate ul.sbMnCateUpn li:hover a {
+    color: #fff;
+    background: #666;
+}
+.sbMnCate ul li.dnSltUpn:hover .icoUpSlt {
+    background: #fff url(//static.24h.com.vn/images/icon-upselect.png) no-repeat;
+}
+.znMnCm2Brm {
+    display: none;
+}
+.mainCate {
+    display: inline-block;
+    width: 100%;
+}
+.atclMnBxImg {
+    width: 180px;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+}
+.imgNwsMdm {
+    width: 180px;
+    height: 135px;
+    position: relative;
+}
+.qteImg {
+    font-size: 11px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #666;
+}
+.atclTpCt {
+    width: 500px;
+    float: left;
+}
+.titSb {
+    font-size: 11px;
+    padding: 0 0 3px 0;
+}
+.titSb a {
+    font-size: 11px;
+    text-decoration: none;
+}
+.nwsTitg {
+    display: block;
+    font-weight: bold;
+    color: #5ca038;
+    padding: 0 0 5px 0;
+    font-size: 16px;
+}
+.updTm {
+    font-size: 11px;
+    color: #000;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+.nwSp {
+    text-align: justify;
+    display: block;
+    color: #333;
+    font-size: 13px;
+    line-height: 16px;
+}
+.sbNws {
+    color: #666;
+    font-size: 11px;
+    padding-bottom: 7px;
+}
+.sbNws a {
+    color: #666;
+    font-size: 11px;
+    text-decoration: underline;
+    font-weight: 400;
+}
+.sbNws a:hover {
+    color: #78b43d;
+}
+.grnBxBg {
+    background: #d5ecab;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+.grnBxBg .lstNws article a {
+    font-size: 12px;    
+    line-height: 18px;
+}
+.bxDoiSbIt {
+    width: 343px;
+    float: left;
+    display: inline-block;
+    padding: 0;
+}
+.bxDoiSbIt .nwsSp {
+    padding-left: 120px;
+}
+.seMr {
+    text-align: right;
+    display: block;
+    padding: 6px 0 0 0;
+}
+.seMr a {
+    font-size: 11px;
+    text-decoration: none;
+    padding-left: 10px;
+    background: url(//static.24h.com.vn/images/2014/sprites.png) 0 -615px no-repeat;
+}
+.bnrAtcl {
+    display: inline-block;
+    width: 100%;
+}
+.ttdnTr {
+    margin-top: 10px;
+}
+.ttdnTr .bx4TBtmHm{
+    width: 699px;
+    border-radius: 0;
+    box-sizing: border-box;
+}
+.bxCmSbPg {
+    width: 100%;
+    display: inline-block;
+}
+.sclDivSbPg .grnBxT {
+    background-color: #d2577e;
+}
+.bxGrtt {
+    border-left: #ebebeb solid 1px;
+    border-right: #ebebeb solid 1px;
+    border-bottom: #ebebeb solid 1px;
+    padding: 6px 0 3px 6px;
+    height: 245px;
+}
+.sclDiv {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 339px;
+    height: 100%;
+    _height: 213px;
+    padding-left: 5px;
+    _padding-left: 0;
+}
+.sclDivSbPg {
+    width: 185px;
+    padding-left: 0;
+}
+.bxCmSbPg .sclDivSbPg {
+    width: 100%;
+}
+.bxCmSbPg .sclDiv article {
+    float: left;
+    padding: 2px 3px 6px 15px;
+    width: 47%;
+    
+}
+.bxCmSbPg .lstNml {
+    background: url(//static.24h.com.vn/images/2014/sprites-eva.png) 2px -548px no-repeat;
+}
+.bxCmSbPg .lstNml a, .bxCmSbPg a {
+    color: #333;
+}
+.bxCmSbPg .lstNml a:hover, .bxCmSbPg a:hover {
+    color: #692;
+}
+/* Start duclv: Tối ưu hiển thị box nhiều người đọc */
+.bnrSbPg {
+    display: inline-block;
+    width: 358px;
+    margin-left: 5px;
+    margin-top: -3px;
+}
+/* End duclv: Tối ưu hiển thị box nhiều người đọc */
+.bnrSbPg .bxCmSbPg .sclDiv article {
+    width: 320px;
+}
+.bnrSbPg  .bxCmSbPg .lstNml {
+    background: url(//static.24h.com.vn/images/2014/sprites.png) 2px -545px no-repeat;
+}
+.khung-zplayer {
+	border: 1px solid #ddd;
+	max-width: 658px;/* Edit: Tytv - 10/05/2017 - toi_uu_kich_thuoc_anh_video_bang_bieu_trang_bai_viet */
+	max-height: 140px;
+	overflow-x: hidden;
+}
+.part-video-zplayer {
+	text-align: left;
+}
+.part-video-zplayer span {
+	width: 20px;
+  display: block;
+  padding: 5px 10px;
+  background: #ddd;
+  color: #000;
+	font-weight: 700;
+}
+.time-highlight {
+	width: 94%;
+    float: left;
+    padding: 10px;
+    text-align: left;
+  border-top: 1px solid #ddd;
+	margin-left: 1%;
+	margin-right: 1%;
+}
+.box-time-highlight {
+	margin-left: -1%;
+  margin-right: -1%;
+}
+.time-highlight:hover {
+	background-color: #eaf8d2;
+}
+/*.video-time-highlight {
+    display: inline-flex;
+}*/
+.video-time-highlight a {
+	margin-right: 10px;
+	color: #000;
+	font-size: 13px;
+}
+.video-time-highlight > img {
+    float: left;
+    margin-right: 5px;
+}
+.video-time-highlight a img {
+	margin-bottom: -5px;
+}
+.khung-zplayer::-webkit-scrollbar {
+    width: 10px;
+    background-color: #F5F5F5;
+}
+.khung-zplayer::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
+    background-color: #a1a1a1;
+}
+.khung-zplayer::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
+     border-radius: 10px;
+    background-color: #F5F5F5;
+}
+.time-highlight a.highlight{
+    color: #000;
+}
+.video-time-highlight img {
+     vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 3px;
+}
+.video-time-highlight img {
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 5px;
+    position: absolute;
+    top: 3px;
+    right: -5px;
+    width: 18px;
+    height: 29px;
+}
+.icon-event-highlight {
+    width: 23px;
+    height: 23px;
+    position: relative;
+    overflow: hidden;
+    margin-right: 5px;
+    margin-top: -3px;
+    float: left;
+}
+/* beign poll*/
+.plTp {
+    padding: 3px 10px 7px 10px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+.plCt {
+    background: #fff;
+    padding: 10px 8px;
+    text-align: left;
+}
+.txtBx {
+    border: #e1e1e1 solid 1px;
+    padding: 5px;
+    color: #666;
+}
+.linDsh {
+    border-top: 1px dashed #e5e5e5;
+    display: block;
+    line-height: 23px;
+    margin: 10px 0 0;
+    padding: 5px 0 0;
+}
+.fdNte {
+    background: #e6e6e6;
+    padding: 10px;
+}
+.btnGry {
+    font-family: Corbel,Arial,Helvetica,sans-serif;
+    font-size: 13px;
+    font-weight: bold;
+    display: inline-block;
+    border: solid 1px #cfcfcf;
+    font-size: 14px;
+    margin-right: 10px;
+    background-color: #787b83;
+    background-image: -moz-linear-gradient(center top,#787b83 0,#44474e 100%);
+    background-image: -webkit-linear-gradient(top,#787b83 0,#44474e 100%);
+    background-image: linear-gradient(to bottom,#787b83 0,#44474e 100%);
+    border-color: #7a828d #7a828d #3d4046;
+    box-shadow: 0 1px 0 #aaa inset;
+    text-shadow: 0 1px 0 #000;
+    color: #f0f0f0;
+    border-radius: 3px;
+    -moz-border-radius: 3px;
+    -webkit-border-radius: 3px;
+    padding: 5px 20px;
+    text-decoration: none;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+.plQA {
+    display: block;
+    padding: 0 0 10px 0;
+    font-weight: 400;
+}
+.plAnwr {
+    padding: 5px 10px 5px 0;
+    text-align: right;
+}
+.plAnwrBr {
+    height: 13px;
+    float: left;
+    margin-right: 10px;
+    background: #ACE526;
+}
+.txtSch {
+    padding: 5px 0;
+}
+.line-grey {
+    border-top: #e6e6e6 solid 1px;
+    overflow: hidden;
+    height: 1px;
+    margin-bottom: 2px;
+}
+/* End poll*/
+/* begin info*/
+.ifGrph .brmCm2 {
+    width: 100%;
+}
+.ifGrph .brmCmTb a {
+    text-transform: uppercase;
+}
+.ifGrph .atclTit .clrTit {
+    font-size: 24px;
+}
+.ifGrph .updTm {
+    font-size: 12px;
+}
+.ifGrph .ctTp {
+    font-size: 16px;
+}
+.ifGrph .atclRdSbIn .nwsTit .bld {
+    font-size: 20px;
+}
+.ifGrph .atclRdSbIn .imgFlt {
+    width: 160px;
+    height: 120px;
+}
+.ifGrph .nwsSp {
+    font-size: 18px;
+    line-height: 24px;
+}
+.ifGrph .bxBoiSbTb {
+    width: 100%;
+}
+.ifGrph .bxDoiSbIt {
+    width: 49%;
+}
+.ifGrph .gryTb2R h2, .ifGrph .gryTb2R h3, .ifGrph .gryTb2R h4, .ifGrph .gryTb2R h5, .ifGrph .gryTb2R a {
+    font-size: 13px;
+}
+.ifGrph .nwsTit a {
+    font-size: 14px;
+    font-weight: 700;
+}
+.ifGrph .lstNwsInAtcl a {
+    font-size: 14px;
+}
+/* End info*/
+@charset "utf-8";
+* {
+    font-family:Arial, Helvetica, sans-serif;
+    font-size:12px;
+}
+.pdR10 {
+    padding-right: 10px;
+}
+.pdR5 {
+    padding-right: 5px;
+}
+.pdT10 {
+    padding-top: 10px;
+}
+.pdB10 {
+    padding-bottom: 10px;
+}
+.mrB10 {
+    margin-bottom: 10px;
+}
+.lin {
+    border-bottom: 1px solid #ddd;
+}
+.plTp {
+    padding: 3px 10px 7px 10px;
+    color: #fff;
+    font-size: 14px;
+    text-align: center;
+    font-weight: bold;
+}
+.plCt {
+    background: #fff;
+    padding: 10px 8px;
+    text-align: left;
+}
+.txtBx {
+    border: #e1e1e1 solid 1px;
+    padding: 5px;
+    color: #666;
+}
+.linDsh {
+    border-top: 1px dashed #e5e5e5;
+    display: block;
+    line-height: 23px;
+    margin: 10px 0 0;
+    padding: 5px 0 0;
+}
+.fdNte {
+    background: #e6e6e6;
+    padding: 10px;
+}
+.plQA {
+    display: block;
+    padding: 0 0 10px 0;
+    font-weight: 400;
+}
+.plAnwr {
+    padding: 5px 10px 5px 0;
+    text-align: right;
+}
+.plAnwrBr {
+    height: 13px;
+    float: left;
+    margin-right: 10px;
+    background: #ACE526;
+}
+.txtSch {
+    padding: 5px 0;
+}
+.displaynone{
+    display:none;
+}
+.pollevent{    
+    width: 400px;
+    margin: 0 auto;
+}
+/* Start duclv media-player */
+.media-player {
+    margin: 0 auto;
+}
+.viewVideoPlay{    text-align: center;} /* Tytv - 18/04/2018 - fix_loi_highlight_lech_trai */
+/* End duclv media-player */
+/*--Start duclv: 17/4: Lỗi fontsize*/
+.nwsHt p,
+.nwsHt p em {
+    font-size: 13px;
+    text-align: justify;
+}
+/*--Start duclv: 17/4: Lỗi fontsize*/
+
+/*--Start duclv: Box recommend video*/
+.bxRcdVid {
+    background-color: #f5f5f5;
+    width: 660px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 10px 25px;
+    overflow: hidden;
+    position: relative;
+    margin-right: -4px;
+}
+.lstBxRcdVid {
+    width: 1000px;
+}
+.main-video-img > a img {
+    display: block;
+}
+.bxRcdVid .video-body-tile a {
+    font-size: 12px;
+    font-weight: 400;
+    color: #212121;
+}
+.bxRcdVid .video-body-tile {
+    margin-top: 5px;
+}
+/* Start duclv fix video recommend - 10/7/2018 */
+.bxRcdVid .list-video-chuyenmuc-number {
+    width: 135px;
+    margin-bottom: 0;
+    float:left;
+    margin-right: 15px;
+    margin-left: 5px;
+}
+.prvVid {
+    position: absolute;
+    top: 0;
+    left: 0px;
+    background: #f5f5f5 url(//static.24h.com.vn/images/2014/prvVid.png) no-repeat center;
+    width: 25px;
+    z-index: 10;
+    height: 100%;
+}
+.nxtVid {
+    position: absolute;
+    top: 0;
+    right: 0px;
+    background: #f5f5f5 url(//static.24h.com.vn/images/2014/nxtVid.png) no-repeat center;
+    width: 25px;
+    height: 100%;
+    z-index: 10;
+    box-shadow: 0 0px 30px 10px #f5f5f5;
+}
+.prvVid:hover, .nxtVid:hover {
+    cursor: pointer;
+    background-color: #d9d9d9;
+}
+.leng-video {
+    background: rgba(0,0,0,0.5);
+    padding: 4px 8px;
+    color: #FFF;
+    position: absolute;
+    display: block;
+    left: 0;
+    bottom: 0;
+    height: 15px;
+    line-height: 10px;
+}
+.leng-video a img {
+    margin-right: 8px;
+}
+.main-video-img {
+    position: relative;
+    display: inline-block;
+    width: 100%;
+}
+.bxRcdVid .video-body-tile {
+    text-align: left;
+}
+.bxRcdVid .video-body-tile a {
+    line-height: 1.4;
+}
+.bxRcdVid .video-body-tile a:hover {
+    color: #78b43d;
+}
+/* End duclv fix video recommend - 10/7/2018*/
+.lstCi {
+    justify-content: center;
+    display: flex;
+    clear: both;
+    margin-top: 10px;
+}
+.lstCi span {
+    display: inline-block;
+}
+.lstCi span{
+    width: 8px;
+    height: 8px;
+    background-color: #bdbdbd;
+    display: inline-block;
+    border-radius: 50%;
+    text-indent: -99999px;
+    margin: 0 4px;
+    vertical-align: middle;
+}
+.lstCi span.swiper-active-switch {
+    width: 8px;
+    height: 8px;
+    background-color: #757575;
+}
+/*--End duclv: Box recommend video*/
+
+/* Begin 06-08-2018 : Trungcq XLCYCMHENG_32140_bo_sung_muc_luc_bai_viet*/
+.mucluc {
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+}
+.muclucCtn {
+    padding: 20px;
+}
+.muclucTit {
+    text-align: center;
+}
+.muclucTit span {
+    font-size: 22px;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+.mucluc a {
+    color: #78b43d;
+    display: block;
+    font-size: 14px;
+    line-height: 28px;
+    font-weight: 600;
+}
+.mucluc a:hover {
+    text-decoration: underline;
+}
+.stepMl {
+    padding-left: 15px;
+}
+.stepMl a {
+    position: relative;
+}
+.stepMl a:before {
+    position: absolute;
+    content: "";
+    display: block;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    left: -15px;
+    top: 11px;
+    background-color: #78b43d;
+}
+.addInfo {
+    padding-left: 30px;
+}
+.addInfo .addInfoLk {
+    position: relative;
+}
+.addInfoLk:before {
+    position: absolute;
+    content: "";
+    display: block;
+    left: -15px;
+    top: 8px;
+    border-width: 5px;
+    border-style: solid;
+    border-color: transparent transparent transparent #78b43d;
+}
+.toc_heading{
+    font-size: 13px;
+    display: block;
+    margin-top: 1.3em;
+    margin-bottom: 1.3em;
+}
+/* End 06-08-2018 : Trungcq XLCYCMHENG_32140_bo_sung_muc_luc_bai_viet*//* begin BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
+.asiadTit {
+    height: 40px;
+    background: url(//static.24h.com.vn/images/bxh/asiad-bg.png) center right;
+    line-height: 40px;
+}
+.asiadTit span {
+    font-size: 18px;
+}
+.asiadTb {
+    width: 100%;
+    border-collapse: collapse;
+}
+.asiadTb thead {
+    border-bottom: 1px solid #ddd;
+}
+.asiadTb thead th{
+    padding: 10px 4px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.asiadTb tbody tr td {
+    padding: 10px 4px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+}
+.asiadTb tbody tr td span {
+    font-size: 16px;
+}
+.asiadTb tbody tr td.txtLt {
+    text-align: left;
+}
+.asiadTb tbody tr td.txtLt img {
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 10px;
+}
+.asiadVN {
+    background-color: #fff2da;
+}
+.asiadVN .txtLt {
+    font-weight: 700;
+}
+.asiad-detail {
+    padding-right: 10px;
+}
+.asiad-detail a {
+    font-size: 12px;
+    color: #78b43d;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/*Start less-bxh*/
+.less-bxh .asiadTb thead th {
+    background-color: #4d4948;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+.asiadTb thead th.txtLt {
+    text-align: left;
+}
+.less-bxh .asiadTb thead th.asiad-vang {
+    background-color: #f3a346;
+}
+.less-bxh .asiadTb thead th.asiad-bac {
+    background-color: #898989;
+}
+.less-bxh .asiadTb thead th.asiad-dong {
+    background-color: #bc632e;
+}
+.less-bxh .asiadTb tbody tr td {
+    padding: 4px;
+    border: 1px solid #ddd;
+}
+.less-bxh .asiadTb th, .less-bxh .asiadTb td, .less-bxh .asiadTb td span {
+    font-size: 11px;
+}
+.less-bxh .asiadTb tbody tr td.txtLt img {
+    width: 20px;
+}
+.lessasiadTit span {
+    font-size: 11px;
+    color: #f3a346;
+    display: inline-block;
+    text-align: center;
+    width: 78%;
+    position: relative;
+}
+.lessasiadTit span:before {
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #f3a346;
+    top: 5px;
+    left: 0;
+    width: 104px;
+    height: 1px;
+}
+.lessasiadTit span:after {
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #f3a346;
+    top: 5px;
+    right: 0;
+    width: 104px;
+    height: 1px;
+}
+.lessasiadTit .asiad-detail {
+    float: right;
+    padding-right: 0;
+}
+.lessasiadTit .asiad-detail a {
+    font-size: 11px;
+    text-decoration: none;
+}
+.lessasiadTit .asiad-detail a:hover {
+    text-decoration: underline;
+}
+.lessasiadTit {
+    margin-bottom: 5px;
+}
+/* end BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
+.banner_sticky_container{
+    position:fixed;
+    bottom:0px;
+    z-index: 9999;
+}

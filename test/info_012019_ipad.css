@@ -1,0 +1,47 @@
+.mg-layout-infographic *{
+	font-size: 20px!important;
+	line-height: 32px!important;
+}
+.mg-layout-infographic .container-inner, .mg-layout-infographic .width-750{
+	width: auto!important;
+}
+.mg-layout-infographic .width-750{
+	padding: 0 10px;
+}
+.mg-layout-infographic p{
+	margin: 15px 10px;
+}
+.mg-layout-infographic img{
+	max-width: 100%;
+	margin: 0 auto;
+	display: block;
+}
+.mg-layout-infographic .imgTop-textBottom .name{
+	font-size: 24px;
+	font-weight: 600;
+	color: #582b1c;
+	font-style: oblique;
+	margin: 20px 0;
+	line-height: 1.3;
+	text-align: center;
+}
+.mg-layout-infographic .mg-video, .mg-layout-infographic .mg-author{
+	text-align: center;
+}
+.mg-layout-infographic .mg-video-caption span{
+	text-align: center;
+	margin-top: 10px;
+	display: block;
+}
+.mg-layout-infographic .mg-author p{
+	margin: 0;
+}
+.mg-layout-infographic .mg-video-inner iframe{
+	height: 565px!important;
+}
+.mg-layout-infographic .videoSmall iframe{
+}
+.mg-layout-infographic .titleText .tittleTop-textBottom p, .mg-layout-infographic .baAnhGiuaText .mg-wrapper p, .mg-layout-infographic .slideAnh .mg-wrapper p{
+	font-size: 20px!important;
+	line-height: 32px!important;
+}

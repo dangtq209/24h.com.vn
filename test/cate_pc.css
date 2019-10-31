@@ -1,0 +1,440 @@
+.brmCm2 {
+    width: 693px;
+    /*height: auto;*/
+    /*overflow: hidden;*/
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 10px;
+}
+.bdmHmTb {
+    float: left;
+    height: auto;
+    line-height: 14px;
+    padding: 2px 0 3px 0;
+    font-size: 11px!important;
+    font-weight: bold;
+    color: #fff;
+}
+.bdmHmTb ul li {
+    display: block;
+    list-style: none;
+}
+.bdmHmTb a {
+    font-size: 12px;
+    font-weight: bold;
+    color: #78b43d;
+    line-height: 12px;
+}
+.brmCmTb {
+    padding: 1px 3px;
+    display: inline-block;
+    float: left;
+    color: #78b43d;
+    font-weight: bold;
+    border-radius: 2px;
+    margin-left: 2px;
+    margin-bottom: 3px;
+}
+.brmCmTb ul li {
+    list-style: none;
+    display: inline;
+    padding: 0 0 3px;
+}
+.brmCmTb a {
+    color: #78b43d;
+    padding-left: 5px;
+}
+.znMnCm2Brm {
+    z-index: 99999;
+    position: absolute;
+}
+/*.bmTpSeoBlk {
+    height: 15px;
+    overflow: hidden;
+}*/
+.bmTpSeo {
+    text-align: right;
+    float: right;
+}
+.bmTpSeo a {
+    font-size: 11px;
+}
+.sbMnCate {
+    position: relative;
+    padding-bottom: 5px;
+    margin-top: 5px;
+}
+.sbMnCateUl {
+    padding-right: 20px;
+}
+/*Start duclv: 19/6/2018 tab wc*/
+.sbMnCate ul li a {
+    display: inline-block;
+    margin-right: 2px;
+    border-radius: 2px;
+    padding: 5px;
+    background: #e1e1e1;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    transition: background .3s,color .3s;
+    -webkit-transition: background .3s,color .3s;
+    -moz-transition: background .3s,color .3s;
+    float: left;
+    color: #212121;
+    font-size: 11px;
+}
+/*End duclv: 19/6/2018 tab wc*/
+.sbMnCate ul li.dnSltUpn {
+    background-color: #fff;
+}
+.dnSltUpn .icoUpSlt {
+    background: #fff url(//static.24h.com.vn/images/icon-upselect.png) no-repeat;
+    width: 22px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 0;
+    cursor: pointer;
+}
+.znMnCm2Brm ul li a {
+    font-weight: 400;
+    border-right: 0;
+    background: #aad862 url(//static.24h.com.vn/images/2014/menuDot.gif) 13px 10px no-repeat;
+    padding: 6px 0 5px 25px;
+    width: 185px;
+    line-height: 16px;
+    color: #000!important;
+    text-decoration: none;
+    border-bottom: #78b43d solid 1px;
+    float: left;
+    transition: background .3s,color .3s;
+    -webkit-transition: background .3s,color .3s;
+    -moz-transition: background .3s,color .3s;
+}
+.sbMnCate ul li.dnSltUpn a.icoDnSlt {
+    background: #fff url(//static.24h.com.vn/images/icon-downselect.png) no-repeat;
+    width: 22px;
+    height: 22px;
+    display: block;
+    position: absolute;
+    top: 1px;
+    right: 0;
+    padding: 0;
+    cursor: pointer;
+}
+/*.dnSltUpn ul li {
+    display: inline-block;
+}*/
+.sbMnCate ul.sbMnCateUpn li:hover a, .sbMnCateUl>li:hover>a, .sbMnCate ul.sbMnCateUpn li:hover a {
+    color: #fff;
+    background: #666;
+}
+.sbMnCate ul li.dnSltUpn:hover .icoUpSlt {
+    background: #fff url(//static.24h.com.vn/images/icon-upselect.png) no-repeat;
+}
+.znMnCm2Brm {
+    display: none;
+}
+.mainCate {
+    display: inline-block;
+    width: 100%;
+}
+.atclMnBxImg {
+    width: 180px;
+    margin-right: 10px;
+    float: left;
+    position: relative;
+}
+.imgNwsMdm {
+    width: 180px;
+    height: 135px;
+    position: relative;
+}
+.qteImg {
+    font-size: 11px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+    text-align: center;
+    color: #666;
+}
+.atclTpCt {
+    width: 500px;
+    float: left;
+}
+.titSb {
+    font-size: 11px;
+    padding: 0 0 3px 0;
+}
+.titSb a {
+    font-size: 11px;
+    text-decoration: none;
+}
+.nwsTitg {
+    display: block;
+    font-weight: bold;
+    color: #5ca038;
+    padding: 0 0 5px 0;
+    font-size: 16px;
+}
+.updTm {
+    font-size: 10px;
+    color: #999;
+    padding-bottom: 5px;
+    font-weight: 500;
+}
+.nwSp {
+    text-align: justify;
+    display: block;
+    color: #333;
+    font-size: 13px;
+    line-height: 16px;
+}
+.grnBxBg {
+    background: #d5ecab;
+    padding: 7px 10px;
+    border-radius: 5px;
+}
+.grnBxBg .lstNws article a {
+    font-size: 12px;    
+    line-height: 18px;
+}
+.grnBxBg .lstNws article a:hover {
+    color: #78b43d;
+}
+.bxDoiSbIt {
+    width: 343px;
+    float: left;
+    padding-bottom: 10px;
+}
+.bxDoiSbIt .nwsSp {
+    padding-left: 120px;
+}
+.seMr {
+    text-align: right;
+    display: block;
+    padding: 6px 0 0 0;
+}
+.seMr a {
+    font-size: 11px;
+    text-decoration: none;
+    padding-left: 10px;
+    background: url(//static.24h.com.vn/images/2014/sprites.png) 0 -615px no-repeat;
+}
+.seMr a:hover {
+    text-decoration: underline;
+    color: #777;
+}
+.bnrAtcl {
+    display: inline-block;
+    width: 100%;
+    margin-bottom: 10px;
+}
+.ttdnTr .bx4TBtmHm{
+    width: 699px;
+    border-radius: 0;
+    box-sizing: border-box;
+    padding: 5px 0;
+}
+.bxCmSbPg {
+    width: 100%;
+    display: inline-block;
+}
+.sclDivSbPg .grnBxT {
+    background-color: #d2577e;
+}
+.bxGrtt {
+    border-left: #ebebeb solid 1px;
+    border-right: #ebebeb solid 1px;
+    border-bottom: #ebebeb solid 1px;
+    padding: 6px 0 3px 6px;
+    height: 245px;
+}
+.sclDiv {
+    overflow-y: auto;
+    overflow-x: hidden;
+    width: 339px;
+    height: 100%;
+    _height: 213px;
+    padding-left: 5px;
+    _padding-left: 0;
+}
+.sclDivSbPg {
+    width: 185px;
+    padding-left: 0;
+}
+.bxCmSbPg .sclDivSbPg {
+    width: 100%;
+}
+.bxCmSbPg .sclDiv article {
+    float: left;
+    padding: 2px 3px 6px 15px;
+    width: 47%;
+}
+.bxCmSbPg .lstNml {
+    background: url(//static.24h.com.vn/images/2014/sprites-eva.png) 2px -548px no-repeat;
+}
+.bxCmSbPg a {
+    color: #333;
+}
+.bxCmSbPg .lstNml a:hover {
+    color: #692;
+}
+/* Start duclv: Tối ưu hiển thị box nhiều người đọc */
+.bnrSbPg {
+    display: inline-block;
+    width: 358px;
+    margin-left: 5px;
+    margin-top: 15px;
+}
+/* End duclv: Tối ưu hiển thị box nhiều người đọc */
+.bnrSbPg .bxCmSbPg .sclDiv article {
+    width: 320px;
+}
+.bnrSbPg  .bxCmSbPg .lstNml {
+    background: url(//static.24h.com.vn/images/2014/sprites.png) 2px -545px no-repeat;
+}
+.bnrSbPg .bxCmSboto .grnBxT {
+    background-color: #78b43d;
+}
+.bnrSbPg .bxCmSboto .sclDiv article {
+    height: auto;
+}
+/* begin BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
+.asiadTit {
+    height: 40px;
+    background: url(//static.24h.com.vn/images/bxh/asiad-bg.png) center right;
+    line-height: 40px;
+}
+.asiadTit span {
+    font-size: 18px;
+}
+.asiadTb {
+    width: 100%;
+    border-collapse: collapse;
+}
+.asiadTb thead {
+    border-bottom: 1px solid #ddd;
+}
+.asiadTb thead th{
+    padding: 10px 4px;
+    font-size: 14px;
+    font-weight: 400;
+}
+.asiadTb tbody tr td {
+    padding: 10px 4px;
+    border-bottom: 1px solid #ddd;
+    text-align: center;
+    font-size: 16px;
+}
+.asiadTb tbody tr td span {
+    font-size: 16px;
+}
+.asiadTb tbody tr td.txtLt {
+    text-align: left;
+}
+.asiadTb tbody tr td.txtLt img {
+    vertical-align: middle;
+    margin-top: -3px;
+    margin-right: 10px;
+}
+.asiadVN {
+    background-color: #fff2da;
+}
+.asiadVN .txtLt {
+    font-weight: 700;
+}
+.asiad-detail {
+    padding-right: 10px;
+}
+.asiad-detail a {
+    font-size: 12px;
+    color: #78b43d;
+    font-style: italic;
+    text-decoration: underline;
+}
+
+/*Start less-bxh*/
+.less-bxh {
+    margin-top: 5px;
+}
+.less-bxh .asiadTb thead th {
+    background-color: #4d4948;
+    border: 1px solid #ddd;
+    padding: 4px;
+}
+.asiadTb thead th.txtLt {
+    text-align: left;
+}
+.less-bxh .asiadTb thead th.asiad-vang {
+    background-color: #f3a346;
+}
+.less-bxh .asiadTb thead th.asiad-bac {
+    background-color: #898989;
+}
+.less-bxh .asiadTb thead th.asiad-dong {
+    background-color: #bc632e;
+}
+.less-bxh .asiadTb tbody tr td {
+    padding: 4px;
+    border: 1px solid #ddd;
+}
+.less-bxh .asiadTb th, .less-bxh .asiadTb td, .less-bxh .asiadTb td span {
+    font-size: 11px;
+}
+.less-bxh .asiadTb tbody tr td.txtLt img {
+    width: 20px;
+}
+.lessasiadTit span {
+    font-size: 11px;
+    color: #f3a346;
+    display: inline-block;
+    text-align: center;
+    width: 78%;
+    position: relative;
+}
+.lessasiadTit span:before {
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #f3a346;
+    top: 5px;
+    left: 0;
+    width: 70px;
+    height: 1px;
+}
+.lessasiadTit span:after {
+    position: absolute;
+    content: "";
+    border-bottom: 1px solid #f3a346;
+    top: 5px;
+    right: 0;
+    width: 70px;
+    height: 1px;
+}
+.lessasiadTit .asiad-detail {
+    float: right;
+    padding-right: 0;
+}
+.lessasiadTit .asiad-detail a {
+    font-size: 11px;
+    text-decoration: none;
+}
+.lessasiadTit .asiad-detail a:hover {
+    text-decoration: underline;
+}
+.lessasiadTit {
+    margin-bottom: 5px;
+}
+/* end BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
+
+/*Start duclv fixed: tmBv*/
+.tmBv .imgFlt img {
+    height: 83px;
+    width: 110px;
+}
+/*End duclv fixed: tmBv*/
+.banner_sticky_container{
+	position:fixed;
+	bottom:0px;
+	z-index: 9999;
+}
