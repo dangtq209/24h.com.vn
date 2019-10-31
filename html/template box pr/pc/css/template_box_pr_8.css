@@ -1,0 +1,47 @@
+/*Begin template box PR 8*/
+.prTemp8 .bxGrtt {
+  overflow: visible; }
+  .prTemp8 .bxGrtt .inner {
+    display: flex; }
+    .prTemp8 .bxGrtt .inner article {
+      margin-bottom: 0;
+      width: 50%; }
+      .prTemp8 .bxGrtt .inner article:nth-child(2n+1) {
+        margin-right: 15px; }
+.prTemp8 .imgNws {
+  width: 150px;
+  height: 113px;
+  float: none;
+  margin-bottom: 5px; }
+.prTemp8 .nwsTit {
+  margin-bottom: 0; }
+.prTemp8 .bxGrtt header a {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: normal;
+  line-height: 16px; }
+.prTemp8 .dots {
+  display: inline-block;
+  width: 6px;
+  height: 6px;
+  background-color: #ccc;
+  border-radius: 50%;
+  -webkit-border-radius: 50%;
+  -moz-border-radius: 50%;
+  -o-border-radius: 50%;
+  margin: 0 3px;
+  vertical-align: middle;
+  cursor: pointer; }
+  .prTemp8 .dots.active {
+    width: 8px;
+    height: 8px;
+    background-color: #78b43d; }
+.prTemp8 .txtSlide {
+  font-size: 15px;
+  font-style: italic;
+  color: #757575;
+  margin-top: 5px; }
+
+/*End template box PR 8*/
+
+/*# sourceMappingURL=template_box_pr_8.css.map */

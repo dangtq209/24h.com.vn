@@ -1,0 +1,48 @@
+/*Begin template box PR 7*/
+.prTemp7{
+	.bxGrtt{
+		overflow: visible;
+	}
+	.imgNws{
+		width: 110px!important;
+		height: 83px!important;
+	}
+	.nwsTit{
+		margin-bottom: 0;
+	}
+	.bxGrtt{
+		header{
+			a{
+				display: inline-block;
+				font-size: 15px;
+				font-weight: normal;
+				line-height: 18px;
+			}
+		}
+	}
+	.dots{
+		display: inline-block;
+		width: 6px;
+		height: 6px;
+		background-color: #ccc;
+		border-radius: 50%;
+		-webkit-border-radius: 50%;
+		-moz-border-radius: 50%;
+		-o-border-radius: 50%;
+		margin: 0 3px;
+		vertical-align: middle;
+		cursor: pointer;
+		&.active{
+			width: 8px;
+			height: 8px;
+			background-color: #78b43d;	
+		}
+	}
+	.txtSlide{
+		font-size: 15px;
+		font-style: italic;
+		color: #757575;
+		margin-top: 5px;
+	}
+}
+/*End template box PR 7*/

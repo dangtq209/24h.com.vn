@@ -1,0 +1,37 @@
+/* infeed_01 */
+.infeed_01 {
+  display: flex;
+  padding: 0; }
+  .infeed_01 .img {
+    width: 137px;
+    height: 103px;
+    position: relative;
+    margin: 0 10px 0 0; }
+  .infeed_01 .content {
+    width: 137px;
+    flex-grow: 1;
+    padding-right: 10px;
+    margin-top: 7px; }
+    .infeed_01 .content .label, .infeed_01 .content span.text {
+      font-size: 11px; }
+    .infeed_01 .content span.text {
+      font-weight: normal;
+      color: #0155b8; }
+    .infeed_01 .content .title {
+      margin-top: 4px;
+      line-height: 1.1; }
+
+/* infeed_02 */
+.infeed_02 {
+  flex-direction: row-reverse;
+  padding: 10px; }
+  .infeed_02 .img {
+    width: 110px;
+    height: 83px;
+    margin: 0; }
+  .infeed_02 .content {
+    margin-top: 0; }
+    .infeed_02 .content .title {
+      line-height: 1; }
+
+/*# sourceMappingURL=infeed.css.map */

@@ -1,0 +1,82 @@
+/*Begin template box pr 8,9 */
+.prTemp8{
+	article{
+		.imgNwsMdm{
+			width: 140px;
+			height: 105px;
+		}
+		.nwsTitHm h2{
+			font-size: 16px;
+			line-height: 1.4;
+			font-weight: normal;
+			.clrDft{
+				font-weight: normal;
+			}
+			@media screen and (max-width: 320px) {
+				font-size: 14px;
+			}
+			@media screen and (min-width: 400px) {
+				font-size: 18px;
+			}
+			@media screen and (min-width: 480px) {
+				font-size: 16px;
+			}
+			@media screen and (min-width: 600px) {
+				font-size: 18px;
+			}
+			@media screen and (min-width: 700px) {
+				font-size: 20px;
+			}
+		}
+	}
+	.lin{
+		border-color: #eeeeee;
+		margin-top: 10px;
+	}
+	.swiper-active-switch{
+		background-color: #78b43d;
+	}
+	.pagination{
+		margin-top: 0;
+	}
+}
+
+//
+.prTemp9{
+	.list{
+		display: flex;
+		justify-content: space-between;
+		article{
+			width: 166px;
+			.imgNwsMdm{
+				float: none;
+				width: 100%;
+				height: 125px;
+				margin: 0 0 10px 0;
+				line-height: 0;
+				@media screen and (max-width: 360px) {
+					height: auto;
+				}
+				@media screen and (min-width: 400px) {
+					height: auto;
+				}
+			}
+			@media screen and (max-width: 360px) {
+				width: 50%;
+				&:nth-child(2n+1){
+					margin-right: 23px;
+				}
+			}
+			@media screen and (min-width: 400px) {
+				width: 50%;
+				&:nth-child(2n+1){
+					margin-right: 23px;
+				}
+			}
+		}
+	}
+}
+
+/*End template box pr 8,9 */
+
+
