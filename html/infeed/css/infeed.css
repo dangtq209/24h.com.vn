@@ -23,10 +23,13 @@
 
 /* infeed_02 */
 .infeed_02 {
-  flex-direction: row-reverse; }
+  flex-direction: row-reverse;
+  padding: 10px; }
   .infeed_02 .img {
-    margin: 0; }
+    margin: 0;
+    width: 110px;
+    height: 83px; }
   .infeed_02 .content {
-    padding: 0 10px; }
+    margin-top: 0; }
 
 /*# sourceMappingURL=infeed.css.map */
