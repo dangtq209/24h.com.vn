@@ -33,6 +33,20 @@
   background-color: #78b43d; }
 .prTemp8 .pagination {
   margin-top: 0; }
+.prTemp8 .txtBnrHor span {
+  font-size: 9px; }
+  @media screen and (min-width: 360px) {
+    .prTemp8 .txtBnrHor span {
+      font-size: 10px; } }
+  @media screen and (min-width: 480px) {
+    .prTemp8 .txtBnrHor span {
+      font-size: 12px; } }
+  @media screen and (min-width: 600px) {
+    .prTemp8 .txtBnrHor span {
+      font-size: 14px; } }
+  @media screen and (min-width: 700px) {
+    .prTemp8 .txtBnrHor span {
+      font-size: 16px; } }
 
 .prTemp9 .list {
   display: flex;
