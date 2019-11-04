@@ -60,6 +60,24 @@
     object-fit: cover;
 }
 
+//
+.template27{
+    .image-item{
+        height: 918px;
+        @media only screen and (max-width: 800px){
+            height: auto;
+        }
+    }
+    .threeImg{
+        .image-item{
+            height: 455px;
+            @media only screen and (max-width: 800px){
+                height: auto;
+            }
+        }
+    }
+}
+
 @media (min-width: 1024px) {
     .template27 img[data-src-desktop] {
         content: attr([data-src-desktop], url);

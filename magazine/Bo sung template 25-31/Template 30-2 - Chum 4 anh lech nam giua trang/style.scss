@@ -66,6 +66,24 @@
     width: 35%;
 }
 
+// 
+.template30-2{
+    .image-item{
+        height: 433px;
+        @media only screen and (max-width: 800px){
+            height: auto;
+        }
+    }
+    .row1{
+        .image-item{
+            height: 561px;
+            @media only screen and (max-width: 800px){
+                height: auto;
+            }
+        }
+    }
+}
+
 @media (min-width: 1024px) {
     .template30-2 img[data-src-desktop] {
         content: attr([data-src-desktop], url);
