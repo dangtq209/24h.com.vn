@@ -895,10 +895,20 @@ var autoplayAllowed_24hPlayer=!1,autoplayRequiresMute_24hPlayer=!1,autoplay24hSo
 
 <!-- Begin dangtq -->
 <p class="linkOrigin">Nguồn: http://khampha.vn/the-thao/hlv-heerenveen-chua-dam-tin-tuong-van-hau-con-mot-co-hoi-cuoi-tuan-nay-
-    <span class="dots">...</span>
-    <span class="txtFull" style="display: none;">hlv-heerenveen-chua-dam-tin-tuong-van-hau-con-mot-co-hoi-cuoi-tuan-nay</span>
-    <span class="icoDrop"></span>
+    <span class="dots" id="dots">...</span>
+    <span class="txtFull" id="txtFull" style="display: none;">hlv-heerenveen-chua-dam-tin-tuong-van-hau-con-mot-co-hoi-cuoi-tuan-nay</span>
+    <span class="icoDrop" id="icoDrop"></span>
 </p>
+<script language="javascript">
+    var icoDrop = document.getElementById("icoDrop");
+    var dots = document.getElementById("dots");
+    var txtFull = document.getElementById("txtFull");
+    icoDrop.onclick = function(){
+        dots.style.display = "none";
+        icoDrop.style.display = "none";
+        txtFull.style.display = "inline";
+    };
+</script>
 <!-- End dangtq -->
 
 <div id="zone_banner_sponser_product">

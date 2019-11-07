@@ -1,0 +1,15 @@
+p.linkOrigin{
+	font-size: 13px;
+	color: #9f9fb8;
+	*{
+		@extend p.linkOrigin;
+	}
+	.icoDrop{
+		display: inline-block;
+		background: url('../images/icoDrop.png') no-repeat;
+		width: 13px;
+		height: 11px;
+		vertical-align: middle;
+		cursor: pointer;
+	}
+}
