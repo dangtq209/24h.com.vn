@@ -1,6 +1,8 @@
 p.linkOrigin {
   font-size: 14px;
-  color: #757575; }
+  color: #757575;
+  padding: 0;
+  margin: 10px; }
   @media screen and (max-width: 320px) {
     p.linkOrigin {
       font-size: 12px; } }

@@ -1,8 +1,10 @@
 p.linkOrigin{
-	font-size: 13px;
+	font-size: 13px!important;
 	color: #757575;
+	margin: 10px 0;
 	*{
 		@extend p.linkOrigin;
+		margin: 0;
 	}
 	.icoDrop{
 		display: inline-block;

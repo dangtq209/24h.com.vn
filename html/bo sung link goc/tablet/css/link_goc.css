@@ -1,6 +1,9 @@
 p.linkOrigin, p.linkOrigin * {
-  font-size: 13px;
-  color: #757575; }
+  font-size: 13px !important;
+  color: #757575;
+  margin: 10px 0; }
+  p.linkOrigin * {
+    margin: 0; }
   p.linkOrigin .icoDrop {
     display: inline-block;
     background: url("../images/icoDrop.png") no-repeat;
