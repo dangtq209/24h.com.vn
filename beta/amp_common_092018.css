@@ -1595,7 +1595,7 @@ end toi_uu_css_amp dangtq 2019*/
 }
 .prTemp2 .clrDft{
     font-weight: normal;
-    color: #333333;
+    /*color: #333333;*/ /*11/11/2019: dangtq sua_mau_title_template_pr_doc_nhieu*/
 }
 .prTemp2 .pagination{
     margin-top: 0;
