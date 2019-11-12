@@ -1,13 +1,21 @@
 p.linkOrigin, p.linkOrigin * {
   font-size: 13px !important;
   color: #757575;
-  margin: 10px 0; }
+  margin: 10px 0;
+  display: flex; }
   p.linkOrigin * {
     margin: 0; }
+  p.linkOrigin .dots {
+    text-overflow: ellipsis;
+    overflow: hidden;
+    width: 100%;
+    white-space: nowrap;
+    display: inline; }
   p.linkOrigin .icoDrop {
     display: inline-block;
     background: url("../images/icoDrop.png") no-repeat;
     width: 13px;
     height: 11px;
     vertical-align: middle;
-    cursor: pointer; }
+    cursor: pointer;
+    margin-top: 3px; }

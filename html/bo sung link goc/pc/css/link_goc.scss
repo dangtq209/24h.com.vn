@@ -2,9 +2,17 @@ p.linkOrigin{
 	font-size: 13px!important;
 	color: #757575;
 	margin: 10px 0;
+	display: flex;
 	*{
 		@extend p.linkOrigin;
 		margin: 0;
+	}
+	.dots{
+		text-overflow: ellipsis;
+		overflow: hidden;
+		width: 100%;
+		white-space: nowrap;
+		display: inline;
 	}
 	.icoDrop{
 		display: inline-block;
@@ -13,5 +21,6 @@ p.linkOrigin{
 		height: 11px;
 		vertical-align: middle;
 		cursor: pointer;
+		margin-top: 3px;
 	}
 }
