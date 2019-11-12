@@ -4702,3 +4702,46 @@ strong.timeUpdate *{
     /* End 6/9/2019: dangtq Toi_uu_giao_dien_box_tinh_huong_noi_bat_bai_tuong_thuat_bong_da */
 }
 /* End 5/9/2019: dangtq Tong_hop_cac_man_hinh_mobile */
+/* Begin: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
+p.linkOrigin, p.linkOrigin * {
+    font-size: 14px;
+    color: #757575; 
+    margin: 10px;
+    padding: 0 !important;
+}
+p.linkOrigin * {
+    margin: 0;
+}
+p.linkOrigin .icoDrop {
+  display: inline-block;
+  background: url("//cdn.24h.com.vn/images/icoDrop.png") no-repeat;
+  width: 13px;
+  height: 11px;
+  vertical-align: middle;
+  cursor: pointer; 
+}
+@media screen and (max-width: 320px) {
+    p.linkOrigin, p.linkOrigin * {
+        font-size: 11px; 
+    } 
+}
+@media screen and (min-width: 414px) {
+    p.linkOrigin, p.linkOrigin * {
+        font-size: 15px; 
+    } 
+}
+@media screen and (min-width: 480px) {
+    p.linkOrigin, p.linkOrigin * {
+        font-size: 13px; 
+    } 
+}
+@media screen and (min-width: 640px) {
+    p.linkOrigin, p.linkOrigin * {
+        font-size: 15px; 
+    } 
+}
+@media screen and (min-width: 736px) {
+    p.linkOrigin, p.linkOrigin * {
+        font-size: 17px; 
+}   }
+/* End: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */

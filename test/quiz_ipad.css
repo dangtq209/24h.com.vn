@@ -710,6 +710,10 @@ a.quiz-question-item-link.quiz-false .check-quiz-question-item:before {
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
+    color: #fff;
+    font-size: 22px;
+    font-weight: 700;
+    text-align: center;
 }
 .quizz7 .title-content-quiz span{
     color: #fff;
