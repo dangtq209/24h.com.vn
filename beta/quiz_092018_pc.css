@@ -888,6 +888,9 @@ a.quiz-question-item-link:hover,
     left: 50%;
     transform: translate(-50%, -50%);
     width: 90%;
+    color: #fff;
+    font-size: 30px;
+    font-weight: 700;
 }
 .quizz7 .title-content-quiz span{
     color: #fff;

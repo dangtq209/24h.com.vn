@@ -2251,3 +2251,25 @@ blockquote{
     text-align: justify;
 }
 /* End 19/7/2019: dangtq toi_uu_text_ghi_chu_trong_noi_dung_bai_dai_ky */
+/* Begin: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
+p.linkOrigin {
+  font-size: 14px;
+  color: #757575;
+  padding: 0;
+  margin: 10px; }
+  @media screen and (max-width: 320px) {
+    p.linkOrigin {
+      font-size: 12px; } }
+  @media screen and (min-width: 414px) {
+    p.linkOrigin {
+      font-size: 16px; } }
+  @media screen and (min-width: 480px) {
+    p.linkOrigin {
+      font-size: 14px; } }
+  @media screen and (min-width: 640px) {
+    p.linkOrigin {
+      font-size: 16px; } }
+  @media screen and (min-width: 736px) {
+    p.linkOrigin {
+      font-size: 18px; } }
+/* ENd: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
