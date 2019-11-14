@@ -98,13 +98,14 @@
   .txtLeft .fp-tableCell .txt, .txtLeft .fp-tableCell img {
     position: relative;
     width: 40%; }
-    .txtLeft .fp-tableCell .txt p, .txtLeft .fp-tableCell img p {
+    .txtLeft .fp-tableCell .txt .inner, .txtLeft .fp-tableCell img .inner {
       position: absolute;
       margin: 0 15%;
       top: 50%;
-      transform: translateY(-50%);
-      line-height: 28px;
-      font-size: 18px; }
+      transform: translateY(-50%); }
+      .txtLeft .fp-tableCell .txt .inner p, .txtLeft .fp-tableCell img .inner p {
+        line-height: 28px;
+        font-size: 18px; }
   .txtLeft .fp-tableCell img {
     flex-grow: 1;
     object-fit: cover; }

@@ -101,13 +101,15 @@
         .txt{
             position: relative;
             width: 40%;
-            p{
+            .inner{
                 position: absolute;
                 margin: 0 15%;
                 top: 50%;
                 transform: translateY(-50%);
-                line-height: 28px;
-                font-size: 18px;
+                p{
+                    line-height: 28px;
+                    font-size: 18px;
+                }
             }
         }
         img{
