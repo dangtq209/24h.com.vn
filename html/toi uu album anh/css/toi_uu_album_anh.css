@@ -9,18 +9,17 @@
     .shwImg .btnPre img, .shwImg .btnNxt img {
       position: absolute;
       top: 50%;
-      left: 50%;
-      margin-top: -25px;
-      margin-left: -25px; }
+      left: 10px;
+      margin-top: -25px; }
   .shwImg .btnNxt {
     left: auto;
     right: 0; }
     .shwImg .btnNxt img {
       position: absolute;
       top: 50%;
-      right: 50%;
-      margin-top: -25px;
-      margin-right: -25px; }
+      left: auto;
+      right: 10px;
+      margin-top: -25px; }
   .shwImg a img {
     display: none; }
   .shwImg a:hover img {
