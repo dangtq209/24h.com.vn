@@ -93,6 +93,10 @@
   background-repeat: no-repeat;
   background-position: center; }
 
+@media screen and (max-width: 767px) {
+  .txtLeft {
+    display: flex;
+    flex-direction: column-reverse; } }
 .txtLeft .fp-tableCell {
   display: flex; }
   .txtLeft .fp-tableCell .txt, .txtLeft .fp-tableCell img {

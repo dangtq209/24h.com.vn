@@ -96,6 +96,10 @@
 
 //
 .txtRight{
+    @media screen and (max-width: 767px) {
+        display: flex;
+        flex-direction: column-reverse;
+    }
     .fp-tableCell{
         display: flex;
         .txt{
