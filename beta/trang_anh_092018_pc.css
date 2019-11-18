@@ -485,3 +485,32 @@ ul.thumbnavi li{float:left;margin:3px 2px;}
     font-weight: normal;
 }
 /* End 18/7/2019: dangtq fix_banner_va_ghi_chu */
+
+/*Begin 18/11/2019: dangtq toi_uu_cach_tuong_tac_bai_album_anh*/
+.shwImg {
+  line-height: 0; }
+  .shwImg .btnPre, .shwImg .btnNxt {
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    margin-top: 0; }
+    .shwImg .btnPre img, .shwImg .btnNxt img {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      margin-top: -25px; }
+  .shwImg .btnNxt {
+    left: auto;
+    right: 0; }
+    .shwImg .btnNxt img {
+      position: absolute;
+      top: 50%;
+      left: auto;
+      right: 10px;
+      margin-top: -25px; }
+  .shwImg a img {
+    display: none; }
+  .shwImg a:hover img {
+    display: block; }
+/*End 18/11/2019: dangtq toi_uu_cach_tuong_tac_bai_album_anh*/
