@@ -424,11 +424,12 @@
 /* begin BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
 .asiadTit {
     height: 40px;
-    background: url(//static.24h.com.vn/images/bxh/asiad-bg.png) center right;
+    background: url('../images/sg30_top_bar2.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
     line-height: 40px;
 }
 .asiadTit span {
     font-size: 18px;
+    color: #002a51; /*18/11/2019: dangtq thay_background_sea_games_30*/
 }
 .asiadTb {
     width: 100%;
