@@ -952,6 +952,7 @@ body, body section, footer{
             .m_banner_show>div {
                 width: 100% !important;
                 overflow: hidden;
+				text-align: -webkit-center;
             }
         }
 
@@ -4721,6 +4722,32 @@ strong.timeUpdate *{
     /* End 6/9/2019: dangtq Toi_uu_giao_dien_box_tinh_huong_noi_bat_bai_tuong_thuat_bong_da */
 }
 /* End 5/9/2019: dangtq Tong_hop_cac_man_hinh_mobile */
+
+/* Begin 16/10/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_tuong_thuat */
+.sapo.fs18, #tttt-container, .ngb, .artBd-child, .artBd, .icoSocial{
+    background-color: #fff;
+    z-index: 9999;
+}
+.sapo.fs18, .artBd-child, .artBd{
+    margin-top: 0;
+    padding-top: 10px;
+}
+.artBd{
+    padding-top: 5px;
+}
+.articleBody > .mrT15.mrB15, .icoSocial{
+    margin: 0!important;
+}
+.icoSocial{
+    padding: 15px 10px;
+}
+/* End 16/10/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_tuong_thuat */
+
+/* Begin 21/10/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_viet_thuong */
+.articleBody>p{
+    background-color: #fff;
+}
+/* End 21/10/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_viet_thuong */
 /* Begin: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
 p.linkOrigin, p.linkOrigin * {
     font-size: 14px;

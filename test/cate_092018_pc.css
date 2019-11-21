@@ -905,6 +905,7 @@ td.dash{
 	font-size: 12px;
 	text-align: left;
 	display: block;
+	display: flex; /*20/11/2019: dangtq fix_loi_ten_nhay_dong_box_bxh_huy_chuong*/
 }
 .tbtt tbody{
 	float: left;

@@ -847,7 +847,7 @@ chuyen muc cap 1 the thao */
 	border: 0;
 }
 .tbtt .ltdTit, .box_ds_tran_dau_hot_chuyen_muc .ltdTit{
-	background: url(//cdn.24h.com.vn/images/bg-bxhhc-092018.png) no-repeat right bottom;
+	background: url('../images/sg30_top_bar2.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
 	background-size: 100%;
 	padding: 10px;
 	padding-bottom: 7px;
@@ -855,7 +855,7 @@ chuyen muc cap 1 the thao */
 }
 .tbtt .ltdTit span, .box_ds_tran_dau_hot_chuyen_muc .txtTrf{
 	font-size: 17px;
-	color: #fff;
+	color: #002a51; /*18/11/2019: dangtq thay_background_sea_games_30*/
 	width: 83%;
 }
 .tbtt .ltdTit span:before, .tbtt .ltdTit span:after{
@@ -905,6 +905,7 @@ td.dash{
 	font-size: 12px;
 	text-align: left;
 	display: block;
+	display: flex; /*20/11/2019: dangtq fix_loi_ten_nhay_dong_box_bxh_huy_chuong*/
 }
 .tbtt tbody{
 	float: left;

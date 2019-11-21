@@ -1674,12 +1674,16 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
 }
 .asiadTit {
     height: 37px;
-    background: url(//cdn.24h.com.vn/images/bxh/asiad-bg.png) center right;
+    background: url('../images/sg30_top_bar2_mobile.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
+    background-size: cover; /*18/11/2019: dangtq thay_background_sea_games_30*/
     line-height: 37px;
 }
+/*Begin 18/11/2019: dangtq thay_background_sea_games_30*/
 .asiadTit span {
-    font-size: 14px;
+    font-size: 13px;
+    color: #002a51;
 }
+/*End 18/11/2019: dangtq thay_background_sea_games_30*/
 .asiadTb {
     width: 100%;
     border-collapse: collapse;
@@ -1763,7 +1767,7 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
 }
 @media only screen and (min-width: 375px) {
     .asiadTit span {
-        font-size: 16px;
+        font-size: 15px; /*18/11/2019: dangtq thay_background_sea_games_30*/
     }
 }
 /* end BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
@@ -2635,9 +2639,14 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         .tttd>header a, .tcbds >header a, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, div.title-bv a, .nguontin, .tbLngble h3{
             font-size: 22px;
         }
-        .tbCmg ul li a, .pgS2 .clrTit.fl, .pgS2 .clrTit.fr, .pgS2 .tit, .txtIl.txtIlImg, .ftMn2 a, .cateOthr li a, .evtHotCt .nwsTitHm, .seMore, .ctTpD, .vidIt a, .asiadTit span, .ttdn .clrDft, .ngd .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .ctTp, .nwsTitSlHm{
+        /*Begin 18/11/2019: dangtq thay_background_sea_games_30*/
+        .tbCmg ul li a, .pgS2 .clrTit.fl, .pgS2 .clrTit.fr, .pgS2 .tit, .txtIl.txtIlImg, .ftMn2 a, .cateOthr li a, .evtHotCt .nwsTitHm, .seMore, .ctTpD, .vidIt a, .ttdn .clrDft, .ngd .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .ctTp, .nwsTitSlHm{
             font-size: 18px;
         }
+        .asiadTit span{
+            font-size: 17px;
+        }
+        /*End 18/11/2019: dangtq thay_background_sea_games_30*/
         .clrGrD, .vuot, span.clrGr, .nwsHt .tmPst, .nwsItHm>.tmPst>a, #footer p, .pgS2 a, .bxRcdVid .video-body-tile a{
             font-size: 16px;
         }
@@ -2713,9 +2722,14 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         .bxRcdVid .video-body-tile a, .clrGrD, .tmPst.pt8, .vuot, span.clrGr, .nwsItHm>.tmPst>a, #footer p, .pgS2 a{
             font-size: 18px;
         }
-        .tbCmg ul li a, .pgS2 .clrTit.fl, .pgS2 .clrTit.fr, .pgS2 .tit, .txtIl.txtIlImg, .ftMn2 a, .cateOthr li a, .ctTp, .seMore, .evtHotCt .nwsTitHm, .vidIt a, .vidItRt a, .asiadTit span, .ttdn .clrDft, .ngd .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .ctTp, .nwsTitSlHm{
+        /*Begin 18/11/2019: dangtq thay_background_sea_games_30*/
+        .tbCmg ul li a, .pgS2 .clrTit.fl, .pgS2 .clrTit.fr, .pgS2 .tit, .txtIl.txtIlImg, .ftMn2 a, .cateOthr li a, .ctTp, .seMore, .evtHotCt .nwsTitHm, .vidIt a, .vidItRt a, .ttdn .clrDft, .ngd .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .ctTp, .nwsTitSlHm{
             font-size: 20px;
         }
+        .asiadTit span{
+            font-size: 19px;
+        }
+        /*End 18/11/2019: dangtq thay_background_sea_games_30*/
         .tttd>header a, .tcbds >header a, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, div.title-bv a, .tbLngble h3{
             font-size: 24px;
         }
@@ -2990,9 +3004,14 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         .bxRcdVid .video-body-tile a, .pgS2 a, .clrGrD, .tmPst a, .evtHotTit .txtTrf, .extTit a, .tpcHt .tpcLitIt li a, .tmPst.pt8, .vuot, #footer p, span.clrGr, .nwsItHm>.tmPst>a{
             font-size: 16px;
         }
-        .tbCmg ul li a, .pgS2 .clrTit.fl, .pgS2 .clrTit.fr, .pgS2 .tit, .txtIl.txtIlImg, .atclRdSbIn .nwsTit a, .ngd .bxRdPsnLt a, .ttdn .clrDft, .more1, .asiad-detail a, .asiadTb tbody tr td, .asiadTb thead th, .asiadTit span, .ftMn2 a, .cateOthr li a, .ctTp.ctTpD, .seMore, .ctTp, .nwsTitSlHm, .evtHotCt .nwsTitHm, .tbCmg ul li, .seMr a, .tbCmg ul li .mnAtv, .vidIt a, .vidItRt a, .lady .nwsTitSlHm{
+        /*Begin 18/11/2019: dangtq thay_background_sea_games_30*/
+        .tbCmg ul li a, .pgS2 .clrTit.fl, .pgS2 .clrTit.fr, .pgS2 .tit, .txtIl.txtIlImg, .atclRdSbIn .nwsTit a, .ngd .bxRdPsnLt a, .ttdn .clrDft, .more1, .asiad-detail a, .asiadTb tbody tr td, .asiadTb thead th, .ftMn2 a, .cateOthr li a, .ctTp.ctTpD, .seMore, .ctTp, .nwsTitSlHm, .evtHotCt .nwsTitHm, .tbCmg ul li, .seMr a, .tbCmg ul li .mnAtv, .vidIt a, .vidItRt a, .lady .nwsTitSlHm{
             font-size: 18px;
         }
+        .asiadTit span{
+            font-size: 17px;
+        }
+        /*End 18/11/2019: dangtq thay_background_sea_games_30*/
         .nwsTitHm, .vidIt.first a, .ldIt a, .ldIt2 a, .tcbIt li a, .ngd .ldItHm .stt, .tbCmg1 ul li .Atv, p, .nguontin, .liveCnt .artBd-child p{
             font-size: 20px; /* 07/12/2018 dangtq sửa_font_size */
         }
