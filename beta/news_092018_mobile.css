@@ -1674,7 +1674,7 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
 }
 .asiadTit {
     height: 37px;
-    background: url('../images/sg30_top_bar2_mobile.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
+    background: url('//cdn.24h.com.vn/images/sg30_top_bar2_mobile.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
     background-size: cover; /*18/11/2019: dangtq thay_background_sea_games_30*/
     line-height: 37px;
 }
@@ -4735,8 +4735,8 @@ strong.timeUpdate *{
 .artBd{
     padding-top: 5px;
 }
-.articleBody > .mrT15.mrB15, .icoSocial{
-    margin: 0!important;
+article#div_news_content > .mrT15.mrB15, .articleBody > .mrT15.mrB15, .icoSocial{
+    margin: 0!important; /* 27/11/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_album_anh */
 }
 .icoSocial{
     padding: 15px 10px;
@@ -4744,10 +4744,17 @@ strong.timeUpdate *{
 /* End 16/10/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_tuong_thuat */
 
 /* Begin 21/10/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_viet_thuong */
-.articleBody>p{
-    background-color: #fff;
+.articleBody>p, .albumCnt{
+    background-color: #fff; /* 27/11/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_album_anh */
 }
 /* End 21/10/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_viet_thuong */
+
+/* Begin 27/11/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_album_anh */
+.albumCnt > p:nth-child(1){
+    margin: 0;
+}
+/* End 27/11/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_album_anh */
+
 /* Begin: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
 p.linkOrigin, p.linkOrigin * {
     font-size: 14px;
