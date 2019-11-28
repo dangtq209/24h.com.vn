@@ -1348,7 +1348,7 @@ article {
 	}
 	.arrowPageUp {
 		position: fixed;
-		bottom: 60px;
+		bottom: 75px; /*28/11/2019: dangtq chinh_nut_tro_ve_dau_trang_tang_len_15px*/
 		right: 0;
 	}
 	/*---End footer---*/
