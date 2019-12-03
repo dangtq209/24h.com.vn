@@ -1417,7 +1417,7 @@
     /* End 06-08-2018 : Trungcq XLCYCMHENG_32140_bo_sung_muc_luc_bai_viet*//* begin BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
     .asiadTit {
     	height: 40px;
-    	background: url('../images/sg30_top_bar2.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
+    	background: url('//cdn.24h.com.vn/images/sg30_top_bar2.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
     	line-height: 40px;
     }
     .asiadTit span {
@@ -2983,8 +2983,7 @@ footer */
 	font-size: 13px;
 }
 .bnrPtn{
-	/*margin-top: 5px;*/
-	/*margin-left: 0;*/ /*2/10/2019: dangtq fix_banner_cong_chao_top*/
+	margin-left: 0; /*2/12/2019: dangtq fix_banner_cong_chao_top*/
 }
 /* end change 21/10/2018 DangTQ */
 
