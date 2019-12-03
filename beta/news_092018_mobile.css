@@ -4798,3 +4798,15 @@ p.linkOrigin .icoDrop {
         font-size: 17px; 
 }   }
 /* End: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
+
+/*Begin 3/12/2019: dangtq fix_loi_banner_inpage_chen_len_noi_dung_bai_tuong_thuat_the_thao*/
+.liveCnt .atn{
+    background-color: #fff;
+}
+.liveCnt .atn .tttt-set .blk{
+    padding: 0;
+}
+#div_news_content .liveCnt .atn .tttt-set .blk p{
+    padding: 0 10px;
+}
+/*End 3/12/2019: dangtq fix_loi_banner_inpage_chen_len_noi_dung_bai_tuong_thuat_the_thao*/
