@@ -3355,4 +3355,12 @@ ul, li {
   font-style: italic;
   color: #757575;
   margin-top: 5px; }
-/*End template box PR 8*/						   
+/*End template box PR 8*/
+
+/*Begin 3/12/2019: dangtq fix_banner_top_width_1016px*/
+.contnrTop{
+    width: 1016px;
+    margin: 0 auto;
+    background: #fff;
+}
+/*End 3/12/2019: dangtq fix_banner_top_width_1016px*/						   
