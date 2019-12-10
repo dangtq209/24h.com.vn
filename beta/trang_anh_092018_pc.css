@@ -3,12 +3,12 @@
 /* CSS Document */
 .clLtImg{width: 699px;float: left;margin-bottom: 18px!important;}
 .clRtImg{width:300px;margin-left:5px;float:left}/* Edit Tytv 17/04/2017- dfp_code_ghep_trang(ghep_trang_chi_tiet) */
-.imgCtnImg,.otherAlbums{background-color:#111111;color:#FFFFFF;padding:20px;position:relative;width:687px;overflow: hidden;box-sizing: border-box;}
-.hdrBxRtTxt{background:#111111;color:#FFFFFF;line-height:18px;padding:15px 20px;text-align:justify;font-size: 14px;}
+.imgCtnImg,.otherAlbums{background-color:#1a1e2b;color:#FFFFFF;padding:20px;position:relative;width:687px;overflow: hidden;box-sizing: border-box;} /*10/12/2019: dangtq chinh_mau_nen_box_slide_anh*/
+.hdrBxRtTxt{background:#1a1e2b;color:#FFFFFF;line-height:18px;padding:15px 20px;text-align:justify;font-size: 14px;} /*10/12/2019: dangtq chinh_mau_nen_box_slide_anh*/
 .hdrBxRtTxt p{color:#ffffff;margin:0;}
 .hdrBxRtTxt a{color:#ff0;text-decoration:underline;}
-.seAutoImg{float:left;width:300px;background:#111111;margin-bottom: 15px;}
-.thumb-list{padding:10px 0px;padding-bottom: 0;background:#111111;}
+.seAutoImg{float:left;width:300px;background:#1a1e2b;margin-bottom: 15px;} /*10/12/2019: dangtq chinh_mau_nen_box_slide_anh*/
+.thumb-list{padding:10px 0px;padding-bottom: 0;background:#1a1e2b;} /*10/12/2019: dangtq chinh_mau_nen_box_slide_anh*/
 .image-thumb{width:55px;height:80px;border:#dddddd solid 1px;opacity:0.7;filter:alpha(opacity=70);}
 .image-thumb:hover{width:55px;height:80px;border:#78b43d solid 1px;opacity:1;filter:alpha(opacity=100);}
 .thmbAtv{width:55px;height:80px;border:#78b43d solid 1px;opacity:1;filter:alpha(opacity=100);}
