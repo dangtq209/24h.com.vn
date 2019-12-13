@@ -3938,3 +3938,132 @@ p.linkOrigin .icoDrop {
     cursor: pointer; 
 }
 /* End: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
+/* Begin TuyenNT: xay_dung_tinh_nang_bao_loi_trang_bai_viet_pc */
+.btn-report-error {
+    cursor: pointer;
+    display: inline-block;
+    padding: 10px 14px;
+    text-align: center;
+    background-color: #000;
+    border: 0;
+    outline: none;
+    font-size: 14px;
+    color: #fff;
+    border-radius: 4px;
+    position: absolute;
+    top: 1137px;
+    left: 500px;
+    z-index: 9999; 
+}
+.btn-report-error:after {
+    content: '';
+    display: inline-block;
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    left: 50%;
+    margin-left: -5px;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+    bottom: -5px;
+    background-color: #000; 
+}
+
+.blocker {
+  position: fixed;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  z-index: 999999;
+  background-color: rgba(49, 49, 49, 0.2); 
+}
+.feedbackError {
+  background-color: #fff;
+  border-radius: 10px;
+  padding: 40px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  width: 500px;
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  left: 50%;
+  margin-left: -250px; 
+}
+.feedbackError.feedbackErrorSucc {
+    background-color: #f7f7f7; 
+}
+.feedbackError * {
+    box-sizing: border-box; 
+}
+.feedbackError .dialogTitle {
+    font-size: 1.3em;
+    color: #000;
+    text-align: center;
+    margin-bottom: 25px; 
+}
+.feedbackError .dialogTitle.dialogTitleSucc {
+    margin-bottom: 12px; 
+}
+.feedbackError .dialogLabel, .feedbackError .selectedText, .feedbackError textarea, .feedbackError .dialogCnt {
+    font-size: 14px; 
+}
+.feedbackError .selectedText {
+    padding: 20px;
+    color: #000;
+    background-color: #eeeeee;
+    margin-top: 5px;
+    border-radius: 4px;
+    margin-bottom: 20px; 
+}
+.feedbackError textarea {
+    padding: 10px;
+    width: 100%;
+    border: 1px solid #ddd;
+    line-height: 1.3;
+    border-radius: 5px;
+    margin-top: 5px;
+    box-shadow: inset 0px 0px 3px 0px rgba(66, 66, 66, 0.1);
+    outline: none;
+    margin-bottom: 10px; 
+}
+.feedbackError textarea:focus {
+    box-shadow: 0 0 5px #51cbee;
+    border: 1px solid #51cbee; 
+}
+.feedbackError .dialogCnt {
+    margin-bottom: 30px;
+    text-align: center; 
+}
+.feedbackError .dialogBtn {
+    display: inline-block;
+    padding: 0px 15px;
+    background-color: #f3f3f3;
+    color: #006A96;
+    margin-right: 10px;
+    line-height: 35px;
+    border-radius: 3px;
+    font-size: 14px; 
+}
+.feedbackError .dialogBtn.btnConfirm {
+    background-color: #00a1df;
+    color: #fff; 
+}
+.feedbackError .dialogBtn:hover {
+    background-color: #007197;
+    color: #fff; 
+}
+.article_error_message_validate{
+    display:none;
+    color: red;
+    margin-bottom: 10px;
+    font-weight: bold;
+}
+.article_redText {
+    color: #ff0000!important;
+}
+/* End TuyenNT: xay_dung_tinh_nang_bao_loi_trang_bai_viet_pc */

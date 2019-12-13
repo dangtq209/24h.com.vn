@@ -3129,3 +3129,10 @@ article {
     margin-top: 0; }
 
 /*# sourceMappingURL=infeed.css.map */
+.catfish_banner {
+    position: fixed !important;
+    bottom: 0;
+    left: 0;
+    line-height: 0;
+    z-index: 9999 !important;
+}
