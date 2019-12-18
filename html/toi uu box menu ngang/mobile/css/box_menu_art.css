@@ -1,0 +1,80 @@
+.boxCateHead.mainSec .mnWrap {
+  padding: 0 10px 3px;
+  border-top: 0;
+  border-bottom: 2px solid #7ab445;
+  margin: 15px 0 0;
+  position: relative; }
+  .boxCateHead.mainSec .mnWrap a {
+    color: #7ab445; }
+.boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+  top: 11%;
+  margin-top: 0; }
+  @media screen and (max-width: 320px) {
+    .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+      top: 7%; } }
+  @media screen and (min-width: 414px) {
+    .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+      top: 13%; } }
+  @media screen and (min-width: 480px) {
+    .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+      top: 11%; } }
+  @media screen and (min-width: 640px) {
+    .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+      top: 13%; } }
+  @media screen and (min-width: 736px) {
+    .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+      top: 15%; } }
+.boxCateHead .icoBars {
+  background: url("../images/memu-icon.png") no-repeat;
+  width: 20px;
+  height: 21px;
+  top: 10px;
+  right: 10px; }
+.boxCateHead .listMenuChild {
+  background-color: #f7f7f7;
+  padding: 10px;
+  display: block; }
+  .boxCateHead .listMenuChild li {
+    border-right-color: #d7d7d7; }
+    .boxCateHead .listMenuChild li a {
+      font-size: 14px;
+      color: #6b6b6b; }
+      @media screen and (max-width: 320px) {
+        .boxCateHead .listMenuChild li a {
+          font-size: 12px; } }
+      @media screen and (min-width: 414px) {
+        .boxCateHead .listMenuChild li a {
+          font-size: 16px; } }
+      @media screen and (min-width: 480px) {
+        .boxCateHead .listMenuChild li a {
+          font-size: 14px; } }
+      @media screen and (min-width: 640px) {
+        .boxCateHead .listMenuChild li a {
+          font-size: 16px; } }
+      @media screen and (min-width: 736px) {
+        .boxCateHead .listMenuChild li a {
+          font-size: 18px; } }
+.boxCateHead .logoBrand {
+  font-size: 14px;
+  padding: 0 7px;
+  border-radius: 3px;
+  position: absolute;
+  bottom: 6px;
+  right: 40px; }
+  .boxCateHead .logoBrand img {
+    vertical-align: -6px; }
+  @media screen and (max-width: 320px) {
+    .boxCateHead .logoBrand {
+      font-size: 12px; } }
+  @media screen and (min-width: 414px) {
+    .boxCateHead .logoBrand {
+      font-size: 16px; } }
+  @media screen and (min-width: 480px) {
+    .boxCateHead .logoBrand {
+      font-size: 14px; } }
+  @media screen and (min-width: 640px) {
+    .boxCateHead .logoBrand {
+      font-size: 16px; } }
+  @media screen and (min-width: 736px) {
+    .boxCateHead .logoBrand {
+      font-size: 18px; } }

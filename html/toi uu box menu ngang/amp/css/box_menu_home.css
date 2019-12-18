@@ -1,0 +1,71 @@
+.boxCateHead {
+  background: none;
+  margin-left: -10px;
+  margin-right: -10px; }
+  .boxCateHead .mnWrap {
+    padding: 10px 10px 3px;
+    border-bottom: 2px solid #7ab445; }
+    .boxCateHead .mnWrap a {
+      color: #7ab445;
+      font-size: 18px;
+      font-weight: normal; }
+      @media screen and (max-width: 320px) {
+        .boxCateHead .mnWrap a {
+          font-size: 16px; } }
+      @media screen and (min-width: 414px) {
+        .boxCateHead .mnWrap a {
+          font-size: 20px; } }
+      @media screen and (min-width: 480px) {
+        .boxCateHead .mnWrap a {
+          font-size: 18px; } }
+      @media screen and (min-width: 640px) {
+        .boxCateHead .mnWrap a {
+          font-size: 20px; } }
+      @media screen and (min-width: 736px) {
+        .boxCateHead .mnWrap a {
+          font-size: 22px; } }
+  .boxCateHead .mnCM-expand {
+    top: 4%;
+    margin-top: 0; }
+    @media screen and (max-width: 320px) {
+      .boxCateHead .mnCM-expand {
+        top: 0; } }
+    @media screen and (min-width: 414px) {
+      .boxCateHead .mnCM-expand {
+        top: 9%; } }
+    @media screen and (min-width: 480px) {
+      .boxCateHead .mnCM-expand {
+        top: 4%; } }
+    @media screen and (min-width: 640px) {
+      .boxCateHead .mnCM-expand {
+        top: 9%; } }
+  .boxCateHead .icoBars {
+    background: url("../images/memu-icon.png") no-repeat;
+    width: 20px;
+    height: 21px;
+    top: 10px;
+    right: 10px; }
+  .boxCateHead .listMenuChild {
+    background-color: #f7f7f7;
+    padding: 4px 15px;
+    display: block; }
+    .boxCateHead .listMenuChild li {
+      border-right-color: #d7d7d7; }
+      .boxCateHead .listMenuChild li a {
+        font-size: 14px;
+        color: #6b6b6b; }
+        @media screen and (max-width: 320px) {
+          .boxCateHead .listMenuChild li a {
+            font-size: 12px; } }
+        @media screen and (min-width: 414px) {
+          .boxCateHead .listMenuChild li a {
+            font-size: 16px; } }
+        @media screen and (min-width: 480px) {
+          .boxCateHead .listMenuChild li a {
+            font-size: 14px; } }
+        @media screen and (min-width: 640px) {
+          .boxCateHead .listMenuChild li a {
+            font-size: 16px; } }
+        @media screen and (min-width: 736px) {
+          .boxCateHead .listMenuChild li a {
+            font-size: 18px; } }
