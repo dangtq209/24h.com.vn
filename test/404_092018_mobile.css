@@ -138,7 +138,7 @@ ul, li {
     float: right;
 }
 .icoquz {
-    background: url(//static.24h.com.vn/images/2014/icon-quiz.png) 0 0 no-repeat;
+    background: url(//cdn.24h.com.vn/images/2014/icon-quiz.png) 0 0 no-repeat;
     width: 11px;
     height: 11px;
     display: inline-block;
@@ -149,7 +149,7 @@ ul, li {
     display: block;
     bottom: 5px;
     left: 5px;
-    background: url(//static.24h.com.vn/images/m2014/images-small/iconVideo2-small.png) no-repeat 0 0;
+    background: url(//cdn.24h.com.vn/images/m2014/images-small/iconVideo2-small.png) no-repeat 0 0;
     width: 20px;
     height: 20px;
     z-index: 1;
@@ -159,41 +159,41 @@ ul, li {
     display: block;
     bottom: 5px;
     left: 5px;
-    background: url(//static.24h.com.vn/images/2014/icon-album.gif) no-repeat 0 0;
+    background: url(//cdn.24h.com.vn/images/2014/icon-album.gif) no-repeat 0 0;
     width: 20px;
     height: 20px;
     z-index: 1;
 }
 .icoVid {
-    background: url(//static.24h.com.vn/images/m2014/images-small/iconVideo-small.png) no-repeat 3px 0;
+    background: url(//cdn.24h.com.vn/images/m2014/images-small/iconVideo-small.png) no-repeat 3px 0;
     width: 21px;
     height: 10px;
     margin-left: 2px;
     display: inline-block;
 }
 .icoPic {
-    background: url(//static.24h.com.vn/images/m2014/images-small/iconPic-small.png) no-repeat 3px 0;
+    background: url(//cdn.24h.com.vn/images/m2014/images-small/iconPic-small.png) no-repeat 3px 0;
     width: 19px;
     height: 10px;
     margin-left: 2px;
     display: inline-block;
 }
 .icoInfo {
-    background: url(//static.24h.com.vn/images/2014/icon-infografic-2017.png) 0 1px no-repeat;
+    background: url(//cdn.24h.com.vn/images/2014/icon-infografic-2017.png) 0 1px no-repeat;
     width: 11px;
     height: 11px;
     display: inline-block;
     margin: 0 0 0 5px;
 }
 .redStar {
-    background: url(//static.24h.com.vn/images/2014/red-star.gif) 0px 0px no-repeat;
+    background: url(//cdn.24h.com.vn/images/2014/red-star.gif) 0px 0px no-repeat;
     width: 10px;
     height: 10px;
     margin-left: 2px;
     display: inline-block;
 }
 .grnStar {
-    background: url(//static.24h.com.vn/images/2014/green-star.gif) 0px 0px no-repeat;
+    background: url(//cdn.24h.com.vn/images/2014/green-star.gif) 0px 0px no-repeat;
     width: 10px;
     height: 10px;
     margin-left: 2px;
@@ -222,7 +222,7 @@ ul, li {
     font-size: 12px;
 }
 .seMr a .ico {
-    background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) 0 -162px;
+    background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) 0 -162px;
     width: 20px;
     height: 16px;
     display: inline-block;  
@@ -231,7 +231,7 @@ ul, li {
     position: absolute;
     top: 37%;
     left: 40%;
-    background: url(//static.24h.com.vn/images/m2014/images-small/videoPlay-small.png) no-repeat;
+    background: url(//cdn.24h.com.vn/images/m2014/images-small/videoPlay-small.png) no-repeat;
     width: 30px;
     height: 30px;
     display: block;
@@ -289,14 +289,14 @@ article {
     border: #e1e1e1 solid 1px;
     padding: 5px 16px;
     font-size: 14px;
-    background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 4px -32px;
+    background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 4px -32px;
     margin-right: 5px;
 }
 .btnTpDt {
     border: #e1e1e1 solid 1px;
     padding: 5px 16px;
     font-size: 14px;
-    background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 7px -449px;
+    background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 7px -449px;
 }
 /*---End CM khac---*/
 .lnkGrn {

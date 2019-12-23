@@ -2,6 +2,7 @@
     margin-bottom: 15px;
     display: inline-block;
     width: 100%;
+    padding: 0 10px;
 }
 .block-quiz img{max-width:100%;}
 /*Start quizz*/
@@ -160,7 +161,7 @@ a.quiz-question-item-link {
 .check-quiz-question-item:before {
     content: "";
     position: absolute;
-    background: url(//static.24h.com.vn/images/2014/quiz-icon/checkbox.png) no-repeat;
+    background: url(//cdn.24h.com.vn/images/2014/quiz-icon/checkbox.png) no-repeat;
     width: 18px;
     height: 18px;
     top: 3px;
@@ -179,7 +180,7 @@ a.quiz-question-item-link {
 .quiz-question-item-link.active .check-quiz-question-item:before {
     content: "";
     position: absolute;
-    background: url(//static.24h.com.vn/images/2014/quiz-icon/check-active.png) no-repeat;
+    background: url(//cdn.24h.com.vn/images/2014/quiz-icon/check-active.png) no-repeat;
     width: 18px;
     height: 18px;
     top: 3px;
@@ -311,7 +312,7 @@ a.quiz-question-item-link {
     position: relative;
 }
 .quiz_3_box-right .see-quiz_3_box:hover a:first-child:after {
-    background: url(//static.24h.com.vn/images/2014/quiz-icon/quiz_next_hover.png);
+    background: url(//cdn.24h.com.vn/images/2014/quiz-icon/quiz_next_hover.png);
     width: 16px;
     height: 16px;
     content: "";
@@ -321,7 +322,7 @@ a.quiz-question-item-link {
     z-index: 1;
 }
 .quiz_3_box-left .see-quiz_3_box:hover a:first-child:before {
-    background: url(//static.24h.com.vn/images/2014/quiz-icon/quiz_prev_hover.png);
+    background: url(//cdn.24h.com.vn/images/2014/quiz-icon/quiz_prev_hover.png);
     width: 16px;
     height: 16px;
     content: "";
@@ -433,7 +434,7 @@ a.quiz-question-item-link {
 }
 
 .list-quiz-4-true:after {
-    background: url(//static.24h.com.vn/images/2014/quiz-icon/quiz_4_true.png);
+    background: url(//cdn.24h.com.vn/images/2014/quiz-icon/quiz_4_true.png);
     width: 12px;
     height: 12px;
     content: "";
@@ -446,7 +447,7 @@ a.quiz-question-item-link {
     position: relative;
 }
 .list-quiz-4-false:after {
-    background: url(//static.24h.com.vn/images/2014/quiz-icon/quiz_4_false.png);
+    background: url(//cdn.24h.com.vn/images/2014/quiz-icon/quiz_4_false.png);
     width: 12px;
     height: 12px;
     content: "";
@@ -617,7 +618,7 @@ a.quiz-question-item-link.quiz-false .check-quiz-question-item:before {
 .quiz-five-result .color-correct:before {
     content: "";
     position: absolute;
-    background: url(//static.24h.com.vn/images/2014/quiz-icon/check-active.png) no-repeat;
+    background: url(//cdn.24h.com.vn/images/2014/quiz-icon/check-active.png) no-repeat;
     width: 18px;
     height: 18px;
     top: 5px;
@@ -630,7 +631,7 @@ a.quiz-question-item-link.quiz-false .check-quiz-question-item:before {
 .quiz-five-result .color-false:before {
     content: "";
     position: absolute;
-    background: url(//static.24h.com.vn/images/2014/quiz-icon/not-correct.png) no-repeat;
+    background: url(//cdn.24h.com.vn/images/2014/quiz-icon/not-correct.png) no-repeat;
     width: 22px;
     height: 22px;
     top: 2px;
@@ -670,7 +671,7 @@ a.quiz-question-item-link.quiz-false .check-quiz-question-item:before {
 .quiz-5-false .check-quiz-question-item:before {
     content: "";
     position: absolute;
-    background: url(//static.24h.com.vn/images/2014/quiz-icon/quiz-false.png) no-repeat;
+    background: url(//cdn.24h.com.vn/images/2014/quiz-icon/quiz-false.png) no-repeat;
     width: 22px;
     height: 22px;
     top: -2px;
@@ -682,7 +683,7 @@ a.quiz-question-item-link.quiz-false .check-quiz-question-item:before {
 .quiz-5-true .check-quiz-question-item:before {
     content: "";
     position: absolute;
-    background: url(//static.24h.com.vn/images/2014/quiz-icon/check-active.png) no-repeat;
+    background: url(//cdn.24h.com.vn/images/2014/quiz-icon/check-active.png) no-repeat;
     width: 18px;
     height: 18px;
     top: 0;

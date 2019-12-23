@@ -512,7 +512,7 @@ main */
 	margin-bottom: 10px;
 }
 .newsx .col2 .item{
-	overflow: hidden; /*Begin tối ưu CSS sau triển khai giao diện mới*/
+	/*overflow: hidden;*/ /*icon_LIVE_tin_so_02_03 - dangtq 6/6/2019*/
 }
 .liveico{
 	background: url(//cdn.24h.com.vn/images/Ellipse-10.jpg) no-repeat center;
@@ -533,7 +533,7 @@ main */
 	height: 333px;
 }
 .newsx .col2 .img{
-	height: 162px; /*Tối ưu CSS sau triển khai giao diện mới*/
+	height: 160px; /*icon_LIVE_tin_so_02_03 - dangtq 6/6/2019*/
 }
 /*Begin tối ưu CSS sau triển khai giao diện mới*/
 .newsx .inner{
@@ -847,7 +847,7 @@ chuyen muc cap 1 the thao */
 	border: 0;
 }
 .tbtt .ltdTit, .box_ds_tran_dau_hot_chuyen_muc .ltdTit{
-	background: url('../images/sg30_top_bar2.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
+	background: url('//cdn.24h.com.vn/images/sg30_top_bar2.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
 	background-size: 100%;
 	padding: 10px;
 	padding-bottom: 7px;
@@ -1315,10 +1315,12 @@ div#box_tran_dau_hot_trang_chuyen_muc.block{
 .pgCate .pg{
 	margin: 0;
 }
+/*Begin 18/9/2019: dangtq fix_loi_giao_dien*/
 .bxBoiSbTb{
 	height: auto;
-	margin-bottom: 0;
+	/*margin-bottom: 0;*/
 }
+/*End 18/9/2019: dangtq fix_loi_giao_dien*/
 .module1 .tmBv{
 	margin-bottom: 15px;
 }
@@ -1736,11 +1738,8 @@ div#box_tran_dau_hot_trang_chuyen_muc.block{
   width: 100%;
   border-spacing: 0;
 }
-.colorGrey{
-  color: #787878;
-}
-.colorBlur{
-  color: #c6c6c6;
+.colorGrey, .colorBlur{
+  color: #5e5e5e; /*--- Tối ưu trang TTCB và Box TTCB - 4/4/2019 dangtq ---*/
 }
 .tabHead{
   background-color: #c4efe5;
@@ -1976,8 +1975,8 @@ div#box_tran_dau_hot_trang_chuyen_muc.block{
 .pdL15{
   padding-left: 15px;
 }
-.colorGrey, .boxTtcbTt .colorGrey *{
-  color: #999999;
+.boxTtcbTt .colorGrey, .boxTtcbTt .colorGrey *{
+  color: #999999; /*--- Tối ưu trang TTCB và Box TTCB - 4/4/2019 dangtq ---*/
 }
 .boxTtcbTtTit{
   background-color: #2c90d0;
@@ -2005,12 +2004,6 @@ div#box_tran_dau_hot_trang_chuyen_muc.block{
 }
 /*end box_thong_tin_can_biet_thoi_tiet_cot_phai dangtq*/
 /*End 14-03-2019 trungcq XLCYCMHENG_34322_code_trang_thong_tin_can_biet*/
-/*.colLt{
-	width: 694px;
-}
-.colRtx{
-	margin-left: 10px;
-}*/
 
 /*Begin template trang sự kiện đặc biệt - dangtq 11/4/2019*/
 .eventSpecial .list .imgNws{
@@ -2166,3 +2159,26 @@ div#box_tran_dau_hot_trang_chuyen_muc.block{
 	margin-left: 15px;
 }
 /*End template trang sự kiện đặc biệt - dangtq 11/4/2019*/
+
+/*Begin icon_LIVE_tin_so_02_03 - dangtq 6/6/2019*/
+.newsx .col2 .brkLive{
+	font-size: 13px;
+    width: 40px;
+    height: 20px;
+    line-height: 21px;
+    padding-right: 5px;
+    padding-left: 4px;
+}
+.newsx .col2 .brkLive:before{
+	width: 5px;
+	height: 5px;
+	top: 8px;
+}
+/*End icon_LIVE_tin_so_02_03 - dangtq 6/6/2019*/
+
+/*Begin 18/9/2019: dangtq fix_loi_giao_dien*/
+.sbMnCateIn.ltSbMn{
+	float: left;
+	width: 100%;
+}
+/*End 18/9/2019: dangtq fix_loi_giao_dien*/

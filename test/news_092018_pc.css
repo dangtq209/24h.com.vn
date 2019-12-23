@@ -1244,9 +1244,13 @@
     .lstBxRcdVid {
     	width: 1000px;
     }
+    /* Begin [ND24h] Tối ưu ảnh đại diện video hiển thị trong box video recommend - dangtq 7/5/2019 */
     .main-video-img > a img {
     	display: block;
+    	width: 140px;
+    	height: 78px!important;
     }
+    /* End [ND24h] Tối ưu ảnh đại diện video hiển thị trong box video recommend - dangtq 7/5/2019 */
     .bxRcdVid .video-body-tile a {
     	font-size: 12px;
     	font-weight: 400;
@@ -1413,7 +1417,7 @@
     /* End 06-08-2018 : Trungcq XLCYCMHENG_32140_bo_sung_muc_luc_bai_viet*//* begin BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
     .asiadTit {
     	height: 40px;
-    	background: url('../images/sg30_top_bar2.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
+    	background: url('//cdn.24h.com.vn/images/sg30_top_bar2.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
     	line-height: 40px;
     }
     .asiadTit span {
@@ -1930,6 +1934,7 @@ main */
     }
     .vdcl a img{
     	width: 100%;
+    	height: 84px; /*22/7/2019: dangtq fix_anh_box_recommend_video_chon_loc*/
     }
     .prev{
     	display: inline-block;
@@ -2978,8 +2983,7 @@ footer */
 	font-size: 13px;
 }
 .bnrPtn{
-	/*margin-top: 5px;*/
-	margin-left: 0;
+	margin-left: 0; /*2/12/2019: dangtq fix_banner_cong_chao_top*/
 }
 /* end change 21/10/2018 DangTQ */
 
@@ -3715,6 +3719,12 @@ footer */
 }
 /*End 14-03-2019 trungcq code_trang_tuong_thuat */
 
+/* Begin fix_loi_text_khong_co_the_p - dangtq 25/4/2019 */
+.liveCnt{
+	line-height: 1.2;
+}
+/* End fix_loi_text_khong_co_the_p - dangtq 25/4/2019 */
+
 /* Begin them_button_gui_bai_du_thi - dangtq 24/4/2019 */
 a.btnGuiBai{
 	display: inline-block;
@@ -3810,6 +3820,19 @@ a.btnGuiBai{
     width: 100%;
 }
 /* End: 7-6-2019 TuyenNT bo_sung_tinh_nang_chen_tin_lien_quan_tinh_huong_bai_tuong_thuat */ 
+
+/* Begin 26/6/2019: Dangtq XLCYCMHENG-35150 Toi_uu_co_chu_bai_viet_info */
+.infographicCnt p, .infographicCnt p *{
+	font-size: 15px;
+    line-height: 1.6;
+}
+/* Begin 4/9/2019: dangtq fix_anh_bai_info_kich_thuoc_lon */
+.infographicCnt p img{
+	max-width: 100%;
+}
+/* End 4/9/2019: dangtq fix_anh_bai_info_kich_thuoc_lon */
+
+/* End 26/6/2019: Dangtq XLCYCMHENG-35150 Toi_uu_co_chu_bai_viet_info */
 
 /* Begin 30/7/2019: dangtq Toi_uu_ghi_chu_anh_trang_bai_viet */
 .viewVideoPlay, .twentytwenty-wrapper, .nwsUpgrade table, .nwsUpgrade div > img.news-image{
@@ -3911,9 +3934,15 @@ strong.timeUpdate *{
 	font-size: 15px;
 }
 /* End 6/9/2019: dangtq Toi_uu_giao_dien_box_tinh_huong_noi_bat_bai_tuong_thuat_bong_da */
+
+/* Begin 29/8/2019: dangtq fix_loi_giao_dien_box_tin_lien_quan_tinh_huong_tuong_thuat */
+.liveCnt .bv-lq{
+    width: 100%;
+}
 .erGpLnk > a{
 	width: 100%;
 }
+/* End 29/8/2019: dangtq fix_loi_giao_dien_box_tin_lien_quan_tinh_huong_tuong_thuat */
 .mgbt10{
     margin-bottom: 10px;
 }
@@ -3922,6 +3951,12 @@ strong.timeUpdate {
     margin-left: 15px;
     font-size: 15px;
 }
+
+/* Begin 10/10/2019: dangtq fix_banner_inread */
+.banner_inread{
+	margin-bottom: 20px!important;
+}
+/* End 10/10/2019: dangtq fix_banner_inread */
 /* Begin: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
 p.linkOrigin, p.linkOrigin * {
   font-size: 13px !important;
@@ -4050,11 +4085,11 @@ p.linkOrigin .icoDrop {
     font-size: 14px; 
 }
 .feedbackError .dialogBtn.btnConfirm {
-    background-color: #78b43d;
+    background-color: #00a1df;
     color: #fff; 
 }
 .feedbackError .dialogBtn:hover {
-    background-color: #78b43d;
+    background-color: #007197;
     color: #fff; 
 }
 .article_error_message_validate{

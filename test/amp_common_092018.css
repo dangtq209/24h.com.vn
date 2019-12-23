@@ -417,7 +417,7 @@ end toi_uu_css_amp dangtq 2019*/
     background-size: 20px;
 }*/
 .menutp ul{
-    padding-left: 15px;
+	padding-left: 15px;
 }
 .menutp ul li {
     list-style: none;
@@ -1479,19 +1479,26 @@ end toi_uu_css_amp dangtq 2019*/
 }
 /*end 16/11/2018 dangtq XLCYCMHENG_33349_quan_tri_icon_hot_new_menu_ngang_header*/
 /* Begin: bai pr vi tri banner infeed */
+/* Begin 16/7/2019: dangtq fix_can_giua_anh_banner_infeed */
 .infeed{
   width: 100%;
   display: inline-block;
   background: #f2f2f2;
   border-width: 0;
   text-decoration: none;
+  position: relative;
+  padding-left: 110px;
+  min-height: 75px;
 }
 .infeed .img{
   width: 100px;
-  margin-right: 10px;
-  float: left;
-  display: block;
+  height: 75px;
+  position: absolute;
+  top: 50%;
+  margin-top: -38px;
+  left: 0;
 }
+/* End 16/7/2019: dangtq fix_can_giua_anh_banner_infeed */
 .infeed .img img{
   width: 100%;
   display: block;

@@ -2153,23 +2153,3 @@ a.highlight {
         font-size: 14px;
     }
 }
-
-/*begin 23/01/2019 dangtq*/
-.manyReader{
-    padding-bottom: 4px;
-  }
-  .manyReader .ldItHm{
-    width: 100%;
-    float: none;
-  }
-  .manyReader .ldImg{
-    width: 140px;
-    height: 105px;
-    float: left;
-    margin-right: 10px;
-    margin-bottom: 0;
-  }
-  .manyReader .tbLngrn{
-    padding: 5px 0;
-  }
-/*begin 23/01/2019 dangtq*/

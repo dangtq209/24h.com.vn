@@ -424,7 +424,7 @@
 /* begin BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
 .asiadTit {
     height: 40px;
-    background: url('../images/sg30_top_bar2.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
+    background: url('//cdn.24h.com.vn/images/sg30_top_bar2.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
     line-height: 40px;
 }
 .asiadTit span {
@@ -738,173 +738,173 @@
     margin-bottom: 10px;
 }
 .giaVang *{
-    box-sizing: border-box;
+	box-sizing: border-box;
 }
 .giaVang h1, .giaVang h2, .giaVang h3, .giaVang h4, .giaVang h5{
-    font-weight: normal;
+	font-weight: normal;
 }
 .gvTit{
-    font-size: 20px;
-    font-weight: 600;
-    color: #1c7964;
+	font-size: 20px;
+	font-weight: 600;
+	color: #1c7964;
 }
 .giaVangReal .gvTit{
   color: #ca931f;
 }
 .inputDate{
-    background: url(//cdn.24h.com.vn/images/sprites092018.png) no-repeat -47px -3333px;
-    border: 1px solid #eee;
-    padding-left: 20px;
-    color: #787878;
-    padding-top: 1px;
-    margin-left: 10px;
-    outline: none;
+	background: url(//cdn.24h.com.vn/images/sprites092018.png) no-repeat -47px -3333px;
+	border: 1px solid #eee;
+	padding-left: 20px;
+	color: #787878;
+	padding-top: 1px;
+	margin-left: 10px;
+	outline: none;
 }
 .tabTit{
-    background-color: #fcf5db;
-    height: 28px;
+	background-color: #fcf5db;
+	height: 28px;
 }
 .tabTit .fl{
-    width: 50%;
-    text-align: right;
-    padding-right: 37px;
+	width: 50%;
+	text-align: right;
+	padding-right: 37px;
 }
 .tabTit .fr{
-    width: 50%;
-    text-align: right;
-    padding-right: 90px;
+	width: 50%;
+	text-align: right;
+	padding-right: 90px;
 }
 .tabTit strong{
-    font-size: 13px;
-    color: #000000;
-    line-height: 28px;
+	font-size: 13px;
+	color: #000000;
+	line-height: 28px;
 }
 .giaVang table{
-    width: 100%;
-    border-spacing: 0;
+	width: 100%;
+	border-spacing: 0;
 }
 .colorGrey{
-    color: #787878;
+	color: #787878;
 }
 .colorBlur{
-    color: #c6c6c6;
+	color: #c6c6c6;
 }
 .tabHead{
-    background-color: #c4efe5;
-    height: 28px;
+	background-color: #c4efe5;
+	height: 28px;
 }
 .giaVangReal .tabHead{
   background-color: #fefcf4;
 }
 .tabHead strong, .tabBody *{
-    font-size: 13px;
+	font-size: 13px;
 }
 .tabHead i{
-    font-size: 11px;
+	font-size: 11px;
 }
 .colorGreen{
-    color: #008000;
+	color: #008000;
 }
 .colorRed{
-    color: #ff0000;
+	color: #ff0000;
 }
 .tabBody{
-    border-left: 1px solid #eee;
-    border-right: 1px solid #eee;
+	border-left: 1px solid #eee;
+	border-right: 1px solid #eee;
 }
 .tabBody td{
-    height: 30px;
-    border-bottom: 1px solid #eee;
+	height: 30px;
+	border-bottom: 1px solid #eee;
 }
 .tabBody .icoUpDown{
-    margin-left: 5px;
+	margin-left: 5px;
 }
 .tabBody .fixW{
-    width: 60px;
-    display: inline-block;
+	width: 60px;
+	display: inline-block;
 }
 .giaVangReal .tabBody .fixW{
   width: 65px;
 }
 .pdL10{
-    padding-left: 10px;
+	padding-left: 10px;
 }
 .tabBody{
-    height: 150px;
-    overflow: hidden;
-    overflow-y: scroll;
-    margin-bottom: 13px;
+	height: 150px;
+	overflow: hidden;
+	overflow-y: scroll;
+	margin-bottom: 13px;
 }
 .tabBody::-webkit-scrollbar-track {
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
-    border-radius: 10px;
-    background-color: #F5F5F5
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+	border-radius: 10px;
+	background-color: #F5F5F5
 }
 
 .tabBody::-webkit-scrollbar {
-    width: 5px;
-    background-color: #F5F5F5
+	width: 5px;
+	background-color: #F5F5F5
 }
 
 .tabBody::-webkit-scrollbar-thumb {
-    border-radius: 10px;
-    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
-    background-color: #7C7C7C
+	border-radius: 10px;
+	-webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+	background-color: #7C7C7C
 }
 .gvNote{
     overflow: hidden;
-    margin-bottom: 28px;
+	margin-bottom: 28px;
 }
 .gvNote .fl{
-    padding-left: 10px;
+	padding-left: 10px;
 }
 .gvNote .fr{
-    padding-right: 10px;
+	padding-right: 10px;
 }
 .gvNote .imgUp{
-    vertical-align: -1px;
+	vertical-align: -1px;
 }
 .gvNote i{
-    color: #8c8c8c;
+	color: #8c8c8c;
 }
 .gvChart{
-    padding-top: 10px;
-    border-top: 1px solid #1c7964;
+	padding-top: 10px;
+	border-top: 1px solid #1c7964;
 }
 .giaVangReal .gvChart{
   border-color: #ca931f;
 }
 .gvChart .fl{
-    width: 50%;
+	width: 50%;
     padding-top: 5px;
 }
 .gvChart .fr{
-    /*padding-top: 60px;*/
-    width: 50%;
+	/*padding-top: 60px;*/
+	width: 50%;
     text-align: right;
-    /*padding-left: 20px;*/
+	/*padding-left: 20px;*/
 }
 .gvChart select{
-    height: 34px;
-    border: 2px solid #dddddd;
-    outline: none;
-    margin-left: 7px;
-    background-color: #fff;
+	height: 34px;
+	border: 2px solid #dddddd;
+	outline: none;
+	margin-left: 7px;
+	background-color: #fff;
 }
 .colorDefault{
-    color: #333;
+	color: #333;
 }
 .choiseMB a:first-child img{
-    vertical-align: -2px;
+	vertical-align: -2px;
 }
 .choiseMB a:last-child img{
-    vertical-align: -1px;
+	vertical-align: -1px;
 }
 .mgR5{
-    margin-right: 5px;
+	margin-right: 5px;
 }
 .gvTitArt{
-    border-bottom: 2px solid #1c7964;
+	border-bottom: 2px solid #1c7964;
     width: 309px;
     padding-bottom: 7px;
     margin-bottom: 29px;
@@ -915,27 +915,20 @@
   color: #ca931f;
 }
 .imgFlag{
-    width: 40px;
-    display: inline-block;
-    vertical-align: -2px;
-    line-height: 0;
+	width: 40px;
+	display: inline-block;
+	vertical-align: -2px;
+	line-height: 0;
 }
 .giaVang .mgbt10.ovf{
-    margin-top: 5px;
-    margin-bottom: 17px;
+	margin-top: 5px;
+	margin-bottom: 17px;
     overflow: hidden;
 }
 .giaVang strong, .giaVang strong *{
     color: #333;
 }
 /* End CSS trang ty gia, gia vang */
-
-/*.colLt{
-	width: 694px;
-}
-.colRtx{
-	margin-left: 10px;
-}*/
 
 /*Begin template trang sự kiện đặc biệt - dangtq 11/4/2019*/
 /*.disFlex{
@@ -1124,3 +1117,10 @@
     height: 98px;
 }
 /*End template trang sự kiện đặc biệt - dangtq 11/4/2019*/
+
+/*Begin 8/10/2019: dangtq fix_loi_giao_dien*/
+.sbMnCateIn.ltSbMn{
+    float: left;
+    width: 100%;
+}
+/*End 8/10/2019: dangtq fix_loi_giao_dien*/

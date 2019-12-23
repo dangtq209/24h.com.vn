@@ -1627,8 +1627,3 @@ blockquote {
     margin-bottom: 5px;
 }
 /* end BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
-.banner_sticky_container{
-    position:fixed;
-    bottom:0px;
-    z-index: 9999;
-}

@@ -1760,8 +1760,3 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
     }
 }
 /* end BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
-/* begin bangnd 7-11-2018 fix su kien trang video */
-.eventList h3 {
-    display: inline;
-}
-/* end bangnd 7-11-2018 fix su kien trang video */

@@ -8,9 +8,11 @@ and open the template in the editor.
     Author     : HP1
     */
     /*Begin 20/6/ box s? ki?n hot*/
-    .evtHotTit a.clrWh {
+    /* Begin tối ưu css amp - dangtq 04/2019 */
+    /*.evtHotTit a.clrWh {
         color: #fff;
-    }
+    }*/
+    /* End tối ưu css amp - dangtq 04/2019 */
     /*End 20/6/ box s? ki?n hot*/
     /*Begin 14-05-2018 trungcq XLCYCMHENG_31384_bo_sung_box_dac_biet_trang_chu*/
     .evtHotTit .txtTrf {
@@ -27,27 +29,32 @@ and open the template in the editor.
         /* padding-top: 10px; */
     }
     /*End 20/6/ box s? ki?n hot*/
+    /* Begin tối ưu css amp - dangtq 04/2019 */
     .evtHotTit a {
-        color: #ef7930;
+        color: #fff;
         font-size: 14px;
         padding: 5px;
         display: block;
     }
+    /* End tối ưu css amp - dangtq 04/2019 */
     .lstHot {
         padding-left: 10px;
     }
     /*Begin 20/6/ box s? ki?n hot*/
+    /* Begin tối ưu css amp - dangtq 04/2019 */
     .lstHot .nwsTitSlHm {
         background: none;
         font-size: 14px;
         display: block;
         position: relative;
         line-height: 1.3;
-    }
-    .evtHotCt .lstHot .nwsTitSlHm {
         font-weight: 700;
-        /*display: inline;*/ /*sua 8/11/2018*/
     }
+    /*.evtHotCt .lstHot .nwsTitSlHm {
+        font-weight: 700;
+        display: inline;
+    }*/
+    /* End tối ưu css amp - dangtq 04/2019 */
     /*End 20/6/ box s? ki?n hot*/
     .lstHot .nwsTitSlHm:before {
         content: "";
@@ -133,186 +140,112 @@ and open the template in the editor.
     }*/
 }
 @media only screen and (min-width: 668px){
-    .txtBnrHor span {
-        font-size: 16px;
-    }
-        .tmPst a, .ifTtr, .blqPr .extTit, .extTit span, .extTit a, .tpcHt .tpcLitIt li a, #footer p {
-        font-size: 18px;
-    }
-        .ftMn2 a, .cateOthr li a, .tbCmg ul li a, .nwsTitSlHm, .tmPst, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, .pagPge, .nguontin, .menutp ul li a, .tmEvt .nmEvt , .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .blk .ftLstVid .vidSeMr a, .pagS2 .pagPge, .pollTop {
-        font-size: 20px;
-    }
-        .tcbIt li a, .ldIt a, .nwsTitHm, .icoSkn span, .txtMn, .icoSkn a, .tbCmg ul li, .mnRtQk ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .mnRtCls, .seeMrMul span, .plTp {
-        font-size: 22px;
-    }
-        .bdBrk, .titTp a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tbCmg h1, .tbTcb a, .ctTp, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .content-video .vdFul a, .bxVidTit .mnItTit a, .bxMncm li a, .chuyen-huong a {
-        font-size: 24px;
-    }
-        .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .content-bv-lq p, .see-now a, .pgS3 a {
-        font-size: 26px;
-    }
-    .titNws a {
-        font-size: 28px;
-    }
-    .atclTit h1, .title-bv a {
-        font-size: 32px;
-    }
-        .tbCmCent a{
-            font-size: 23px;
+	.txtBnrHor span {
+		font-size: 16px;
+	}
+	.tmPst a, .extTit span, .extTit a, .tpcHt .tpcLitIt li a, #footer p {
+		font-size: 18px;
+	}
+	.ftMn2 a, .cateOthr li a, .tbCmg ul li a, .nwsTitSlHm, .tmPst, .seMr a, .menutp ul li a, .blk .ftLstVid .vidSeMr a{
+		font-size: 20px;
+	}
+	.tcbIt li a, .ldIt a, .nwsTitHm, .txtMn, .tbCmg ul li, .evtBx .evtBxSp, {
+		font-size: 22px;
+	}
+	.titTp a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tbCmg h1, .tbTcb a, .ctTp, .tbCmg ul li .mnAtv, p {
+		font-size: 24px;
+	}
+	.evtBxTit a{
+		font-size: 26px;
+	}
+	.titNws a {
+		font-size: 28px;
+	}
+	.tbCmCent a{
+		font-size: 23px;
+	}
 }
-    }
 @media only screen and (min-width: 569px) and (max-width: 667px) {
-    .txtBnrHor span {
-        font-size: 14px;
-    }
-        .ifTtr, .blqPr .extTit, .extTit span, .tmPst a, .extTit a, .tpcHt .tpcLitIt li a, #footer p {
-        font-size: 16px;
-    }
-        .ftMn2 a, .cateOthr li a, .vidItRt a, .tbCmg ul li a, .nwsTitSlHm, .ctTp, .tmPst, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, .pagPge, .nguontin, .menutp ul li a, .tmEvt .nmEvt , .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .blk .ftLstVid .vidSeMr a, .pagS2 .pagPge, .pollTop {
-        font-size: 18px;
-    }
-        .tcbIt li a, .ldIt a, .nwsTitHm, .icoSkn span, .txtMn, .icoSkn a, .tbCmg ul li, .mnRtQk ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .mnRtCls, .seeMrMul span, .plTp {
-        font-size: 20px;
-    }
-        .bdBrk, .titTp a, .ldIt2 a, .vidIt a, .tbTcb, .tbCmg h1, .tbTcb a, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .content-video .vdFul a, .bxVidTit .mnItTit a, .bxMncm li a, .chuyen-huong a {
-        font-size: 22px;
-    }
-        .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .content-bv-lq p, .see-now a, .pgS3 a {
-        font-size: 24px;
-    }
-    .titNws a {
-        font-size: 26px;
-    }
-    .atclTit h1, .title-bv a {
-        font-size: 30px;
-    }
-        .tbCmCent a{font-size: 21px;}
+	.txtBnrHor span {
+		font-size: 14px;
+	}
+	.extTit span, .tmPst a, .extTit a, .tpcHt .tpcLitIt li a, #footer p {
+		font-size: 16px;
+	}
+	.ftMn2 a, .cateOthr li a, .vidItRt a, .tbCmg ul li a, .nwsTitSlHm, .ctTp, .tmPst, .seMr a, .menutp ul li a, .blk .ftLstVid .vidSeMr a{
+		font-size: 18px;
+	}
+	.tcbIt li a, .ldIt a, .nwsTitHm, .txtMn, .tbCmg ul li, .evtBx .evtBxSp{
+		font-size: 20px;
+	}
+	.titTp a, .ldIt2 a, .vidIt a, .tbTcb, .tbCmg h1, .tbTcb a, .tbCmg ul li .mnAtv, p{
+		font-size: 22px;
+	}
+	.evtBxTit a{
+		font-size: 24px;
+	}
+	.titNws a {
+		font-size: 26px;
+	}
+	.tbCmCent a{font-size: 21px;}
 }
 @media only screen and (min-width: 480px) and (max-width: 568px) {
-    .txtBnrHor span {
-        font-size: 12px;
-    }
-        #footer p, .ifTtr, .blqPr .extTit, .extTit span, .tmPst a, .extTit a, .tpcHt .tpcLitIt li a, .tmPst{
-        font-size: 14px;
-    }
-        .ftMn2 a, .cateOthr li a, .vidItRt a, .vidIt a, .tbCmg ul li a, .nwsTitSlHm, .ctTp, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, .pagPge, .nguontin, .menutp ul li a, .tmEvt .nmEvt , .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .blk .ftLstVid .vidSeMr a, .pagS2 .pagPge, .pollTop {
-        font-size: 16px;
-    }
-        .tcbIt li a, .ldIt a, .nwsTitHm, .icoSkn span, .txtMn, .icoSkn a, .tbCmg ul li, .mnRtQk ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .mnRtCls, .seeMrMul span, .plTp {
-        font-size: 18px;
-    }
-        .bdBrk, .titTp a, .ldIt2 a, .tbTcb, .tbCmg h1, .tbTcb a, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .content-video .vdFul a, .bxVidTit .mnItTit a, .bxMncm li a, .chuyen-huong a {
-        font-size: 20px;
-    }
-        .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .content-bv-lq p, .see-now a, .pgS3 a {
-        font-size: 22px;
-    }
-    .titNws a {
-        font-size: 24px;
-    }
-    .atclTit h1, .title-bv a {
-        font-size: 28px;
-    }
-        .tbCmCent a{
-            font-size: 19px;
+	.txtBnrHor span {
+		font-size: 12px;
+	}
+	#footer p, .extTit span, .tmPst a, .extTit a, .tpcHt .tpcLitIt li a, .tmPst{
+		font-size: 14px;
+	}
+	.ftMn2 a, .cateOthr li a, .vidItRt a, .vidIt a, .tbCmg ul li a, .nwsTitSlHm, .ctTp, .seMr a, .menutp ul li a, .blk .ftLstVid .vidSeMr a{
+		font-size: 16px;
+	}
+	.tcbIt li a, .ldIt a, .nwsTitHm, .txtMn, .tbCmg ul li, .evtBx .evtBxSp{
+		font-size: 18px;
+	}
+	.titTp a, .ldIt2 a, .tbTcb, .tbCmg h1, .tbTcb a, .tbCmg ul li .mnAtv, p{
+		font-size: 20px;
+	}
+	.evtBxTit a{
+		font-size: 22px;
+	}
+	.titNws a {
+		font-size: 24px;
+	}
+	.tbCmCent a{
+		font-size: 19px;
+	}
 }
-    }
 @media only screen and (min-width: 321px) and (max-width: 479px) {
-    .txtBnrHor span {
-        font-size: 10px;
-    }
-        .ifTtr, .blqPr .extTit, .extTit span {
-        font-size: 12px;
-    }
-        .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, .pagPge, .nguontin, .tmEvt .nmEvt , .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .blk .ftLstVid .vidSeMr a, .pagS2 .pagPge, .pollTop {
-            font-size: 14px;
-    }
-        .icoSkn span, .icoSkn a,
-        .mnRtQk ul li a, .mveCte span, .sbNws, .mnRtCls, .seeMrMul span, .plTp {
-        font-size: 16px;
-    }
-        .bdBrk, .nwsTitSlHm, .titTp a, .nwsTitHm a, .ldIt a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tcbIt li a, .tbCmg h1,
-        .ftMn2 a, .tbTcb a, .ctTp, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .content-video .vdFul a, .bxVidTit .mnItTit a, .bxMncm li a, .chuyen-huong a {
-            /*font-size: 18px;*/
-    }
-        .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .content-bv-lq p, .see-now a, .pgS3 a {
-            font-size: 20px;
-    }
-    .titNws a {
-        font-size: 22px;
-    }
-    .atclTit h1, .title-bv a {
-        font-size: 26px;
-    }
+	.txtBnrHor span {
+		font-size: 10px;
+	}
+	.extTit span {
+		font-size: 12px;
+	}
+	.blk .ftLstVid .vidSeMr a{
+		font-size: 14px;
+	}
+	.nwsTitSlHm, .titTp a, .nwsTitHm a, .ldIt a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tcbIt li a, .tbCmg h1,
+	.ftMn2 a, .tbTcb a, .ctTp, .tbCmg ul li .mnAtv, p{
+		/*font-size: 18px;*/
+	}
+	.evtBxTit a{
+		font-size: 20px;
+	}
+	.titNws a {
+		font-size: 22px;
+	}
 }
-
 @media only screen and (min-width: 480px) {
-    .mnRtQk {
-        width: 320px;
-    }
-    .menutp ul li {
-        padding: 10px 7px;
-        }
-        .pagS2 a.Prev {
-            background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -620px;
-        }
-        .pagS2 a.Next {
-            background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat right -580px;
-        }
-        .gopy {
-            width: 480px;
-            margin: 0 auto;
-    }
+	.menutp ul li {
+		padding: 10px 7px;
+	}
 }
 @media only screen and (min-width: 599px) {
-        /*.tbCmg ul {
-        height: 60px;
-        overflow: hidden;
-    }
-    .tbCmg {
-        max-height: 60px;
-        }*/
-    .mnRtQk {
-        width: 400px;
-    }
-        /* .mnCM-expand {
-        width: 38px;
-        height: 38px;
-        right: 0;
-        top: 5px;
-        background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 8px -1485px;
-        }*/
-    .pgS2 a.Nxt {
-        background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat right -580px;
-    }
-    .pgS2 a.Prv {
-        background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -620px;
-    }
-    .tmPst a {
-            /* background-position: 0 -120px; */
-    }
-    .nwsTitSlHm {
-            background-position: 0 -1528px;  
-    }
-    .mnRtClsBtn {
-        right: 320px;
-    }
-    .menRt {
-        width: 320px;
-    }
-    .mnRt li a {
-        font-size: 20px;
-    }
-        .sbNws {
-            background: url(//cdn.24h.com.vn/images/m2014/images/sprites.png) 0 -118px no-repeat;
+	.nwsTitSlHm {
+		background-position: 0 -1528px;  
+	}
 }
-
-
-
-    }
-
-
-
 
 .evtHotTit {
     border-bottom: 1px solid #ef7930;
@@ -365,9 +298,6 @@ and open the template in the editor.
         font-size: 18px;
     }
 }
-@media only screen and (max-width: 479px) and (min-width: 321px) {
-
-}
 @media only screen and (max-width: 479px) {
     .evtHotTit {
             height: 25px;
@@ -396,6 +326,8 @@ and open the template in the editor.
    .c333{
        color: #333;
    }
+   /* Begin tối ưu css amp - dangtq 04/2019 */
+   /*
    .fz14{
        font-size: 14px;
    }
@@ -408,6 +340,8 @@ and open the template in the editor.
    .fz18{
        font-size: 18px;
    }
+   */
+   /* End tối ưu css amp - dangtq 04/2019 */
    .wrapper{
        margin: 0;
        padding: 0;
@@ -415,23 +349,29 @@ and open the template in the editor.
        width: 100%;
        overflow: hidden;
    }
-.tmPst a{
+/*.tmPst a{
     font-size: 12px;
     font-weight: normal;
-}
+}*/
+/* Begin tối ưu css amp - dangtq 04/2019 */
+/*
 .nwsTitSlHmD{
     font-size: 14px;
-    display: block;
+	display: block;
 }
+*/
+/* End tối ưu css amp - dangtq 04/2019 */
 .clrGrD{
     font-size: 12px;
     display: block;
     margin-top: 10px;
 }
-.linD{
-    margin-left: 7px;
-    margin-right: 7px;
-}
+/* Begin tối ưu css amp - dangtq 04/2019 */
+/*.linD{
+	margin-left: 7px;
+	margin-right: 7px;
+}*/
+/* End tối ưu css amp - dangtq 04/2019 */
 .bxVidLst{
     margin: 0;
 }
@@ -441,6 +381,7 @@ and open the template in the editor.
     width: 100%;
     position: relative;
 }
+
 .bxVidLst .first header{
     padding: 10px;
 }
@@ -451,9 +392,13 @@ and open the template in the editor.
     width: 47%;
     margin-right: 10px;
 }*/
-.lady .bxLlq .nwsItHm{
+
+/* Begin tối ưu css amp - dangtq 04/2019 */
+/*.lady .bxLlq .nwsItHm{
     background: none;
-}
+}*/
+/* End tối ưu css amp - dangtq 04/2019 */
+
 /*End 08-10-2018 nang_cap_giao_dien_moi */
 
 /* begin 13/10/2018 by dangtq */
@@ -467,11 +412,16 @@ and open the template in the editor.
     width: 46%;
     margin-bottom: 10px;
 }*/
+
+/* Begin tối ưu css amp - dangtq 04/2019 */
 .lady .bxLlq .nwsItHm{
     margin-top: 0;
     padding-top: 0;
     padding-left: 0;
+    background: none;
 }
+/* End tối ưu css amp - dangtq 04/2019 */
+
 .extTit{
     line-height: 0.5;
     margin-bottom: 10px;
@@ -785,121 +735,432 @@ a.flRt.seMore{
 }
 /*---End ttcb---*/
 
-/*begin vietlot dangtq*/
-    .vietLot{
-        height: 30px;
-        background: url('http://t.24h.com.vn/upload/dangtq/24h.com.vn/mobile/images/gt_jackpot_bg.jpg') no-repeat #ed273b;
-        margin: -5px 10px -5px 10px;
-        position: relative;
-        line-height: 30px;
-        background-size: contain;
+/*Begin box_thong_tin_can_biet_giavang_tygia_thoitiet - dangtq 04/2019*/
+.boxTtcbTt table, .boxTtcbKd table{
+    border-spacing: 0;
+    width: 100%;
+}
+
+/**/
+.boxTtcbTt{
+    margin: -10px 10px -10px 10px;
+    background-color: #e6e6e6c2;
+    overflow: hidden;
+}
+.boxTtcbTt *{
+    font-size: 10px;
+}
+.boxTtcbTt table{
+    table-layout: fixed;
+}
+.boxTtcbTt td{
+    width: 126px;
+}
+.boxTtcbTt td.boxTtcbTtTit{
+    font-size: 9px;
+    font-weight: 600;
+    background-color: #254a70;
+    color: #fff;
+    height: 40px;
+    line-height: 40px;
+    text-align: center;
+    width: 50px;
+}
+.boxTtcbTtTit a{
+    color: #fff;
+}
+.pdL10{
+    padding-left: 10px;
+}
+.boxTtcbTt .boxTtttimg{
+    vertical-align: -8px;
+    width: 25px;
+    height: 25px;
+    padding-right: 5px;
+    display: inline-block;
+    /*box-sizing: content-box;*/
+}
+.colorGrey{
+    color: #999999;
+}
+.colorBlack{
+    color: #000;
+}
+
+/**/
+.boxTtcbKd{
+    overflow: hidden;
+    background-color: #f7f7f7;
+    margin: -10px 10px -10px 10px;
+}
+.boxTtcbKd *{
+    box-sizing: border-box;
+    font-size: 9px;
+}
+.boxTtcbKdCol{
+    width: 50%;
+}
+.boxTtcbKdTit{
+    height: 20px;
+    padding: 0 5px;
+    line-height: 20px;
+    display: block;
+    color: #fff;
+    font-weight: 600;
+}
+.boxTtcbKd .col1 .bor{
+    border-left: 1px solid #e7e7e7;
+    border-bottom: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    clear: both;
+}
+.boxTtcbKd .col2 .bor{
+    border-bottom: 1px solid #e7e7e7;
+    border-right: 1px solid #e7e7e7;
+    clear: both;
+}
+.boxTtcbKd .bor div:first-child span{
+    margin-top: -6px;
+}
+.disBl{
+    display: block;
+}
+.boxTtcbKd .bor span{
+    display: inline-block;
+    padding: 5px;
+    overflow: hidden;
+    height: 20px;
+}
+.boxTtcbKdName{
+    width: 32px;
+    font-weight: normal;
+}
+.boxTtcbKdMua, .boxTtcbKdBan{
+    width: 55px;
+}
+.boxTtcbKd img{
+    float: right;
+    padding-top: 3px;
+}
+.colorGreyish{
+    color: #5e5e5e;
+    font-weight: normal;
+}
+.boxTtcbKdTit.boxTtcbKdTitLogo{
+    display: inline;
+}
+.boxTtcbKd .boxTtcbLogo{
+    padding-right: 5px;
+    height: 18px;
+}
+.bgOrange{
+    background-color: #9e0716;
+}
+.bgBlue{
+    background-color: #21409a;
+}
+.boxTtcbKd .boxTtcbKdimg{
+    float: right;
+    padding-right: 5px;
+    padding-top: 3px;
+}
+/*End box_thong_tin_can_biet_giavang_tygia_thoitiet - dangtq 04/2019*/
+
+/*Begin vietlot - dangtq 04/2019*/
+.vietLot{
+	height: 30px;
+	background: url('http://t.24h.com.vn/upload/dangtq/24h.com.vn/mobile/images/gt_jackpot_bg.jpg') no-repeat #ed273b;
+	margin: -5px 10px -5px 10px;
+	position: relative;
+	line-height: 30px;
+	background-size: contain;
+}
+.vietLot:before{
+	content: '';
+	height: 2px;
+	background-color: #f6939d;
+	position: absolute;
+	top: 50%;
+	margin-top: -0.5px;
+	right: 10px;
+	width: 12%;
+}
+.vietLot span{
+	font-size: 10px;
+	font-weight: 600;
+	font-style: italic;
+	color: #fff;
+	padding-left: 10px;
+	text-transform: uppercase;
+}
+.vietLot_img {
+	vertical-align: -6px;
+	padding-left: 5px;
+	height: 19px;
+}
+/*End vietlot - dangtq 04/2019*/
+
+/* Begin tổng hợp các độ phân giải màn hình - dangtq 2019 */
+@media screen and (max-width: 320px){
+    .boxTtcbGv .boxTtcbKdName{
+        width: 55px;
     }
-    .vietLot:before{
-        content: '';
-        height: 2px;
-        background-color: #f6939d;
-        position: absolute;
-        top: 50%;
-        margin-top: -0.5px;
-        right: 10px;
-        width: 12%;
+    .boxTtcbGv .boxTtcbKdMua, .boxTtcbGv .boxTtcbKdBan{
+        width: 43px;
     }
-    .vietLot span{
-        font-size: 10px;
-        font-weight: 600;
-        font-style: italic;
-        color: #fff;
-        padding-left: 10px;
-        text-transform: uppercase;
+}
+@media screen and (min-width: 321px) and (max-width: 375px){
+	.boxTtcbTtTit, .boxTtcbKd *{
+        font-size: 11px;
     }
-    .vietLot_img {
-        vertical-align: -6px;
-        padding-left: 5px;
+    .boxTtcbTt *{
+        font-size: 12px;
+    }
+    .boxTtcbKdName{
+        width: 37px;
+    }
+    .boxTtcbKdMua, .boxTtcbKdBan{
+        width: 66px;
+    }
+    .boxTtcbTt td{
+        width: 146px;
+    }
+    .boxTtcbTt td.boxTtcbTtTit{
+        width: 58px;
+    }
+    .boxTtcbGv .boxTtcbKdName{
+        width: 65px;
+    }
+    .boxTtcbGv .boxTtcbKdMua, .boxTtcbGv .boxTtcbKdBan{
+        width: 52px;
     }
 
-    @media screen and (min-width: 321px) and (max-width: 375px){
-        .vietLot span{
-            font-size: 12px;
-        }
-        .vietLot:before{
-            width: 17%;
-        }
-        .vietLot_img {
-            vertical-align: -5px;
-        }
+    /**/
+	.vietLot span{
+		font-size: 12px;
+	}
+	.vietLot:before{
+		width: 17%;
+	}
+	.vietLot_img {
+		vertical-align: -5px;
+	}
+}
+@media screen and (min-width: 321px) and (max-width: 360px){
+	.boxTtcbKd *{
+        font-size: 11px;
     }
-    @media screen and (min-width: 321px) and (max-width: 360px){
-        .vietLot:before{
-            width: 13%;
-        }
+    .boxTtcbKdName{
+        width: 35px;
     }
-    @media screen and (min-width: 376px) and (max-width: 414px){
-        .vietLot span{
-            font-size: 14px;
-            display: inline-block;
-        }
-        .vietLot:before{
-            width: 17%;
-        }
-        .vietLot_img {
-            vertical-align: -5px;
-        }
+    .boxTtcbKdMua, .boxTtcbKdBan{
+        width: 63px;
     }
-    @media screen and (min-width: 480px) and (max-width: 568px){
-        .vietLot span{
-            font-size: 12px;
-            padding-left: 55px;
-        }
-        .vietLot:before{
-            width: 38%;
-        }
-        .vietLot_img {
-            vertical-align: -6px;
-        }
+    .boxTtcbGv .boxTtcbKdMua, .boxTtcbGv .boxTtcbKdBan{
+        width: 48px;
     }
-    @media screen and (min-width: 569px) and (max-width: 667px){
-        .vietLot span{
-            font-size: 14px;
-            display: inline-block;
-            padding-left: 55px;
-        }
-        .vietLot:before{
-            width: 43%;
-        }
-        .vietLot_img {
-            vertical-align: -5px;
-        }
+    .boxTtcbKd .bor div:first-child span{
+        margin-top: 0;
     }
-    @media screen and (min-width: 569px) and (max-width: 640px){
-        .vietLot:before{
-            width: 40%;
-        }
+
+    /**/
+	.vietLot:before{
+		width: 13%;
+	}
+}
+@media screen and (min-width: 376px) and (max-width: 414px){
+	.boxTtcbTtTit, .boxTtcbKd *{
+        font-size: 13px;
     }
-    @media screen and (min-width: 668px) and (max-width: 736px){
-        .vietLot span{
-            font-size: 16px;
-            padding-top: 2px;
-            display: inline-block;
-            padding-left: 55px;
-        }
-        .vietLot_img {
-            vertical-align: -4px;
-        }
-        .vietLot:before{
-            width: 44%;
-        }
+    .boxTtcbTt *, .boxTtcbTt .pdL10{
+        font-size: 14px;
     }
-    @media screen and (min-width: 812px){
-        .vietLot span{
-            font-size: 14px;
-            display: inline-block;
-            padding-left: 55px;
-        }
-        .vietLot_img {
-            vertical-align: -5px;
-        }
-        .vietLot:before{
-            width: 53%;
-        }
+    .boxTtcbKdName{
+        width: 43px;
     }
-    /*end vietlot dangtq*/
+    .boxTtcbKdMua, .boxTtcbKdBan{
+        width: 36%;
+    }
+    .boxTtcbTt td{
+        width: 160px;
+    }
+    .boxTtcbTt td.boxTtcbTtTit{
+        width: 68px;
+    }
+    .boxTtcbGv .boxTtcbKdName{
+        width: 75px;
+    }
+    .boxTtcbGv .boxTtcbKdMua, .boxTtcbGv .boxTtcbKdBan{
+        width: 56px;
+    }
+
+    /**/
+	.vietLot span{
+		font-size: 14px;
+		display: inline-block;
+	}
+	.vietLot:before{
+		width: 17%;
+	}
+	.vietLot_img {
+		vertical-align: -5px;
+	}
+}
+@media screen and (min-width: 480px) and (max-width: 568px){
+	.boxTtcbTtTit, .boxTtcbKd *{
+        font-size: 11px;
+    }
+    .boxTtcbTt *{
+        font-size: 12px;
+    }
+    .boxTtcbKdName{
+        width: 33%;
+    }
+    .boxTtcbKdMua, .boxTtcbKdBan{
+        width: 32%;
+    }
+    .boxTtcbTt td{
+        width: 125px;
+    }
+    .boxTtcbTt td.boxTtcbTtTit{
+        width: 58px;
+    }
+    .boxTtcbTt img{
+        float: left;
+    }
+
+    /**/
+	.vietLot span{
+		font-size: 12px;
+		padding-left: 55px;
+	}
+	.vietLot:before{
+		width: 38%;
+	}
+	.vietLot_img {
+		vertical-align: -6px;
+	}
+}
+@media screen and (min-width: 569px) and (max-width: 667px){
+	.boxTtcbTtTit, .boxTtcbKd *{
+        font-size: 13px;
+    }
+    .boxTtcbTt *{
+        font-size: 14px;
+    }
+    .boxTtcbKdName{
+        width: 33%;
+    }
+    .boxTtcbKdMua, .boxTtcbKdBan{
+        width: 32%;
+    }
+    .boxTtcbTt td{
+        width: 144px;
+    }
+    .boxTtcbTt td.boxTtcbTtTit{
+        width: 68px;
+    }
+    .boxTtcbTt img{
+        float: left;
+    }
+
+    /**/
+	.vietLot span{
+		font-size: 14px;
+		display: inline-block;
+		padding-left: 55px;
+	}
+	.vietLot:before{
+		width: 43%;
+	}
+	.vietLot_img {
+		vertical-align: -5px;
+	}
+}
+@media screen and (min-width: 569px) and (max-width: 640px){
+	.boxTtcbKd .bor div:first-child span{
+        margin-top: 0;
+    }
+
+    /**/
+	.vietLot:before{
+		width: 40%;
+	}
+}
+@media screen and (min-width: 668px) and (max-width: 736px){
+	.boxTtcbTtTit, .boxTtcbKd *{
+        font-size: 15px;
+    }
+    .boxTtcbTt *{
+        font-size: 16px;
+    }
+    .boxTtcbKdName{
+        width: 33%;
+    }
+    .boxTtcbKdMua, .boxTtcbKdBan{
+        width: 32%;
+    }
+    .boxTtcbTt td{
+        width: 159px;
+    }
+    .boxTtcbTt td.boxTtcbTtTit{
+        width: 75px;
+    }
+    .boxTtcbTt img{
+        float: left;
+    }
+    .boxTtcbKd .bor{
+        padding-bottom: 3px;
+    }
+
+    /**/
+	.vietLot span{
+		font-size: 16px;
+		padding-top: 2px;
+		display: inline-block;
+		padding-left: 55px;
+	}
+	.vietLot_img {
+		vertical-align: -4px;
+	}
+	.vietLot:before{
+		width: 44%;
+	}
+}
+@media screen and (min-width: 812px){
+	.boxTtcbTtTit, .boxTtcbKd *{
+		font-size: 13px;
+	}
+	.boxTtcbTt *{
+		font-size: 14px;
+	}
+	.boxTtcbKdName{
+		width: 33%;
+	}
+	.boxTtcbKdMua, .boxTtcbKdBan{
+		width: 32%;
+	}
+	.boxTtcbTt td{
+		width: 144px;
+	}
+	.boxTtcbTt td.boxTtcbTtTit{
+		width: 68px;
+	}
+	.boxTtcbTt img{
+		float: left;
+	}
+
+	/**/
+	.vietLot span{
+		font-size: 14px;
+		display: inline-block;
+		padding-left: 55px;
+	}
+	.vietLot_img {
+		vertical-align: -5px;
+	}
+	.vietLot:before{
+		width: 53%;
+	}
+}
+/* Begin tổng hợp các độ phân giải màn hình - dangtq 2019 */

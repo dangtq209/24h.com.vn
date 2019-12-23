@@ -69,10 +69,3 @@
 		font-size: 26px;
 	}
 }
-
-/* Begin 18/11/2019: dangtq them_template_moi_magazine_onepage */
-.txtLeft{
-	display: flex;
-	flex-direction: column-reverse;
-}
-/* End 18/11/2019: dangtq them_template_moi_magazine_onepage */

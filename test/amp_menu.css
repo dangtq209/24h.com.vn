@@ -174,7 +174,7 @@ input:checked ~ .show-menu ~ .hide-menu ~ .submenu-header ul li {
         font-size: 18px;
     }
 }
-
+// begin bangnd 7/11/2018 XLCYCMHENG_33212_bo_sung_logo_khach_hang_len_menu
 .aff-xanh > a{
     background-color: #50b849;
     background-image: url(//cdn.24h.com.vn/images/detox3-092018.jpg);
@@ -186,6 +186,7 @@ input:checked ~ .show-menu ~ .hide-menu ~ .submenu-header ul li {
     background-color: #7d450a;
     background-image: url(//cdn.24h.com.vn/images/cumar3-092018.jpg);
     background-repeat: no-repeat;
-    background-position: right center;
+    background-position: right 10px center;
     margin-right: 70px;
 }
+// end bangnd 7/11/2018 XLCYCMHENG_33212_bo_sung_logo_khach_hang_len_menu

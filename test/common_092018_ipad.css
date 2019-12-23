@@ -595,7 +595,7 @@ ul, li {
     float: left;
     height: 21px;
     padding: 0 8px 0 3px;
-    background: url(//static.24h.com.vn/images_ipad/grey-tab-right.gif) top right no-repeat;
+    background: url(//static.24h.com.vn/images_ipad/grey-tab-right.gif) right -29px no-repeat;
     font-size: 12px;
     color: #000;
 }
@@ -1623,11 +1623,13 @@ footer {
     margin: 0;
     padding: 0;
     background: #636363;
+    border-top: #464646 solid 1px; /*logo_nhan_hang 13/02/2019 dangtq*/
 }
 .mnRt li ul li {
     display: block;
     border-bottom: #464646 solid 1px;
     padding-left: 20px;
+    position: relative; /*logo_nhan_hang 13/02/2019 dangtq*/
 }
 .mnRtCls {
     background: #000;
@@ -2127,7 +2129,7 @@ span.mxh-ver-right {
 
     /*Start less-bxh*/
     .less-ltd .ltdTb tbody tr td {
-        padding: 6px 4px;
+        padding: 11px 4px;
         border: 1px solid #ddd;
         text-align: center;
         position: relative;
@@ -2284,6 +2286,18 @@ span.mxh-ver-right {
     background-size: auto 85%!important;
 }
 /* end bangnd 7/11/2018 XLCYCMHENG_33212_bo_sung_logo_khach_hang_len_menu */
+
+/*begin logo_nhan_hang 13/02/2019 dangtq*/
+  .detoxGreenImg{
+    display: inline-block;
+    float: right;
+  }
+  .sub_menu_dropdown .detoxGreenImg{
+    position: absolute;
+    right: 10px;
+    margin-top: -2px;
+  }
+/*end logo_nhan_hang 13/02/2019 dangtq*/
 .displaynone{
     display:none;
 }

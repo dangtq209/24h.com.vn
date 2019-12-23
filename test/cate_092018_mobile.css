@@ -259,7 +259,7 @@
 }*/
 .asiadTit {
     height: 37px;
-    background: url('../images/sg30_top_bar2_mobile.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
+    background: url('//cdn.24h.com.vn/images/sg30_top_bar2_mobile.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
     background-size: cover; /*18/11/2019: dangtq thay_background_sea_games_30*/
     line-height: 37px;
 }
@@ -524,7 +524,7 @@
 
 /* begin 27/10/2018 dangtq */
 /*.mnCM-close{
-    border-bottom: 0!important;
+	border-bottom: 0!important;
 }*/
 .tmPst{
     padding-left: 0;
@@ -680,8 +680,8 @@
         font-size: 17px;
     }
     .brkLive{
-        font-size: 18px;
-        padding-right: 4px;
+    	font-size: 18px;
+    	padding-right: 4px;
     }
 }
 @media screen and (min-width: 736px) and (max-width: 812px) {
@@ -724,12 +724,12 @@
     }
     /*end 11/01/2019 dangtq fix_loi_font_size*/
     .brkLive{
-        font-size: 20px;
-        padding-right: 5px;
-        width: 65px;
+    	font-size: 20px;
+    	padding-right: 5px;
+    	width: 65px;
     }
     .vf .nwsTitSlHm{
-        background-position: -50px -145px;
+    	background-position: -50px -145px;
     }
 }
 @media screen and (min-width: 812px) {
@@ -777,8 +777,8 @@
         font-size: 14px;
     }
     .brkLive{
-        font-size: 16px;
-        padding-right: 6px;
+    	font-size: 16px;
+    	padding-right: 6px;
     }
 }
 /* chieu_doc */
@@ -825,8 +825,8 @@
         font-size: 24px;
     }
     .brkLive{
-        font-size: 16px;
-        padding-right: 6px;
+    	font-size: 16px;
+    	padding-right: 6px;
     }
     .ttdn>header a{
         background-position: -40px -3787px;
@@ -883,8 +883,8 @@
         background-position: -50px -1771px;
     }
     .brkLive{
-        font-size: 18px;
-        padding-right: 4px;
+    	font-size: 18px;
+    	padding-right: 4px;
     }
     .ttdn>header a{
         background-position: -40px -3786px;
@@ -931,53 +931,53 @@
 
     /*Begin 11-03-2019 trungcq XLCYCMHENG_34264_nang_cap_giao_dien_trang_thoi_tiet*/
     .mainSec .mnWrap{
-        padding-top: 18px;
-        padding-bottom: 18px;
+    	padding-top: 18px;
+    	padding-bottom: 18px;
     }
     .tbCmg ul li{
-        padding-right: 5px;
-        margin-right: 5px;
+    	padding-right: 5px;
+    	margin-right: 5px;
     }
     .dbttHere h2, .dbttHere h3, .dbttHere h4, .tabDetail h2, .tabDetail h3, .tabDetail h4{
-        margin: 0;
-        padding: 0;
-        font-weight: normal;
-        display: inline;
+    	margin: 0;
+    	padding: 0;
+    	font-weight: normal;
+    	display: inline;
     }
     .dbttKv{
-        text-align: center;
-        padding: 6px 0 10px 0;
+    	text-align: center;
+    	padding: 6px 0 10px 0;
     }
     .dbttKv span{
-        font-size: 13px;
-        color: #a73737;
+    	font-size: 13px;
+    	color: #a73737;
     }
     .dbttKv select{
-        width: 132px;
-        height: 28px;
-        outline: none;
-        background-color: #fff;
+    	width: 132px;
+    	height: 28px;
+    	outline: none;
+    	background-color: #fff;
     }
     .dbttHere{
-        background-color: #f4fbff;
-        padding: 20px 0;
-        border-top: 3px solid #45befc;
-        overflow: hidden;
-        margin-bottom: 10px;
-        margin-left: -10px;
-        margin-right: -10px;
+    	background-color: #f4fbff;
+    	padding: 20px 0;
+    	border-top: 3px solid #45befc;
+    	overflow: hidden;
+    	margin-bottom: 10px;
+    	margin-left: -10px;
+    	margin-right: -10px;
     }
     .dbttHere .fl{
-        width: 46%;
-        text-align: center;
+    	width: 46%;
+    	text-align: center;
     }
     .dbttHere .fr{
-        width: 54%;
+    	width: 54%;
     }
     .dbttHere .addName{
-        font-size: 18px;
-        color: #a73737;
-        font-weight: 700;
+    	font-size: 18px;
+    	color: #a73737;
+    	font-weight: 700;
         margin-bottom: 5px;
     }
     .dbttHere img{
@@ -985,438 +985,438 @@
         height: 60px;
     }
     .dbttHere .item{
-        color: #6f6f6f;
-        font-size: 14px;
+    	color: #6f6f6f;
+    	font-size: 14px;
     }
     .ndBig{
-        font-size: 40px;
-        font-weight: 700;
-        color: #3d7fbc;
+    	font-size: 40px;
+    	font-weight: 700;
+    	color: #3d7fbc;
     }
     .tabDetail{
-        border-spacing: 0;
-        margin-left: -10px;
-        margin-right: -10px;
+    	border-spacing: 0;
+    	margin-left: -10px;
+    	margin-right: -10px;
     }
     .tabDetailHead{
-        background-color: #3d7fbc;
-        color: #fff;
+    	background-color: #3d7fbc;
+    	color: #fff;
     }
     .tabDetailHead div{
-        height: 40px;
-        font-weight: 600;
-        font-size: 14px;
-        line-height: 40px;
+    	height: 40px;
+    	font-weight: 600;
+    	font-size: 14px;
+    	line-height: 40px;
     }
     .tabDetail .col1{
-        width: 27%;
-        padding-left: 10px;
+    	width: 27%;
+    	padding-left: 10px;
     }
     .tabDetail .col2{
-        width: 43%;
+    	width: 43%;
     }
     .tabDetail .col3{
-        width: 30%;
+    	width: 30%;
     }
     .tabDetailBody .item{
-        padding-top: 10px;
-        padding-bottom: 10px;
-        font-size: 14px;
-        border-bottom: 1px solid #eee;
-        position: relative;
+    	padding-top: 10px;
+    	padding-bottom: 10px;
+    	font-size: 14px;
+    	border-bottom: 1px solid #eee;
+    	position: relative;
     }
     .statusUpdating{
-        position: absolute;
-        top: 50%;
-        margin-top: -7px;
+    	position: absolute;
+    	top: 50%;
+    	margin-top: -7px;
     }
     .dbttHere .statusUpdating{
-        position: static;
-        padding-top: 22px;
-        font-size: 14px;
+    	position: static;
+    	padding-top: 22px;
+    	font-size: 14px;
     }
     .tabDetailBody .col1, .tabDetailBody .col3{
-        line-height: 45px;
+    	line-height: 45px;
     }
     .tabDetailBody .nameKV{
-        font-size: 14px;
+    	font-size: 14px;
     }
     .tabDetailBody .nameKV a{
         color: #000000;
     }
     .tabDetailBody img{
-        width: 35px;
-        vertical-align: top;
+    	width: 35px;
+    	vertical-align: top;
     }
     .ndSmall{
-        font-size: 24px;
-        font-weight: 700;
-        color: #3d7fbc;
-        padding-left: 5px;
+    	font-size: 24px;
+    	font-weight: 700;
+    	color: #3d7fbc;
+    	padding-left: 5px;
     }
     .tabDetail .more1{
-        margin-left: 10px;
-        margin-right: 10px;
+    	margin-left: 10px;
+    	margin-right: 10px;
     }
     .hTuong{
-        font-size: 12px;
-        color: #6f6f6f;
-        margin-top: 5px;
+    	font-size: 12px;
+    	color: #6f6f6f;
+    	margin-top: 5px;
     }
     .dbttMore{
-        text-align: center;
-        background-color: #ebebeb;
-        height: 38px;
-        line-height: 38px;
-        margin: 10px;
+    	text-align: center;
+    	background-color: #ebebeb;
+    	height: 38px;
+    	line-height: 38px;
+    	margin: 10px;
     }
     .dbttMore span{
-        background: url('//image.24h.com.vn/images/2014/ttcb/Polygon-1-copy-9.png') no-repeat center left;
-        padding-left: 15px;
+    	background: url('//image.24h.com.vn/images/2014/ttcb/Polygon-1-copy-9.png') no-repeat center left;
+    	padding-left: 15px;
     }
     .dbttNote{
-        margin: 15px 0px 35px 0px;
+    	margin: 15px 0px 35px 0px;
     }
     .dbttNote *{
-        font-size: 12px;
-        color: #999999;
-        margin-bottom: 5px;
+    	font-size: 12px;
+    	color: #999999;
+    	margin-bottom: 5px;
     }
     .dbttNote strong{
-        color: #000;
+    	color: #000;
     }
     .dbttTit{
-        display: inline-block;
-        font-size: 20px;
-        font-weight: 700;
-        color: #3d7fbc;
-        border-bottom: 2px solid #3d7fbc;
-        width: 140px;
-        padding-bottom: 10px;
-        margin-bottom: 10px;
+    	display: inline-block;
+    	font-size: 20px;
+    	font-weight: 700;
+    	color: #3d7fbc;
+    	border-bottom: 2px solid #3d7fbc;
+    	width: 140px;
+    	padding-bottom: 10px;
+    	margin-bottom: 10px;
     }
     .w100{
-        width: 100%;
+    	width: 100%;
     }
     .tabDetailBody .col1{
-        padding-top: 15px;
+    	padding-top: 15px;
         line-height: 20px;
     }
     .tttd>header a{
-        font-weight: 600;
+    	font-weight: 600;
     }
 
     @media screen and (max-width: 320px){
-        .dbttKv span, .dbttKv select{
-            font-size: 11px;
-        }
-        .dbttHere .addName{
-            font-size: 16px;
-        }
-        .dbttHere .item, .tabDetailHead div, .tabDetailBody .nameKV, .tabDetailBody .item, .dbttHere .statusUpdating{
-            font-size: 12px;
-        }
-        .ndBig{
-            font-size: 38px;
-        }
-        .ndSmall{
-            font-size: 22px;
-        }
-        .hTuong, .dbttNote *{
-            font-size: 11px;
-        }
-        .dbttMore span{
-            font-size: 14px;
-        }
-        .dbttTit{
-            font-size: 18px;
-        }
-        .dbttHere .fl{
-            width: 43%;
-            text-align: center;
-        }
-        .dbttHere .fr{
-            width: 57%;
-        }
+    	.dbttKv span, .dbttKv select{
+    		font-size: 11px;
+    	}
+    	.dbttHere .addName{
+    		font-size: 16px;
+    	}
+    	.dbttHere .item, .tabDetailHead div, .tabDetailBody .nameKV, .tabDetailBody .item, .dbttHere .statusUpdating{
+    		font-size: 12px;
+    	}
+    	.ndBig{
+    		font-size: 38px;
+    	}
+    	.ndSmall{
+    		font-size: 22px;
+    	}
+    	.hTuong, .dbttNote *{
+    		font-size: 11px;
+    	}
+    	.dbttMore span{
+    		font-size: 14px;
+    	}
+    	.dbttTit{
+    		font-size: 18px;
+    	}
+    	.dbttHere .fl{
+    		width: 43%;
+    		text-align: center;
+    	}
+    	.dbttHere .fr{
+    		width: 57%;
+    	}
     }
     @media screen and (min-width: 376px) and (max-width: 414px){
-        .dbttKv span, .dbttKv select{
-            font-size: 15px;
-        }
-        .dbttHere .addName{
-            font-size: 20px;
-        }
-        .dbttHere .item, .tabDetailHead div, .tabDetailBody .nameKV, .tabDetailBody .item, .dbttHere .statusUpdating{
-            font-size: 16px;
-        }
-        .ndBig{
-            font-size: 42px;
-        }
-        .ndSmall{
-            font-size: 26px;
-        }
-        .hTuong, .dbttNote *{
-            font-size: 14px;
-        }
-        .dbttMore span{
-            font-size: 18px;
-        }
-        .dbttTit{
-            font-size: 22px;
-        }
-        .dbttHere .fl{
-            width: 49%;
-            text-align: center;
-        }
-        .dbttHere .fr{
-            width: 51%;
-        }
+    	.dbttKv span, .dbttKv select{
+    		font-size: 15px;
+    	}
+    	.dbttHere .addName{
+    		font-size: 20px;
+    	}
+    	.dbttHere .item, .tabDetailHead div, .tabDetailBody .nameKV, .tabDetailBody .item, .dbttHere .statusUpdating{
+    		font-size: 16px;
+    	}
+    	.ndBig{
+    		font-size: 42px;
+    	}
+    	.ndSmall{
+    		font-size: 26px;
+    	}
+    	.hTuong, .dbttNote *{
+    		font-size: 14px;
+    	}
+    	.dbttMore span{
+    		font-size: 18px;
+    	}
+    	.dbttTit{
+    		font-size: 22px;
+    	}
+    	.dbttHere .fl{
+    		width: 49%;
+    		text-align: center;
+    	}
+    	.dbttHere .fr{
+    		width: 51%;
+    	}
         .tabDetailBody .col1{
             padding-top: 16px;
             line-height: 20px;
         }
     }
     @media screen and (min-width: 480px) and (max-width: 568px){
-        .dbttHere .fl{
-            width: 48%;
-            text-align: center;
-        }
-        .dbttHere .fr{
-            width: 52%;
-        }
-        .tabDetail .more1{
-            font-size: 16px;
-        }
+    	.dbttHere .fl{
+    		width: 48%;
+    		text-align: center;
+    	}
+    	.dbttHere .fr{
+    		width: 52%;
+    	}
+    	.tabDetail .more1{
+    		font-size: 16px;
+    	}
     }
     @media screen and (min-width: 569px) and (max-width: 667px){
-        .dbttKv span, .dbttKv select{
-            font-size: 15px;
-        }
-        .dbttHere .addName{
-            font-size: 20px;
-        }
-        .dbttHere .item, .tabDetailHead div, .tabDetailBody .nameKV, .tabDetailBody .item, .dbttHere .statusUpdating{
-            font-size: 16px;
-        }
-        .ndBig{
-            font-size: 42px;
-        }
-        .ndSmall{
-            font-size: 26px;
-        }
-        .hTuong, .dbttNote *{
-            font-size: 14px;
-        }
-        .dbttMore span, .tabDetail .more1{
-            font-size: 18px;
-        }
-        .dbttTit{
-            font-size: 22px;
-        }
-        .dbttHere .fl{
-            width: 49%;
-            text-align: center;
-        }
-        .dbttHere .fr{
-            width: 51%;
-        }
+    	.dbttKv span, .dbttKv select{
+    		font-size: 15px;
+    	}
+    	.dbttHere .addName{
+    		font-size: 20px;
+    	}
+    	.dbttHere .item, .tabDetailHead div, .tabDetailBody .nameKV, .tabDetailBody .item, .dbttHere .statusUpdating{
+    		font-size: 16px;
+    	}
+    	.ndBig{
+    		font-size: 42px;
+    	}
+    	.ndSmall{
+    		font-size: 26px;
+    	}
+    	.hTuong, .dbttNote *{
+    		font-size: 14px;
+    	}
+    	.dbttMore span, .tabDetail .more1{
+    		font-size: 18px;
+    	}
+    	.dbttTit{
+    		font-size: 22px;
+    	}
+    	.dbttHere .fl{
+    		width: 49%;
+    		text-align: center;
+    	}
+    	.dbttHere .fr{
+    		width: 51%;
+    	}
     }
     @media screen and (min-width: 668px) and (max-width: 736px){
-        .dbttKv span, .dbttKv select{
-            font-size: 17px;
-        }
-        .dbttHere .addName{
-            font-size: 22px;
-        }
-        .dbttHere .item, .tabDetailHead div, .tabDetailBody .nameKV, .tabDetailBody .item, .dbttHere .statusUpdating{
-            font-size: 18px;
-        }
-        .ndBig{
-            font-size: 44px;
-        }
-        .ndSmall{
-            font-size: 28px;
-        }
-        .hTuong, .dbttNote *{
-            font-size: 16px;
-        }
-        .dbttMore span, .tabDetail .more1{
-            font-size: 20px;
-        }
-        .dbttTit{
-            font-size: 24px;
-        }
-        .tabDetailBody .col1{
-            padding-top: 19px;
-        }
-        .dbttHere .fl{
-            width: 50%;
-            text-align: center;
-        }
-        .dbttHere .fr{
-            width: 50%;
-        }
+    	.dbttKv span, .dbttKv select{
+    		font-size: 17px;
+    	}
+    	.dbttHere .addName{
+    		font-size: 22px;
+    	}
+    	.dbttHere .item, .tabDetailHead div, .tabDetailBody .nameKV, .tabDetailBody .item, .dbttHere .statusUpdating{
+    		font-size: 18px;
+    	}
+    	.ndBig{
+    		font-size: 44px;
+    	}
+    	.ndSmall{
+    		font-size: 28px;
+    	}
+    	.hTuong, .dbttNote *{
+    		font-size: 16px;
+    	}
+    	.dbttMore span, .tabDetail .more1{
+    		font-size: 20px;
+    	}
+    	.dbttTit{
+    		font-size: 24px;
+    	}
+    	.tabDetailBody .col1{
+    		padding-top: 19px;
+    	}
+    	.dbttHere .fl{
+    		width: 50%;
+    		text-align: center;
+    	}
+    	.dbttHere .fr{
+    		width: 50%;
+    	}
     }
     @media screen and (min-width: 812px){
-        .dbttKv span, .dbttKv select{
-            font-size: 15px;
-        }
-        .dbttHere .addName{
-            font-size: 20px;
-        }
-        .dbttHere .item, .tabDetailHead div, .tabDetailBody .nameKV, .tabDetailBody .item, .dbttHere .statusUpdating{
-            font-size: 16px;
-        }
-        .ndBig{
-            font-size: 42px;
-        }
-        .ndSmall{
-            font-size: 26px;
-        }
-        .hTuong, .dbttNote *{
-            font-size: 14px;
-        }
-        .dbttMore span, .tabDetail .more1{
-            font-size: 18px;
-        }
-        .dbttTit{
-            font-size: 22px;
-        }
-        .dbttHere .fl{
-            width: 49%;
-            text-align: center;
-        }
-        .dbttHere .fr{
-            width: 51%;
-        }
+    	.dbttKv span, .dbttKv select{
+    		font-size: 15px;
+    	}
+    	.dbttHere .addName{
+    		font-size: 20px;
+    	}
+    	.dbttHere .item, .tabDetailHead div, .tabDetailBody .nameKV, .tabDetailBody .item, .dbttHere .statusUpdating{
+    		font-size: 16px;
+    	}
+    	.ndBig{
+    		font-size: 42px;
+    	}
+    	.ndSmall{
+    		font-size: 26px;
+    	}
+    	.hTuong, .dbttNote *{
+    		font-size: 14px;
+    	}
+    	.dbttMore span, .tabDetail .more1{
+    		font-size: 18px;
+    	}
+    	.dbttTit{
+    		font-size: 22px;
+    	}
+    	.dbttHere .fl{
+    		width: 49%;
+    		text-align: center;
+    	}
+    	.dbttHere .fr{
+    		width: 51%;
+    	}
     }
     /*End 11-03-2019 trungcq XLCYCMHENG_34264_nang_cap_giao_dien_trang_thoi_tiet*/
 
 /*begin nang_cap_giao_dien_trang_ty_gia dangtq*/
 .tbCmg ul li .Atv{
-    font-weight: 600;
+	font-weight: 600;
 }
 .giaVang *{
-    font-size: 12px;
+	font-size: 12px;
 }
 .giaVang h1, .giaVang h2, .giaVang h3, .giaVang h4, .giaVang h5{
-    font-weight: normal;
+	font-weight: normal;
     margin: 0;
 }
 .gvH4{
-    margin: 0;
+	margin: 0;
 }
 .gvTit{
-    font-size: 20px;
-    font-weight: 600;
-    color: #1c7964;
+	font-size: 20px;
+	font-weight: 600;
+	color: #1c7964;
 }
 .inputDate{
-    background: url(//cdn.24h.com.vn/images/sprites092018.png) no-repeat -47px -3333px;
-    border: 1px solid #eee;
-    padding-left: 20px;
-    color: #787878;
-    outline: none;
+	background: url(//cdn.24h.com.vn/images/sprites092018.png) no-repeat -47px -3333px;
+	border: 1px solid #eee;
+	padding-left: 20px;
+	color: #787878;
+	outline: none;
 }
 .center{
-    text-align: center;
+	text-align: center;
 }
 .giaVang table{
-    width: 100%;
-    border-spacing: 0;
+	width: 100%;
+	border-spacing: 0;
 }
 .tabCont{
-    margin-left: -10px;
-    margin-right: -10px;
+	margin-left: -10px;
+	margin-right: -10px;
 }
 .tabHead{
-    background-color: #c4efe5;
+	background-color: #c4efe5;
 }
 .tabHead td{
-    height: 40px;
+	height: 40px;
 }
 .tabHead strong, .tabBody *{
-    font-size: 13px;
+	font-size: 13px;
 }
 .tabHead i{
-    font-size: 11px;
+	font-size: 11px;
 }
 .colorGrey{
-    color: #787878;
+	color: #787878;
 }
 .pdL10{
-    padding-left: 10px;
+	padding-left: 10px;
 }
 .tabBody td{
-    height: 30px;
-    border-bottom: 1px solid #eee;
+	height: 30px;
+	border-bottom: 1px solid #eee;
 }
 .fixW{
-    width: 60px;
-    display: inline-block;
+	width: 60px;
+	display: inline-block;
 }
 .fixTd{
-    width: 29%;
+	width: 29%;
 }
 .tabBody img{
-    margin-right: 2px;
+	margin-right: 2px;
 }
 .gvMore{
-    text-align: center;
-    background-color: #ebebeb;
-    height: 38px;
-    line-height: 38px;
-    margin: 10px;
+	text-align: center;
+	background-color: #ebebeb;
+	height: 38px;
+	line-height: 38px;
+	margin: 10px;
 }
 .gvMore span, .giaVangReal .gvMore span{
-    padding-left: 15px;
-    font-size: 14px;
+	padding-left: 15px;
+	font-size: 14px;
     background: url(//image.24h.com.vn/images/2014/ttcb/Polygon-1-copy-9.png) no-repeat center left;
 }
 .gvMore a{
     color: #333;
 }
 .gvNote{
-    margin: 15px 0 20px 0;
+	margin: 15px 0 20px 0;
 }
 .gvNote *{
-    color: #999999;
+	color: #999999;
 }
 .gvNote .mgbt15{
     margin-bottom: 10px;
 }
 .gvNote strong, .gvNote strong *{
-    color: #000;
+	color: #000;
 }
 .gvNote .icoUp{
-    vertical-align: -1px;
+	vertical-align: -1px;
 }
 .gvChart{
-    padding-top: 10px;
-    border-top: 2px solid #1c7964;
+	padding-top: 10px;
+	border-top: 2px solid #1c7964;
 }
 .choiseMV select{
-    height: 34px;
-    border: 2px solid #dddddd;
-    outline: none;
-    margin-left: 10px;
-    font-size: 14px;
+	height: 34px;
+	border: 2px solid #dddddd;
+	outline: none;
+	margin-left: 10px;
+	font-size: 14px;
 }
 .center{
-    text-align: center;
+	text-align: center;
 }
 .colorDefault{
-    color: #333;
+	color: #333;
 }
 .choiseMB a:first-child img{
-    vertical-align: -2px;
+	vertical-align: -2px;
 }
 .mgR5{
-    margin-right: 5px;
+	margin-right: 5px;
 }
 .gvTitArt{
-    display: inline-block;
-    padding-bottom: 10px;
+	display: inline-block;
+	padding-bottom: 10px;
     margin: 0;
 }
 .gvTitLine{
@@ -1428,164 +1428,164 @@
     border-color: #ca931f;
 }
 .tabHead .pdL10{
-    width: 72px;
+	width: 72px;
 }
 
 @media screen and (max-width: 320px){
-    .giaVang *{
-        font-size: 11px;
-    }
-    .gvTit{
-        font-size: 18px;
-    }
-    .inputDate{
-        background-position: -47px -3332px;
-        height: 22px;
-    }
-    .icoPrevDate, .icoNextDate{
-        width: 22px;
-        height: 22px;
-    }
-    .tabHead i{
-        font-size: 9px;
-    }
-    .tabHead strong, .tabBody *{
-        font-size: 11px;
-    }
-    .fixW{
-        width: 52px;
-    }
-    .giaVangReal .gvMore span, .gvMore span, .choiseMV select{
-        font-size: 12px;
-    }
-    .tabHead .pdL10{
-        width: 60px;
-    }
+	.giaVang *{
+		font-size: 11px;
+	}
+	.gvTit{
+		font-size: 18px;
+	}
+	.inputDate{
+		background-position: -47px -3332px;
+		height: 22px;
+	}
+	.icoPrevDate, .icoNextDate{
+		width: 22px;
+		height: 22px;
+	}
+	.tabHead i{
+		font-size: 9px;
+	}
+	.tabHead strong, .tabBody *{
+		font-size: 11px;
+	}
+	.fixW{
+		width: 52px;
+	}
+	.giaVangReal .gvMore span, .gvMore span, .choiseMV select{
+		font-size: 12px;
+	}
+	.tabHead .pdL10{
+		width: 60px;
+	}
 }
 @media screen and (min-width: 376px) and (max-width: 414px){
-    .giaVang *{
-        font-size: 14px;
-    }
-    .gvTit{
-        font-size: 22px;
-    }
-    .inputDate{
-        background-position: -47px -3332px;
-    }
-    .icoPrevDate, .icoNextDate{
-        width: 23px;
-        height: 23px;
-    }
-    .tabHead i{
-        font-size: 13px;
-    }
-    .tabHead strong, .tabBody *{
-        font-size: 15px;
-    }
-    .fixW{
-        width: 67px;
-    }
-    .giaVangReal .gvMore span, .gvMore span, .choiseMV select{
-        font-size: 16px;
-    }
-    .tabHead .pdL10{
-        width: 83px;
-    }
+	.giaVang *{
+		font-size: 14px;
+	}
+	.gvTit{
+		font-size: 22px;
+	}
+	.inputDate{
+		background-position: -47px -3332px;
+	}
+	.icoPrevDate, .icoNextDate{
+		width: 23px;
+		height: 23px;
+	}
+	.tabHead i{
+		font-size: 13px;
+	}
+	.tabHead strong, .tabBody *{
+		font-size: 15px;
+	}
+	.fixW{
+		width: 67px;
+	}
+	.giaVangReal .gvMore span, .gvMore span, .choiseMV select{
+		font-size: 16px;
+	}
+	.tabHead .pdL10{
+		width: 83px;
+	}
 }
 @media screen and (min-width: 480px) and (max-width: 568px){
-    .tabHead .pdL10{
-        width: auto;
-    }
+	.tabHead .pdL10{
+		width: auto;
+	}
 }
 @media screen and (min-width: 569px) and (max-width: 667px){
-    .giaVang *{
-        font-size: 14px;
-    }
-    .gvTit{
-        font-size: 22px;
-    }
-    .inputDate{
-        background-position: -47px -3332px;
-    }
-    .icoPrevDate, .icoNextDate{
-        width: 23px;
-        height: 23px;
-    }
-    .tabHead i{
-        font-size: 13px;
-    }
-    .tabHead strong, .tabBody *{
-        font-size: 15px;
-    }
-    .fixW{
-        width: 67px;
-    }
-    .giaVangReal .gvMore span, .gvMore span, .choiseMV select{
-        font-size: 16px;
-    }
-    .tabHead .pdL10{
-        width: auto;
-    }
+	.giaVang *{
+		font-size: 14px;
+	}
+	.gvTit{
+		font-size: 22px;
+	}
+	.inputDate{
+		background-position: -47px -3332px;
+	}
+	.icoPrevDate, .icoNextDate{
+		width: 23px;
+		height: 23px;
+	}
+	.tabHead i{
+		font-size: 13px;
+	}
+	.tabHead strong, .tabBody *{
+		font-size: 15px;
+	}
+	.fixW{
+		width: 67px;
+	}
+	.giaVangReal .gvMore span, .gvMore span, .choiseMV select{
+		font-size: 16px;
+	}
+	.tabHead .pdL10{
+		width: auto;
+	}
 }
 @media screen and (min-width: 668px) and (max-width: 736px){
-    .giaVang *{
-        font-size: 16px;
-    }
-    .gvTit{
-        font-size: 24px;
-    }
-    .inputDate{
-        background-position: -47px -3332px;
-    }
-    .icoPrevDate, .icoNextDate{
-        width: 26px;
-        height: 26px;
-    }
-    .tabHead i{
-        font-size: 15px;
-    }
-    .tabHead strong, .tabBody *{
-        font-size: 17px;
-    }
-    .fixW{
-        width: 76px;
-    }
-    .giaVangReal .gvMore span, .gvMore span, .choiseMV select{
-        font-size: 18px;
-    }
-    .tabHead .pdL10{
-        width: auto;
-    }
+	.giaVang *{
+		font-size: 16px;
+	}
+	.gvTit{
+		font-size: 24px;
+	}
+	.inputDate{
+		background-position: -47px -3332px;
+	}
+	.icoPrevDate, .icoNextDate{
+		width: 26px;
+		height: 26px;
+	}
+	.tabHead i{
+		font-size: 15px;
+	}
+	.tabHead strong, .tabBody *{
+		font-size: 17px;
+	}
+	.fixW{
+		width: 76px;
+	}
+	.giaVangReal .gvMore span, .gvMore span, .choiseMV select{
+		font-size: 18px;
+	}
+	.tabHead .pdL10{
+		width: auto;
+	}
 }
 @media screen and (min-width: 812px){
-    .giaVang *{
-        font-size: 14px;
-    }
-    .gvTit{
-        font-size: 22px;
-    }
-    .inputDate{
-        background-position: -47px -3332px;
-    }
-    .icoPrevDate, .icoNextDate{
-        width: 23px;
-        height: 23px;
-    }
-    .tabHead i{
-        font-size: 13px;
-    }
-    .tabHead strong, .tabBody *{
-        font-size: 15px;
-    }
-    .fixW{
-        width: 67px;
-    }
-    .giaVangReal .gvMore span, .gvMore span, .choiseMV select{
-        font-size: 16px;
-    }
-    .tabHead .pdL10{
-        width: auto;
-    }
+	.giaVang *{
+		font-size: 14px;
+	}
+	.gvTit{
+		font-size: 22px;
+	}
+	.inputDate{
+		background-position: -47px -3332px;
+	}
+	.icoPrevDate, .icoNextDate{
+		width: 23px;
+		height: 23px;
+	}
+	.tabHead i{
+		font-size: 13px;
+	}
+	.tabHead strong, .tabBody *{
+		font-size: 15px;
+	}
+	.fixW{
+		width: 67px;
+	}
+	.giaVangReal .gvMore span, .gvMore span, .choiseMV select{
+		font-size: 16px;
+	}
+	.tabHead .pdL10{
+		width: auto;
+	}
 }
 /*end nang_cap_giao_dien_trang_ty_gia dangtq*/
 
@@ -1803,60 +1803,60 @@
     margin: 0;
 }
 .eventSpecialFirstTitle{
-	font-size: 18px;
-	color: #646464;
-	margin-bottom: 12px;
+    font-size: 18px;
+    color: #646464;
+    margin-bottom: 12px;
 }
 .eventSpecialFirstTit{
-	border-bottom: 3px solid #237a57;
-	margin-top: 10px;
-	margin-bottom: 8px;
+    border-bottom: 3px solid #237a57;
+    margin-top: 10px;
+    margin-bottom: 8px;
 }
 .eventSpecialFirstTit h2{
-	display: inline-block;
-	background-color: #237a57;
-	color: #fff;
-	padding: 10px;
-	font-size: 14px;
-	font-weight: 600;
+    display: inline-block;
+    background-color: #237a57;
+    color: #fff;
+    padding: 10px;
+    font-size: 14px;
+    font-weight: 600;
 }
 .eventSpecial .list .imgNwsMdm{
-	width: 100px;
-	height: 75px;
+    width: 100px;
+    height: 75px;
 }
 .eventSpecial .list .bxDoRt{
-	margin-left: 0;
+    margin-left: 0;
 }
 .eventSpecial .list .bxDoRt h2{
-	font-size: 14px;
-	line-height: 1.4;
+    font-size: 14px;
+    line-height: 1.4;
 }
 .eventSpecial .pgCate .pgIt{
-	margin: 0 3px;
-	display: inline-block;
+    margin: 0 3px;
+    display: inline-block;
 }
 .eventSpecial .pgLnk{
-	position: relative;
-	display: block;
-	padding: 0;
-	margin-left: -1px;
-	color: #757575;
-	background-color: #fff;
-	border: 1px solid #ddd;
-	width: 28px;
-	height: 28px;
-	box-sizing: border-box;
-	text-align: center;
-	line-height: 27px;
-	font-size: 14px;
+    position: relative;
+    display: block;
+    padding: 0;
+    margin-left: -1px;
+    color: #757575;
+    background-color: #fff;
+    border: 1px solid #ddd;
+    width: 28px;
+    height: 28px;
+    box-sizing: border-box;
+    text-align: center;
+    line-height: 27px;
+    font-size: 14px;
 }
 .eventSpecial .pgCate .atv a{
-	background-color: #78b43d;
+    background-color: #78b43d;
     color: #fff;
     border: 1px solid #78b43d;
 }
 .eventSpecial .pg{
-	/*display: flex;
+    /*display: flex;
     padding-left: 0;
     list-style: none;
     border-radius: .25rem;
@@ -1867,13 +1867,13 @@
     text-align: center;
 }
 .eventSpecial article{
-	overflow: hidden;
-	display: block;
+    overflow: hidden;
+    display: block;
 }
 
 /*section 2*/
 .eventSpecialTwoTit a{
-	display: inline-block;
+    display: inline-block;
     font-size: 14px;
     color: #ff0000;
     text-transform: uppercase;
@@ -1883,7 +1883,7 @@
     margin-bottom: 15px;
 }
 .eventSpecialTwoTit:before{
-	content: '';
+    content: '';
     height: 3px;
     position: absolute;
     right: 0;
@@ -1895,11 +1895,11 @@
 
 /*section 3*/
 .eventSpecialThreeTit{
-	border-bottom: 1px solid #dddddd;
+    border-bottom: 1px solid #dddddd;
     margin-bottom: 18px;
 }
 .eventSpecialThreeTit a{
-	display: inline-block;
+    display: inline-block;
     font-size: 14px;
     color: #005ec6;
     text-transform: uppercase;
@@ -1912,7 +1912,7 @@
 
 /*section 4*/
 .eventSpecialFourTit a{
-	display: block;
+    display: block;
     font-size: 14px;
     color: #237a57;
     text-transform: uppercase;
@@ -1925,80 +1925,87 @@
 
 /*Begin tổng hợp các độ phân giải màn hình - dangtq 2019*/
 @media screen and (min-width: 321px) and (max-width: 375px){
-	.eventSpecialFirstTitle{
-		font-size: 20px;
-	}
-	.eventSpecialFirstTit h2, .eventSpecialTwoTit a, .eventSpecialThreeTit a, .eventSpecialFourTit a, .eventSpecial .ctTp, .eventSpecial .bxDoRt .nwsTitHm a, .eventSpecial .pgLnk{
-		font-size: 16px;
-	}
-	.eventSpecialTwoTit:before{
-		width: 100px;
-	}
+    .eventSpecialFirstTitle{
+        font-size: 20px;
+    }
+    .eventSpecialFirstTit h2, .eventSpecialTwoTit a, .eventSpecialThreeTit a, .eventSpecialFourTit a, .eventSpecial .ctTp, .eventSpecial .bxDoRt .nwsTitHm a, .eventSpecial .pgLnk{
+        font-size: 16px;
+    }
+    .eventSpecialTwoTit:before{
+        width: 100px;
+    }
 }
 @media screen and (min-width: 376px) and (max-width: 414px){
-	.eventSpecialFirstTitle{
-		font-size: 22px;
-	}
-	.eventSpecialFirstTit h2, .eventSpecialTwoTit a, .eventSpecialThreeTit a, .eventSpecialFourTit a, .eventSpecial .ctTp, .eventSpecial .bxDoRt .nwsTitHm a, .eventSpecial .pgLnk{
-		font-size: 18px;
-	}
-	.eventSpecialTwoTit:before{
-		width: 120px;
-	}
+    .eventSpecialFirstTitle{
+        font-size: 22px;
+    }
+    .eventSpecialFirstTit h2, .eventSpecialTwoTit a, .eventSpecialThreeTit a, .eventSpecialFourTit a, .eventSpecial .ctTp, .eventSpecial .bxDoRt .nwsTitHm a, .eventSpecial .pgLnk{
+        font-size: 18px;
+    }
+    .eventSpecialTwoTit:before{
+        width: 120px;
+    }
 }
 @media screen and (min-width: 480px) and (max-width: 568px){
-	.eventSpecialFirstTitle{
-		font-size: 20px;
-	}
-	.eventSpecialFirstTit h2, .eventSpecialTwoTit a, .eventSpecialThreeTit a, .eventSpecialFourTit a, .eventSpecial .ctTp, .eventSpecial .bxDoRt .nwsTitHm a, .eventSpecial .pgLnk{
-		font-size: 16px;
-	}
-	.eventSpecialTwoTit:before{
-		width: 300px;
-	}
+    .eventSpecialFirstTitle{
+        font-size: 20px;
+    }
+    .eventSpecialFirstTit h2, .eventSpecialTwoTit a, .eventSpecialThreeTit a, .eventSpecialFourTit a, .eventSpecial .ctTp, .eventSpecial .bxDoRt .nwsTitHm a, .eventSpecial .pgLnk{
+        font-size: 16px;
+    }
+    .eventSpecialTwoTit:before{
+        width: 300px;
+    }
 }
 @media screen and (min-width: 569px) and (max-width: 667px){
-	.eventSpecialFirstTitle{
-		font-size: 22px;
-	}
-	.eventSpecialFirstTit h2, .eventSpecialTwoTit a, .eventSpecialThreeTit a, .eventSpecialFourTit a, .eventSpecial .ctTp, .eventSpecial .bxDoRt .nwsTitHm a, .eventSpecial .pgLnk{
-		font-size: 18px;
-	}
-	.eventSpecialTwoTit:before{
-		width: 370px;
-	}
+    .eventSpecialFirstTitle{
+        font-size: 22px;
+    }
+    .eventSpecialFirstTit h2, .eventSpecialTwoTit a, .eventSpecialThreeTit a, .eventSpecialFourTit a, .eventSpecial .ctTp, .eventSpecial .bxDoRt .nwsTitHm a, .eventSpecial .pgLnk{
+        font-size: 18px;
+    }
+    .eventSpecialTwoTit:before{
+        width: 370px;
+    }
 }
 @media screen and (min-width: 569px) and (max-width: 640px){
-	.eventSpecialTwoTit:before{
-		width: 320px;
-	}
+    .eventSpecialTwoTit:before{
+        width: 320px;
+    }
 }
 @media screen and (min-width: 668px) and (max-width: 736px){
-	.eventSpecialFirstTitle{
-		font-size: 24px;
-	}
-	.eventSpecialFirstTit h2, .eventSpecialTwoTit a, .eventSpecialThreeTit a, .eventSpecialFourTit a, .eventSpecial .ctTp, .eventSpecial .bxDoRt .nwsTitHm a, .eventSpecial .pgLnk{
-		font-size: 20px;
-	}
-	.eventSpecialTwoTit:before{
-		width: 410px;
-	}
+    .eventSpecialFirstTitle{
+        font-size: 24px;
+    }
+    .eventSpecialFirstTit h2, .eventSpecialTwoTit a, .eventSpecialThreeTit a, .eventSpecialFourTit a, .eventSpecial .ctTp, .eventSpecial .bxDoRt .nwsTitHm a, .eventSpecial .pgLnk{
+        font-size: 20px;
+    }
+    .eventSpecialTwoTit:before{
+        width: 410px;
+    }
 }
 @media screen and (min-width: 812px){
-	.eventSpecialFirstTitle{
-		font-size: 22px;
-	}
-	.eventSpecialFirstTit h2, .eventSpecialTwoTit a, .eventSpecialThreeTit a, .eventSpecialFourTit a, .eventSpecial .ctTp, .eventSpecial .bxDoRt .nwsTitHm a, .eventSpecial .pgLnk{
-		font-size: 18px;
-	}
-	.eventSpecialTwoTit:before{
-		width: 510px;
-	}
-	.eventSpecial .tmPst.pt8{
-		font-size: 16px;
-	}
-	.eventSpecial .nwsTitHm .fs18{
-		font-size: 22px!important;
-	}
+    .eventSpecialFirstTitle{
+        font-size: 22px;
+    }
+    .eventSpecialFirstTit h2, .eventSpecialTwoTit a, .eventSpecialThreeTit a, .eventSpecialFourTit a, .eventSpecial .ctTp, .eventSpecial .bxDoRt .nwsTitHm a, .eventSpecial .pgLnk{
+        font-size: 18px;
+    }
+    .eventSpecialTwoTit:before{
+        width: 510px;
+    }
+    .eventSpecial .tmPst.pt8{
+        font-size: 16px;
+    }
+    .eventSpecial .nwsTitHm .fs18{
+        font-size: 22px!important;
+    }
 }
 /*End tổng hợp các độ phân giải màn hình - dangtq 2019*/
+
+/* Begin 10/10/2019: dangtq fix_banner_center_lech_phai */
+.mainSec section.bnr{
+    margin-left: -10px;
+    margin-right: -10px;
+}
+/* End 10/10/2019: dangtq fix_banner_center_lech_phai */

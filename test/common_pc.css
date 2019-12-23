@@ -2432,7 +2432,7 @@ ul, li {
     border-bottom: 1px solid #f3a346;
     top: 5px;
     left: 0;
-    width: 145px;
+    width: 120px;
     height: 1px;
 }
 .ltdTit span:after {
@@ -2441,7 +2441,7 @@ ul, li {
     border-bottom: 1px solid #f3a346;
     top: 5px;
     right: 0;
-    width: 145px;
+    width: 120px;
     height: 1px;
 }
 .ltdTit .ltd-detail {
@@ -2459,111 +2459,3 @@ ul, li {
     margin-bottom: 5px;
 }
 /*End less-bxh*/
-
-/* begin pc_danh_sach_tran_dau_hot_chuyen_muc */
-div#box_tran_dau_hot_trang_chuyen_muc.block{
- margin-bottom: 20px
-}
-.box_ds_tran_dau_hot_chuyen_muc .ltdTit{
- background-image: url(//cdn.24h.com.vn/images/Layer-31981.jpg);
- background-size: 100%;
- padding: 10px;
- padding-bottom: 7px;
- margin-bottom: 0;
-}
-.box_ds_tran_dau_hot_chuyen_muc .txtTrf{
- text-align: right;
- margin-left: -110px;
- font-size: 17px;
-    color: #fff;
-    width: 83%;
-    display: inline-block;
-    position: relative;
-    font-weight: 700;
-    text-transform: uppercase;
-}
-.ltdTit .ltd-detail{
- float: right;
- padding-right: 0;
- text-align: right;
-}
-.box_ds_tran_dau_hot_chuyen_muc .ltd-detail a{
- font-size: 12px;
- color: #fff;
- font-style: normal;
- display: inline-block;
- line-height: 20px;
- background: url(//cdn.24h.com.vn/images/sprites092018.png) no-repeat 20px -3108px;
- padding-right: 25px;
- text-decoration: none;
-}
-.ltdTit .ltd-detail a:hover{
- text-decoration: underline;
-}
-.hotMatch .ltdTb{
- border: 2px solid #21c879;
- border-top: 0;
- width: 100%;
- border-collapse: collapse;
-}
-.hotMatch tbody{
- float: left;
- width: 326px;
- margin-left: 15px;
- box-sizing: border-box;
-}
-.hotMatch tr{
- background: none!important;
-}
-.hotMatch .ltdTeam:nth-child(1){
- text-align: right;
-}
-.hotMatch td{
- font-size: 13px!important;
- font-weight: normal;
- border: 0!important;
- border-bottom: 1px solid #ddd!important;
- height: 40px;
- box-sizing: border-box;
-}
-.less-ltd .ltdTb tbody tr td{
- padding: 4px;
-}
-.ltdTb tbody tr td{
- text-align: center;
-}
-.hotMatch .ltdTeam:nth-child(3){
- text-align: left;
-}
-.box_ds_tran_dau_hot_chuyen_muc .text_decoration_none{
- color: #333;
-    font-size: 13px;
-    font-weight: normal;
-}
-.hotMatch .ltdTeam:nth-child(1) img{
- float: right;
-    margin-left: 10px;
-}
-.hotMatch img{
- width: 20px;
-    height: 20px;
-}
-.hotMatch .match-tyso-date{
- font-size: 11px;
-    color: #179a62;
-}
-.hotMatch .match-tyso-time{
- font-size: 11px;
-    color: #333;
-}
-.hotMatch .ltdTeam:nth-child(3) img{
- float: left;
-    margin-right: 10px;
-}
-.box_ds_tran_dau_hot_chuyen_muc .ltdTit span:before, .ltdTit span:after{
- display: none;
-}
-.box_ds_tran_dau_hot_chuyen_muc .ltdTit span:before, .box_ds_tran_dau_hot_chuyen_muc .ltdTit span:after{
- display: none;
-}
-/* End pc_danh_sach_tran_dau_hot_chuyen_muc */

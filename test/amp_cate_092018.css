@@ -1,6 +1,8 @@
-.evtHlt .tbTcb {
+ /*Begin toi uu css amp - dangtq 04/2019 */
+/*.evtHlt .tbTcb {
     padding: 10px;
-}
+}*/
+/* End toi uu css amp - dangtq 04/2019 */
 .evtBx .imgNwsMdm {
     width: 45%;
     height: auto;
@@ -8,11 +10,13 @@
 }
 
 /*---Start box nhieu nguoi doc---*/
-.bxRdPsn {
+/* Begin toi uu css amp - dangtq 04/2019 */
+/*.bxRdPsn {
     padding: 7px;
     border: 1px solid #f17920;
     border-top: 6px solid #f17920;
-}
+}*/
+/* End toi uu css amp - dangtq 04/2019 */
 .tbLngrn {
     border-bottom: 0;
     padding: 14px 0;
@@ -30,8 +34,9 @@
 }
 .bxRdPsnLt a {
     line-height: 1.2;
-} 
-.bxRdPsn .boxGrey {
+}
+/* Begin toi uu css amp - dangtq 04/2019 */ 
+/*.bxRdPsn .boxGrey {
     background: none;
     padding: 0;
 }
@@ -51,7 +56,8 @@
     width: 30%;
     float: left;
     position:relative;
-}
+}*/
+/* End toi uu css amp - dangtq 04/2019 */
 /*---End box nhieu nguoi doc---*/
 
 /*---Start media query---*/
@@ -68,68 +74,62 @@
     .txtBnrHor span {
         font-size: 16px;
     }
-    .nwsTit .ifTtr, .blqPr .extTit, .extTit span, #footer p {
+    #footer p {
         font-size: 18px;
     }
-    .ftMn2 a, .cateOthr li a, .nwsTitSlHm, .tmPst a, .extTit a, .tmPst, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, .pagPge, .nguontin, .menutp ul li a, .tmEvt .nmEvt , .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .blk .ftLstVid .vidSeMr a, .pagS2 .pagPge {
+    .ftMn2 a, .cateOthr li a, .nwsTitSlHm, .tmPst a, .tmPst, .pagS2 a.Next, .pagS2 a.Prev, .pagPge, .menutp ul li a, .pagS2 .pagPge {
         font-size: 20px;
     }
-    .icoSkn span, .txtMn, .icoSkn a, .nwsTitHm, .tpcHt .tpcLitIt li a, .tbCmg ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .mnRtCls {
+    .txtMn, .nwsTitHm, .tbCmg ul li a, .evtBx .evtBxSp, .sbNws{
         font-size: 22px;
     }
-    .bdBrk, .titTp a, .tbCmg ul li, .ldIt a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tcbIt li a, .tbCmg h1, .tbTcb a, .ctTp, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .content-video .vdFul a, .bxVidTit .mnItTit a, .bxMncm li a, .chuyen-huong a {
+    .tbCmg ul li, .ldIt a, .ldIt2 a, .tbCmg h1, .ctTp, .tbCmg ul li .mnAtv, .bxRdPsnLt a, p{
         font-size: 24px;
     }
-    .tbCmCent a, .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .bxDoRt .nwsTitHm a {
+    .evtBxTit a, .tbLngrn a, .tbLngrn h2, .bxDoRt .nwsTitHm a {
         font-size: 26px;
     }
     .titNws a {
         font-size: 28px;
-    }
-    .atclTit h1 {
-        font-size: 32px;
     }
 }
 @media only screen and (min-width: 569px) and (max-width: 667px) {
     .txtBnrHor span {
         font-size: 14px;
     }
-    .nwsTit .ifTtr, .blqPr .extTit, .extTit span, #footer p {
+    #footer p {
         font-size: 16px;
     }
-    .ftMn2 a, .cateOthr li a, .nwsTitSlHm, .tmPst a, .extTit a, .tmPst, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, .pagPge, .nguontin, .menutp ul li a, .tmEvt .nmEvt , .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .blk .ftLstVid .vidSeMr a, .pagS2 .pagPge {
+    .ftMn2 a, .cateOthr li a, .nwsTitSlHm, .tmPst a, .tmPst, .pagS2 a.Next, .pagS2 a.Prev, .pagPge, .menutp ul li a, .pagS2 .pagPge {
         font-size: 18px;
     }
-    .icoSkn span, .txtMn, .icoSkn a, .nwsTitHm, .tpcHt .tpcLitIt li a, .tbCmg ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .mnRtCls {
+    .txtMn, .nwsTitHm, .tbCmg ul li a, .evtBx .evtBxSp, .sbNws{
         font-size: 20px;
     }
-    .bdBrk, .titTp a, .tbCmg ul li, .ldIt a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tcbIt li a, .tbCmg h1, .tbTcb a, .ctTp, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .content-video .vdFul a, .bxVidTit .mnItTit a, .bxMncm li a, .chuyen-huong a {
+    .tbCmg ul li, .ldIt a, .ldIt2 a, .tbCmg h1, .ctTp, .tbCmg ul li .mnAtv, .bxRdPsnLt a, p{
         font-size: 22px;
     }
-    .tbCmCent a, .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .bxDoRt .nwsTitHm a {
+    .evtBxTit a, .tbLngrn a, .tbLngrn h2, .bxDoRt .nwsTitHm a {
         font-size: 24px;
     }
     .titNws a {
         font-size: 26px;
-    }
-    .atclTit h1 {
-        font-size: 30px;
     }
 }
 @media only screen and (min-width: 480px) and (max-width: 568px) {
     .txtBnrHor span {
         font-size: 12px;
     }
-    .nwsTit .ifTtr, .blqPr .extTit, .extTit span, #footer p {
+    #footer p {
         font-size: 14px;
     }
-    .ftMn2 a, .cateOthr li a, .nwsTitSlHm, .ctTp, .tmPst a, .extTit a, .tmPst, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, .pagPge, .nguontin, .menutp ul li a, .tmEvt .nmEvt , .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .blk .ftLstVid .vidSeMr a, .pagS2 .pagPge {
+    .ftMn2 a, .cateOthr li a, .nwsTitSlHm, .ctTp, .tmPst a, .tmPst, .pagS2 a.Next, .pagS2 a.Prev, .pagPge, .menutp ul li a, .pagS2 .pagPge {
         font-size: 16px;
     }
-    .icoSkn span, .txtMn, .icoSkn a, .nwsTitHm, .tpcHt .tpcLitIt li a, .tbCmg ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .mnRtCls {
+    .txtMn, .nwsTitHm, .tbCmg ul li a, .evtBx .evtBxSp, .sbNws{
         font-size: 18px;
     }
-    .bdBrk, .titTp a, .tbCmg ul li, .ldIt a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tcbIt li a, .tbCmg h1, .tbTcb a, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .content-video .vdFul a, .bxVidTit .mnItTit a, .bxMncm li a, .chuyen-huong a {
+    .tbCmg ul li, .ldIt a, .ldIt2 a, .tbCmg h1, .tbCmg ul li .mnAtv, .bxRdPsnLt a, p{
         font-size: 20px;
     }
     .tbCmCent a, .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .bxDoRt .nwsTitHm a {
@@ -138,37 +138,27 @@
     .titNws a {
         font-size: 24px;
     }
-    .atclTit h1 {
-        font-size: 28px;
-    }
 }
+
 @media only screen and (min-width: 321px) and (max-width: 479px) {
     .txtBnrHor span {
         font-size: 10px;
     }
-    .nwsTit .ifTtr, .blqPr .extTit, .extTit span {
-        font-size: 12px;
-    }
-    .extTit a, .tmPst, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, .pagPge, .nguontin, .tmEvt .nmEvt , .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .blk .ftLstVid .vidSeMr a, .pagS2 .pagPge {
+    .tmPst, .pagS2 a.Next, .pagS2 a.Prev, .pagPge, .pagS2 .pagPge {
         font-size: 14px;
     }
-    .icoSkn span, .icoSkn a, .nwsTitHm, .tpcHt .tpcLitIt li a, .tbCmg ul li a,
-    .mveCte span, .evtBx .evtBxSp, .sbNws, .mnRtCls {
+    .nwsTitHm, .tbCmg ul li a, .evtBx .evtBxSp{
         font-size: 16px;
     }
-    .bdBrk, .titTp a, .tbCmg ul li, .ldIt a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tcbIt li a, .tbCmg h1, .tbTcb a, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .content-video .vdFul a, .bxVidTit .mnItTit a, .bxMncm li a, .chuyen-huong a {
+    .tbCmg ul li, .ldIt a, .ldIt2 a, .tbCmg h1, .tbCmg ul li .mnAtv, .bxRdPsnLt a, p{
         font-size: 18px;
     }
-    .tbCmCent a, .evtBxTit a, .tbLngrn a, .evtHlt h2, .tbLngble h3, .bxDoRt .nwsTitHm a {
+    .evtBxTit a, .tbLngrn a, .bxDoRt .nwsTitHm a {
         font-size: 20px;
     }
     .titNws a {
         font-size: 22px;
     }
-    .atclTit h1 {
-        font-size: 26px;
-    }
-
 }
 @media only screen and (min-width: 480px) {
     .menutp ul li {
@@ -176,19 +166,22 @@
     }
 }
 @media only screen and (min-width: 599px) {
-    .pgS2 a.Nxt {
+	/* Begin toi uu css amp - dangtq 04/2019 */ 
+    /*.pgS2 a.Nxt {
         background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat right -580px;
     }
     .pgS2 a.Prv {
         background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -620px;
-    }
+    }*/
+    /* End toi uu css amp - dangtq 04/2019 */ 
     .tmPst a {
         background-position: 0 -120px;
     }
     .nwsTitSlHm {
         background-position: 0 -1528px;  
     }
-    .mnRtClsBtn {
+    /* Begin toi uu css amp - dangtq 04/2019 */ 
+    /*.mnRtClsBtn {
         right: 320px;
     }
     .menRt {
@@ -197,18 +190,20 @@
     .mnRt li a {
         font-size: 20px;
     }
+    */
+    /* End toi uu css amp - dangtq 04/2019 */ 
 }
 /* begin BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
 .txtRt {
     text-align: right;
 }
+/*Begin 18/11/2019: dangtq thay_background_sea_games_30*/
 .asiadTit {
     height: 37px;
-    background: url('../images/sg30_top_bar2_mobile.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
+    background: url('//cdn.24h.com.vn/images/sg30_top_bar2_mobile.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
     background-size: cover; /*18/11/2019: dangtq thay_background_sea_games_30*/
     line-height: 37px;
 }
-/*Begin 18/11/2019: dangtq thay_background_sea_games_30*/
 .asiadTit span {
     font-size: 13px;
     color: #002a51;
@@ -423,10 +418,12 @@
     height: 104px;
     overflow: hidden;
 }
-.mainSec .bxMncm {
+/* Begin toi uu css amp - dangtq 04/2019 */ 
+/*.mainSec .bxMncm {
     border-top: #e1e1e1 solid 1px;
     margin-bottom: 10px;
-}
+}*/
+/* End toi uu css amp - dangtq 04/2019 */ 
 
 .ngd h4 {
     display: block;
@@ -569,7 +566,7 @@
         font-size: 22px;
     }
     /*Begin 18/11/2019: dangtq thay_background_sea_games_30*/
-    .evtHotCt .nwsTitHm, .seMore, .ctTpD, .vidIt a, .ttdn .clrDft, .ngd .bxRdPsnLt a, .tbCmg ul li a, .nwsTitSlHm{
+    .evtHotCt .nwsTitHm, .seMore, .ctTpD, .ttdn .clrDft, .ngd .bxRdPsnLt a, .tbCmg ul li a{
         font-size: 18px;
     }
     .asiadTit span{
@@ -620,7 +617,7 @@
         font-size: 18px;
     }
     /*Begin 18/11/2019: dangtq thay_background_sea_games_30*/
-    .seMore, .evtHotCt .nwsTitHm, .vidIt a, .vidItRt a, .ttdn .clrDft, .ngd .bxRdPsnLt a, .tbCmg ul li a{
+    .seMore, .evtHotCt .nwsTitHm, .ttdn .clrDft, .ngd .bxRdPsnLt a, .tbCmg ul li a{
         font-size: 20px;
     }
     .asiadTit span{
@@ -652,9 +649,11 @@
     .tmPst.pt8, .nwsItHm>.tmPst>a, .evtBxSp .clrTit{
         font-size: 20px;
     }
-    .vidIt a{
+    /* Begin toi uu css amp - dangtq 04/2019 */ 
+    /*.vidIt a{
         font-size: 24px;
-    }
+    }*/
+    /* End toi uu css amp - dangtq 04/2019 */ 
 }
 @media screen and (min-width: 481px) and (max-width: 568px) {
     .asiad-detail a{
@@ -697,16 +696,16 @@
     .asiad-detail a{
         background-position: 38px -35px;
     }
-    .clrGrD, .tmPst a, .extTit a, .tpcHt .tpcLitIt li a, .tmPst.pt8, #footer p, span.clrGr, .nwsItHm>.tmPst>a{
+    .clrGrD, .tmPst a, .extTit a, .tmPst.pt8, #footer p, span.clrGr, .nwsItHm>.tmPst>a{
         font-size: 14px;
     }
-    .tbCmg ul li a, .ngd .bxRdPsnLt a, .ttdn .clrDft, .more1, .asiad-detail a, .ftMn2 a, .cateOthr li a, .ctTp.ctTpD, .seMore, .evtHotCt .nwsTitHm, .tbCmg ul li, .seMr a, .tbCmg ul li .mnAtv, .vidIt a, .vidItRt a, .lady .nwsTitSlHm{
+    .tbCmg ul li a, .ngd .bxRdPsnLt a, .ttdn .clrDft, .more1, .asiad-detail a, .ftMn2 a, .cateOthr li a, .ctTp.ctTpD, .seMore, .evtHotCt .nwsTitHm, .tbCmg ul li, .tbCmg ul li .mnAtv, .lady .nwsTitSlHm{
         font-size: 16px;
     }
-    .nwsTitHm, .ldIt a, .ldIt2 a, .tcbIt li a, .ngd .ldItHm .stt, .ctTp, .nwsTitSlHm, .tbCmg ul li .Atv{
+    .nwsTitHm, .ldIt a, .ldIt2 a, .ngd .ldItHm .stt, .ctTp, .nwsTitSlHm, .tbCmg ul li .Atv{
         font-size: 18px;
     }
-    .tttd>header a, .ngd h4, .titTp a, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, .lady a.title.tt{
+    .tttd>header a, .ngd h4, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, .lady a.title.tt{
         font-size: 20px;
     }
     .menutp ul li{
@@ -715,9 +714,11 @@
     .menutp ul li a, .txtMn, .icoTit:before{
         font-size: 13px;
     }
-    .tbCmCent a{
+    /* Begin toi uu css amp - dangtq 04/2019 */ 
+    /*.tbCmCent a{
         font-size: 19px;
-    }
+    }*/
+    /* End toi uu css amp - dangtq 04/2019 */ 
     .nwsTitHm h2.fs18{
         font-size: 20px;
     }
@@ -742,11 +743,11 @@
     .asiad-detail a{
         background-position: 48px -35px;
     }
-    .clrGrD, .tmPst a, .extTit a, .tpcHt .tpcLitIt li a, .tmPst.pt8, #footer p, span.clrGr, .nwsItHm>.tmPst>a{
+    .clrGrD, .tmPst a, .extTit a, .tmPst.pt8, #footer p, span.clrGr, .nwsItHm>.tmPst>a{
         font-size: 16px;
     }
     /*Begin 18/11/2019: dangtq thay_background_sea_games_30*/
-    .tbCmg ul li a, .ngd .bxRdPsnLt a, .ttdn .clrDft, .more1, .asiad-detail a, .asiadTb tbody tr td, .asiadTb thead th, .ftMn2 a, .cateOthr li a, .ctTp.ctTpD, .seMore, .evtHotCt .nwsTitHm, .tbCmg ul li, .seMr a, .tbCmg ul li .mnAtv, .vidIt a, .vidItRt a, .lady .nwsTitSlHm{
+    .tbCmg ul li a, .ngd .bxRdPsnLt a, .ttdn .clrDft, .more1, .asiad-detail a, .asiadTb tbody tr td, .asiadTb thead th, .ftMn2 a, .cateOthr li a, .ctTp.ctTpD, .seMore, .evtHotCt .nwsTitHm, .tbCmg ul li, .tbCmg ul li .mnAtv, .lady .nwsTitSlHm{
         font-size: 18px;
     }
     .asiadTit span{
@@ -756,7 +757,7 @@
     .nwsTitHm, .vidIt.first a, .ldIt a, .ldIt2 a, .tcbIt li a, .ngd .ldItHm .stt, .ctTp, .tbCmg ul li a.Atv{
         font-size: 20px;
     }
-    .tttd>header a, .ngd h4, .titTp a, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, .lady a.title.tt{
+    .tttd>header a, .ngd h4, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, .lady a.title.tt{
         font-size: 22px;
     }
     .menutp ul li{
@@ -765,9 +766,11 @@
     .menutp ul li a, .txtMn, .icoTit:before{
         font-size: 15px;
     }
-    .tbCmCent a{
+    /* Begin toi uu css amp - dangtq 04/2019 */ 
+    /*.tbCmCent a{
         font-size: 21px;
-    }
+    }*/
+    /* End toi uu css amp - dangtq 04/2019 */ 
     .nwsTitHm h2.fs18{
         font-size: 22px;
     }
@@ -1126,6 +1129,8 @@ ul.brmEvent li h1 {
     .boxTtcbGv .boxTtcbKdMua, .boxTtcbGv .boxTtcbKdBan{
         width: 52px;
     }
+
+    /**/
     .eventSpecialFirstTitle{
         font-size: 20px;
     }
@@ -1178,6 +1183,8 @@ ul.brmEvent li h1 {
     .boxTtcbGv .boxTtcbKdMua, .boxTtcbGv .boxTtcbKdBan{
         width: 56px;
     }
+
+    /**/
     .eventSpecialFirstTitle{
         font-size: 22px;
     }
@@ -1210,6 +1217,8 @@ ul.brmEvent li h1 {
     .boxTtcbTt img{
         float: left;
     }
+
+    /**/
     .eventSpecialFirstTitle{
         font-size: 20px;
     }
@@ -1242,6 +1251,8 @@ ul.brmEvent li h1 {
     .boxTtcbTt img{
         float: left;
     }
+
+    /**/
     .eventSpecialFirstTitle{
         font-size: 22px;
     }
@@ -1256,6 +1267,8 @@ ul.brmEvent li h1 {
     .boxTtcbKd .bor div:first-child span{
         margin-top: 0;
     }
+
+    /**/
     .eventSpecialTwoTit:before{
         width: 320px;
     }
@@ -1285,6 +1298,8 @@ ul.brmEvent li h1 {
     .boxTtcbKd .bor{
         padding-bottom: 3px;
     }
+
+    /**/
     .eventSpecialFirstTitle{
         font-size: 24px;
     }
@@ -1317,6 +1332,8 @@ ul.brmEvent li h1 {
     .boxTtcbTt img{
         float: left;
     }
+
+    /**/
     .eventSpecialFirstTitle{
         font-size: 22px;
     }
@@ -1333,4 +1350,4 @@ ul.brmEvent li h1 {
         font-size: 22px;
     }
 }
-/*End tổng hợp các độ phân giải màn hình - dangtq 2019*/
+/*End tổng hợp các độ phân giải màn hình - dangtq 2019

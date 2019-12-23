@@ -8,7 +8,7 @@
     width: 100%;
 }
 .hdr24h {
-    background: url(//static.24h.com.vn/upload/html/header404) no-repeat;
+    background: url(//cdn.24h.com.vn/upload/html/header404) no-repeat;
     width: 1004px;
     height: 125px;
 }
@@ -129,7 +129,7 @@
 	padding: 10px 30px;
 	padding-left: 50px;
 	font-weight: bold;
-	background: url(../images/2014/2018/Forma-1-copy-home.png) no-repeat 20px;
+	background: url(//cdn.24h.com.vn/images/Forma-1-copy-home.png) no-repeat 20px;
 	background-color: #78b43d;
 }
 .backBtn:hover {

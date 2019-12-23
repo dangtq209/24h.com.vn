@@ -433,8 +433,3 @@
     width: 110px;
 }
 /*End duclv fixed: tmBv*/
-.banner_sticky_container{
-	position:fixed;
-	bottom:0px;
-	z-index: 9999;
-}
