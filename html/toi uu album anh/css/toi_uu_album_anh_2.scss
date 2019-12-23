@@ -1,0 +1,22 @@
+.relateAlbum {
+  margin: 40px 0 16px;
+  .list:first-child {
+    margin-bottom: 50px;
+  }
+  .vidItmImg {
+    line-height: 0;
+  }
+  .vidItmTxt a {
+    bottom: 0;
+  }
+}
+.relateThumb {
+  span {
+    color: #fff;
+    font-size: 12px;
+    position: absolute;
+    top: 24px;
+    left: 12px;
+    text-align: center;
+  }
+}
