@@ -4050,11 +4050,11 @@ p.linkOrigin .icoDrop {
     font-size: 14px; 
 }
 .feedbackError .dialogBtn.btnConfirm {
-    background-color: #00a1df;
+    background-color: #78b43d;
     color: #fff; 
 }
 .feedbackError .dialogBtn:hover {
-    background-color: #007197;
+    background-color: #78b43d;
     color: #fff; 
 }
 .article_error_message_validate{

@@ -1681,3 +1681,39 @@ end toi_uu_css_amp dangtq 2019*/
     }
 }
 /* End tổng hợp các độ phân giải màn hình - dangtq 2019 */
+/*# sourceMappingURL=template_box_pr_8.css.map */
+/* infeed_01 */
+.infeed_01 {
+  display: flex;
+  padding: 0; }
+  .infeed_01 .img {
+    width: 137px;
+    height: 103px;
+    position: relative;
+    margin: 0 10px 0 0; }
+  .infeed_01 .content {
+    width: 137px;
+    flex-grow: 1;
+    padding-right: 10px;
+    margin-top: 7px; }
+    .infeed_01 .content .label, .infeed_01 .content span.text {
+      font-size: 11px; }
+    .infeed_01 .content span.text {
+      font-weight: normal;
+      color: #78b43d; }
+    .infeed_01 .content .title {
+      margin-top: 4px;
+      line-height: 1.2; }
+
+/* infeed_02 */
+.infeed_02 {
+  flex-direction: row-reverse;
+  padding: 10px; }
+  .infeed_02 .img {
+    margin: 0;
+    width: 110px;
+    height: 83px; }
+  .infeed_02 .content {
+    margin-top: 0; }
+
+/*# sourceMappingURL=infeed.css.map */
