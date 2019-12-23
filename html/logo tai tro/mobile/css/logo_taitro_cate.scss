@@ -1,0 +1,13 @@
+.innerTaitro{
+	display: flex;
+	justify-content: space-between;
+	.tbMn:last-child{
+		margin-right: 0;
+	}
+	.logoTaitro{
+		padding-top: 8px;
+		img{
+			max-height: 15px;
+		}
+	}
+}
