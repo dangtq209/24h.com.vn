@@ -3136,11 +3136,21 @@ article {
     line-height: 0;
     z-index: 9999 !important;
 }
+.tbCmg .inner{
+	position: relative;
+}
 .tbCmg .logoTaitro {
-    margin: 0 0 0 -6px;
+    margin: 0;
     padding: 0;
+    position: absolute;
+    bottom: 5px;
 }
 .tbCmg .logoTaitro img {
     max-height: 15px;
     vertical-align: middle; 
+}
+@media screen and (max-width: 320px){
+    .tbCmg .logoTaitro{
+        position: static;
+    }
 }
