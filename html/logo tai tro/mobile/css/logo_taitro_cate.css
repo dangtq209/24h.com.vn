@@ -1,9 +1,5 @@
-.innerTaitro {
-  display: flex;
-  justify-content: space-between; }
-  .innerTaitro .tbMn:last-child {
-    margin-right: 0; }
-  .innerTaitro .logoTaitro {
-    padding-top: 8px; }
-    .innerTaitro .logoTaitro img {
-      max-height: 15px; }
+.tbCmg .logoTaitro {
+  margin: 0;
+  padding: 0; }
+  .tbCmg .logoTaitro img {
+    max-height: 15px; }
