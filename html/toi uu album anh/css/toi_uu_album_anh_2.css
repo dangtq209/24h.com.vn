@@ -1,6 +1,6 @@
 .relateAlbum {
   margin: 40px 0 16px; }
-  .relateAlbum .list:first-child {
+  .relateAlbum .col:nth-child(1) .vidItm, .relateAlbum .col:nth-child(2) .vidItm, .relateAlbum .col:nth-child(3) .vidItm, .relateAlbum .col:nth-child(4) .vidItm {
     margin-bottom: 50px; }
   .relateAlbum .vidItmImg {
     line-height: 0; }

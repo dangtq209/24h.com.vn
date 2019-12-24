@@ -1,7 +1,9 @@
 .relateAlbum {
   margin: 40px 0 16px;
-  .list:first-child {
-    margin-bottom: 50px;
+  .col:nth-child(1), .col:nth-child(2), .col:nth-child(3), .col:nth-child(4){
+    .vidItm{
+      margin-bottom: 50px;
+    }
   }
   .vidItmImg {
     line-height: 0;
@@ -10,6 +12,8 @@
     bottom: 0;
   }
 }
+
+//
 .relateThumb {
   span {
     color: #fff;
