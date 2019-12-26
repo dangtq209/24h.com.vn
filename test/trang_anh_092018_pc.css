@@ -1,4 +1,4 @@
-/*==================================== album.css =============================*/
+==================================== album.css =============================*/
 @charset "utf-8";
 /* CSS Document */
 .clLtImg{width: 699px;float: left;margin-bottom: 18px!important;}
@@ -102,12 +102,12 @@ ul.thumbnavi li{float:left;margin:3px 2px;}
 .btnNxt{position:absolute;top:50%;right:15px;margin-top:-26px}
 
 /* Begin 15-02-2017 : Thangnb tinh_chinh_giao_dien_trang_bai_viet_anh_24h_pc */
-.btnNxt a{display:block;background:url(//cdn.24h.com.vn/images/2014/temp.gif) repeat}
+.btnNxt a{display:block;background:url(http://static.24h.com.vn/images/2014/temp.gif) repeat}
 .btnPre{position:absolute;top:50%;left:15px;margin-top:-26px}
 *html .btnPre{position:absolute;top:0;left:5px}
-.btnPre a{display:block;background:url(//cdn.24h.com.vn/images/2014/temp.gif) repeat}
+.btnPre a{display:block;background:url(http://static.24h.com.vn/images/2014/temp.gif) repeat}
 /* End 15-02-2017 : Thangnb tinh_chinh_giao_dien_trang_bai_viet_anh_24h_pc */
-.yellow-arrow{position:absolute;top:5px;right:10px;background:url(//cdn.24h.com.vn/images/2014/yellow-arrow.gif) no-repeat;width:66px;height:37px;}
+.yellow-arrow{position:absolute;top:5px;right:10px;background:url(http://static.24h.com.vn/images/2014/yellow-arrow.gif) no-repeat;width:66px;height:37px;}
 
 .taitro-album{width:300px;float:left;padding:13px 0 0 0}
 .image-line{border-bottom:#333 solid 1px;padding-top:7px;margin-bottom:7px}
@@ -117,16 +117,16 @@ ul.thumbnavi li{float:left;margin:3px 2px;}
     height: 40px;
     line-height: 40px;
 }
-.image-button{-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:#78b43d url(//cdn.24h.com.vn/images/2014/arrow-back-trangAnh.png) no-repeat 7px 7px;padding:5px 15px 5px 30px;font-weight:bold;color:#fff;float:right;margin:0 0 5px 0}
+.image-button{-webkit-border-radius: 3px; -moz-border-radius: 3px; border-radius: 3px; background:#78b43d url(http://static.24h.com.vn/images/2014/arrow-back-trangAnh.png) no-repeat 7px 7px;padding:5px 15px 5px 30px;font-weight:bold;color:#fff;float:right;margin:0 0 5px 0}
 .image-button h4{display:inline}
 .image-button a{color:#fff}
 .image-button:hover{color:#fff}
 .album-tags {    color: #78b43d;   line-height: 18px;    padding: 10px 12px 10px 0;    text-align: left}
-.album-tags-title {    color: #FFFFFF;    font-size: 14px;    font-weight: bold;    margin: 0;    padding-bottom: 5px}
+.album-tags-title {    color: #FFFFFF;    font-size: 14px;    font-weight: 550;    margin: 0;    padding-bottom: 5px}
 .album-tags a {    color: #78b43d;    font-weight: bold}.album-tags a:hover {text-decoration:underline}
 .image-button-bg{float:right;}
-.image-button-left{float:left;background:url(//cdn.24h.com.vn/images/2014/sprites.gif) -230px -477px no-repeat;height:25px;width:5px;overflow:hidden;}
-.image-button-right{float:left;background:url(//cdn.24h.com.vn/images/2014/sprites.gif)  right -477px  no-repeat;height:20px;padding:5px 10px 0px 5px;width:auto;color:#fff;font-weight:bold}
+.image-button-left{float:left;background:url(http://static.24h.com.vn/images/2014/sprites.gif) -230px -477px no-repeat;height:25px;width:5px;overflow:hidden;}
+.image-button-right{float:left;background:url(http://static.24h.com.vn/images/2014/sprites.gif)  right -477px  no-repeat;height:20px;padding:5px 10px 0px 5px;width:auto;color:#fff;font-weight:bold}
 .image-button-right h4{display:inline;}
 .image-button-right a{font-weight:bold;color:#000;font-size:12px;text-transform:uppercase;}
 .image-button-right a:hover{color:#fff000;}
@@ -138,8 +138,8 @@ ul.thumbnavi li{float:left;margin:3px 2px;}
 .xemAnhNormal{color:#ffffff}
 
 /*background*/
-.fixed-top  {position:fixed;bottom:auto;top:0px; background: url(//cdn.24h.com.vn/images/2014/temp.gif) repeat scroll 0 0 transparent;}
-.fixed-top2  {position:fixed;bottom:auto;top:0px; background: url(//cdn.24h.com.vn/images/2014/temp.gif) repeat scroll 0 0 transparent;}
+.fixed-top  {position:fixed;bottom:auto;top:0px; background: url("http://static.24h.com.vn/images/2014/temp.gif") repeat scroll 0 0 transparent;}
+.fixed-top2  {position:fixed;bottom:auto;top:0px; background: url("http://static.24h.com.vn/images/2014/temp.gif") repeat scroll 0 0 transparent;}
 * html .fixed-top    {position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop));}
 * html .fixed-top2    {position:absolute;bottom:auto;top:expression(eval(document.documentElement.scrollTop));}
 
@@ -329,26 +329,175 @@ ul.thumbnavi li{float:left;margin:3px 2px;}
     border: 1px solid #666;
     padding: 6px 10px;
     color: #acacac;
+    word-spacing: 0;
 }
 .clLtImgD .seImgLst a.seAuto{
-    background: url(//cdn.24h.com.vn/images/Polygon-1c.png) no-repeat 10px 6px;
+    background: url(../images/2014/2018/Polygon-1c.png) no-repeat 10px 6px;
     padding-left: 25px;
-    font-weight: 600;
+    font-weight: 550;
     color: #fff;
 }
 .clLtImgD .seImgLst a.seImgAtv{
     background-color: #78b43d;
     color: #fff;
-    border: 0;
-    padding: 7px 11px;
+    border-color: #78b43d;
 }
 .clLtImgD .seImgLst{
     padding-top: 0;
+    word-spacing: -4px;
 }
 .clLtImgD .lin{
     border-bottom: 1px solid #363636;
     margin: 8px 0;
 }
+.bstak .tit{
+    font-size: 18px;
+    font-weight: 550;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.bstak .btn{
+    display: inline-block;
+    float: right;
+}
+.bstak .btn a{
+    margin: 0 5px;
+}
+.bstak .list{
+    margin: 0 -6px;
+}
+.bstak .vidItm{
+    position: relative;
+    padding: 0 4px;
+}
+.bstak .vidItmImg{
+    /*width: 156px;*/
+    /*height: 116px;*/
+    margin: 0;
+}
+.bstak .vidItmImg a img{
+    width: 100%;
+}
+.bstak .vidItmTxt a{
+    color: #fff;
+    font-size: 13px;
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 4px;
+    right: 4px;
+    /* height: 58px;
+    overflow: hidden; */
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 5px;
+    background: url(../images/2014/2018/Rectangle-10.png) no-repeat center -45px;
+    line-height: 1.5;
+}
+.bstak .vidItmTxt a.active{
+    height: 75px;
+    padding-top: 40px;
+}
+.seAutoImgD .hdrBxRtTxt{
+    padding-top: 0;
+    font-size: 14px;
+}
+.seAutoImgD .thmbAtv{
+    border-color: #72aa3a;
+}
+.clLtImgD .imgTit a:hover{
+    color: #78b43d;
+}
+/* /album */
+.imgCtnImg {
+    padding-bottom: 0;
+}
+.otherAlbums {
+    padding-top: 0;
+}
+
+/* begin change 21/10/2018 DangTQ */
+.bnrPtn{
+    margin-top: 5px;
+}
+/* end change 21/10/2018 DangTQ */
+
+/* begin 23/10/2018 DangTQ */
+.bnrPtn{
+    margin-top: 5px;
+}
+.clLtImgD .txtRtD{
+    padding-bottom: 5px;
+}
+.nwsTthEvt{
+    margin-top: 25px;
+}
+.flSren a:hover{
+    border-color: #78b43d;
+}
+.clLtImgD .imgEvt a:hover, .bstak .vidItmTxt a:hover{
+    color: #78b43d;
+}
+.bdmHmTb, .brmCmTb{
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.flSren.flSrenTp a img{
+    margin-top: -4px;
+    width: auto;
+}
+.flSren.flSrenTp a{
+    width: 35px;
+    height: 35px;
+    display: inline-block;
+    box-sizing: border-box;
+    line-height: 25px;
+    text-align: center;
+}
+/* end 23/10/2018 DangTQ */
+.social_wrap {
+    position: relative;
+    top: 10px;
+}
+
+/* begin 1/11/2018 dangtq */
+.brmCmAnh{
+    border-bottom: 0;
+}
+/* end 1/11/2018 dangtq */
+
+/*Begin 18/11/2019: dangtq toi_uu_cach_tuong_tac_bai_album_anh*/
+.shwImg {
+  line-height: 0; }
+  .shwImg .btnPre, .shwImg .btnNxt {
+    top: 0;
+    left: 0;
+    width: 50%;
+    height: 100%;
+    margin-top: 0; }
+    .shwImg .btnPre img, .shwImg .btnNxt img {
+      position: absolute;
+      top: 50%;
+      left: 10px;
+      margin-top: -25px; }
+  .shwImg .btnNxt {
+    left: auto;
+    right: 0; }
+    .shwImg .btnNxt img {
+      position: absolute;
+      top: 50%;
+      left: auto;
+      right: 10px;
+      margin-top: -25px; }
+  .shwImg a img {
+    display: none; }
+  .shwImg a:hover img {
+    display: block; }
+/*End 18/11/2019: dangtq toi_uu_cach_tuong_tac_bai_album_anh*/
+
+/*Begin: 23/12/2019  AnhTT toi_uu_trang_album_anh*/
 .bstak .tit{
     font-size: 18px;
     font-weight: 600;
@@ -399,118 +548,24 @@ ul.thumbnavi li{float:left;margin:3px 2px;}
     height: 75px;
     padding-top: 40px;
 }
-.seAutoImgD .hdrBxRtTxt{
-    padding-top: 0;
-    font-size: 14px;
-}
-.seAutoImgD .thmbAtv{
-    border-color: #72aa3a;
-}
-.clLtImgD .imgTit a:hover{
-    color: #78b43d;
-}
-/* /album */
-.imgCtnImg {
-    padding-bottom: 0;
-}
-.otherAlbums {
-    padding-top: 0;
-}
 
-/* begin change 21/10/2018 DangTQ */
-.bnrPtn{
-    /*margin-top: 5px;*/ /*07/01/2019 dangtq Kiểm tra + Fix lỗi banner cổng chào thừa khoảng trắng - PC*/
-}
-/* end change 21/10/2018 DangTQ */
+.relateAlbum {
+  margin: 40px 0 16px; }
+  .relateAlbum .col:nth-child(1) .vidItm, .relateAlbum .col:nth-child(2) .vidItm, .relateAlbum .col:nth-child(3) .vidItm, .relateAlbum .col:nth-child(4) .vidItm {
+    margin-bottom: 50px; }
+  .relateAlbum .vidItmImg {
+    line-height: 0; }
+  .relateAlbum .vidItmTxt a {
+    bottom: 0; }
+  .relateAlbum .txtMore {
+    font-size: 16px;
+    margin-bottom: 10px; }
 
-/* begin 23/10/2018 DangTQ */
-.bnrPtn{
-    /*margin-top: 5px;*/ /*07/01/2019 dangtq Kiểm tra + Fix lỗi banner cổng chào thừa khoảng trắng - PC*/
-}
-.clLtImgD .txtRtD{
-    padding-bottom: 5px;
-}
-.nwsTthEvt{
-    margin-top: 25px;
-}
-.flSren a:hover{
-    border-color: #78b43d;
-}
-.clLtImgD .imgEvt a:hover, .bstak .vidItmTxt a:hover{
-    color: #78b43d;
-}
-.bdmHmTb, .brmCmTb{
-    margin-top: 5px;
-    margin-bottom: 0;
-}
-.flSren.flSrenTp a img{
-    margin-top: -4px;
-    width: auto;
-}
-.flSren.flSrenTp a{
-    width: 35px;
-    height: 35px;
-    display: inline-block;
-    box-sizing: border-box;
-    line-height: 25px;
-    text-align: center;
-}
-/* end 23/10/2018 DangTQ */
-.social_wrap {
-    position: relative;
-    top: 10px;
-}
-
-/* begin 1/11/2018 dangtq */
-.brmCmAnh{
-    border-bottom: 0;
-}
-/* end 1/11/2018 dangtq */
-
-/* Begin 18/7/2019: dangtq fix_banner_va_ghi_chu */
-.inbl .brkNs{
-    overflow: hidden;
-}
-#zone_banner_sponser_product{
-    margin-top: -8px;
-}
-.txtRt.txtRtD{
-    margin-top: 10px;
-    width: 687px;
-}
-.txtRt.txtRtD *{
-    font-size: 17px;
-}
-.txtRt.txtRtD em{
-    font-weight: normal;
-}
-/* End 18/7/2019: dangtq fix_banner_va_ghi_chu */
-
-/*Begin 18/11/2019: dangtq toi_uu_cach_tuong_tac_bai_album_anh*/
-.shwImg {
-  line-height: 0; }
-  .shwImg .btnPre, .shwImg .btnNxt {
-    top: 0;
-    left: 0;
-    width: 50%;
-    height: 100%;
-    margin-top: 0; }
-    .shwImg .btnPre img, .shwImg .btnNxt img {
-      position: absolute;
-      top: 50%;
-      left: 10px;
-      margin-top: -25px; }
-  .shwImg .btnNxt {
-    left: auto;
-    right: 0; }
-    .shwImg .btnNxt img {
-      position: absolute;
-      top: 50%;
-      left: auto;
-      right: 10px;
-      margin-top: -25px; }
-  .shwImg a img {
-    display: none; }
-  .shwImg a:hover img {
-    display: block; }
-/*End 18/11/2019: dangtq toi_uu_cach_tuong_tac_bai_album_anh*/
+.relateThumb span {
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  top: 24px;
+  left: 12px;
+  text-align: center; }u
+/*End: 23/12/2019  AnhTT toi_uu_trang_album_anh*/
