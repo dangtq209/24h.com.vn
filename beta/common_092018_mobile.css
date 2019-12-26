@@ -3125,3 +3125,26 @@ article {
     line-height: 0;
     z-index: 9999 !important;
 }
+
+/* Begin 26/12/2019: dangtq logo_tai_tro_nippont */
+.tbCmg ul{
+	position: relative;
+	overflow: visible;
+}
+.tbCmg .logoTaitro {
+    margin: 0;
+    padding: 0;
+    position: absolute;
+    bottom: 5px;
+    right: -43px;
+}
+.tbCmg .logoTaitro img {
+    max-height: 15px;
+    vertical-align: middle; 
+}
+@media screen and (max-width: 320px){
+    .tbCmg .logoTaitro{
+        position: static;
+    }
+}
+/* End 26/12/2019: dangtq logo_tai_tro_nippont */

@@ -4810,3 +4810,11 @@ p.linkOrigin .icoDrop {
     padding: 0 10px;
 }
 /*End 3/12/2019: dangtq fix_loi_banner_inpage_chen_len_noi_dung_bai_tuong_thuat_the_thao*/
+
+/* Begin 26/12/2019: dangtq logo_tai_tro_nippont */
+@media screen and (width: 375px){
+    .tbCmg .logoTaitro{
+        right: -35px;
+    }
+}
+/* Begin 26/12/2019: dangtq logo_tai_tro_nippont */
