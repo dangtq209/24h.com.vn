@@ -1,18 +1,23 @@
 .creditPen .mg-author .container-inner {
-	text-align: center;
-	padding-bottom: 20px;
+  text-align: center;
+  padding-bottom: 20px;
 }
 .creditPen .mg-author p {
-	font-size: 20px!important;
-	line-height: 32px!important;
-	font-family: Arial,Helvetica,sans-serif;
+  font-size: 20px !important;
+  line-height: 32px !important;
+  font-family: Arial, Helvetica, sans-serif;
 }
-.creditPen .mg-author .container-inner{
-	text-align: center!important;
+.creditPen .mg-author .container-inner {
+  text-align: center !important;
 }
 
-@media only screen and (max-width: 800px){
-	.creditPen .mg-author p {
-		font-size: 18px!important;
-	}
+@media only screen and (min-width: 1024px) {
+  .creditPen {
+    margin-top: 10px;
+  }
+}
+@media only screen and (max-width: 800px) {
+  .creditPen .mg-author p {
+    font-size: 18px !important;
+  }
 }
