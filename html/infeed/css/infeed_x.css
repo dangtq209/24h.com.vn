@@ -1,6 +1,6 @@
 /* infeed_01 */
 .infeed_01 {
-  font-family: Arial,sans-serif;
+  font-family: Arial, sans-serif;
   display: flex;
   background: #f2f2f2; }
   .infeed_01 * {
@@ -38,6 +38,9 @@
       @media screen and (min-width: 736px) {
         .infeed_01 .content .clrDft {
           font-size: 22px; } }
+  .infeed_01.infeed_01b .label, .infeed_01.infeed_01b .content .text,
+  .infeed_01.infeed_01b span.text {
+    color: #a1a1a1; }
 
 /* infeed_02 */
 .infeed_02 {

@@ -20,6 +20,9 @@
     .infeed_01 .content .title {
       margin-top: 4px;
       line-height: 1.2; }
+  .infeed_01.infeed_01b .label, .infeed_01.infeed_01b .content span.text,
+  .infeed_01.infeed_01b span.text {
+    color: #a1a1a1; }
 
 /* infeed_02 */
 .infeed_02 {
@@ -31,5 +34,3 @@
     height: 83px; }
   .infeed_02 .content {
     margin-top: 0; }
-
-/*# sourceMappingURL=infeed.css.map */
