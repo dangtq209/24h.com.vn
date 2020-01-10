@@ -4818,3 +4818,134 @@ p.linkOrigin .icoDrop {
     }
 }
 /* Begin 26/12/2019: dangtq logo_tai_tro_nippont */
+
+/*Begin 6/1/2020 AnhTT toi_uu_giao_dien_menu_ngang_mobile*/
+.boxCateHead.mainSec .mnWrap {
+    padding: 0 10px 3px;
+    border-top: 0;
+    border-bottom: 2px solid #7ab445;
+    margin: 15px 0 0;
+    position: relative; }
+    .boxCateHead.mainSec .mnWrap a {
+      color: #7ab445; }
+    .boxCateHead .mnWrap .rsbr2 a {
+        color: #acc59b; }
+  .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+    top: 11%;
+    margin-top: 0; }
+    @media screen and (max-width: 320px) {
+      .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+        top: 7%; } }
+    @media screen and (min-width: 414px) {
+      .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+        top: 13%; } }
+    @media screen and (min-width: 480px) {
+      .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+        top: 11%; } }
+    @media screen and (min-width: 640px) {
+      .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+        top: 13%; } }
+    @media screen and (min-width: 736px) {
+      .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+        top: 15%; } }
+  .boxCateHead .icoBars {
+    background: url('https://test.24h.com.vn/images/memu-icon.png') no-repeat;
+    width: 20px;
+    height: 21px;
+    top: 10px;
+    right: 10px; }
+  .boxCateHead .listMenuChild {
+    background-color: #f7f7f7;
+    padding: 10px;
+    display: block; }
+    .boxCateHead .listMenuChild li {
+      border-right-color: #d7d7d7; }
+      .boxCateHead .listMenuChild li a {
+        font-size: 14px;
+        color: #6b6b6b; }
+        @media screen and (max-width: 320px) {
+          .boxCateHead .listMenuChild li a {
+            font-size: 12px; } }
+        @media screen and (min-width: 414px) {
+          .boxCateHead .listMenuChild li a {
+            font-size: 16px; } }
+        @media screen and (min-width: 480px) {
+          .boxCateHead .listMenuChild li a {
+            font-size: 14px; } }
+        @media screen and (min-width: 640px) {
+          .boxCateHead .listMenuChild li a {
+            font-size: 16px; } }
+        @media screen and (min-width: 736px) {
+          .boxCateHead .listMenuChild li a {
+            font-size: 18px; } }
+  .boxCateHead .logoBrand {
+    font-size: 14px;
+    padding: 0 7px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 6px;
+    right: 40px; }
+    .boxCateHead .logoBrand img {
+      vertical-align: -6px; }
+    @media screen and (max-width: 320px) {
+      .boxCateHead .logoBrand {
+        font-size: 12px; } }
+    @media screen and (min-width: 414px) {
+      .boxCateHead .logoBrand {
+        font-size: 16px; } }
+    @media screen and (min-width: 480px) {
+      .boxCateHead .logoBrand {
+        font-size: 14px; } }
+    @media screen and (min-width: 640px) {
+      .boxCateHead .logoBrand {
+        font-size: 16px; } }
+    @media screen and (min-width: 736px) {
+      .boxCateHead .logoBrand {
+        font-size: 18px; } }
+        .boxCateHead ul{
+          position: static;
+      }
+   .boxCateHead .listMenuChild.cap2 {
+      position: relative;
+      padding-left: 23px;
+      overflow: hidden;
+      line-height: 18px;
+      }
+      .boxCateHead .listMenuChild.cap2:after {
+        content: '';
+        display: inline-block;
+        height: 16px;
+        width: 16px;
+        position: absolute;
+        top: -11px;
+        left: 20px;
+        transform: rotate(45deg);
+        background-color: #7ab445; }
+      .boxCateHead .listMenuChild.cap2 a {
+        font-size: 14px;
+        color: #78b43d;
+        }
+        @media screen and (max-width: 320px) {
+          .boxCateHead .listMenuChild.cap2 a {
+            font-size: 12px; } }
+        @media screen and (min-width: 414px) {
+          .boxCateHead .listMenuChild.cap2 a {
+            font-size: 16px; } }
+        @media screen and (min-width: 480px) {
+          .boxCateHead .listMenuChild.cap2 a {
+            font-size: 14px; } }
+        @media screen and (min-width: 640px) {
+          .boxCateHead .listMenuChild.cap2 a {
+            font-size: 16px; } }
+        @media screen and (min-width: 736px) {
+          .boxCateHead .listMenuChild.cap2 a {
+            font-size: 18px; } }
+            .nwsItAtcl .bxMncm{
+              margin: 0px -10px 5px;
+              border-left: none;
+              border-right: none;
+            }
+            .boxCateHead .mnCM-close{
+              top: 9%;
+          }
+  /*End 6/1/2020 AnhTT toi_uu_giao_dien_menu_ngang_mobile*/
