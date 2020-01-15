@@ -804,6 +804,7 @@ article {
 	border: #e1e1e1 solid 1px;
 	/*border-left: #e1e1e1 solid 1px;
 	border-right: #e1e1e1 solid 1px;*/
+	background-color: #fff;
 }
 .bxMncm li {
 	display: block;
@@ -3104,7 +3105,13 @@ article {
     .infeed_01 .content .title {
       margin-top: 4px;
       line-height: 1.2; }
-
+.infeed_01.infeed_01b .label, .infeed_01.infeed_01b .content span.text,
+  .infeed_01.infeed_01b span.text {
+    color: #a1a1a1; 
+  }
+ .infeed_01.infeed_01b .content span.text{ 
+    text-transform: none;
+ }
 /* infeed_02 */
 .infeed_02 {
   flex-direction: row-reverse;
@@ -3128,18 +3135,23 @@ article {
 
 /* Begin 26/12/2019: dangtq logo_tai_tro_nippont */
 .tbCmg ul{
-	position: relative;
+	/*position: relative;*/
 	overflow: visible;
+}
+.wlogoTaiTro{
+	display: inline-block;
+    position: relative;
 }
 .tbCmg .logoTaitro {
     margin: 0;
     padding: 0;
     position: absolute;
-    bottom: 5px;
-    right: -43px;
+	right: -70px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .tbCmg .logoTaitro img {
-    max-height: 15px;
+    max-height: 22px;
     vertical-align: middle; 
 }
 @media screen and (max-width: 320px){

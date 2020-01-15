@@ -1451,7 +1451,8 @@ header */
       background-image: url(http://t.24h.com.vn/upload/dangtq/24h.com.vn/mobile/images/memu-icon2.png);
       top: 6px; }
     .boxCateHead.boxCateHead_3 .listMenuChild {
-      background-color: #ecf5e2; }
+      background-color: #ecf5e2; 
+      word-spacing: -4px; }
     .boxCateHead .mnWrap {
       padding: 10px 10px 3px;
       border-bottom: 2px solid #7ab445; }
@@ -1459,7 +1460,7 @@ header */
         color: #7ab445; }
         .boxCateHead .mnWrap a.mnAtv {
           font-size: 18px;
-          font-weight: normal; }
+          /*font-weight: normal;*/ }
           @media screen and (max-width: 320px) {
             .boxCateHead .mnWrap a.mnAtv {
               font-size: 16px; } }
@@ -1500,7 +1501,11 @@ header */
       .boxCateHead .listMenuChild.listMenuChild_2 {
         background-color: #ecf5e2; }
       .boxCateHead .listMenuChild li {
-        border-right-color: #d7d7d7; }
+        border-right-color: #d7d7d7;
+        display: inline-block;
+        word-spacing: 0;
+        padding-right: 5px;
+        margin-right: 5px; }
         .boxCateHead .listMenuChild li a {
           font-size: 14px;
           color: #6b6b6b; }

@@ -4829,9 +4829,9 @@ p.linkOrigin .icoDrop {
     .boxCateHead.mainSec .mnWrap a {
       color: #7ab445; }
     .boxCateHead .mnWrap .rsbr2 a {
-        color: #acc59b; }
+        color: #5E9236; }
   .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
-    top: 11%;
+    top: 10px;
     margin-top: 0; }
     @media screen and (max-width: 320px) {
       .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
@@ -4857,9 +4857,14 @@ p.linkOrigin .icoDrop {
   .boxCateHead .listMenuChild {
     background-color: #f7f7f7;
     padding: 10px;
-    display: block; }
+    display: block;
+    word-spacing: -4px; }
     .boxCateHead .listMenuChild li {
-      border-right-color: #d7d7d7; }
+      border-right-color: #d7d7d7;
+      display: inline-block;
+        word-spacing: 0;
+        padding-right: 5px;
+        margin-right: 5px; }
       .boxCateHead .listMenuChild li a {
         font-size: 14px;
         color: #6b6b6b; }
@@ -4924,6 +4929,7 @@ p.linkOrigin .icoDrop {
       .boxCateHead .listMenuChild.cap2 a {
         font-size: 14px;
         color: #78b43d;
+        word-spacing: 0;
         }
         @media screen and (max-width: 320px) {
           .boxCateHead .listMenuChild.cap2 a {
@@ -4948,4 +4954,8 @@ p.linkOrigin .icoDrop {
             .boxCateHead .mnCM-close{
               top: 9%;
           }
+          .seMr{
+            padding: 0;
+            margin-bottom: 10px;
+        }
   /*End 6/1/2020 AnhTT toi_uu_giao_dien_menu_ngang_mobile*/

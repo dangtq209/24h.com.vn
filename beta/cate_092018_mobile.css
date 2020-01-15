@@ -487,7 +487,7 @@
 }
 .mainSec .bxMncm {
     border-top: #e1e1e1 solid 1px;
-    margin: -5px -10px 10px;
+    margin: 0px -10px 10px; /*14/1/2020: dangtq toi_uu_box_menu*/
     border-left: none;
     border-right: none;
 }
@@ -2022,7 +2022,7 @@
     .boxCateHead .mnWrap a {
       color: #7ab445; }
       .boxCateHead .mnWrap a.AtvCap2 {
-        color: #acc59b; }
+        color: #5E9236; }
   .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
     top: 11%;
     margin-top: 0; }
@@ -2050,9 +2050,12 @@
   .boxCateHead .listMenuChild {
     background-color: #f7f7f7;
     padding: 8px 10px;
-    display: block; }
+    display: block;
+    word-spacing: -4px; }
     .boxCateHead .listMenuChild li {
-      border-right-color: #d7d7d7; }
+      border-right-color: #d7d7d7;
+      display: inline-block;
+      word-spacing: 0; }
       .boxCateHead .listMenuChild li a {
         font-size: 14px;
         color: #6b6b6b; }
@@ -2088,7 +2091,8 @@
         background-color: #7ab445; }
       .boxCateHead .listMenuChild.cap2 a {
         font-size: 14px;
-        color: #78b43d; }
+        color: #78b43d;
+        word-spacing: 0; }
         @media screen and (max-width: 320px) {
           .boxCateHead .listMenuChild.cap2 a {
             font-size: 12px; } }
@@ -2128,12 +2132,12 @@
     @media screen and (min-width: 736px) {
       .boxCateHead .logoBrand {
         font-size: 18px; } }
-    .boxCateHead ul{
+    /*.boxCateHead ul{
           position: static;
-      }
-      .boxCateHead{
+      }*/
+      /*.boxCateHead{
           margin-bottom: 5px;
-      }
+      }*/
       .boxCateHead .mnCM-close{
           top: 9%;
       }
