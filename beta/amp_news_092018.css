@@ -2163,17 +2163,8 @@ div.pgS2 .tit:after{
 h3.toc_heading, h4.toc_heading, h5.toc_heading {
     font-size: 18px;
 }
-@media only screen and (min-width: 667px) {
-    h3.toc_heading, h4.toc_heading, h5.toc_heading {
-        font-size: 24px;
-    }
-    .muclucTit span {
-        font-size: 30px;
-    }
-    .mucluc a {
-        font-size: 24px;
-    }
-}
+
+/*Begin 15/1/2020: dangtq fix_validate_amp_news*/
 @media only screen and (min-width: 568px) and (max-width: 666px) {
     h3.toc_heading, h4.toc_heading, h5.toc_heading {
         font-size: 22px;
@@ -2353,6 +2344,9 @@ p.linkOrigin {
       font-size: 14px; } 
 }
 @media screen and (min-width: 640px) {
+    h3.toc_heading, h4.toc_heading, h5.toc_heading, .mucluc a {
+        font-size: 24px;
+    }
     .img_chu_thich_0407{
         font-size: 18px;
     }
@@ -2371,3 +2365,5 @@ p.linkOrigin {
       font-size: 18px; }
 } 
 /*End 6/1/2020 AnhTT toi_uu_giao_dien_menu_ngang_mobile*/
+
+/*End 15/1/2020: dangtq fix_validate_amp_news*/
