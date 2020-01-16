@@ -1,9 +1,9 @@
-.slideAnh * {margin: 0 auto}
-.slideAnh .mg-wrapper {
+.slideAnh_3 * {margin: 0 auto}
+.slideAnh_3 .mg-wrapper {
   position: relative;
   box-sizing: border-box;
 }
-.slideAnh .mg-wrapper * {
+.slideAnh_3 .mg-wrapper * {
     box-sizing: border-box;
     font-family: Arial,Helvetica,sans-serif;
     color: #212121;
@@ -12,36 +12,36 @@
 /*-----End font------*/
 
 /*-----Start Common------*/
-.slideAnh .mg-wrapper img {
+.slideAnh_3 .mg-wrapper img {
     border: 0;
     display: block;
     width: 100%;
     height: auto;
 }
-.slideAnh .mg-wrapper p {
+.slideAnh_3 .mg-wrapper p {
     font-size: 20px!important;
     line-height: 32px!important;
     margin: 15px 0;
     font-family: Arial,Helvetica,sans-serif;
 }
-.slideAnh .clearfix, .slideAnh .clear {
+.slideAnh_3 .clearfix, .slideAnh_3 .clear {
     clear: both;
 }
 
 /*-----Start section 6*/
-.slideAnh .width-750 {
+.slideAnh_3 .width-750 {
     width: 750px;
 }
-.slideAnh .mg-layout-normal .width-750 {
+.slideAnh_3 .mg-layout-normal .width-750 {
     width: 100%;
 }
 
 /*-----Start section 8*/
-.slideAnh .bx-wrapper {
+.slideAnh_3 .bx-wrapper {
     width: 980px;
     position: relative;
 }
-.slideAnh .mg-container-eight .bx-controls-direction .bx-prev, .slideAnh .mg-container-eight .bx-controls-direction .bx-next {
+.slideAnh_3 .mg-container-eight .bx-controls-direction .bx-prev, .slideAnh_3 .mg-container-eight .bx-controls-direction .bx-next {
     position: absolute;
     top: 45%;
     outline: 0;
@@ -50,32 +50,32 @@
     text-indent: -9999px;
     z-index: 9999;
 }
-.slideAnh .bx-wrapper .bx-prev {
+.slideAnh_3 .bx-wrapper .bx-prev {
     left: 10px;
     background: url('//cdn.24h.com.vn/upload/4-2018/images/2018-12-27/1545881503-293-icon-prev-1545881511-width26height42.png') no-repeat;
 }
-.slideAnh .bx-wrapper .bx-next {
+.slideAnh_3 .bx-wrapper .bx-next {
     right: 10px;
     background: url('//cdn.24h.com.vn/upload/4-2018/images/2018-12-27/1545881503-650-icon-next-1545881511-width26height43.png') no-repeat;
 }
-.slideAnh .mg-container-eight .bx-default-pager {
+.slideAnh_3 .mg-container-eight .bx-default-pager {
     text-align: center;
 }
-.slideAnh .bx-wrapper .bx-pager-item {
+.slideAnh_3 .bx-wrapper .bx-pager-item {
     font-size: 0;
     line-height: 0;
 }
-.slideAnh .bx-wrapper .bx-pager, .slideAnh .bx-wrapper .bx-controls-auto {
+.slideAnh_3 .bx-wrapper .bx-pager, .slideAnh_3 .bx-wrapper .bx-controls-auto {
     position: absolute;
     bottom: 30px;
     width: 100%;
     z-index: 999;
 }
-.slideAnh .bx-wrapper .bx-pager-item, .slideAnh .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
+.slideAnh_3 .bx-wrapper .bx-pager-item, .slideAnh_3 .bx-wrapper .bx-controls-auto .bx-controls-auto-item {
     display: inline-block;
     vertical-align: bottom;
 }
-.slideAnh .bx-wrapper .bx-pager.bx-default-pager a {
+.slideAnh_3 .bx-wrapper .bx-pager.bx-default-pager a {
     background: #fff;
     text-indent: -9999px;
     display: block;
@@ -87,7 +87,7 @@
     -webkit-border-radius: 50%;
     border-radius: 50%;
 }
-.slideAnh .bx-wrapper .bx-pager.bx-default-pager a:hover, .slideAnh .bx-wrapper .bx-pager.bx-default-pager a.active, .slideAnh .bx-wrapper .bx-pager.bx-default-pager a:focus {
+.slideAnh_3 .bx-wrapper .bx-pager.bx-default-pager a:hover, .slideAnh_3 .bx-wrapper .bx-pager.bx-default-pager a.active, .slideAnh_3 .bx-wrapper .bx-pager.bx-default-pager a:focus {
     background: #fff;
     width: 10px;
     height: 10px;
@@ -95,24 +95,27 @@
 /*-----End section 8*/
 
 @media (min-width: 1024px) {
-    .slideAnh img[data-src-desktop] {
+    .slideAnh_3 img[data-src-desktop] {
         content: attr([data-src-desktop], url);
     }
 }
 @media only screen and (max-width: 767px) {
-    .slideAnh .width-750 {
+    .slideAnh_3 .width-750 {
         width: 100%;
     }
-    .slideAnh .mg-section {
+    .slideAnh_3 .mg-section {
         padding-left: 10px;
         padding-right: 10px;
     }
-    .slideAnh .mg-layout-normal .mg-section, .slideAnh .mg-layout-infographic .mg-section {
+    .slideAnh_3 .mg-layout-normal .mg-section, .slideAnh_3 .mg-layout-infographic .mg-section {
         padding-left: 0;
         padding-right: 0;
     }
-    .slideAnh .mg-wrapper p {
+    .slideAnh_3 .mg-wrapper p {
         font-size: 18px!important;
     }
+}
+.slideAnh_3 p{
+    text-align: justify;
 }
 /*-----End Common------*/
