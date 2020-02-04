@@ -1249,7 +1249,7 @@ a.flRt.seMore{
     right: 10px; }
   .boxCateHead .listMenuChild {
     background-color: #f7f7f7;
-    padding: 4px 15px;
+    padding: 6px 10px; /*16/1/2020: dangtq toi_uu_box_menu*/
     display: block; }
     .boxCateHead .listMenuChild.listMenuChild_2 {
       background-color: #ecf5e2; }

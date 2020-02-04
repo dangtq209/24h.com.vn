@@ -485,12 +485,14 @@
     height: 104px;
     overflow: hidden;
 }
+/*16/1/2020: dangtq toi_uu_box_menu*/
 .mainSec .bxMncm {
     border-top: #e1e1e1 solid 1px;
-    margin: 0px -10px 10px; /*14/1/2020: dangtq toi_uu_box_menu*/
+    margin: 0px -10px 10px; 
     border-left: none;
     border-right: none;
 }
+/*16/1/2020: dangtq toi_uu_box_menu*/
 
 .ngd h4 {
     display: block;
@@ -2116,7 +2118,10 @@
     bottom: 6px;
     right: 40px; }
     .boxCateHead .logoBrand img {
-      vertical-align: -6px; }
+      /*vertical-align: -6px;*/
+      max-height: 18px;
+      vertical-align: sub;
+      margin-left: 3px; }
     @media screen and (max-width: 320px) {
       .boxCateHead .logoBrand {
         font-size: 12px; } }
