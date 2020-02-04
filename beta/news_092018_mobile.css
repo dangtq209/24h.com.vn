@@ -4890,11 +4890,13 @@ p.linkOrigin .icoDrop {
     position: absolute;
     bottom: 6px;
     right: 40px; }
+    /*Beign 4/2/2020: dangtq*/
     .boxCateHead .logoBrand img {
       /*vertical-align: -6px;*/
       max-height: 18px;
       vertical-align: sub;
       margin-left: 3px; }
+      /*End 4/2/2020: dangtq*/
     @media screen and (max-width: 320px) {
       .boxCateHead .logoBrand {
         font-size: 12px; } }

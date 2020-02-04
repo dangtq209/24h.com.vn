@@ -921,23 +921,7 @@ blockquote {
     }
 }
 
-@media only screen and (min-width: 480px) {
-    .menutp ul li {
-        padding: 10px 7px;
-    }
-    /*Begin toi_uu_css_amp dangtq 2019*/
-    /*.pagS2 a.Prev {
-        background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -620px;
-    }
-    .pagS2 a.Next {
-        background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat right -580px;
-    }
-    .gopy {
-        width: 480px;
-        margin: 0 auto;
-    }*/
-    /*End toi_uu_css_amp dangtq 2019*/
-}
+
 @media only screen and (min-width: 599px) {
     /*Begin toi_uu_css_amp dangtq 2019*/
     /*.pgS2 a.Nxt {
@@ -1174,11 +1158,6 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
     }
     .asiad-detail a {
         font-size: 14px;
-    }
-}
-@media only screen and (min-width: 375px) {
-    .asiadTit span {
-        font-size: 15px; /*Begin 18/11/2019: dangtq thay_background_sea_games_30*/
     }
 }
 /* end BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
@@ -1501,19 +1480,7 @@ div.pgS2 .tit:after{
     display: inline;
 }
 
-@media screen and (max-width: 320px) {
-    /*begin 11/01/2019 dangtq Tối ưu trang bài viết - Phiên bản mobile*/
-    .sk .tbLngble h3{
-        max-height: 49px;
-    }
-    /*end 11/01/2019 dangtq Tối ưu trang bài viết - Phiên bản mobile*/
-    .sk h3 span{
-        padding: 5px 0;
-    }
-    .pgS2 a{
-        padding: 5px 8px;
-    }
-}
+
 /* end 25/10/2018 dangtq */
 /* begin 26/10/2018 dangtq */
 .nwsItHm>.tmPst>a{
@@ -2287,7 +2254,10 @@ p.linkOrigin {
   bottom: 6px;
   right: 40px; }
   .boxCateHead .logoBrand img {
-    vertical-align: -6px; }
+    /*vertical-align: -6px;*/
+    max-height: 18px;
+    vertical-align: sub;
+    margin-left: 3px; }
       .boxCateHead ul{
         position: static;
     }
@@ -2315,12 +2285,24 @@ p.linkOrigin {
 
 /**/
 @media screen and (max-width: 320px) {
+    .sk .tbLngble h3{
+        max-height: 49px;
+    }
+    .sk h3 span{
+        padding: 5px 0;
+    }
+    .pgS2 a{
+        padding: 5px 8px;
+    }
     .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
       top: 7%; }
     p.linkOrigin, .boxCateHead .listMenuChild li a, .boxCateHead .logoBrand, .boxCateHead .listMenuChild.cap2 a {
       font-size: 12px; } 
   }
 @media screen and (min-width: 375px) {
+    .asiadTit span {
+        font-size: 15px;
+    }
     .img_chu_thich_0407{
         font-size: 16px;
     }
@@ -2335,6 +2317,9 @@ p.linkOrigin {
       font-size: 16px; } 
 }
 @media screen and (min-width: 480px) {
+    .menutp ul li {
+        padding: 10px 7px;
+    }
     .img_chu_thich_0407{
         font-size: 16px;
     }

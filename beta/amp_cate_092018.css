@@ -1458,7 +1458,10 @@ ul.brmEvent li h1 {
   bottom: 6px;
   right: 40px; }
   .boxCateHead .logoBrand img {
-    vertical-align: -6px; }
+    /*vertical-align: -6px;*/
+    max-height: 18px;
+    vertical-align: sub;
+    margin-left: 3px; }
   @media screen and (max-width: 320px) {
     .boxCateHead .logoBrand {
       font-size: 12px; } }
