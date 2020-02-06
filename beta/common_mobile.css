@@ -347,12 +347,13 @@ article {
     width: 100%;
     z-index: 99999;
 }
-/*begin dangtq toi_uu_css_sau_nang_cap_giao_dien*/
 .log {
+    width: 75px;
+    height: 40px;
     float: left;
-    margin-left: -10px;
+    padding: 10px 0px;
+    margin-left: -5px;
 }
-/*end dangtq toi_uu_css_sau_nang_cap_giao_dien*/
 .log a {
     width: 80px;
     height: 40px;

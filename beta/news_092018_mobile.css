@@ -4849,7 +4849,7 @@ p.linkOrigin .icoDrop {
       .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
         top: 15%; } }
   .boxCateHead .icoBars {
-    background: url('https://test.24h.com.vn/images/memu-icon.png') no-repeat;
+    background: url('//cdn.24h.com.vn/images/memu-icon.png') no-repeat;
     width: 20px;
     height: 21px;
     top: 10px;

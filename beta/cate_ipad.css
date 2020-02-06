@@ -424,7 +424,7 @@
 /* begin BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
 .asiadTit {
     height: 40px;
-    background: url('../images/sg30_top_bar2.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
+    background: url('//cdn.24h.com.vn/images/sg30_top_bar2.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
     line-height: 40px;
 }
 .asiadTit span {
@@ -505,6 +505,7 @@
 }
 /*End less-bxh*/
 /* end BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
+
 /*Begin 07-03-2019 trungcq XLCYCMHENG_34262_nang_cap_giao_dien_trang_thoi_tiet*/
 .dbtt{
     margin: 10px 0 30px 0;

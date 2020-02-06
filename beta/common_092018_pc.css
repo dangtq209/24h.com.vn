@@ -465,7 +465,7 @@ ul, li {
     .hmClk {
         position: absolute;
         height: 50px;
-        left: -1px; /*begin 02/01/2019 dangtq Xï¿½y d?ng tï¿½nh nang tï¿½y ch?nh ?nh n?n menu ngang header + logo website*/
+        left: -1px; /*begin 02/01/2019 dangtq Xây d?ng tính nang tùy ch?nh ?nh n?n menu ngang header + logo website*/
     }
     .logoOld{
         padding-top: 5px;
@@ -2892,9 +2892,9 @@ ul, li {
 
     /* begin 25/10/2018 DangTQ */
     .bnrSbPg.vf{
-    	width: 335px; /*04/01/2019 dangtq T?i uu box bï¿½i PR nhï¿½n hï¿½ng*/
+    	width: 335px; /*04/01/2019 dangtq T?i uu box bài PR nhãn hàng*/
         margin-left: 15px;
-    	margin-top: 0; /*25/12/2018 dangtq B? sung text "Ad zone of 24h" cho box PR nhï¿½n hï¿½ng*/
+    	margin-top: 0; /*25/12/2018 dangtq B? sung text "Ad zone of 24h" cho box PR nhãn hàng*/
         overflow: hidden;
     }
     .vf>header{
@@ -2924,20 +2924,20 @@ ul, li {
 .vf .lstNml:last-child{
   padding-bottom: 0;
 }
-    /*begin 04/01/2019 dangtq T?i uu box bï¿½i PR nhï¿½n hï¿½ng*/
+    /*begin 04/01/2019 dangtq T?i uu box bài PR nhãn hàng*/
 .vf .bxGrtt{
 	padding: 10px;
 	height: 225px;
 	overflow: hidden;
 	overflow-y: scroll;
 }
-    /*end 04/01/2019 dangtq T?i uu box bï¿½i PR nhï¿½n hï¿½ng*/
+    /*end 04/01/2019 dangtq T?i uu box bài PR nhãn hàng*/
 .vf .bxGrtt.divVdL{
     width: auto;
     float: none;
 }
 .vf .bxGrtt header a{
-    	font-size: 15px; /*24/12/2018 dangtq C?p nh?t font-size cho tiï¿½u d? tin bï¿½i s? 1 box PR ï¿½?c quy?n*/
+    	font-size: 15px; /*24/12/2018 dangtq C?p nh?t font-size cho tiêu d? tin bài s? 1 box PR Ð?c quy?n*/
 }
 /* end 25/10/2018 DangTQ */
 /* begin bangnd 26/10/2018 */
@@ -3157,7 +3157,7 @@ ul, li {
     padding-right: 0;
   }
 /*end logo_nhan_hang 13/02/2019 dangtq*/
-/*Begin template box pr nhï¿½n - dangtq 12/4/2019*/
+/*Begin template box pr nhãn - dangtq 12/4/2019*/
 /* Template 1 */
 .slideBoxPr{
     position: absolute;
@@ -3272,7 +3272,7 @@ ul, li {
     margin-top: 5px;
     margin-bottom: 15px;
 }
-/*End template box pr nhï¿½n - dangtq 12/4/2019*/
+/*End template box pr nhãn - dangtq 12/4/2019*/
 .displaynone{
     display: none !important;
 } 
@@ -3363,12 +3363,12 @@ ul, li {
     margin: 0 auto;
     background: #fff;
 }
-/*End 3/12/2019: dangtq fix_banner_top_width_1016px*/						   
+/*End 3/12/2019: dangtq fix_banner_top_width_1016px*/
 .logoTaitro {
     float: left;
     border-left: 1px solid #eee;
-    padding-left: 5px; 
+    padding-left: 5px;
 }
 .logoTaitro img {
     max-height: 23px; 
-}					  
+}

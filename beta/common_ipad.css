@@ -2319,17 +2319,3 @@ span.mxh-ver-right {
     vertical-align: top;
   }
 /*end logo_nhan_hang 13/02/2019 dangtq*/
-
-/*begin edit breadcumb trang ty_gia, gia_vang 20/03/2019 dangtq*/
-.Cmchildren{
-    color: #78b43d;
-    font-weight: 700;
-    font-size: 16px;
-}
-/*end edit breadcumb trang ty_gia, gia_vang 20/03/2019 dangtq*/
-
-/* Begin 15/7/2019: dangtq fix_ipad_khong_tu_dong_responsive*/
-/*.colLt, .colRt{
-    overflow: hidden;
-}*/
-/* End 15/7/2019: dangtq fix_ipad_khong_tu_dong_responsive*/

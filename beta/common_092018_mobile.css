@@ -3037,20 +3037,6 @@ article {
   background-color: #78b43d; }
   .prTemp8 .pagination {
   margin-top: 0; }
-  .prTemp8 .txtBnrHor span {
-  font-size: 9px; }
-  @media screen and (min-width: 360px) {
-    .prTemp8 .txtBnrHor span {
-      font-size: 10px; } }
-  @media screen and (min-width: 480px) {
-    .prTemp8 .txtBnrHor span {
-      font-size: 12px; } }
-  @media screen and (min-width: 600px) {
-    .prTemp8 .txtBnrHor span {
-      font-size: 14px; } }
-  @media screen and (min-width: 700px) {
-    .prTemp8 .txtBnrHor span {
-      font-size: 16px; } }
 
 .prTemp9 .list {
   display: flex;
@@ -3132,7 +3118,6 @@ article {
     line-height: 0;
     z-index: 9999 !important;
 }
-
 /* Begin 26/12/2019: dangtq logo_tai_tro_nippont */
 .tbCmg ul{
 	/*position: relative;*/

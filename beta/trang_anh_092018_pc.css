@@ -514,3 +514,79 @@ ul.thumbnavi li{float:left;margin:3px 2px;}
   .shwImg a:hover img {
     display: block; }
 /*End 18/11/2019: dangtq toi_uu_cach_tuong_tac_bai_album_anh*/
+
+/*Begin: 23/12/2019  AnhTT toi_uu_trang_album_anh*/
+.bstak .tit{
+    font-size: 18px;
+    font-weight: 600;
+    color: #fff;
+    text-transform: uppercase;
+    display: inline-block;
+    margin-bottom: 15px;
+}
+.bstak .btn{
+    display: inline-block;
+    float: right;
+}
+.bstak .btn a{
+    margin: 0 5px;
+}
+.bstak .list{
+    margin: 0 -6px;
+}
+.bstak .vidItm{
+    position: relative;
+    padding: 0 4px;
+}
+.bstak .vidItmImg{
+    /*width: 156px;*/
+    /*height: 116px;*/
+    margin: 0;
+}
+.bstak .vidItmImg a img{
+    width: 100%;
+}
+.bstak .vidItmTxt a{
+    color: #fff;
+    font-size: 13px;
+    display: block;
+    position: absolute;
+    bottom: 3px;
+    left: 4px;
+    right: 4px;
+    /* height: 58px;
+    overflow: hidden; */
+    box-sizing: border-box;
+    overflow: hidden;
+    padding: 5px;
+    background: url(//cdn.24h.com.vn/images/Rectangle-10.png) no-repeat center -45px;
+    line-height: 1.5;
+}
+.bstak .vidItmTxt a.active{
+    height: 75px;
+    padding-top: 40px;
+}
+
+.relateAlbum {
+  margin: 40px 0 16px; }
+  .relateAlbum .col:nth-child(1) .vidItm, .relateAlbum .col:nth-child(2) .vidItm, .relateAlbum .col:nth-child(3) .vidItm, .relateAlbum .col:nth-child(4) .vidItm {
+    margin-bottom: 50px; }
+  .relateAlbum .vidItmImg {
+    line-height: 0; }
+  .relateAlbum .vidItmTxt a {
+    bottom: 0; }
+  .relateAlbum .txtMore {
+    font-size: 16px;
+    margin-bottom: 10px; }
+
+.relateThumb span {
+  color: #fff;
+  font-size: 12px;
+  position: absolute;
+  top: 24px;
+  left: 12px;
+  text-align: center; }
+#last_album_images{
+    cursor:pointer;
+}
+/*End: 23/12/2019  AnhTT toi_uu_trang_album_anh*/

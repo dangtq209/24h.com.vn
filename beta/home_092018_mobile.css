@@ -151,6 +151,7 @@ and open the template in the editor.
             .m_banner_show > div {
                 width: 100% !important;
                 overflow: hidden;
+				text-align: -webkit-center;
             }
         }
         @media only screen and (min-width: 668px) {
@@ -1448,7 +1449,7 @@ header */
           }
       }
     .boxCateHead.boxCateHead_3 .icoBars {
-      background-image: url(http://t.24h.com.vn/upload/dangtq/24h.com.vn/mobile/images/memu-icon2.png);
+      background-image: url(//cdn.24h.com.vn/images/memu-icon2.png);
       top: 6px; }
     .boxCateHead.boxCateHead_3 .listMenuChild {
       background-color: #ecf5e2; 
@@ -1489,7 +1490,7 @@ header */
       .boxCateHead .mnCM-close {
         top: 4%; } }
     .boxCateHead .icoBars {
-      background: url(http://t.24h.com.vn/upload/dangtq/24h.com.vn/mobile/images/memu-icon2.png) no-repeat;
+      background: url(//cdn.24h.com.vn/images/memu-icon2.png) no-repeat;
       width: 20px;
       height: 21px;
       top: 10px;

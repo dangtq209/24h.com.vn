@@ -1,0 +1,903 @@
+/*---Start media query---*/
+@media only screen and (max-width: 598px) {
+    .imgFlt {
+        margin-right: 10px;
+    }    
+    .tbCmg ul {
+        height: 38px;
+        overflow: hidden;
+    }
+    .tbCmg ul li h2, .tbCmg ul li h1, .tbCmg ul li h3 {
+        font-size: 14px;
+    }
+    .tbCmg ul li a {
+        font-size: 14px;
+    }
+    .mnCM-expand {
+        width: 38px;
+        height: 38px;
+        right: 0;
+        top: 0;
+        background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 8px -1485px;
+    }
+}
+@media only screen and (min-width: 668px){
+    .txtBnrHor span {
+        font-size: 16px;
+    }
+    .ifTtr, .extTit span {
+        font-size: 18px;
+    }
+    .tmPst a, .extTit a, .tmPst, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, #footer p, .pagPge, .nguontin, .menutp ul li a, .nmEvt, .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .thethaoCnt table {
+        font-size: 20px;
+    }
+    .icoSkn span, .txtMn, .icoSkn a, .nwsTitHm, .tpcHt .tpcLitIt li a, .tbCmg ul li a, .cateOthr li a, .mnRtQk ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .chuyen-huong a, .seeMrMul span, .titleOrange, .bannet * {
+        font-size: 22px;
+    }
+    .bdBrk, .nwsTitSlHm, .titTp a, .tbCmg ul li, .ldIt a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tcbIt li a, .ftMn2 a, .tbTcb a, .ctTp, .nwsItAtcl h2, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .vdFul a, .mnItTit a, .bxMncm li a, .pollContainer, .box-grey-br, table.borders td, .boxGreyBr {
+        font-size: 24px;
+    }
+    .tbCmCent a, .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .bxDoRt .nwsTitHm a, .content-bv-lq p, .see-now a, .bongda-name {
+        font-size: 26px;
+    }
+    .titNws a {
+        font-size: 28px;
+    }
+    .atclTit h1, .title-bv a {
+        font-size: 32px;
+    }
+}
+@media only screen and (min-width: 569px) and (max-width: 667px) {
+    .txtBnrHor span {
+        font-size: 14px;
+    }
+    .ifTtr, .extTit span {
+        font-size: 16px;
+    }
+    .tmPst a, .extTit a, .tmPst, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, #footer p, .pagPge, .nguontin, .menutp ul li a, .nmEvt, .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .thethaoCnt table {
+        font-size: 18px;
+    }
+    .icoSkn span, .txtMn, .icoSkn a, .nwsTitHm, .tpcHt .tpcLitIt li a, .tbCmg ul li a, .cateOthr li a, .mnRtQk ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .chuyen-huong a, .seeMrMul span, .titleOrange, .bannet * {
+        font-size: 20px;
+    }
+    .bdBrk, .nwsTitSlHm, .titTp a, .tbCmg ul li, .ldIt a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tcbIt li a, .ftMn2 a, .tbTcb a, .ctTp, .nwsItAtcl h2, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .vdFul a, .mnItTit a, .bxMncm li a, .pollContainer, .box-grey-br, table.borders td, .boxGreyBr {
+        font-size: 22px;
+    }
+    .tbCmCent a, .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .bxDoRt .nwsTitHm a, .content-bv-lq p, .see-now a, .bongda-name {
+        font-size: 24px;
+    }
+    .titNws a {
+        font-size: 26px;
+    }
+    .atclTit h1, .title-bv a {
+        font-size: 30px;
+    }
+}
+@media only screen and (min-width: 480px) and (max-width: 568px) {
+    .txtBnrHor span {
+        font-size: 12px;
+    }
+    .ifTtr, .extTit span {
+        font-size: 14px;
+    }
+    .tmPst a, .extTit a, .tmPst, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, #footer p, .pagPge, .nguontin, .menutp ul li a, .nmEvt, .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .thethaoCnt table {
+        font-size: 16px;
+    }
+    .icoSkn span, .txtMn, .icoSkn a, .nwsTitHm, .tpcHt .tpcLitIt li a, .tbCmg ul li a, .cateOthr li a, .mnRtQk ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .chuyen-huong a, .seeMrMul span, .titleOrange, .bannet * {
+        font-size: 18px;
+    }
+    .bdBrk, .nwsTitSlHm, .titTp a, .tbCmg ul li, .ldIt a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tcbIt li a, .ftMn2 a, .tbTcb a, .ctTp, .nwsItAtcl h2, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .vdFul a, .mnItTit a, .bxMncm li a, .pollContainer, .box-grey-br, table.borders td, .boxGreyBr {
+        font-size: 20px;
+    }
+    .tbCmCent a, .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .bxDoRt .nwsTitHm a, .content-bv-lq p, .see-now a, .bongda-name {
+        font-size: 22px;
+    }
+    .titNws a {
+        font-size: 24px;
+    }
+    .atclTit h1, .title-bv a {
+        font-size: 28px;
+    }
+}
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    .txtBnrHor span {
+        font-size: 10px;
+    }
+    .ifTtr, .extTit span {
+        font-size: 12px;
+    }
+    .tmPst a, .extTit a, .tmPst, .seMr a, .pagS2 a.Next, .pagS2 a.Prev, .pagS2 a.New, #footer p, .pagPge, .nguontin, .menutp ul li a, .nmEvt, .pgS2 a.Nxt, .pgS2 a.Prv, .pgS2 a.Nws, .pgPge, .thethaoCnt table {
+        font-size: 14px;
+    }
+    .icoSkn span, .txtMn, .icoSkn a, .nwsTitHm, .tpcHt .tpcLitIt li a, .tbCmg ul li a, .cateOthr li a, 
+    .mnRtQk ul li a, .mveCte span, .evtBx .evtBxSp, .sbNws, .chuyen-huong a, .seeMrMul span, .titleOrange, .bannet * {
+        font-size: 16px;
+    }
+    .bdBrk, .nwsTitSlHm, .titTp a, .tbCmg ul li, .ldIt a, .ldIt2 a, .vidIt a, .vidItRt a, .tbTcb, .tcbIt li a, 
+    .ftMn2 a, .tbTcb a, .ctTp, .nwsItAtcl h2, .tbCmg ul li .mnAtv, .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .plContnr, .sbevt, p, .vdFul a, .mnItTit a, .bxMncm li a, .pollContainer, .box-grey-br, table.borders td, .boxGreyBr {
+        font-size: 18px;
+    }
+    .tbCmCent a, .evtBxTit a, .tbLngrn a, .tbLngrn h2, .evtHlt h2, .tbLngble h3, .bxDoRt .nwsTitHm a, .content-bv-lq p, .see-now a, .bongda-name {
+        font-size: 20px;
+    }
+    .titNws a {
+        font-size: 22px;
+    }
+    .atclTit h1, .title-bv a {
+        font-size: 26px;
+    }
+}
+@media only screen and (max-width: 320px) {
+
+}
+@media only screen and (min-width: 480px) {
+    .mnRtQk {
+        width: 320px;
+    }
+    .menutp ul li {
+        padding: 10px 7px;
+    }
+}
+@media only screen and (min-width: 599px) {
+    .tbCmg ul {
+        height: 60px;
+        overflow: hidden;
+    }
+    .tbCmg {
+        max-height: 60px;
+    }
+    .mnRtQk {
+        width: 400px;
+    }
+    .mnCM-expand {
+        width: 38px;
+        height: 38px;
+        right: 0;
+        top: 5px;
+        background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 8px -1485px;
+    }
+    .pgS2 a.Nxt {
+        background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat right -580px;
+    }
+    .pgS2 a.Prv {
+        background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -620px;
+    }
+    .tmPst a {
+        background-position: 0 -120px;
+    }
+    .nwsTitSlHm {
+        background-position: 0 -1530px;  
+    }
+    .mnRtClsBtn {
+        right: 320px;
+    }
+    .menRt {
+        width: 320px;
+    }
+    .mnRt li a {
+        font-size: 20px;
+    }
+    .schTxtBx {
+        width: 250px;
+    }
+}
+/*Begin 14-05-2018 trungcq XLCYCMHENG_31384_bo_sung_box_dac_biet_trang_chu*/
+
+/*Begin 20/6/ box sự kiện hot*/
+.evtHotTit a.clrWh {
+    color: #fff;
+}
+/*End 20/6/ box sự kiện hot*/
+.evtHotTit .txtTrf {
+    background-color: #ef7930;
+    font-size: 12px;
+    padding: 5px 10px;
+    display: inline-block;
+    font-weight: 700;
+}
+/*Begin 20/6/ box sự kiện hot*/
+.evtHotCt {
+    /* padding-left: 10px; */
+    border-left: 4px double #ef7930;
+    /* padding-top: 10px; */
+}
+/*End 20/6/ box sự kiện hot*/
+.evtHotTit a {
+    color: #ef7930;
+    font-size: 14px;
+    padding: 5px;
+    display: block;
+}
+.evtHotTit a.clrWh {
+    color: #fff;
+}
+.lstHot {
+    padding-left: 10px;
+}
+/*Begin 20/6/ box sự kiện hot*/
+.lstHot .nwsTitSlHm {
+    background: none;
+    font-size: 16px;
+    display: block;
+    position: relative;
+    line-height: 1.3;
+}
+.evtHotCt .lstHot .nwsTitSlHm {
+    font-weight: 700;
+    display: inline;
+}
+/*End 20/6/ box sự kiện hot*/
+.lstHot .icoLiv, .lstHot .redStar {
+    margin-left: 5px;
+    display: none;
+}
+.lstHot .nwsTitSlHm:before {
+    content: "";
+    position: absolute;
+    width: 5px;
+    height: 5px;
+    background-color: #ef7930;
+    display: inline-block;
+    top: 8px;
+    left: 0;
+}
+
+.evtHot .imgNwsMdm {
+    width: 90px;
+    height: 68px;
+}
+
+.evtHotCt .pdLt {
+    padding-left: 100px;
+}
+
+.evtHotTit .txtTrf{
+    font-size: 14px;
+}
+.evtHotCt .nwsTitHm {
+    font-size: 16px;
+}
+
+@media only screen and (min-width: 668px) {
+    .evtHotTit .txtTrf,
+    .evtHotTit a {
+        font-size: 20px;
+    }
+    .evtHotCt .nwsTitHm, .lstHot .nwsTitSlHm {
+        font-size: 22px;
+    }
+}
+
+@media only screen and (min-width: 569px) and (max-width: 667px) {
+    .evtHotTit .txtTrf,
+    .evtHotTit a {
+        font-size: 18px;
+    }
+    .evtHotCt .nwsTitHm, .lstHot .nwsTitSlHm {
+        font-size: 20px;
+    }
+}
+
+@media only screen and (min-width: 480px) and (max-width: 568px) {
+    .evtHotTit .txtTrf,
+    .evtHotTit a {
+        font-size: 16px;
+    }
+    .evtHotCt .nwsTitHm,.lstHot .nwsTitSlHm {
+        font-size: 18px;
+    }
+}
+
+@media only screen and (min-width: 321px) and (max-width: 479px) {
+    .evtHotTit .txtTrf,
+    .evtHotTit a {
+        font-size: 14px;
+    }
+    .evtHotCt .nwsTitHm, .lstHot .nwsTitSlHm {
+        font-size: 16px;
+    }
+}
+/*End 14-05-2018 trungcq XLCYCMHENG_31384_bo_sung_box_dac_biet_trang_chu*/
+
+.evtHotTit {
+    border-bottom: 1px solid #ef7930;
+    overflow: hidden;
+}
+.evtHotTit .txtTrf {
+    float: left;
+}
+.evtHotTit .hotTb {
+    background-color: #faa460;
+    font-size: 12px;
+    display: inline-block;
+    font-weight: 700;
+    border-radius: 3px 3px 0 0;
+    padding-right: 10px;
+    padding-left: 10px;
+    float: left;
+    margin-left: 3px;
+}
+.evtHotCt {
+    display: inline-block;
+    width: 100%;
+}
+.seMore {
+    font-size: 14px;
+    padding: 5px;
+    color: #ef7930;
+    display: block;
+}
+@media only screen and (min-width: 668px) {
+    .evtHotTit .hotTb {
+        font-size: 18px;
+    }
+    .seMore {
+        font-size: 22px;
+    }
+}
+@media only screen and (max-width: 667px) and (min-width: 569px) {
+    .evtHotTit .hotTb {
+        font-size: 16px;
+    }
+    .seMore {
+        font-size: 20px;
+    }
+}
+@media only screen and (max-width: 568px) and (min-width: 480px) {
+    .evtHotTit .hotTb {
+        font-size: 14px;
+    }
+    .seMore {
+        font-size: 18px;
+    }
+}
+@media only screen and (max-width: 479px) and (min-width: 321px) {
+    .seMore {
+        font-size: 16px;
+    }
+}
+@media only screen and (max-width: 479px) {
+    .evtHotTit {
+        height: 27px;
+    }
+    .evtHotTit a.clrWh {
+        margin-bottom: 10px;
+    }
+}
+.flRt {
+    float: right;
+}
+
+/*Begin 08-10-2018 nang_cap_giao_dien_moi */
+
+.mgt5{
+    margin-top: 5px;
+}
+.mgt10{
+    margin-top: 10px;
+}
+.mgt20{
+    margin-top: 20px;
+}
+.mgbt5{
+    margin-bottom: 5px;
+}
+.mgbt10{
+    margin-bottom: 10px;
+}
+.mgbt20{
+    margin-bottom: 20px;
+}
+.mg5{
+    margin: 5px 0;
+}
+.mg10{
+    margin: 10px 0;
+}
+.mg20{
+    margin: 20px 0;
+}
+.pd10{
+    padding: 10px 0;
+}
+.pd15{
+    padding: 15px 0;
+}
+.pd20{
+    padding: 20px 0;
+}
+.rlt{
+    position: relative;
+}
+.w100{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.inbl{
+    display: inline-block;
+}
+.ct{
+    text-align: center;
+}
+.tt{
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    font-weight: bold;
+}
+.c333{
+    color: #333!important;
+}
+.fz14{
+    font-size: 14px;
+}
+.fz12{
+    font-size: 12px;
+}
+.fz16{
+    font-size: 16px;
+}
+.fz18{
+    font-size: 18px;
+}
+
+/* 
+header */
+.log1 a{
+    background-image: url(images/24h_logo_H_white.png);
+}
+.mnDm1 .imgMn{
+    margin-left: -4px;
+}
+.menutp1>ul{
+    margin-left: 10px;
+}
+.menutp1 ul li a, .txtMn1{
+    font-size: 11px;
+}
+.menutp1 ul li{
+    padding: 10px 8px;
+}
+
+/* 
+main */
+.logD a{
+    background: url(images/24h_logo_H_white.png) no-repeat center center;
+}
+.menutpD ul li a{
+    font-size: 11px;
+}
+.menutpD ul li{
+    padding: 10px 8px;
+    line-height: 18px;
+}
+.mnTpImg1{
+    width: 20px;
+    height: 20px;
+    background: url(images/ico1.png);
+    display: inline-block;
+}
+.mnTpImg2{
+    width: 20px;
+    height: 20px;
+    background: url(images/ico2.png);
+    display: inline-block;
+}
+.mnTpImg3{
+    width: 20px;
+    height: 20px;
+    background: url(images/ico3.png);
+    display: inline-block;
+}
+.mnTpImg4{
+    width: 20px;
+    height: 20px;
+    background: url(images/Vector-Smart-Object1.png);
+    display: inline-block;
+}
+.txtMnD{
+    font-size: 11px;
+    padding-left: 3px;
+}
+.liveimg{
+    background: url(images/Ellipse-10.jpg) no-repeat center;
+    background-size: 100%;
+    width: 68px;
+    height: 28px;
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 5px;
+}
+.picimg{
+    background: url(images/Shape-539-copy-3.png) no-repeat 0 0;
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+}
+.playimg{
+    background: url(images/Color-Fill-7-copy-10.png) no-repeat 0 0;
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+}
+.sttimg{
+    background: url(images/Shape-645-copy-4b.png) no-repeat 0 0;
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+}
+.mimg{
+    background: url(images/M--copy-7.png) no-repeat 0 0;
+    position: absolute;
+    display: block;
+    bottom: 5px;
+    left: 5px;
+    width: 24px;
+    height: 24px;
+    z-index: 1;
+}
+.hotart{
+    margin-top: -4px;
+}
+.tmPstD a{
+    font-size: 12px;
+    font-weight: normal;
+}
+.ctTpD{
+    font-size: 14px;
+    margin-top: 5px;
+}
+.nwsTitSlHmD{
+    font-size: 14px;
+    display: block;
+}
+.clrGrD{
+    font-size: 12px;
+}
+.linD{
+    margin-left: 7px;
+    margin-right: 7px;
+}
+.extTitD a, .extTitD span{
+    font-size: 12px;
+}
+.tmPstD{
+    margin-bottom: 0;
+}
+.mico{
+    background: url(images/M--copy.png) no-repeat center 2px;
+    width: 14px;
+    height: 13px;
+    display: inline-block;
+}
+.newico{
+    background: url(images/New.png) no-repeat top left;
+    width: 29px;
+    height: 12px;
+    display: inline-block;
+}
+.chatico{
+    background: url(images/Color-Fill-5-copy-20.png) no-repeat top left;
+    width: 12px;
+    height: 10px;
+    display: inline-block;
+}
+.tpcHtD .tpcLitIt li a{
+    font-size: 12px;
+}
+.tpcHtD .tpcLitIt li a img{
+    height: 20px;
+    width: auto;
+    vertical-align: sub;
+}
+.tbCmgD ul li .mnAtv, .tbCmgD ul li a{
+    font-size: 14px;
+}
+.boxart .imgNwsMdm{
+    width: 139px;
+    height: 104px;
+}
+.boxart .nwsTitHm{
+    font-size: 18px;
+}
+.boxart .tmPst.clrGr{
+    font-size: 12px;
+}
+.boxart .nwsTitSlHm{
+    font-size: 14px;
+    background-position: 0 -1532px;
+    padding-left: 16px;
+    display: block;
+}
+.nwsTitSlHm.mbg{
+    background: url(images/M--copy.png) no-repeat left 5px;
+}
+.nwsTitSlHm.cbg{
+    background: url(images/Forma-1-copy-2.png) no-repeat left 4px;
+}
+.nwsTitSlHm.sttbg{
+    background: url(images/Shape-645.png) no-repeat left 5px;
+}
+.nwsTitSlHm.vbg{
+    background: url(images/Forma-1-copy-4.png) no-repeat left 5px;
+}
+.boxart .seMr a{
+    text-transform: initial;
+    font-weight: normal;
+}
+.boxart .seMr a .ico{
+    vertical-align: initial;
+}
+.boxps .mnCM-close{
+    bottom: 0;
+    right: 0;
+}
+.boxps .bxMncm li a{
+    font-size: 16px;
+    background-position: 0 -228px;
+}
+.boxps .tbCmg ul li a{
+    font-size: 14px;
+}
+.vdcl .tbCmCent{
+    background: url(images/icons8-video-playlist-96-copy.png) no-repeat 7px 5px;
+    padding-left: 35px;
+    text-align: left;
+    border-bottom: 2px solid #78b43d;
+}
+.vdcl .tbCmCent a{ 
+    color: #78b43d;
+    font-size: 17px;
+}
+.vdcl .first{
+    width: 100%;
+    position: relative;
+    height: 210px;
+    overflow: hidden;
+}
+.videoimg{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    background: url(images/Color-Fill-7-copy-3.png) no-repeat;
+    width: 58px;
+    height: 58px;
+    display: inline-block;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+.videoimgxs{
+    position: absolute;
+    top: 37%;
+    left: 50%;
+    background: url(images/Color-Fill-7-copy-5.png) no-repeat;
+    width: 40px;
+    height: 40px;
+    display: inline-block;
+    transform: translate(-50%);
+    -webkit-transform: translate(-50%);
+    -o-transform: translate(-50%);
+}
+.vdcl .first header{
+    display: block;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    z-index: 9999;
+    color: #fff;
+    background: #0000008c;
+    padding: 10px;
+    font-size: 16px;
+}
+.vdcl .list{
+    padding: 7px;
+    display: inline-block;
+}
+.vdcl .col{
+    width: 49%;
+}
+.vdcl .list header{
+    font-size: 14px;
+    font-weight: normal;
+    line-height: 1.3;
+    margin-top: 10px;
+}
+.dots li{
+    display: inline-block;
+    background: #cccccc;
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    margin: 0 2px;
+}
+.dots li.active{
+    background: #78b43d;
+    width: 8px;
+    height: 8px;
+}
+.dots .vuot{
+    font-size: 12px;
+    color: #757575;
+    font-style: italic;
+    margin-top: 5px;
+}
+.vdcl .bxVidLst{
+    background: #eeeeee;
+}
+.ld .list{
+    padding: 7px 0;
+}
+.ld .playimg{
+    bottom: 10px;
+}
+.ld .list header{
+    font-size: 16px;
+    font-weight: bold;
+}
+.lady .tit{
+    display: block;
+    font-size: 18px;
+    color: #d2577e;
+    text-transform: uppercase;
+    padding: 7px;
+    border-bottom: 2px solid;
+    background: url(images/Vector-Smart-Objectx.png) no-repeat left;
+    padding-left: 25px;
+}
+.nwsTitSlHm.pinkbg{
+    background: url(images/Ellipse-7-copy-3.png) no-repeat left 8px;
+}
+.nwsTitSlHm.picbg{
+    background: url(images/Shape-547-copy.png) no-repeat left 5px;
+}
+.lady .dots li.active{
+    background: #d2577e;
+}
+.gv .tcbIt li a{
+    font-size: 16px;
+}
+.tcbGldD{
+    background: url(images/Color-Fill-8.png) no-repeat 5px 10px;
+}
+.tcbNgtD{
+    background: url(images/tygia.png) no-repeat 6px;
+}
+.tcbVlmD{
+    background: url(images/tuyendung.png) no-repeat 5px 8px;
+}
+.tcbVidD{
+    background: url(images/video.png) no-repeat 9px 8px;
+}
+.tcbLcpD{
+    background: url(images/Shape-29.png) no-repeat 9px 8px;
+}
+.ccmk .tit{
+    display: block;
+    font-size: 18px;
+    text-transform: uppercase;
+    text-align: left;
+    border-bottom: 2px solid #78b43d;
+    line-height: 1.5;
+}
+.ccmk .cateOthr li a{
+    font-size: 14px;
+    text-align: left;
+}
+.ccmk .cateOthr li:last-child{
+    width: 100%;
+    border: 0;
+}
+.ftMn2D{
+    background-color: #464646;
+    color: #fff;
+}
+.ftMn2D a{
+    color: #fff;
+    font-size: 14px;
+}
+.footerD li{
+    display: inline-block;
+}
+.footerD li a{
+    display: block;
+    font-weight: bold;
+    font-size: 14px;
+    color: #333;
+    border-right: 2px solid;
+    padding-right: 5px;
+}
+#footer.footerD p {
+    font-size: 12px;
+}
+.mnCM-close{
+    width: 38px;
+    height: 38px;
+    right: -3px;
+    top: 3px;
+    background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -190px;
+    display: block;
+    position: absolute;
+}
+.bxMncmD{
+    padding: 10px;
+    border-left: #e1e1e1 solid 1px;
+    border-bottom: #e1e1e1 solid 1px;
+    border-right: #e1e1e1 solid 1px;
+}
+.bxMncmD li{
+    display: block;
+    list-style: none;
+}
+.bxMncmD li a{
+    color: #000;
+    display: block;
+    font-size: 16px;
+    background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -228px;
+    padding: 10px 0 10px 15px;
+}
+.cateOthrD li{
+    display: inline-block;
+    list-style: none;
+    border-bottom: 1px solid #e1e1e1;
+    padding: 5px 0;
+}
+.cateOthrD li:nth-child(odd){
+    width: 47%;
+    margin-right: 2%;
+}
+.cateOthrD li:nth-child(even){
+    width: 47%;
+    margin-left: 2%;
+} 
+
+@media screen and (min-width: 480px) and (max-width: 767px) {
+    #footer.footerD p, .boxart .nwsTitSlHm, .dots .vuot, .extTitD a, .extTitD span, .nwsTitSlHmD{
+        font-size: 16px;
+    }
+    .footerD li a, .ftMn2D a, .ccmk .cateOthr li a, .gv .tcbIt li a, .ctTpD, .tpcHtD .tpcLitIt li a{
+        font-size: 18px;
+    }
+    .boxart .nwsTitHm, .lady .tit, .tbCmgD ul li .mnAtv, .tbCmgD ul li a, .boxps .tbCmg ul li a{
+        font-size: 24px;
+    }
+    .boxart .tmPst.clrGr, .clrGrD{
+        font-size: 14px;
+    }
+    .ld .list header, .vdcl .list header, .vdcl .first header, .boxps .bxMncm li a{
+        font-size: 20px;
+    }
+    .ccmk .tit, .vdcl .tbCmCent a{
+        font-size: 22px;
+    }
+    .tmPst a{
+        background-position: 0 -119px;
+    }
+    .vdcl .tbCmCent{
+        background-position: 7px 10px;
+    }
+    .tmPstD a{
+        font-size: 14px;
+        background-position: 0 -121px;
+    }
+    .nwsTitSlHmD{
+        background-position: 0 -1531px;
+    }
+    
+}
+/*End 08-10-2018 nang_cap_giao_dien_moi */

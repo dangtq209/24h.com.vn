@@ -573,7 +573,7 @@
         font-size: 17px;
     }
     /*End 18/11/2019: dangtq thay_background_sea_games_30*/
-    .clrGrD, .vuot, span.clrGr, .tmPst a, .nwsItHm>.tmPst>a{
+    .clrGrD, span.clrGr, .tmPst a, .nwsItHm>.tmPst>a{
         font-size: 16px;
     }
     .tmPst a{
@@ -754,7 +754,7 @@
         font-size: 17px;
     }
     /*End 18/11/2019: dangtq thay_background_sea_games_30*/
-    .nwsTitHm, .vidIt.first a, .ldIt a, .ldIt2 a, .tcbIt li a, .ngd .ldItHm .stt, .ctTp, .tbCmg ul li a.Atv{
+    .nwsTitHm, .ldIt a, .ldIt2 a, .ngd .ldItHm .stt, .ctTp, .nwsTitSlHm, .tbCmg ul li a.Atv{
         font-size: 20px;
     }
     .tttd>header a, .ngd h4, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, .lady a.title.tt{
@@ -1457,9 +1457,7 @@ ul.brmEvent li h1 {
   position: absolute;
   bottom: 6px;
   right: 40px; }
-  .boxCateHead .logoBrand img {
-    /*vertical-align: -6px;*/
-    max-height: 18px;
+  .boxCateHead .logoBrand>* {
     vertical-align: sub;
     margin-left: 3px; }
   @media screen and (max-width: 320px) {
