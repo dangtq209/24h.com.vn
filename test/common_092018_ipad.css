@@ -569,10 +569,13 @@ ul, li {
 .gryTbR h3 {
     font-weight: 400;
 }
+/*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
 .grnTbR ul li, .gryTbR ul li {
     display: block;
     list-style: none;
+    font-size: 18px;
 }
+/*End 6/2/2020: dangtq toi_uu_heading_tag*/
 .grnTbR h1, .grnTbR h2, .grnTbR h3 {
     margin: 0;
     font-size: 18px;

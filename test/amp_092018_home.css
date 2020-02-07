@@ -18,7 +18,7 @@
         height: 38px;
         right: 0;
         top: 0;
-        background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 8px -1485px;
+        background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 8px -1485px;
     }
 }
 @media only screen and (min-width: 668px){
@@ -154,13 +154,13 @@
         height: 38px;
         right: 0;
         top: 5px;
-        background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 8px -1485px;
+        background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 8px -1485px;
     }
     .pgS2 a.Nxt {
-        background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat right -580px;
+        background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat right -580px;
     }
     .pgS2 a.Prv {
-        background: url(//static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -620px;
+        background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -620px;
     }
     .tmPst a {
         background-position: 0 -120px;
@@ -830,7 +830,7 @@ main */
     height: 38px;
     right: -3px;
     top: 3px;
-    background: url(http://static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -190px;
+    background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -190px;
     display: block;
     position: absolute;
 }
@@ -848,7 +848,7 @@ main */
     color: #000;
     display: block;
     font-size: 16px;
-    background: url(http://static.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -228px;
+    background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -228px;
     padding: 10px 0 10px 15px;
 }
 .cateOthrD li{

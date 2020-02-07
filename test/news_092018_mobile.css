@@ -1,3 +1,9 @@
+/*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+.articleBody .tuht_show{
+    font-size: 18px;
+}
+/*End 6/2/2020: dangtq toi_uu_heading_tag*/
+
 /*Begin Tối ưu giao diện các loại bài tường thuật - dangtq 18/4/2019*/
 body, body section, footer{
     background: #fff;
@@ -1106,6 +1112,7 @@ body, body section, footer{
             .btnGryBig, .plAnwr {
                 font-size: 20px;
             }
+            /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
             .bdBrk,
             .nwsTitSlHm,
             .titTp a,
@@ -1131,9 +1138,10 @@ body, body section, footer{
             .chuyen-huong a,
             .pollContainer,
             .box-grey-br, .boxGreyBr b, .content-bv-lq p,
-            .see-now a {
+            .see-now a, .articleBody .tuht_show {
                 font-size: 22px;
             }
+            /*End 6/2/2020: dangtq toi_uu_heading_tag*/
             .tbCmCent a,
             .evtBxTit a,
             .tbLngrn a,
@@ -1205,6 +1213,7 @@ body, body section, footer{
             .btnGryBig, .plAnwr {
                 font-size: 18px;
             }
+            /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
             .bdBrk,
             .nwsTitSlHm,
             .titTp a,
@@ -1230,9 +1239,10 @@ body, body section, footer{
             .chuyen-huong a,
             .pollContainer,
             .box-grey-br, .boxGreyBr b, .content-bv-lq p,
-            .see-now a {
+            .see-now a, .articleBody .tuht_show {
                 font-size: 20px;
             }
+            /*End 6/2/2020: dangtq toi_uu_heading_tag*/
             .tbCmCent a,
             .evtBxTit a,
             .tbLngrn a,
@@ -1674,7 +1684,7 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
 }
 .asiadTit {
     height: 37px;
-    background: url('../images/sg30_top_bar2_mobile.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
+    background: url('//cdn.24h.com.vn/images/sg30_top_bar2_mobile.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
     background-size: cover; /*18/11/2019: dangtq thay_background_sea_games_30*/
     line-height: 37px;
 }
@@ -1945,11 +1955,13 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         color: #378b36;
         font-weight: normal;
     }
-    .tbLngble h3{
+    /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+    .tbLngble h3, .tbLngble>header{
         font-size: 18px;
         color: #7ab345;
         overflow: hidden;
     }
+    /*End 6/2/2020: dangtq toi_uu_heading_tag*/
     .tbCmg {
         background: #fff;
     }
@@ -1971,6 +1983,7 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         margin-top: 10px;
         font-size: 14px;
     }
+    /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
     .sk .tbLngble{
         padding: 0 0 10px;
         font-weight: 700;
@@ -1980,12 +1993,16 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         line-height: initial;
         margin-bottom: 10px;
         border-bottom: 0;
+        font-size: 18px;
+        overflow: hidden;
     }
-    .sk h3 span{
+    .sk h3 span, .sk .tbLngble span{
         color: #fff;
     }
+    /*End 6/2/2020: dangtq toi_uu_heading_tag*/
     /*begin 11/01/2019 dangtq Tối ưu trang bài viết - Phiên bản mobile*/
-    .sk .tbLngble h3 a{
+    /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+    .sk .tbLngble h3 a, .sk .tbLngble a{
         color: initial;
         font-weight: 700;
         /*text-transform: uppercase;*/
@@ -1993,7 +2010,9 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         display: block;
         padding-left: 30%;
     }
+    /*End 6/2/2020: dangtq toi_uu_heading_tag*/
     /*end 11/01/2019 dangtq Tối ưu trang bài viết - Phiên bản mobile*/
+    /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
     .tttd>header a,
     .tcbds >header a{
         display: block;
@@ -2003,7 +2022,9 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         border-bottom: 2px solid #7ab345;
         line-height: 2;
         /*margin: 0 7px;*/
+        font-weight: bold;
     }
+    /*End 6/2/2020: dangtq toi_uu_heading_tag*/
     .ttdn>header a{
         display: block;
         font-size: 18px;
@@ -2025,7 +2046,8 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
     .ngd .bxRdPsnLt a{
         font-size: 14px;
     }
-    .ngd h4 {
+    /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+    .ngd h4, .manyReader .tbLngrn {
         display: block;
         font-size: 18px;
         text-transform: uppercase;
@@ -2033,6 +2055,7 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         text-align: center;
         margin: 0;
     }
+    /*End 6/2/2020: dangtq toi_uu_heading_tag*/
     /* fix nhieu nguoi doc */
     .ngd .ldItHm .stt {
         position: absolute;
@@ -2554,13 +2577,17 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
 
     @media screen and (max-width: 320px) {
         /*begin 11/01/2019 dangtq Tối ưu trang bài viết - Phiên bản mobile*/
-        .sk .tbLngble h3{
+        /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+        .sk .tbLngble h3, .sk .tbLngble{
             max-height: 49px;
         }
+        /*End 6/2/2020: dangtq toi_uu_heading_tag*/
         /*end 11/01/2019 dangtq Tối ưu trang bài viết - Phiên bản mobile*/
-        .sk h3 span{
+        /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+        .sk h3 span, .sk .tbLngble span{
             padding: 5px 0;
         }
+        /*End 6/2/2020: dangtq toi_uu_heading_tag*/
         .pgS2 a{
             padding: 5px 8px;
         }
@@ -2636,9 +2663,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         .ngd .ldItHm .stt, .tbCmg1 ul li .Atv, .liveCnt .artBd-child p{
             font-size: 20px; /* 07/12/2018 dangtq sửa_font_size */
         }
-        .tttd>header a, .tcbds >header a, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, div.title-bv a, .nguontin, .tbLngble h3{
+        /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+        .sk .tbLngble, .tbLngble>header, .tttd>header a, .tcbds >header a, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, div.title-bv a, .nguontin, .tbLngble h3{
             font-size: 22px;
         }
+        /*End 6/2/2020: dangtq toi_uu_heading_tag*/
         /*Begin 18/11/2019: dangtq thay_background_sea_games_30*/
         .tbCmg ul li a, .pgS2 .clrTit.fl, .pgS2 .clrTit.fr, .pgS2 .tit, .txtIl.txtIlImg, .ftMn2 a, .cateOthr li a, .evtHotCt .nwsTitHm, .seMore, .ctTpD, .vidIt a, .ttdn .clrDft, .ngd .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .ctTp, .nwsTitSlHm{
             font-size: 18px;
@@ -2716,9 +2745,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         .eventList{
             margin-top: -1px;
         }
-        .ngd .ldItHm .stt, .tbCmg1 ul li .Atv, p, .nguontin, .liveCnt .artBd-child p{
+        /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+        .articleBody .tuht_show, .ngd .ldItHm .stt, .tbCmg1 ul li .Atv, p, .nguontin, .liveCnt .artBd-child p{
             font-size: 22px; /* 07/12/2018 dangtq sửa_font_size */
         }
+        /*End 6/2/2020: dangtq toi_uu_heading_tag*/
         .bxRcdVid .video-body-tile a, .clrGrD, .tmPst.pt8, .vuot, span.clrGr, .nwsItHm>.tmPst>a, #footer p, .pgS2 a{
             font-size: 18px;
         }
@@ -2730,9 +2761,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
             font-size: 19px;
         }
         /*End 18/11/2019: dangtq thay_background_sea_games_30*/
-        .tttd>header a, .tcbds >header a, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, div.title-bv a, .tbLngble h3{
+        /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+        .sk .tbLngble, .tbLngble>header, .tttd>header a, .tcbds >header a, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, div.title-bv a, .tbLngble h3{
             font-size: 24px;
         }
+        /*End 6/2/2020: dangtq toi_uu_heading_tag*/
         .evtBxSp .clrTit{
             font-size: 19px;
         }
@@ -2816,9 +2849,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         .tbCmg ul li a, .pgS2 .clrTit.fl, .pgS2 .clrTit.fr, .pgS2 .tit, .txtIl.txtIlImg, .ftMn2 a, .clrGrD, .seMore, .evtHotCt .nwsTitHm, .ttdn .clrDft, .ngd .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .ctTp, .nwsTitSlHm, .cateOthr li a{
             font-size: 16px;
         }
-        .tttd>header a, .tcbds >header a, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, div.title-bv a, .nguontin, .tbLngble h3{
+        /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+        .sk .tbLngble, .tbLngble>header, .tttd>header a, .tcbds >header a, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, div.title-bv a, .nguontin, .tbLngble h3{
             font-size: 20px;
         }
+        /*End 6/2/2020: dangtq toi_uu_heading_tag*/
         .lady a.title.tt{
             background-position: -50px -4140px;
         }
@@ -2839,9 +2874,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
     /* chieu doc */
     @media screen and (min-width: 360px) and (max-width: 413px) {
         /*begin 11/01/2019 dangtq Tối ưu trang bài viết - Phiên bản mobile*/
-        .sk .tbLngble h3{
+        /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+        .sk .tbLngble h3, .sk .tbLngble{
             max-height: 54px;
         }
+        /*End 6/2/2020: dangtq toi_uu_heading_tag*/
         /*end 11/01/2019 dangtq Tối ưu trang bài viết - Phiên bản mobile*/
         /* begin 07/12/2018 dangtq sửa_font_size */
         .liveCnt .vBtn{
@@ -2879,9 +2916,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
     div.pgS2 .tit:after{
         left: 73%;
     }
-    .sk h3 span{
+    /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+    .sk h3 span, .sk .tbLngble span{
         width: 30%;
     }
+    /*End 6/2/2020: dangtq toi_uu_heading_tag*/
     /*.sk .tbLngble h3 a{
         width: 68%;
         }*/
@@ -2897,9 +2936,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         .nwsTitHm, .ldIt a, .ldIt2 a, .tcbIt li a, .ngd .ldItHm .stt, .tbCmg1 ul li .Atv, .liveCnt .artBd-child p{ 
             font-size: 18px; /* 07/12/2018 dangtq sửa_font_size */
         }
-        .tttd>header a, .tcbds >header a, .tbLngble h3, .nguontin, div.title-bv a, p, .ngd h4, .titTp a, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, .lady a.title.tt{
+        /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+        .manyReader .tbLngrn, .sk .tbLngble, .tbLngble>header, .articleBody .tuht_show, .tttd>header a, .tcbds >header a, .tbLngble h3, .nguontin, div.title-bv a, p, .ngd h4, .titTp a, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, .lady a.title.tt{
             font-size: 20px;
         }
+        /*End 6/2/2020: dangtq toi_uu_heading_tag*/
         .menutp ul li{
             padding: 10px 2px;
         }
@@ -2938,9 +2979,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
     /*end 11/12/2018 dangtq sua_sapo_tin_lien_quan_mot_bai*/
     @media screen and (min-width: 414px) and (max-width: 487px) {
         /*begin 11/01/2019 dangtq Tối ưu trang bài viết - Phiên bản mobile*/
-        .sk .tbLngble h3{
+        /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+        .sk .tbLngble h3, .sk .tbLngble{
             max-height: 61px;
         }
+        /*End 6/2/2020: dangtq toi_uu_heading_tag*/
         /*end 11/01/2019 dangtq Tối ưu trang bài viết - Phiên bản mobile*/
         /* begin 07/12/2018 dangtq sửa_font_size */
         .liveCnt .vBtn{
@@ -2983,9 +3026,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         .txtBnrHor span{
             font-size: 13px;
         }
-        .sk h3 span{
+        /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+        .sk h3 span, .sk .tbLngble span{
             width: 29%;
         }
+        /*End 6/2/2020: dangtq toi_uu_heading_tag*/
     /*.sk .tbLngble h3 a{
         width: 69%;
         }*/
@@ -3012,12 +3057,14 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
             font-size: 17px;
         }
         /*End 18/11/2019: dangtq thay_background_sea_games_30*/
-        .nwsTitHm, .vidIt.first a, .ldIt a, .ldIt2 a, .tcbIt li a, .ngd .ldItHm .stt, .tbCmg1 ul li .Atv, p, .nguontin, .liveCnt .artBd-child p{
+        /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+        .articleBody .tuht_show, .nwsTitHm, .vidIt.first a, .ldIt a, .ldIt2 a, .tcbIt li a, .ngd .ldItHm .stt, .tbCmg1 ul li .Atv, p, .nguontin, .liveCnt .artBd-child p{
             font-size: 20px; /* 07/12/2018 dangtq sửa_font_size */
         }
-        .tttd>header a, .tcbds >header a, .tbLngble h3, div.title-bv a, .ngd h4, .titTp a, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, .lady a.title.tt{
+        .manyReader .tbLngrn, .sk .tbLngble, .tbLngble>header, .tttd>header a, .tcbds >header a, .tbLngble h3, div.title-bv a, .ngd h4, .titTp a, .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, .lady a.title.tt{
             font-size: 22px;
         }
+        /*End 6/2/2020: dangtq toi_uu_heading_tag*/
         .menutp ul li{
             padding: 10px 2px;
         }
@@ -4735,8 +4782,8 @@ strong.timeUpdate *{
 .artBd{
     padding-top: 5px;
 }
-.articleBody > .mrT15.mrB15, .icoSocial{
-    margin: 0!important;
+article#div_news_content > .mrT15.mrB15, .articleBody > .mrT15.mrB15, .icoSocial{
+    margin: 0!important; /* 27/11/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_album_anh */
 }
 .icoSocial{
     padding: 15px 10px;
@@ -4744,10 +4791,17 @@ strong.timeUpdate *{
 /* End 16/10/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_tuong_thuat */
 
 /* Begin 21/10/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_viet_thuong */
-.articleBody>p{
-    background-color: #fff;
+.articleBody>p, .albumCnt{
+    background-color: #fff; /* 27/11/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_album_anh */
 }
 /* End 21/10/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_viet_thuong */
+
+/* Begin 27/11/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_album_anh */
+.albumCnt > p:nth-child(1){
+    margin: 0;
+}
+/* End 27/11/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_album_anh */
+
 /* Begin: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
 p.linkOrigin, p.linkOrigin * {
     font-size: 14px;
@@ -4792,133 +4846,183 @@ p.linkOrigin .icoDrop {
 }   }
 /* End: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
 
+/*Begin 3/12/2019: dangtq fix_loi_banner_inpage_chen_len_noi_dung_bai_tuong_thuat_the_thao*/
+.liveCnt .atn{
+    background-color: #fff;
+}
+.liveCnt .atn .tttt-set .blk{
+    padding: 0;
+}
+#div_news_content .liveCnt .atn .tttt-set .blk p{
+    padding: 0 10px;
+}
+/*End 3/12/2019: dangtq fix_loi_banner_inpage_chen_len_noi_dung_bai_tuong_thuat_the_thao*/
+
+/* Begin 26/12/2019: dangtq logo_tai_tro_nippont */
+@media screen and (width: 375px){
+    .tbCmg .logoTaitro{
+        right: -35px;
+    }
+}
+/* Begin 26/12/2019: dangtq logo_tai_tro_nippont */
+
 /*Begin 6/1/2020 AnhTT toi_uu_giao_dien_menu_ngang_mobile*/
 .boxCateHead.mainSec .mnWrap {
-  padding: 0 10px 3px;
-  border-top: 0;
-  border-bottom: 2px solid #7ab445;
-  margin: 15px 0 0;
-  position: relative; }
-  .boxCateHead.mainSec .mnWrap a {
-    color: #7ab445; }
-  .boxCateHead .mnWrap .rsbr2 a {
-      color: #acc59b; }
-.boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
-  top: 11%;
-  margin-top: 0; }
-  @media screen and (max-width: 320px) {
-    .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
-      top: 7%; } }
-  @media screen and (min-width: 414px) {
-    .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
-      top: 13%; } }
-  @media screen and (min-width: 480px) {
-    .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
-      top: 11%; } }
-  @media screen and (min-width: 640px) {
-    .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
-      top: 13%; } }
-  @media screen and (min-width: 736px) {
-    .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
-      top: 15%; } }
-.boxCateHead .icoBars {
-  background: url(http://t.24h.com.vn/upload/dangtq/24h.com.vn/mobile/images/memu-icon.png) no-repeat;
-  width: 20px;
-  height: 21px;
-  top: 10px;
-  right: 10px; }
-.boxCateHead .listMenuChild {
-  background-color: #f7f7f7;
-  padding: 10px;
-  display: block; }
-  .boxCateHead .listMenuChild li {
-    border-right-color: #d7d7d7; }
-    .boxCateHead .listMenuChild li a {
-      font-size: 14px;
-      color: #6b6b6b; }
-      @media screen and (max-width: 320px) {
-        .boxCateHead .listMenuChild li a {
-          font-size: 12px; } }
-      @media screen and (min-width: 414px) {
-        .boxCateHead .listMenuChild li a {
-          font-size: 16px; } }
-      @media screen and (min-width: 480px) {
-        .boxCateHead .listMenuChild li a {
-          font-size: 14px; } }
-      @media screen and (min-width: 640px) {
-        .boxCateHead .listMenuChild li a {
-          font-size: 16px; } }
-      @media screen and (min-width: 736px) {
-        .boxCateHead .listMenuChild li a {
-          font-size: 18px; } }
-.boxCateHead .logoBrand {
-  font-size: 14px;
-  padding: 0 7px;
-  border-radius: 3px;
-  position: absolute;
-  bottom: 6px;
-  right: 40px; }
-  .boxCateHead .logoBrand img {
-    vertical-align: -6px; }
-  @media screen and (max-width: 320px) {
-    .boxCateHead .logoBrand {
-      font-size: 12px; } }
-  @media screen and (min-width: 414px) {
-    .boxCateHead .logoBrand {
-      font-size: 16px; } }
-  @media screen and (min-width: 480px) {
-    .boxCateHead .logoBrand {
-      font-size: 14px; } }
-  @media screen and (min-width: 640px) {
-    .boxCateHead .logoBrand {
-      font-size: 16px; } }
-  @media screen and (min-width: 736px) {
-    .boxCateHead .logoBrand {
-      font-size: 18px; } }
-      .boxCateHead ul{
-        position: static;
-    }
- .boxCateHead .listMenuChild.cap2 {
-    position: relative;
-    padding-left: 23px;
-    overflow: hidden;
-    line-height: 18px;
-    }
-    .boxCateHead .listMenuChild.cap2:after {
-      content: '';
+    padding: 0 10px 3px;
+    border-top: 0;
+    border-bottom: 2px solid #7ab445;
+    margin: 15px 0 0;
+    position: relative; }
+    .boxCateHead.mainSec .mnWrap a {
+      color: #7ab445; }
+    .boxCateHead .mnWrap .rsbr2 a {
+        color: #5E9236; }
+  .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+    top: 10px;
+    margin-top: 0; }
+    @media screen and (max-width: 320px) {
+      .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+        top: 7%; } }
+    @media screen and (min-width: 414px) {
+      .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+        top: 13%; } }
+    @media screen and (min-width: 480px) {
+      .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+        top: 11%; } }
+    @media screen and (min-width: 640px) {
+      .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+        top: 13%; } }
+    @media screen and (min-width: 736px) {
+      .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
+        top: 15%; } }
+  .boxCateHead .icoBars {
+    background: url('//cdn.24h.com.vn/images/memu-icon.png') no-repeat;
+    width: 20px;
+    height: 21px;
+    top: 10px;
+    right: 10px; }
+  .boxCateHead .listMenuChild {
+    background-color: #f7f7f7;
+    padding: 10px;
+    display: block;
+    word-spacing: -4px; }
+    .boxCateHead .listMenuChild li {
+      border-right-color: #d7d7d7;
       display: inline-block;
-      height: 16px;
-      width: 16px;
-      position: absolute;
-      top: -11px;
-      left: 20px;
-      transform: rotate(45deg);
-      background-color: #7ab445; }
-    .boxCateHead .listMenuChild.cap2 a {
-      font-size: 14px;
-      color: #78b43d;
+        word-spacing: 0;
+        padding-right: 5px;
+        margin-right: 5px; }
+      .boxCateHead .listMenuChild li a {
+        font-size: 14px;
+        color: #6b6b6b; }
+        @media screen and (max-width: 320px) {
+          .boxCateHead .listMenuChild li a {
+            font-size: 12px; } }
+        @media screen and (min-width: 414px) {
+          .boxCateHead .listMenuChild li a {
+            font-size: 16px; } }
+        @media screen and (min-width: 480px) {
+          .boxCateHead .listMenuChild li a {
+            font-size: 14px; } }
+        @media screen and (min-width: 640px) {
+          .boxCateHead .listMenuChild li a {
+            font-size: 16px; } }
+        @media screen and (min-width: 736px) {
+          .boxCateHead .listMenuChild li a {
+            font-size: 18px; } }
+  .boxCateHead .logoBrand {
+    font-size: 14px;
+    padding: 0 7px;
+    border-radius: 3px;
+    position: absolute;
+    bottom: 6px;
+    right: 40px; }
+    /*Beign 4/2/2020: dangtq*/
+    .boxCateHead .logoBrand img {
+      /*vertical-align: -6px;*/
+      max-height: 18px;
+      vertical-align: sub;
+      margin-left: 3px; }
+      /*End 4/2/2020: dangtq*/
+    @media screen and (max-width: 320px) {
+      .boxCateHead .logoBrand {
+        font-size: 12px; } }
+    @media screen and (min-width: 414px) {
+      .boxCateHead .logoBrand {
+        font-size: 16px; } }
+    @media screen and (min-width: 480px) {
+      .boxCateHead .logoBrand {
+        font-size: 14px; } }
+    @media screen and (min-width: 640px) {
+      .boxCateHead .logoBrand {
+        font-size: 16px; } }
+    @media screen and (min-width: 736px) {
+      .boxCateHead .logoBrand {
+        font-size: 18px; } }
+        .boxCateHead ul{
+          position: static;
       }
-      @media screen and (max-width: 320px) {
-        .boxCateHead .listMenuChild.cap2 a {
-          font-size: 12px; } }
-      @media screen and (min-width: 414px) {
-        .boxCateHead .listMenuChild.cap2 a {
-          font-size: 16px; } }
-      @media screen and (min-width: 480px) {
-        .boxCateHead .listMenuChild.cap2 a {
-          font-size: 14px; } }
-      @media screen and (min-width: 640px) {
-        .boxCateHead .listMenuChild.cap2 a {
-          font-size: 16px; } }
-      @media screen and (min-width: 736px) {
-        .boxCateHead .listMenuChild.cap2 a {
-          font-size: 18px; } }
-          .nwsItAtcl .bxMncm{
-            margin: 0px -10px 5px;
-            border-left: none;
-            border-right: none;
-          }
-          .boxCateHead .mnCM-close{
-            top: 9%;
+   .boxCateHead .listMenuChild.cap2 {
+      position: relative;
+      padding-left: 23px;
+      overflow: hidden;
+      line-height: 18px;
+      }
+      .boxCateHead .listMenuChild.cap2:after {
+        content: '';
+        display: inline-block;
+        height: 16px;
+        width: 16px;
+        position: absolute;
+        top: -11px;
+        left: 20px;
+        transform: rotate(45deg);
+        background-color: #7ab445; }
+        /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+      .boxCateHead .listMenuChild.cap2 a {
+        font-size: 14px;
+        color: #78b43d;
+        word-spacing: 0;
+        font-weight: bold;
         }
-/*End 6/1/2020 AnhTT toi_uu_giao_dien_menu_ngang_mobile*/
+        /*End 6/2/2020: dangtq toi_uu_heading_tag*/
+        @media screen and (max-width: 320px) {
+          .boxCateHead .listMenuChild.cap2 a {
+            font-size: 12px; } }
+        @media screen and (min-width: 414px) {
+          .boxCateHead .listMenuChild.cap2 a {
+            font-size: 16px; } }
+        @media screen and (min-width: 480px) {
+          .boxCateHead .listMenuChild.cap2 a {
+            font-size: 14px; } }
+        @media screen and (min-width: 640px) {
+          .boxCateHead .listMenuChild.cap2 a {
+            font-size: 16px; } }
+        @media screen and (min-width: 736px) {
+          .boxCateHead .listMenuChild.cap2 a {
+            font-size: 18px; } }
+            .nwsItAtcl .bxMncm{
+              margin: 0px -10px 5px;
+              border-left: none;
+              border-right: none;
+            }
+            .boxCateHead .mnCM-close{
+              top: 9%;
+          }
+          .seMr{
+            padding: 0;
+            margin-bottom: 10px;
+        }
+  /*End 6/1/2020 AnhTT toi_uu_giao_dien_menu_ngang_mobile*/
+
+  /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+  .articleBody .tuht_show{
+    margin: 0;
+    padding: 0 10px;
+    font-weight: normal;
+}
+.articleBody .sapo.tuht_show{
+    font-weight: bold;
+}
+/*End 6/2/2020: dangtq toi_uu_heading_tag*/
+

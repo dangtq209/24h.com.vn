@@ -515,9 +515,6 @@ article {
 	line-height: 1.2;
 }
 /*begin 04/01/2019 dangtq Bỏ nền gạch sọc chéo dưới bài PR box tin*/
-.blqPr {
-	/*background: url(//cdn.24h.com.vn/images/2014/box4T-bg.png) repeat;*/
-}
 .extTit span {
 	font-size: 12px;
 	color: #757575;
@@ -1044,9 +1041,6 @@ article {
 	color: #fff;
 	/*float: left;*/
 }
-.tbCmg ul li.last {
-	/*border-right: 0;*/
-}
 /*.tbCmg ul li.tbMn.first {
 	padding-left: 10px;
 	margin-left: -5px;
@@ -1355,7 +1349,7 @@ article {
 	}
 	.arrowPageUp {
 		position: fixed;
-		bottom: 60px;
+		bottom: 75px; /*28/11/2019: dangtq chinh_nut_tro_ve_dau_trang_tang_len_15px*/
 		right: 0;
 	}
 	/*---End footer---*/
@@ -1461,8 +1455,7 @@ article {
 		}
 
 
-		@media only screen and (max-width: 320px) {
-		}
+		
 		@media only screen and (min-width: 321px) and (max-width: 479px) {
 			.txtBnrHor span {
 				font-size: 10px;
@@ -1561,9 +1554,6 @@ article {
 			}
 			.pgS2 a.Prv {
 				background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 0 -620px;
-			}
-			.tmPst a {
-				/* background-position: 0 -116px; */
 			}
 			.nwsTitSlHm {
 				background-position: 0 -1528px;  
@@ -2271,10 +2261,7 @@ article {
 	background: url('//cdn.24h.com.vn/images/sprites2018_5-2018.png') -50px -50px;
 }
 /*begin 03/01/2019 dangtq Tối ưu box bài PR nhãn hàng*/
-.vf{
-	/*background: url(//cdn.24h.com.vn/images/Rectangle-533-092018.png) no-repeat center;
-	background-size: 101% 101%;*/
-}
+
 /*end 03/01/2019 dangtq Tối ưu box bài PR nhãn hàng*/
 .vf .swiper-active-switch{
 	background: #c90a09;
@@ -2305,9 +2292,7 @@ article {
 	font-weight: bold;
 }
 @media screen and (max-width: 320px) {
-	.icoTit:before{
-		/*bottom: 0;*/
-	}
+	
 	/*.mainSec .mnWrap .inner {
 		max-height: 55px;
 		}*/
@@ -2504,19 +2489,26 @@ article {
 	}
 	/*end 16/11/2018 dangtq XLCYCMHENG_33349_quan_tri_icon_hot_new_menu_ngang_header*/
 	/* Begin: bai pr vi tri banner infeed */
+	/* Begin 16/7/2019: dangtq fix_can_giua_anh_banner_infeed */
 	.infeed{
 		width: 100%;
 		display: inline-block;
 		background: #f2f2f2;
 		border-width: 0;
 		text-decoration: none;
+		position: relative;
+		padding-left: 110px;
+		min-height: 75px;
 	}
 	.infeed .img{
 		width: 100px;
-		margin-right: 10px;
-		float: left;
-		display: block;
+		height: 75px;
+		position: absolute;
+		top: 50%;
+		margin-top: -38px;
+		left: 0;
 	}
+	/* End 16/7/2019: dangtq fix_can_giua_anh_banner_infeed */
 	.infeed .img img{
 		width: 100%;
 		display: block;
@@ -3014,10 +3006,6 @@ article {
 /* End tổng hợp các độ phân giải màn hình - dangtq 2019 */
 
 /*Begin template box pr 8,9 */
-.prTemp8 article {
-  margin-bottom: 10px; }
-  .prTemp8 article:last-child {
-    margin-bottom: 0; }
 .prTemp8 article .imgNwsMdm {
   width: 140px;
   height: 105px; }
@@ -3043,32 +3031,18 @@ article {
     .prTemp8 article .nwsTitHm h2 {
       font-size: 20px; } }
 .prTemp8 .lin {
-  border-color: #eeeeee;}
+  border-color: #eeeeee;
+  margin-top: 10px; }
 .prTemp8 .swiper-active-switch {
   background-color: #78b43d; }
   .prTemp8 .pagination {
   margin-top: 0; }
-  .prTemp8 .txtBnrHor span {
-  font-size: 9px; }
-  @media screen and (min-width: 360px) {
-    .prTemp8 .txtBnrHor span {
-      font-size: 10px; } }
-  @media screen and (min-width: 480px) {
-    .prTemp8 .txtBnrHor span {
-      font-size: 12px; } }
-  @media screen and (min-width: 600px) {
-    .prTemp8 .txtBnrHor span {
-      font-size: 14px; } }
-  @media screen and (min-width: 700px) {
-    .prTemp8 .txtBnrHor span {
-      font-size: 16px; } }
 
 .prTemp9 .list {
   display: flex;
   justify-content: space-between; }
   .prTemp9 .list article {
-    width: 166px; 
-	margin-bottom: 0;}
+    width: 166px; }
     .prTemp9 .list article .imgNwsMdm {
       float: none;
       width: 100%;
@@ -3119,7 +3093,11 @@ article {
       line-height: 1.2; }
 .infeed_01.infeed_01b .label, .infeed_01.infeed_01b .content span.text,
   .infeed_01.infeed_01b span.text {
-    color: #a1a1a1; }
+    color: #a1a1a1; 
+  }
+ .infeed_01.infeed_01b .content span.text{ 
+    text-transform: none;
+ }
 /* infeed_02 */
 .infeed_02 {
   flex-direction: row-reverse;
@@ -3135,27 +3113,30 @@ article {
 .catfish_banner {
     position: fixed !important;
     bottom: 0;
-    left: 0;
+    left: 50%;
+    transform: translateX(-50%);
     line-height: 0;
     z-index: 9999 !important;
 }
-
 /* Begin 26/12/2019: dangtq logo_tai_tro_nippont */
 .tbCmg ul{
-	position: relative;
+	/*position: relative;*/
 	overflow: visible;
+}
+.wlogoTaiTro{
+	display: inline-block;
+    position: relative;
 }
 .tbCmg .logoTaitro {
     margin: 0;
     padding: 0;
     position: absolute;
-    /* bottom: 5px;
-	right: -43px; */
-	top: 45%;
-	transform: translateY(-50%);
+	right: -70px;
+    top: 50%;
+    transform: translateY(-50%);
 }
 .tbCmg .logoTaitro img {
-    max-height: 15px;
+    max-height: 22px;
     vertical-align: middle; 
 }
 @media screen and (max-width: 320px){

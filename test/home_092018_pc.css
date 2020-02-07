@@ -188,6 +188,7 @@ and open the template in the editor.
     	color: #ff0000;
     	display: inline-block;
     	background: url(//cdn.24h.com.vn/images/Ellipse-645.png) no-repeat left;
+
     	padding-left: 10px;
     	margin-bottom: 5px;
     }
@@ -424,10 +425,10 @@ and open the template in the editor.
     /*begin tối ưu CSS sau triển khai giao diện mới*/
     .vdcl .divVdL{
     	width: 275px;
-        height: 336px;
-        margin: 0;
-        padding-left: 10px;
-        border-left: 1px solid #ddd;
+    	height: 336px;
+    	margin: 0;
+    	padding-left: 10px;
+    	border-left: 1px solid #ddd;
     }
     /*end tối ưu CSS sau triển khai giao diện mới*/
     .vdcl .divVdR{
@@ -641,7 +642,6 @@ a.flRt.seMore{
     opacity: 0.6!important;
 }
 /* end 24/10/2018 DangTQ */
-
 /*Begin 13-03-2019 Trungcq XLCYCMHENG_34322_code_trang_thong_tin_can_biet*/
 .boxTtcb{
     margin-top: 13px;
