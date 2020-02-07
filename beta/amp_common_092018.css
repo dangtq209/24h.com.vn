@@ -1047,9 +1047,12 @@ end toi_uu_css_amp dangtq 2019*/
         display:none;
 }
     /* begin 10/10/2018 by dangtq */
-    .nwsItHm>.nwsTitHm>a, .lady .nwsItHm>.evtBxTit>a{
+
+    /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+    .nwsItHm>.nwsTitHm>a{
         font-size: 18px;
     }
+    /*End 6/2/2020: dangtq toi_uu_heading_tag*/
     .nwsItHm>.tmPst>a{
         font-size: 14px;
         margin-bottom: 10px;

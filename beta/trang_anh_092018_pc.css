@@ -349,14 +349,16 @@ ul.thumbnavi li{float:left;margin:3px 2px;}
     border-bottom: 1px solid #363636;
     margin: 8px 0;
 }
-.bstak .tit{
+/*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
+.bstak .tit, .bstak>header{
     font-size: 18px;
     font-weight: 600;
     color: #fff;
     text-transform: uppercase;
-    display: inline-block;
+    /*display: inline-block;*/
     margin-bottom: 15px;
 }
+/*End 6/2/2020: dangtq toi_uu_heading_tag*/
 .bstak .btn{
     display: inline-block;
     float: right;
