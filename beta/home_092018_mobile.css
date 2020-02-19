@@ -151,7 +151,6 @@ and open the template in the editor.
             .m_banner_show > div {
                 width: 100% !important;
                 overflow: hidden;
-				text-align: -webkit-center;
             }
         }
         @media only screen and (min-width: 668px) {
@@ -1449,7 +1448,7 @@ header */
           }
       }
     .boxCateHead.boxCateHead_3 .icoBars {
-      background-image: url(//cdn.24h.com.vn/images/memu-icon2.png);
+      background-image: url(http://t.24h.com.vn/upload/dangtq/24h.com.vn/mobile/images/memu-icon2.png);
       top: 6px; }
     .boxCateHead.boxCateHead_3 .listMenuChild {
       background-color: #ecf5e2; 
@@ -1490,7 +1489,7 @@ header */
       .boxCateHead .mnCM-close {
         top: 4%; } }
     .boxCateHead .icoBars {
-      background: url(//cdn.24h.com.vn/images/memu-icon2.png) no-repeat;
+      background: url(http://t.24h.com.vn/upload/dangtq/24h.com.vn/mobile/images/memu-icon2.png) no-repeat;
       width: 20px;
       height: 21px;
       top: 10px;
@@ -1534,3 +1533,42 @@ header */
                   border-right: none;
               }
   /*End 6/1/2020 AnhTT toi_uu_giao_dien_menu_ngang_mobile*/
+  /*Begin AnhTT 13/2/2020 toi_uu_box_the_thao*/
+.boxCateHead .inner li:first-child {
+  border-right: 0;
+  padding-right: 0; }
+  /*Begin 18/2/2020: dangtq toi_uu_box_the_thao*/
+.boxCateHead .mnWrap .sport a {
+  background-color: #8FC554;
+  color: #fff !important;
+  padding: 0 10px;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 14px; }
+  @media screen and (max-width: 320px) {
+    .boxCateHead .mnWrap .sport a{
+        font-size: 12px;
+    }
+}
+@media screen and (min-width: 414px) {
+    .boxCateHead .mnWrap .sport a{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 480px) {
+    .boxCateHead .mnWrap .sport a{
+        font-size: 14px;
+    }
+}
+@media screen and (min-width: 640px) {
+    .boxCateHead .mnWrap .sport a{
+        font-size: 16px;
+    }
+}
+@media screen and (min-width: 736px) {
+    .boxCateHead .mnWrap .sport a{
+        font-size: 18px;
+    }
+}
+/*End 18/2/2020: dangtq toi_uu_box_the_thao*/  
+/*End AnhTT 13/2/2020 toi_uu_box_the_thao*/
