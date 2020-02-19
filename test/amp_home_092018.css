@@ -1262,7 +1262,8 @@ a.flRt.seMore{
       .boxCateHead .listMenuChild li a {
         font-size: 14px;
         color: #6b6b6b; }
-        @media screen and (max-width: 320px) {
+        /*Begin 18/2/2020: dangtq toi_uu_box_the_thao*/
+        /*@media screen and (max-width: 320px) {
           .boxCateHead .listMenuChild li a {
             font-size: 12px; } }
         @media screen and (min-width: 414px) {
@@ -1276,5 +1277,38 @@ a.flRt.seMore{
             font-size: 16px; } }
         @media screen and (min-width: 736px) {
           .boxCateHead .listMenuChild li a {
-            font-size: 18px; } }
+            font-size: 18px; } }*/
 /*End 6/1/2020 AnhTT toi_uu_giao_dien_menu_ngang_mobile*/
+
+/*Begin AnhTT 13/2/2020 toi_uu_box_the_thao*/
+.boxCateHead .inner li:first-child {
+  border-right: 0;
+  padding-right: 0; }
+.boxCateHead .sport a {
+  background-color: #8FC554;
+  padding: 0 10px;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 14px; }
+  @media screen and (max-width: 320px) {
+      .boxCateHead .listMenuChild li a, .boxCateHead .mnWrap .sport a {
+        font-size: 12px; }
+    }
+    @media screen and (min-width: 414px) {
+      .boxCateHead .listMenuChild li a, .boxCateHead .mnWrap .sport a {
+        font-size: 16px; }
+    }
+    @media screen and (min-width: 480px) {
+      .boxCateHead .listMenuChild li a, .boxCateHead .mnWrap .sport a {
+        font-size: 14px; }
+    }
+    @media screen and (min-width: 640px) {
+      .boxCateHead .listMenuChild li a, .boxCateHead .mnWrap .sport a {
+        font-size: 16px; }
+    }
+    @media screen and (min-width: 736px) {
+      .boxCateHead .listMenuChild li a, .boxCateHead .mnWrap .sport a {
+        font-size: 18px; }
+    }
+    /*End 18/2/2020: dangtq toi_uu_box_the_thao*/
+/*End AnhTT 13/2/2020 toi_uu_box_the_thao
