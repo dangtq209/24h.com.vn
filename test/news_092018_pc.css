@@ -1647,6 +1647,11 @@ main */
 	margin-bottom: 16px;
 	display: block;
 }
+/*Begin 26/3/2020: dangtq fix_khoang_cach_ky_tu_tieu_de_bai_viet_chrome*/
+.atclTitD .clrTit:not(*:root){
+	word-spacing: 1px;
+}
+/*End 26/3/2020: dangtq fix_khoang_cach_ky_tu_tieu_de_bai_viet_chrome*/
 .txtCtD p{
 	font-size: 17px;
 }
@@ -4127,11 +4132,14 @@ p.linkOrigin .icoDrop {
 .ques_answ * {
     font-size: 15px; 
 }
+.ques_answ>p{
+	margin: 10px 0;
+}
 .ques_answ .doctorAnswer {
   background-color: #f2f2f2;
   padding: 12px 20px; }
-  .ques_answ .doctorAnswer .inner p {
-    margin: 0; }
+  /*.ques_answ .doctorAnswer .inner p {
+    margin: 0; }*/
 .ques_answ .readerOpinionTit {
     background-color: #d7d7d7;
     margin-bottom: 18px;
@@ -4158,7 +4166,8 @@ p.linkOrigin .icoDrop {
     background-color: #d7d7d7;
     padding: 20px 0;
     margin-bottom: 25px;
-    line-height: 1.4; 
+    line-height: 1.4;
+    color: #333; 
 }
 .ques_answ_blur {
     position: fixed;
@@ -4235,5 +4244,22 @@ p.linkOrigin .icoDrop {
     border-radius: 25px;
     cursor: pointer;
     margin-top: 10px; 
+}
+.ques_answ .inner img{
+	max-width: 100%;
+}
+.ques_answ .readerOpinionCont .inner {
+    margin: 15px 0;
+}
+.ques_answ .more1 {
+	display: inline-block;
+	background: #ebebeb;
+	text-align: center;
+	color: #333;
+	font-size: 16px;
+	width: 340px;
+	height: 40px;
+	line-height: 40px;
+	margin-bottom: 15px;
 }
 /* End: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */

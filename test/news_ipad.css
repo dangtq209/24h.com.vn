@@ -2687,11 +2687,14 @@ p.linkOrigin .icoDrop {
 
 .ques_answ * {
   font-size: 18px; }
+  .ques_answ>p{
+    margin: 10px 0;
+}
 .ques_answ .doctorAnswer {
   background-color: #f2f2f2;
   padding: 12px 20px; }
-  .ques_answ .doctorAnswer .inner p {
-    margin: 0; }
+  /*.ques_answ .doctorAnswer .inner p {
+    margin: 0; }*/
 .ques_answ .readerOpinionTit {
   background-color: #d7d7d7;
   margin-bottom: 18px;
@@ -2748,7 +2751,8 @@ p.linkOrigin .icoDrop {
       position: absolute;
       top: -15px;
       right: -15px;
-      border: 0; }
+      border: 0;
+      text-align: center; }
     .ques_answ_blur .form label {
       display: block;
       margin-bottom: 5px; }
@@ -2779,4 +2783,21 @@ p.linkOrigin .icoDrop {
     border-radius: 25px;
     cursor: pointer;
     margin-top: 10px; }
+    .ques_answ .inner img{
+        max-width: 100%;
+    }
+    .ques_answ .readerOpinionCont .inner {
+        margin: 15px 0;
+    }
+    .ques_answ .more1 {
+        display: inline-block;
+        background: #ebebeb;
+        text-align: center;
+        color: #333;
+        font-size: 16px;
+        width: 340px;
+        height: 40px;
+        line-height: 40px;
+        margin-bottom: 15px;
+    }
 /* End: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */

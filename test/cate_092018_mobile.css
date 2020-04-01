@@ -2141,3 +2141,11 @@
           top: 9%;
       }
     /*End 6/1/2020 AnhTT toi_uu_giao_dien_menu_ngang_mobile*/
+
+    /*Begin AnhTT 28/2/2020 toi_uu_breadcrum_cm_cap1*/
+    .wlogoTaiTroCap1 .logoTaitro {
+        right: auto;
+        top: 44%;
+        margin-left: 3px;
+    }
+    /*End AnhTT 28/2/2020 toi_uu_breadcrum_cm_cap1*/

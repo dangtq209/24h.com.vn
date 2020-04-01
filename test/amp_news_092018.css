@@ -2515,15 +2515,15 @@ p.linkOrigin {
   display: flex; }
   .disFlex img {
     margin-right: 10px; }
-.ques_answ * {
+.doctorAnswer *, .readerOpinionTit *, .readerOpinionCont *, .ques_answ .note {
   font-size: 17px; }
-  .ques_answ .txtMoi, .ques_answ .txtMoi * {
-  font-size: 20px; }
+  /*.ques_answ>p, .ques_answ>p * {
+  font-size: 20px; }*/
 .ques_answ .doctorAnswer {
   background: #f2f2f2;
   padding: 12px 10px; }
-  .ques_answ .doctorAnswer .inner p {
-    margin: 0; }
+  /*.ques_answ .doctorAnswer .inner p {
+    margin: 0; }*/
 .ques_answ .readerOpinionTit {
   background: #d7d7d7;
   margin-bottom: 18px;
@@ -2538,14 +2538,25 @@ p.linkOrigin {
     line-height: 35px;
     padding-right: 10px; }
 .ques_answ .readerOpinionCont {
-  padding-left: 10px; }
+  padding: 0 10px; }
   .ques_answ .readerOpinionCont .lin {
     margin: 15px 0; }
 .ques_answ .note {
   background: #d7d7d7;
   padding: 20px 10px;
   margin: 0 10px 45px;
-  line-height: 1.4; }
+  line-height: 1.4;
+  color: #333; }
+  .readerOpinionCont img{
+    max-width: 100%;
+    object-fit: cover;
+}
+.readerOpinionCont .inner {
+    margin: 15px 0;
+}
+.doctorAnswer p:first-child, .readerOpinionCont p:first-child{
+    padding: 0;
+}
 /* End 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
 
 /*Begin 24/2/2020: dangtq doan_css_nay_luon_dat_o_cuoi_file*/
@@ -2590,10 +2601,10 @@ p.linkOrigin {
     p.linkOrigin, .boxCateHead .listMenuChild li a, .boxCateHead .logoBrand, .boxCateHead .listMenuChild.cap2 a {
       font-size: 12px; }
         /* Begin 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
-      .ques_answ * {
+      .doctorAnswer *, .readerOpinionTit *, .readerOpinionCont *, .ques_answ .note {
       font-size: 15px; }
-      .ques_answ .txtMoi, .ques_answ .txtMoi * {
-      font-size: 18px; } 
+      /*.ques_answ>p, .ques_answ>p * {
+      font-size: 18px; } */
       /* End 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
   }
 @media screen and (min-width: 375px) {
@@ -2613,10 +2624,10 @@ p.linkOrigin {
     p.linkOrigin, .boxCateHead .listMenuChild li a, .boxCateHead .logoBrand, .boxCateHead .listMenuChild.cap2 a {
       font-size: 16px; }
       /* Begin 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
-      .ques_answ * {
+      .doctorAnswer *, .readerOpinionTit *, .readerOpinionCont *, .ques_answ .note {
       font-size: 19px; }
-      .ques_answ .txtMoi, .ques_answ .txtMoi * {
-      font-size: 22px; } 
+      /*.ques_answ>p, .ques_answ>p * {
+      font-size: 22px; } */
       /* End 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
 }
 @media screen and (min-width: 480px) {
@@ -2631,10 +2642,10 @@ p.linkOrigin {
     p.linkOrigin, .boxCateHead .listMenuChild li a, .boxCateHead .logoBrand, .boxCateHead .listMenuChild.cap2 a {
       font-size: 14px; }
       /* Begin 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
-      .ques_answ * {
+      .doctorAnswer *, .readerOpinionTit *, .readerOpinionCont *, .ques_answ .note {
       font-size: 17px; }
-      .ques_answ .txtMoi, .ques_answ .txtMoi * {
-      font-size: 20px; }
+      /*.ques_answ>p, .ques_answ>p * {
+      font-size: 20px; }*/
       /* End 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */ 
 }
 @media screen and (min-width: 640px) {
@@ -2654,10 +2665,10 @@ p.linkOrigin {
     p.linkOrigin, .boxCateHead .listMenuChild li a, .boxCateHead .logoBrand, .boxCateHead .listMenuChild.cap2 a {
       font-size: 16px; }
       /* Begin 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
-      .ques_answ * {
+      .doctorAnswer *, .readerOpinionTit *, .readerOpinionCont *, .ques_answ .note {
       font-size: 19px; }
-      .ques_answ .txtMoi, .ques_answ .txtMoi * {
-      font-size: 22px; }
+      /*.ques_answ>p, .ques_answ>p * {
+      font-size: 22px; }*/
       /* End 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */ 
 }
 @media screen and (min-width: 736px) {
@@ -2669,7 +2680,7 @@ p.linkOrigin {
     .asiad-detail a, .tmPst.pt8, .nwsItHm>.tmPst>a, .evtBxSp .clrTit, .img_chu_thich_0407  {
         font-size: 20px;
     }
-    .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .vidIt a, .ques_answ .txtMoi, .ques_answ .txtMoi *{
+    .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .vidIt a{
         font-size: 24px;
     }
     /*.tmPst.pt8, .nwsItHm>.tmPst>a, .evtBxSp .clrTit{
@@ -2688,7 +2699,7 @@ p.linkOrigin {
     p.linkOrigin, .boxCateHead .listMenuChild li a, .boxCateHead .logoBrand, .boxCateHead .listMenuChild.cap2 a {
       font-size: 18px; }
       /* Begin 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
-      .ques_answ * {
+      .doctorAnswer *, .readerOpinionTit *, .readerOpinionCont *, .ques_answ .note {
       font-size: 21px; }
       /* End 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
 } 
