@@ -1312,3 +1312,96 @@ a.flRt.seMore{
     }
     /*End 18/2/2020: dangtq toi_uu_box_the_thao*/
 /*End AnhTT 13/2/2020 toi_uu_box_the_thao*/
+/*Begin AnhTT 13/2/2020 toi_uu_box_the_thao*/
+.boxCateHead .inner li:first-child {
+  border-right: 0;
+  padding-right: 0; }
+.boxCateHead .sport a {
+  background-color: #8FC554;
+  padding: 0 10px;
+  border-radius: 8px;
+  display: inline-block;
+  font-size: 14px; }
+  @media screen and (max-width: 320px) {
+      .boxCateHead .listMenuChild li a, .boxCateHead .mnWrap .sport a {
+        font-size: 12px; }
+    }
+    @media screen and (min-width: 414px) {
+      .boxCateHead .listMenuChild li a, .boxCateHead .mnWrap .sport a {
+        font-size: 16px; }
+    }
+    @media screen and (min-width: 480px) {
+      .boxCateHead .listMenuChild li a, .boxCateHead .mnWrap .sport a {
+        font-size: 14px; }
+    }
+    @media screen and (min-width: 640px) {
+      .boxCateHead .listMenuChild li a, .boxCateHead .mnWrap .sport a {
+        font-size: 16px; }
+    }
+    @media screen and (min-width: 736px) {
+      .boxCateHead .listMenuChild li a, .boxCateHead .mnWrap .sport a {
+        font-size: 18px; }
+    }
+    /*End 18/2/2020: dangtq toi_uu_box_the_thao*/
+/*End AnhTT 13/2/2020 toi_uu_box_the_thao*/
+/*Begin 17/3/2020 AnhTT bo_sung_tab_su_kien_dac_biet*/
+.boxCateHead.boxCateHead_3 .mnWrap .tabSkdb, .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
+  border-radius: 5px;
+  display: inline-block;
+  padding: 2px 5px 2px 0}
+  .tabSkdb img {
+    max-height: 25px;
+    vertical-align: middle;
+    margin-left: 5px; }
+    .tabSkdb span{
+        margin-left: 5px;
+        vertical-align: middle;
+    }
+
+.boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
+  font-size: 16px;
+  vertical-align: 2px;
+  margin-right: 5px; }
+.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
+  font-size: 16px;
+  color: #fff; }
+
+@media screen and (max-width: 320px) {
+  .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
+    font-size: 14px; }
+
+  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
+    font-size: 14px; } }
+@media screen and (min-width: 414px) {
+  .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
+    font-size: 18px; }
+
+  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
+    font-size: 18px; } }
+@media screen and (min-width: 480px) {
+  .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
+    font-size: 16px; }
+
+  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
+    font-size: 16px; } }
+@media screen and (min-width: 640px) {
+  .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
+    font-size: 18px; }
+
+  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
+    font-size: 18px; } }
+@media screen and (min-width: 736px) {
+  .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
+    font-size: 20px; }
+
+  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
+    font-size: 20px; } }
+
+    .boxCateHead.boxCateHead_3 .listMenuChild li.last{
+        padding-right: 0;
+        margin-right: 0;
+    }
+    .boxCateHead.boxCateHead_3 .mnWrap .inner{
+        max-height: none;
+    }
+/*Begin 17/3/2020 AnhTT bo_sung_tab_su_kien_dac_biet*/

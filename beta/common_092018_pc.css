@@ -125,10 +125,12 @@ img {
     height: 38px;
     padding: 12px 0 0 10px;
 }
-h1, h2, h3, h4, h5 {
+/*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
+h1, h2, h3, h4, h5, h6 {
     margin: 0;
     display: inline;
 }
+/*End 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
 ul, li {
     margin: 0;
     padding: 0;

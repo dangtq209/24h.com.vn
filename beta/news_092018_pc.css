@@ -1,8 +1,28 @@
-﻿/*Start duclv: fix_font_size_bai_viet*/
-.TextlinkBaiviet, .nwsHt a, .nwsHt strong {
-	font-size: 13px;
+﻿/*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
+.nwsHt, .nwsHt>table td{
+	font-size: 15px;
+	line-height: 1.6;
 }
+.nwsHt *{
+	line-height: normal;
+}
+/*Begin 14/4/2020: dangtq fix_chu_nho*/
+.nwsHt>*, .nwsHt p>*, .nwsHt p>*>*{
+	font-size: 15px;
+}
+/*End 14/4/2020: dangtq fix_chu_nho*/
+.nwsHt>table.tblCustom *{
+	font-size: 12px!important;
+}
+
+/*Start duclv: fix_font_size_bai_viet*/
+/*.TextlinkBaiviet, .nwsHt a, .nwsHt strong {
+	font-size: 13px;
+}*/
 /*End duclv: fix_font_size_bai_viet*/
+
+/*End 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
+
 .artleBk {
 	font-size: 16px;
 	font-weight: 600;
@@ -1650,6 +1670,11 @@ main */
 	margin-bottom: 16px;
 	display: block;
 }
+/*Begin 26/3/2020: dangtq fix_khoang_cach_ky_tu_tieu_de_bai_viet_chrome*/
+.atclTitD .clrTit:not(*:root){
+	word-spacing: 1px;
+}
+/*End 26/3/2020: dangtq fix_khoang_cach_ky_tu_tieu_de_bai_viet_chrome*/
 .txtCtD p{
 	font-size: 17px;
 }
@@ -3454,6 +3479,10 @@ footer */
     box-sizing: border-box;
     padding-right: 5px;
 }
+/*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
+.tabTThuat .sf, .tabTThuat .popupFilter{
+	line-height: 40px;
+}
 .tabTThuat .sf{
     font-size: 16px;
     color: #fff;
@@ -3465,7 +3494,9 @@ footer */
     background-color: #ff0000;
     padding-left: 12px;
     border-radius: 0 5px 5px 0;
+    line-height: 40px;
 }
+/*End 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
 /* End 6/9/2019: dangtq Toi_uu_giao_dien_box_tinh_huong_noi_bat_bai_tuong_thuat_bong_da */
 .popupTH{
 	position: absolute;
@@ -3877,13 +3908,17 @@ a.btnGuiBai{
 .viewVideoPlay, .twentytwenty-wrapper, .nwsUpgrade table, .nwsUpgrade div > img.news-image{
 	margin-bottom: 22px;
 }
-.img_chu_thich_0407{
+/*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
+.img_chu_thich_0407, .img_chu_thich_0407 *{
+	font-size: 14px!important;
 	color: #252525;
-    font-style: italic;
-    text-align: center;
-    margin-top: -15px;
-    font-size: 14px!important; 
+	font-style: italic;
+	text-align: center; 
 }
+.img_chu_thich_0407{
+	margin-top: -15px;
+}
+/*End 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
 /* End 30/7/2019: dangtq Toi_uu_ghi_chu_anh_trang_bai_viet */
 /* Begin: 27-08-2019 TuyenNT bo_sung_chuc_nang_xem_video_tinh_huong_ghi_ban_tren_bai_tuong_thuat_bd */
 .scoredCustom .row{

@@ -341,9 +341,12 @@ a.quiz-question-item-link {
     height: 30px;
     line-height: 30px;
 }
+/*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
 .see-quiz_3_box a {
     float: left;
+    line-height: 30px;
 }
+/*End 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
 .quiz_3_box-right .see-quiz_3_box a {
     color: #78b43d;
     float: left;

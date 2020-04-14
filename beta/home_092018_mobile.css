@@ -1572,3 +1572,71 @@ header */
 }
 /*End 18/2/2020: dangtq toi_uu_box_the_thao*/  
 /*End AnhTT 13/2/2020 toi_uu_box_the_thao*/
+/*Begin 17/3/2020 AnhTT bo_sung_tab_su_kien_dac_biet*/
+.tabSkdb {
+  border-radius: 5px;
+  display: inline-block !important;
+  padding: 2px 5px 2px 0 !important; }
+  .tabSkdb img {
+    max-height: 25px;
+    vertical-align: middle;
+    margin-left: 5px; }
+    .tabSkdb span{
+        margin-left: 5px;
+        vertical-align: middle;
+    }
+
+.boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
+  font-size: 16px;
+  vertical-align: 2px;
+  margin-right: 5px; }
+.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
+  font-size: 16px;
+  color: #fff; }
+
+@media screen and (max-width: 320px) {
+  .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
+    font-size: 14px; }
+
+  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
+    font-size: 14px; }
+
+    .tabSkdb img{
+    	max-height: 17px;
+    	} }
+@media screen and (min-width: 414px) {
+  .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
+    font-size: 18px; }
+
+  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
+    font-size: 18px; } }
+@media screen and (min-width: 480px) {
+  .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
+    font-size: 16px; }
+
+  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
+    font-size: 16px; } }
+@media screen and (min-width: 640px) {
+  .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
+    font-size: 18px; }
+
+  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
+    font-size: 18px; } }
+@media screen and (min-width: 736px) {
+  .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
+    font-size: 20px; }
+
+  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
+    font-size: 20px; } }
+
+    .boxCateHead.boxCateHead_3 .listMenuChild li:last-child{
+        padding-right: 0;
+        margin-right: 0;
+    }
+    /*.boxCateHead.boxCateHead_3 .listMenuChild li:last-child .tabSkdb, .boxCateHead.boxCateHead_3 .mnWrap .inner li .tabSkdb:last-child{
+        margin-top: 5px
+    }*/
+    .boxCateHead.boxCateHead_3 .mnWrap .inner{
+    	max-height: none;
+    }
+/*End 17/3/2020 AnhTT bo_sung_tab_su_kien_dac_biet*/
