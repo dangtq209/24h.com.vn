@@ -2611,17 +2611,19 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
 /*.ctTp{
     padding: 0 10px;
     }*/
+    /*Begin 10/4/2020: dangtq fix_bai_album_anh */
     .txtIl.txtIlImg{
-        margin-top: -22px;
+        margin: 0 -10px 10px!important;
         background-color: #ebebeb;
         padding: 10px!important;
         box-sizing: border-box;
         font-size: 14px;
         line-height: 1.5;
-        margin-left: -10px;
-        margin-right: -10px;
+        /*margin-left: -10px;
+        margin-right: -10px;*/
         text-align: center;
     }
+    /*End 10/4/2020: dangtq fix_bai_album_anh */
 /*.sk{
     margin-bottom: 20px;
     }*/
@@ -3608,9 +3610,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
             margin-left: -10px;
         }
     }
-	.albumCnt img.news-image {
+    /*Begin 10/4/2020: dangtq fix_bai_album_anh */
+	/*.albumCnt img.news-image {
 		display:inline-block !important;
-	}
+	}*/
+    /*End 10/4/2020: dangtq fix_bai_album_anh */
     /*end banner-in-image 04/03/2019 dangtq*/
 
     /*Begin XLCYCMHENG-34510 bổ sung template cho box PR độc quyền - 5/4/2019 dangtq*/
