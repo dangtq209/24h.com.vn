@@ -732,7 +732,7 @@ article {
 }
 .mnRt li a:first-child {
 	display: inline-block;
-	width: 80%;
+	/*width: 80%;*/ /*dangtq: 20/3/2020*/
 }
 .mnRt li a.home {
 	background: url(//cdn.24h.com.vn/images/m2014/images-small/sprites-small.png) no-repeat 15px -927px;

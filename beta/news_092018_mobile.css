@@ -54,7 +54,6 @@
     }
 }
 /*End 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
-
 /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
 .articleBody .tuht_show{
     font-size: 18px;
@@ -1637,7 +1636,6 @@ body, body section, footer{
     padding: 10px 0;
 }
 /*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
-
 .muclucTit {
     text-align: center;
 }
@@ -2613,19 +2611,17 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
 /*.ctTp{
     padding: 0 10px;
     }*/
-    /*Begin 10/4/2020: dangtq fix_bai_album_anh */
     .txtIl.txtIlImg{
-        margin: 0 -10px 10px!important;
+        margin-top: -22px;
         background-color: #ebebeb;
         padding: 10px!important;
         box-sizing: border-box;
         font-size: 14px;
         line-height: 1.5;
-        /*margin-left: -10px;
-        margin-right: -10px;*/
+        margin-left: -10px;
+        margin-right: -10px;
         text-align: center;
     }
-    /*End 10/4/2020: dangtq fix_bai_album_anh */
 /*.sk{
     margin-bottom: 20px;
     }*/
@@ -3266,7 +3262,7 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
     .bxDoRt {
         margin-left: 149px;
     }
-    /*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
+/*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
     .data-embed-code-quiz {
         padding-left: 10px;
         padding-right: 10px;
@@ -3612,11 +3608,9 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
             margin-left: -10px;
         }
     }
-    /*Begin 10/4/2020: dangtq fix_bai_album_anh */
-	/*.albumCnt img.news-image {
+	.albumCnt img.news-image {
 		display:inline-block !important;
-	}*/
-    /*End 10/4/2020: dangtq fix_bai_album_anh */
+	}
     /*end banner-in-image 04/03/2019 dangtq*/
 
     /*Begin XLCYCMHENG-34510 bổ sung template cho box PR độc quyền - 5/4/2019 dangtq*/
@@ -4870,7 +4864,7 @@ article#div_news_content > .mrT15.mrB15, .articleBody > .mrT15.mrB15, .icoSocial
     margin: 0!important; /* 27/11/2019: dangtq debug_banner_inpage_chen_len_noi_dung_bai_album_anh */
     background: #fff;
 }
-/*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
+/*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/										
 .icoSocial{
     padding: 15px 10px;
 }
@@ -4984,7 +4978,7 @@ p.linkOrigin .icoDrop {
       .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
         top: 15%; } }
   .boxCateHead .icoBars {
-    background: url('https://test.24h.com.vn/images/memu-icon.png') no-repeat;
+    background: url('//cdn.24h.com.vn/images/memu-icon.png') no-repeat;
     width: 20px;
     height: 21px;
     top: 10px;
@@ -5103,6 +5097,7 @@ p.linkOrigin .icoDrop {
         }
   /*End 6/1/2020 AnhTT toi_uu_giao_dien_menu_ngang_mobile*/
 
+
   /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
   .articleBody .tuht_show{
     margin: 0;
@@ -5113,6 +5108,9 @@ p.linkOrigin .icoDrop {
     font-weight: bold;
 }
 /*End 6/2/2020: dangtq toi_uu_heading_tag*/
+
+
+
 
     /*Begin AnhTT 28/2/2020 toi_uu_breadcrum_cm_cap1*/
     .wlogoTaiTroCap1 .logoTaitro {
@@ -5145,4 +5143,4 @@ p.linkOrigin .icoDrop {
     @media screen and (min-width: 736px) {
       .tblCustom * {
         font-size: 19px; } }
-    /*End 10/3/2020: dangtq toi_uu_table_bai_viet_thuong
+    /*End 10/3/2020: dangtq toi_uu_table_bai_viet_thuong*/

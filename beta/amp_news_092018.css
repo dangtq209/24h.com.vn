@@ -10,7 +10,6 @@
     margin: 0 -10px; /*9/4/2020: dangtq fix_banner_inpage_bi_lech*/
 }
 /*End 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
-
 /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
 .articleBody .tuht_show{
     font-size: 18px;
@@ -32,18 +31,13 @@
     padding: 0 10px;
 }*/
 /*End 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
-
-/*Begin 10/4/2020: dangtq fix_bai_album_anh */
 .articleBody .albumCnt .txtIlImg {
     padding: 10px;
-    margin: 0 -10px 10px;
+    margin-top: 0;
     font-size: 16px;
-    /*line-height: 1.5;*/
-    background: #ebebeb;
+    line-height: 1.5;
+    background-color: #ebebeb;
 }
-/*End 10/4/2020: dangtq fix_bai_album_anh */
-
-/* End 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
 
 /*begin toi_uu_css_amp dangtq 2019*/
 /*.atclRdSb .lind {
@@ -66,11 +60,9 @@
 }*/
 /*End 6/2/2020: dangtq toi_uu_heading_tag*/
 /*Start fix banner 18052018*/
-/* Begin 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
 .nwsHt {
-    background: #fff;
+    background-color: #fff;
 }
-/* End 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
 /*End fix banner 18052018*/
 
 /*Start bai viet lien quan*/
@@ -124,16 +116,14 @@
 /*end toi_uu_css_amp dangtq 2019*/
 
 /*begin 11/01/2019 dangtq Tối ưu trang bài viết - Phiên bản mobile*/
-/*Begin 10/4/2020: dangtq fix_bai_album_anh */
 .nguontin {
     font-size: 14px;
-    /*float: right;*/
-    margin: 10px;
-    text-align: right; /*begin toi_uu_css_amp dangtq 2019*/
-    /*margin-bottom: 10px;*/
+    float: right;
+    margin-right: 10px;
+    /*text-align: right;*/ /*begin toi_uu_css_amp dangtq 2019*/
+    margin-bottom: 10px;
     text-transform: none;
 }
-/*End 10/4/2020: dangtq fix_bai_album_anh */
 .nguontin em{
     font-style: normal;
     font-weight: normal;
@@ -451,22 +441,20 @@
     height: 29px;
 }
 /* end BangND 6-8-2018 XLCYCMHENG_32258_xay_dung_box_bxh_trang_chi_tiet_bai_viet */
-/* Begin 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
 .frmZplayer::-webkit-scrollbar {
     width: 10px;
-    background: #f5f5f5;
+    background-color: #f5f5f5;
 }
 .frmZplayer::-webkit-scrollbar-thumb {
     border-radius: 10px;
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,.3);
-    background: #a1a1a1;
+    background-color: #a1a1a1;
 }
 .frmZplayer::-webkit-scrollbar-track {
     -webkit-box-shadow: inset 0 0 6px rgba(0,0,0,0.3);
     border-radius: 10px;
-    background: #f5f5f5;
+    background-color: #f5f5f5;
 }
-/* End 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
 /*End video highlight*/
 
 /*begin toi_uu_css_amp dangtq 2019*/
@@ -533,14 +521,11 @@ blockquote {
 }
 
 /*---Start box nhieu nguoi doc---*/
-/* Begin 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
 .bxRdPsn {
     padding: 7px;
     border: 1px solid #f17920;
-    /*border-top: 6px solid #f17920;*/
-    border-top-width: 6px;
+    border-top: 6px solid #f17920;
 }
-/* End 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
 .tbLngrn {
     color: #f17920;
     border-bottom: 0;
@@ -1140,21 +1125,22 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
     text-align: right;
 }*/
 /*End toi_uu_css_amp dangtq 2019*/
-/*Begin 18/11/2019: dangtq thay_background_sea_games_30*/
+
 .asiadTit {
     height: 37px;
 
 
 
-    background: url('../images/sg30_top_bar2_mobile.jpg') no-repeat; /*18/11/2019: dangtq thay_background_sea_games_30*/
-    background-size: cover; /*18/11/2019: dangtq thay_background_sea_games_30*/
+
+
+    background: url(//cdn.24h.com.vn/images/bxh/asiad-bg.png) center right;
     line-height: 37px;
 }
 .asiadTit span {
-    font-size: 13px;
-    color: #002a51;
-}
-/*End 18/11/2019: dangtq thay_background_sea_games_30*/
+    font-size: 14px;
+
+
+
 }
 .asiadTb {
     width: 100%;
@@ -1741,6 +1727,7 @@ div.pgS2 .tit:after{
         font-size: 18px;
     }
         /*Begin 18/11/2019: dangtq thay_background_sea_games_30*/
+
     .tbCmg ul li a, .pgS2 .clrTit.fl, .pgS2 .clrTit.fr, .pgS2 .tit, .articleBody .albumCnt .txtIlImg, .ftMn2 a, .cateOthr li a, .ctTp, .seMore, .evtHotCt .nwsTitHm, .vidIt a, .vidItRt a, .ttdn .clrDft, .ngd .bxRdPsnLt a, .atclRdSbIn .nwsTit a, .ctTp, .nwsTitSlHm{
         font-size: 20px;
     }
@@ -1987,14 +1974,14 @@ div.pgS2 .tit:after{
     .bxRcdVid .video-body-tile a, .pgS2 a, .clrGrD, .tmPst a, .evtHotTit .txtTrf, .extTit a, .tpcHt .tpcLitIt li a, .tmPst.pt8, #footer p, span.clrGr, .nwsItHm>.tmPst>a{
         font-size: 16px;
     }
-    /*Begin 18/11/2019: dangtq thay_background_sea_games_30*/
-    .tbCmg ul li a, .pgS2 .clrTit.fl, .pgS2 .clrTit.fr, .pgS2 .tit, .articleBody .albumCnt .txtIlImg, .atclRdSbIn .nwsTit a, .ngd .bxRdPsnLt a, .ttdn .clrDft, .more1, .asiad-detail a, .asiadTb tbody tr td, .asiadTb thead th, .ftMn2 a, .cateOthr li a, .ctTp.ctTpD, .seMore, .ctTp, .nwsTitSlHm, .evtHotCt .nwsTitHm, .tbCmg ul li, .seMr a, .tbCmg ul li .mnAtv, .vidIt a, .vidItRt a, .lady .nwsTitSlHm{
+
+    .tbCmg ul li a, .pgS2 .clrTit.fl, .pgS2 .clrTit.fr, .pgS2 .tit, .articleBody .albumCnt .txtIlImg, .atclRdSbIn .nwsTit a, .ngd .bxRdPsnLt a, .ttdn .clrDft, .more1, .asiad-detail a, .asiadTb tbody tr td, .asiadTb thead th, .asiadTit span, .ftMn2 a, .cateOthr li a, .ctTp.ctTpD, .seMore, .ctTp, .nwsTitSlHm, .evtHotCt .nwsTitHm, .tbCmg ul li, .seMr a, .tbCmg ul li .mnAtv, .vidIt a, .vidItRt a, .lady .nwsTitSlHm{
         font-size: 18px;
     }
-    .asiadTit span{
-        font-size: 17px;
-    }
-    /*End 18/11/2019: dangtq thay_background_sea_games_30*/
+
+
+
+
     /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
     .articleBody .tuht_show, .nwsTitHm, .vidIt.first a, .ldIt a, .ldIt2 a, .tcbIt li a, .ngd .ldItHm .stt, .tbCmg1 ul li .Atv, p, .nguontin{
         font-size: 20px;
@@ -2345,8 +2332,6 @@ blockquote{
 .table_info_news_live.borders{
     border: 1px solid rgb(187, 187, 187);
     background-color: rgb(222, 241, 200);
-    margin: 0 -10px;
-    width: auto;
 }
 /*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
 .table_info_news_live.borders td{
@@ -2357,21 +2342,14 @@ blockquote{
 /* End 19/7/2019: dangtq toi_uu_text_ghi_chu_trong_noi_dung_bai_dai_ky */
 /* Begin: 9-11-2019 bo_sung_link_goc_cho_bai_khai_thac_frontend */
 /*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
-
-/*Begin 10/4/2020: dangtq fix_bai_album_anh */
 p.linkOrigin{
     line-height: 21px;
-    margin: 10px;
-}
-.articleBody>p.linkOrigin{
-    margin: 10px 0;
 }
 p.linkOrigin span {
   font-size: 14px;
   color: #757575;
-  /*padding: 0;*/ }
-/*End 10/4/2020: dangtq fix_bai_album_anh */
-
+  padding: 0;
+  margin: 10px 0; }
   /*End 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
 
 
@@ -2509,7 +2487,7 @@ p.linkOrigin span {
     }
     .boxCateHead .mnCM-expand, .boxCateHead .mnCM-close {
       top: 7%; }
-      /*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
+	/*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
       .articleBody, .articleBody p *{
         font-size: 18px;
       }
@@ -2630,11 +2608,5 @@ p.linkOrigin span {
     /*padding: 0 10px;*/
     font-weight: normal;
 }
-/*Begin 10/4/2020: dangtq fix_bai_album_anh */
-.articleBody>h2.sapo{
-    padding: 10px 0;
-    font-weight: 700;
-}
-/*End 10/4/2020: dangtq fix_bai_album_anh */
 /*End 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
 /*End 6/2/2020: dangtq toi_uu_heading_tag

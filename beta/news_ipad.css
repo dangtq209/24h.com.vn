@@ -9,7 +9,6 @@
     line-height: normal;
 }
 /*End 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
-
 .atclTit .clrTit {
     color: #5ca038;
     font-size: 20px;
@@ -64,16 +63,16 @@
     padding: 10px 10px 0 10px;
 }
 
-/* Begin fix_loi_text_khong_co_the_p - dangtq 25/4/2019 */
+
 .bv-lq .title-bv a {
     font-size: 18px;
     color: #378b36;
     font-weight: bold;
 
-    line-height: 1.2;
+
 }
 
-/* End fix_loi_text_khong_co_the_p - dangtq 25/4/2019 */
+
 .bv-lq .ct-bv p {
     color: #333;
     margin: 5px 0;
@@ -630,17 +629,13 @@ blockquote {
 
 /*Start body content*/
 
-/* Begin fix_loi_text_khong_co_the_p - dangtq 25/4/2019 */
+
 .atclTit h1 {
     font-size: 24px;
 
-    line-height: 1.2;
+
 }
 
-/* End fix_loi_text_khong_co_the_p - dangtq 25/4/2019 */
-.ctTp {
-    font-size: 18px;
-}
 /*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
 .sktdIt>p>*, .sktdIt>p>*>*, .sktdIt p {
     font-size: 18px;
@@ -980,7 +975,7 @@ blockquote {
 }
 /*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
 
-/* End fix_loi_text_khong_co_the_p - dangtq 25/4/2019 */
+
 .sktdIt .nwsSp {
     font-size: 18px;
     line-height: 1.5;
@@ -1386,14 +1381,14 @@ a.btnGry {
     width: 1000px;
 }
 
-/* Begin [ND24h] Tối ưu ảnh đại diện video hiển thị trong box video recommend - dangtq 7/5/2019 */
+
 .main-video-img > a img {
     display: block;
     width: 135px;
     height: 76px;
 }
 
-/* End [ND24h] Tối ưu ảnh đại diện video hiển thị trong box video recommend - dangtq 7/5/2019 */
+
 .bxRcdVid .video-body-tile a {
     font-size: 12px;
     font-weight: 400;
@@ -1753,7 +1748,8 @@ a.btnGry {
 .att .inner p img{
 
 
-    width: 100%!important;
+
+    width: 605px;
 }
 .att p em span, .att p span em, .att p em{
     font-size: 15px!important;
@@ -1761,7 +1757,7 @@ a.btnGry {
 }
 /*end tuong thuat tin tuc pc*/
 
-    /*begin tuong thuat bong da pc*/
+/*begin tuong thuat bong da pc*/
     /*Begin tối ưu giao diện các loại bài tường thuật - dangtq 18/4/2019*/
     /* Begin 10/9/2019: dangtq Toi_uu_giao_dien_box_thong_tin_tran_dau_bai_tuong_thuat_bong_da */
     .tbErIfD{
@@ -1819,86 +1815,131 @@ a.btnGry {
         width: 100%;
     }
     /* End 10/9/2019: dangtq Toi_uu_giao_dien_box_thong_tin_tran_dau_bai_tuong_thuat_bong_da */
-    .ngb header{
-        border-bottom: 1px solid #78b43d;
-        line-height: 25px;
-
-    }
-    .ngb table{
-        width: 100%;
-
-    }
-    .ngb td{
-        padding: 10px 0;
-        font-size: 15px;
-
-    }
-    .ngb td:nth-child(1){
-
-        text-align: right;
-        padding-right: 30px;
-
-    }
-    .w45{
-        width: 45%;
-
-    }
-    .w10{
-        width: 10%;
-
-    }
-    .ngb td:nth-child(3){
-        text-align: left;
-        padding-left: 30px;
-
-    }
-    .ngb tr:nth-child(even) td{
-        background-color: #eeeeee;
-
-    }
-    .row-H td, div.row-H{
-        background: #eaf8d2;
-        padding: 9px;
-
-    }
-    .ttbd .att .time{
-        text-align: left;
-
-    }
-    .ttbd-hot{
-        background-color: red;
-        margin-top: 5px;
-        width: 33px;
-        text-align: center;
-        font-size: 17px;
-        text-transform: uppercase;
+.ngb header{
+    border-bottom: 1px solid #78b43d;
+    line-height: 25px;
 
 
-        color: #fff;
-        display: inline-block;
-        padding: 2px 10px;
-        border-radius: 4px;
-        line-height: 25px;
 
-    }
-    .abd .inner{
-        padding-left: 65px;
 
-    }
-    .ttbd .livetit_wrap{
-        display: none;
 
-    }
-    .ttbd .inner p strong{
-        display: block;
-        padding-top: 10px;
 
-    }
-    .abd .linD{
+
+
+
+
+
+
+}
+.ngb table{
+    width: 100%;
+
+
+
+}
+.ngb td{
+    padding: 10px 0;
+    font-size: 15px;
+
+
+
+
+}
+.ngb td:nth-child(1){
+
+
+
+
+    text-align: right;
+    padding-right: 30px;
+
+
+
+
+
+}
+.w45{
+    width: 45%;
+
+
+
+
+}
+.w10{
+    width: 10%;
+
+
+
+
+}
+.ngb td:nth-child(3){
+    text-align: left;
+    padding-left: 30px;
+
+
+
+
+}
+.ngb tr:nth-child(even) td{
+    background-color: #eeeeee;
+
+
+
+
+
+
+
+
+
+}
+.row-H td, div.row-H{
+    background: #eaf8d2;
+    padding: 9px;
+
+}
+.ttbd .att .time{
+    text-align: left;
+
+
+
+}
+.ttbd-hot{
+    background-color: red;
+    margin-top: 5px;
+    width: 33px;
+    text-align: center;
+    font-size: 17px;
+    text-transform: uppercase;
+    color: #fff;
+    display: inline-block;
+    padding: 2px 10px;
+    border-radius: 4px;
+    line-height: 25px;
+
+
+}
+.abd .inner{
+    padding-left: 65px;
+
+
+}
+.ttbd .livetit_wrap{
+    display: none;
+
+
+}
+.ttbd .inner p strong{
+    display: block;
+    padding-top: 10px;
+
+
+}
+.abd .linD{
         /*border-color: #378b36;*/ /*XLCYCMHENG-34593 Nghiệm thu tối ưu Giao diện bài tường thuật thể thao - Frontend + BE*/
 
-    }
-    /*end tuong thuat bong da pc*/
+
+}
+/*end tuong thuat bong da pc*/
 
 /*begin tuong thuat bong da doi hinh pc*/
 .adh .head img{
@@ -1961,6 +2002,9 @@ a.btnGry {
 
 
 
+.adh .list2 > div:nth-child(2){
+    border-bottom: 0;
+}
 .adh .cthu .tit{
     font-size: 15px;
 }
@@ -2122,13 +2166,17 @@ a.btnGry {
 }
 /*end Kiểm tra + fix lỗi khung player bài tường thuật - ipad 07/03/2019 dangtq*/
 
-    /*begin [24h] Lỗi bị tràn ảnh trong bài trực tiếp bản ipad 12/03/2019 dangtq*/
-    .liveCnt .abd .inner p img{
 
 
 
-        width: 100%!important;
-    } 
+/*begin [24h] Lỗi bị tràn ảnh trong bài trực tiếp bản ipad 12/03/2019 dangtq*/
+.liveCnt .abd .inner p img{
+
+
+
+
+    width: 100%!important;
+} 
     /*end [24h] Lỗi bị tràn ảnh trong bài trực tiếp bản ipad 12/03/2019 dangtq*/
 
     /*Begin 29-03-2019 trungcq code_trang_tuong_thuat */
@@ -2503,23 +2551,23 @@ strong.btnStep.colorRed{
 }
 /*End 14-03-2019 trungcq code_trang_tuong_thuat */
 
-/* Begin fix_loi_text_khong_co_the_p - dangtq 25/4/2019 */
-.liveCnt{
-    line-height: 1.2;
-}
-/* End fix_loi_text_khong_co_the_p - dangtq 25/4/2019 */
 
-/* Begin them_button_gui_bai_du_thi - dangtq 24/4/2019 */
-.btnGuiBai{
-    display: inline-block;
-    background-color: #2594a4;
-    padding: 13px 28px;
-    color: #fff;
-    font-size: 18px;
-    border-radius: 25px;
-    font-weight: 600;
-}
-/* End them_button_gui_bai_du_thi - dangtq 24/4/2019 */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 /* Begin bo_sung_bang_thong_tin_tran_dau_bong_da_vao_trang_bai_viet - dangtq 10/5/2019 */
 .box_atk {
     width: 540px; 
@@ -2594,6 +2642,7 @@ strong.btnStep.colorRed{
     font-size: 18px;
     line-height: 1.5;
 
+					 
 }
 /* End 26/6/2019: Dangtq XLCYCMHENG-35150 Toi_uu_co_chu_bai_viet_info */
 
@@ -2733,14 +2782,3 @@ p.linkOrigin .icoDrop {
     font-weight: bold;
 }
 /*End 6/2/2020: dangtq toi_uu_heading_tag*/
-
-
-
-
-
-
-
-
-
-
-
