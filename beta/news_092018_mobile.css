@@ -6,10 +6,12 @@
     padding: 0 10px; 
 }
 /*Begin 9/4/2020: dangtq fix_banner_inpage_bi_lech*/
-.articleBody>#div_inpage_banner{
+/*Begin 14/4/2020: dangtq fix_toi_uu_noi_dung_bai_viet*/
+.articleBody>#div_inpage_banner, .articleBody>.bnOnPage{
 	padding-left: 0;
 	padding-right: 0;
 }
+/*End 14/4/2020: dangtq fix_toi_uu_noi_dung_bai_viet*/
 /*End 9/4/2020: dangtq fix_banner_inpage_bi_lech*/
 /*Begin 10/4/2020: dangtq fix_bai_viet_anh_so_sanh*/
 .articleBody>.twentytwenty-wrapper{
@@ -22,9 +24,11 @@
 .articleBody>table td{
     line-height: 30px;
 }
+/*Begin 14/4/2020: dangtq fix_khoang_cach_box_corona*/
 .tblCor{
-    margin: 0 -10px;
+    margin: 10px -10px 0;
 }
+/*End 14/4/2020: dangtq fix_khoang_cach_box_corona*/
 .articleBody>.mrT15.mrB15>.icoSocial{
 	padding: 15px 0;
 }
@@ -3486,9 +3490,14 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
     .articleBody table{
         margin: 0!important;
     }
-    .articleBody table .news-image{
+    /*Begin 15/4/2020: dangtq fix_toi_uu_noi_dung_bai_viet*/
+    .articleBody>table .news-image{
         margin-left: 0;
+        width: 100%;
+        margin-bottom: 10px;
     }
+    /*End 15/4/2020: dangtq fix_toi_uu_noi_dung_bai_viet*/
+
     /*end 26/11/2018 dangtq*/
 
     /* Begin 05-12-2018 trungcq XLCYCMHENG_33523_bo_sung_dau_hieu_banner_onpage */
@@ -5148,3 +5157,25 @@ p.linkOrigin .icoDrop {
       .tblCustom * {
         font-size: 19px; } }
     /*End 10/3/2020: dangtq toi_uu_table_bai_viet_thuong*/
+
+    /*Begin 15/4/2020: dangtq fix_loi_lech_noi_dung_bai_infographic*/
+    .infoCnt{
+        padding: 0 10px;
+    }
+    .infoCnt table{
+        width: auto;
+        margin: 0 -10px!important;
+    }
+    #div_news_content .infoCnt .linkOrigin{
+        padding: 0;
+    }
+    .infoCnt .images-richard{
+        margin: 0 -10px 5px;
+    }
+    .infoCnt .news-image{
+        margin: 0;
+    }
+    .infoCnt .tblCor{
+        margin: 10px 0;
+    }
+    /*End 15/4/2020: dangtq fix_loi_lech_noi_dung_bai_infographic*/
