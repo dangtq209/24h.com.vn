@@ -4948,9 +4948,12 @@ p.linkOrigin .icoDrop {
 .liveCnt .atn .tttt-set .blk{
     padding: 0;
 }
+/*Begin 17/4/2020: dangtq fix_loi_sat_noi_dung_bai_tuong_thuat_the_thao_mobile*/
 #div_news_content .liveCnt .atn .tttt-set .blk p{
     padding: 0 10px;
+    margin: 10px 0;
 }
+/*End 17/4/2020: dangtq fix_loi_sat_noi_dung_bai_tuong_thuat_the_thao_mobile*/
 /*End 3/12/2019: dangtq fix_loi_banner_inpage_chen_len_noi_dung_bai_tuong_thuat_the_thao*/
 
 /* Begin 26/12/2019: dangtq logo_tai_tro_nippont */
