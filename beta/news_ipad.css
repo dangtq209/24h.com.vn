@@ -9,6 +9,11 @@
     line-height: normal;
 }
 /*End 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
+/*Begin 17/4/2020: dangtq fix_loi_table_co_chu_to_nho*/
+.sktdIt>table.tblCustom *{
+    font-size: 14px;
+}
+/*End 17/4/2020: dangtq fix_loi_table_co_chu_to_nho*/
 .atclTit .clrTit {
     color: #5ca038;
     font-size: 20px;
@@ -2026,11 +2031,13 @@ a.btnGry {
 .atn .diem{
     text-align: center;
 }
-.atn .att .livetit_wrap{
+/*Begin 17/4/2020: dangtq fix_loi_lech_nut_xem_video_bai_tuong_thuat_bong_da_the_thao_ipad*/
+/*.atn .att .livetit_wrap{
     height: 41px;
     padding-top: 12px;
     margin-bottom: 5px;
-}
+}*/
+/*End 17/4/2020: dangtq fix_loi_lech_nut_xem_video_bai_tuong_thuat_bong_da_the_thao_ipad*/
 .atn .att .livetit{
     padding-top: 5px;
 }
@@ -2120,24 +2127,28 @@ a.btnGry {
     left: 0;
 }
 /*Begin tối ưu giao diện các loại bài tường thuật - dangtq 18/4/2019*/
+/*Begin 17/4/2020: dangtq fix_loi_lech_nut_xem_video_bai_tuong_thuat_bong_da_the_thao_ipad*/
 .atn .att .livetit_wrap{
-    height: 38px;
+    /*height: 38px;*/
     padding-top: 12px;
     margin-bottom: 5px;
 }
+/*End 17/4/2020: dangtq fix_loi_lech_nut_xem_video_bai_tuong_thuat_bong_da_the_thao_ipad*/
 /*End tối ưu giao diện các loại bài tường thuật - dangtq 18/4/2019*/
 .atn .att .livetit{
     padding-top: 5px;
 }
+/*Begin 17/4/2020: dangtq fix_loi_lech_nut_xem_video_bai_tuong_thuat_bong_da_the_thao_ipad*/
 .abd .viewbtn{
     float: right;
     font-size: 13px;
     color: #fff;
     display: inline-block;
     padding: 5px 10px;
-    background: url(//cdn.24h.com.vn/images/sprites092018.png) no-repeat -40px -1877px #78b43d;
+    background: url(//cdn.24h.com.vn/images/sprites092018.png) no-repeat -40px -1875px #78b43d;
     padding-left: 25px;
 }
+/*End 17/4/2020: dangtq fix_loi_lech_nut_xem_video_bai_tuong_thuat_bong_da_the_thao_ipad*/
 .atn .set{
     background-color: #efebf9;
     font-size: 19px;

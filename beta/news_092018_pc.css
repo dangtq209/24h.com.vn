@@ -11,9 +11,11 @@
 	font-size: 15px;
 }
 /*End 14/4/2020: dangtq fix_chu_nho*/
-.nwsHt>table.tblCustom *{
+/*Begin 17/4/2020: dangtq fix_loi_table_co_chu_to_nho*/
+.nwsHt>table.tblCustom *, .nwsHt>table font[size="2"] *, .nwsHt>table td.team.team-a *{
 	font-size: 12px!important;
 }
+/*End 17/4/2020: dangtq fix_loi_table_co_chu_to_nho*/
 
 /*Start duclv: fix_font_size_bai_viet*/
 /*.TextlinkBaiviet, .nwsHt a, .nwsHt strong {
