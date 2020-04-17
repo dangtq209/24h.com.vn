@@ -6,7 +6,6 @@
 .anhGiuaText .mg-wrapper * {
     box-sizing: border-box;
     font-family: Arial,Helvetica,sans-serif;
-    color: #212121;
     line-height: 32px;
 }
 /*-----End font------*/
@@ -24,6 +23,7 @@
     margin-bottom: 15px;
     margin-top: 15px;
     font-family: Arial,Helvetica,sans-serif;
+    color: #212121;
 }
 .anhGiuaText .clearfix, .anhGiuaText .clear {
     clear: both;

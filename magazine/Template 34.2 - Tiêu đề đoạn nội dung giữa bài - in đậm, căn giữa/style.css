@@ -1,0 +1,108 @@
+/*@font-face {
+	font-family: NotoSerif-Bold;
+	src: url('NotoSerif-Bold.ttf') format('truetype');
+	font-weight: normal;
+	font-style: normal;
+}*/
+/*.titZingCustom{
+	margin-top: 70px;
+}*/
+.titZingCustom .clearfix{
+	clear: both;
+}
+.titZingCustom *{
+	margin: 0 auto;
+	font-family: Arial!important;
+	font-weight: 400;
+}
+.titZingCustom *, .titZingCustom *:before, .titZingCustom *:after{
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	-ms-box-sizing: border-box;
+	box-sizing: border-box;
+}
+.titZingCustom .mg-leftright, .titZingCustom .mg-leftanhright {
+	padding: 0px;
+}
+.titZingCustom .container-inner{
+	width: 1530px;
+	margin: 0 auto;
+	text-align: justify;
+}
+.titZingCustom .wrapper-contain{
+	width: 80%;
+	margin: 0 auto;
+	padding-top: 0px;
+	padding-bottom: 10px;
+}
+.titZingCustom .textNormal p{
+	font-size: 50px!important;
+	line-height: 1.2!important;
+	margin: 15px 0;
+	font-family: Arial!important;
+	color: #000;
+	text-align: center;
+	font-weight: 700;
+}
+.titZingCustom .mg-text-center{
+	text-align: center;
+}
+.titZingCustom .wow{
+	visibility: hidden;
+}
+.titZingCustom .fullscreen{
+	max-width: 100%;
+	height: auto;
+	width: auto;
+}
+.titZingCustom .textNormal h4{
+	font-size: 24px;
+	font-weight: 600;
+	color: #582b1c;
+	font-style: oblique;
+	margin: 20px 0px;
+	font-family: Arial!important;
+	line-height: 1.3;
+}
+
+@media (min-width: 800px){
+	.titZingCustom .container-inner {
+		width: 750px;
+	}
+	.titZingCustom .wrapper-contain{
+		font-size: 22px;
+	}
+}
+@media (min-width: 992px){
+	.titZingCustom .container-inner {
+		width: 970px;
+	}
+}
+@media (min-width: 1200px) {
+	.titZingCustom .container-inner {
+		width: 1004px;
+	}
+}
+/*end pc*/
+
+@media only screen and (max-width: 800px){
+	.titZingCustom .mg-leftright, .titZingCustom .mg-leftanhright{
+		padding: 0;
+	}
+	.titZingCustom .container-inner{
+		width: 100%;
+	}
+	.titZingCustom .wrapper-contain{
+		width: auto;
+		margin: 0px 15px;
+		-webkit-box-sizing: border-box;
+		-moz-box-sizing: border-box;
+		box-sizing: border-box;
+	}
+	.titZingCustom .textNormal p, .titZingCustom .textNormal h4{
+		font-size: 2.0em!important;
+		margin: 5px 0;
+		text-align: initial;
+	}
+}
+/*end tablet, mobile*/

@@ -6,7 +6,6 @@
 .slideAnh .mg-wrapper * {
     box-sizing: border-box;
     font-family: Arial,Helvetica,sans-serif;
-    color: #212121;
     line-height: 16px;
 }
 /*-----End font------*/
@@ -23,6 +22,7 @@
     line-height: 32px!important;
     margin: 15px 0;
     font-family: Arial,Helvetica,sans-serif;
+    color: #212121;
 }
 .slideAnh .clearfix, .slideAnh .clear {
     clear: both;

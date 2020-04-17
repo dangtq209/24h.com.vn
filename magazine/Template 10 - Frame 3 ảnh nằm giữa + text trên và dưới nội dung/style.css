@@ -6,7 +6,6 @@
 .baAnhGiuaText .mg-wrapper * {
     box-sizing: border-box;
     font-family: Arial,Helvetica,sans-serif;
-    color: #212121;
     line-height: 16px;
 }
 /*-----End font------*/
@@ -24,6 +23,7 @@
     margin: 15px 0;
     font-family: Arial,Helvetica,sans-serif;
     text-align: justify;
+    color: #212121;
 }
 .baAnhGiuaText .clearfix, .baAnhGiuaText .clear {
     clear: both;
