@@ -5177,13 +5177,19 @@ p.linkOrigin .icoDrop {
     #div_news_content .infoCnt .linkOrigin{
         padding: 0;
     }
-    .infoCnt .images-richard{
+    /*Begin 22/4/2020: dangtq fix_loi_lech_noi_dung_bai_infographic*/
+    .infoCnt>.images-common>.images-container>.images-richard{
         margin: 0 -10px 5px;
     }
-    .infoCnt .news-image{
+    .infoCnt .images-richard>.news-image{
         margin: 0;
     }
-    .infoCnt .tblCor{
+    .infoCnt .images-richard .tblCor{
         margin: 10px 0;
     }
+    #div_news_content .infoCnt>p{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    /*End 22/4/2020: dangtq fix_loi_lech_noi_dung_bai_infographic*/
     /*End 15/4/2020: dangtq fix_loi_lech_noi_dung_bai_infographic*/
