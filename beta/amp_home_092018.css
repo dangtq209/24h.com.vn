@@ -140,9 +140,11 @@ and open the template in the editor.
     }*/
 }
 @media only screen and (min-width: 668px){
-	.txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+	/*.txtBnrHor span {
 		font-size: 16px;
-	}
+	}*/
+    /* AnhTT thay_doi_ads_zone*/
 	.tmPst a, .extTit span, .extTit a, .tpcHt .tpcLitIt li a, #footer p {
 		font-size: 18px;
 	}
@@ -166,9 +168,11 @@ and open the template in the editor.
 	}
 }
 @media only screen and (min-width: 569px) and (max-width: 667px) {
-	.txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+	/*.txtBnrHor span {
 		font-size: 14px;
-	}
+	}*/
+    /* AnhTT thay_doi_ads_zone*/
 	.extTit span, .tmPst a, .extTit a, .tpcHt .tpcLitIt li a, #footer p {
 		font-size: 16px;
 	}
@@ -190,9 +194,11 @@ and open the template in the editor.
 	.tbCmCent a{font-size: 21px;}
 }
 @media only screen and (min-width: 480px) and (max-width: 568px) {
-	.txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+	/*.txtBnrHor span {
 		font-size: 12px;
-	}
+	}*/
+    /* AnhTT thay_doi_ads_zone*/
 	#footer p, .extTit span, .tmPst a, .extTit a, .tpcHt .tpcLitIt li a, .tmPst{
 		font-size: 14px;
 	}
@@ -216,9 +222,11 @@ and open the template in the editor.
 	}
 }
 @media only screen and (min-width: 321px) and (max-width: 479px) {
-	.txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+	/*.txtBnrHor span {
 		font-size: 10px;
-	}
+	}*/
+    /* AnhTT thay_doi_ads_zone*/
 	.extTit span {
 		font-size: 12px;
 	}
@@ -1307,40 +1315,57 @@ a.flRt.seMore{
   font-size: 16px;
   vertical-align: 2px;
   margin-right: 5px; }
+  /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
 .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
-  font-size: 16px;
+  /*font-size: 16px;*/
   color: #fff; }
+  /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
 
 @media screen and (max-width: 320px) {
   .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
     font-size: 14px; }
-
-  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
-    font-size: 14px; } }
+    
+    /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
+  /*.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
+    font-size: 14px; }*/ 
+    /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
+}
 @media screen and (min-width: 414px) {
   .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
     font-size: 18px; }
-
-  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
-    font-size: 18px; } }
+    
+    /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
+  /*.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
+    font-size: 18px; }*/
+    /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/ 
+}
 @media screen and (min-width: 480px) {
   .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
     font-size: 16px; }
-
-  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
-    font-size: 16px; } }
+    
+    /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
+  /*.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
+    font-size: 16px; }*/
+    /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/ 
+}
 @media screen and (min-width: 640px) {
   .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
     font-size: 18px; }
-
-  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
-    font-size: 18px; } }
+    
+    /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
+  /*.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
+    font-size: 18px; }*/
+    /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/ 
+}
 @media screen and (min-width: 736px) {
   .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
     font-size: 20px; }
-
-  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
-    font-size: 20px; } }
+    
+    /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
+  /*.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb a {
+    font-size: 20px; }*/
+    /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/ 
+}
 
     .boxCateHead.boxCateHead_3 .listMenuChild li.last{
         padding-right: 0;
@@ -1350,3 +1375,9 @@ a.flRt.seMore{
         max-height: none;
     }
 /*Begin 17/3/2020 AnhTT bo_sung_tab_su_kien_dac_biet*/
+
+/* AnhTT thay_doi_ads_zone*/
+.tth-wrap>.bnr{
+    margin: 0 -10px;
+}
+/* AnhTT thay_doi_ads_zone*/

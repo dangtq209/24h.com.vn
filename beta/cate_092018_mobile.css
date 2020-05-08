@@ -98,9 +98,11 @@
     }
 }
 @media only screen and (min-width: 668px) {
-    .txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span {
         font-size: 16px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
     .nwsTit .ifTtr, .blqPr .extTit, .extTit span, #footer p {
         font-size: 18px;
     }
@@ -124,9 +126,11 @@
     }
 }
 @media only screen and (min-width: 569px) and (max-width: 667px) {
-    .txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span {
         font-size: 14px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
     .nwsTit .ifTtr, .blqPr .extTit, .extTit span, #footer p {
         font-size: 16px;
     }
@@ -150,9 +154,11 @@
     }
 }
 @media only screen and (min-width: 480px) and (max-width: 568px) {
-    .txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span {
         font-size: 12px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
     .nwsTit .ifTtr, .blqPr .extTit, .extTit span, #footer p {
         font-size: 14px;
     }
@@ -176,9 +182,11 @@
     }
 }
 @media only screen and (min-width: 321px) and (max-width: 479px) {
-    .txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span {
         font-size: 10px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
     .nwsTit .ifTtr, .blqPr .extTit, .extTit span {
         font-size: 12px;
     }
@@ -681,9 +689,11 @@
     .tmPst.pt8{
         font-size: 16px;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 17px;
+        font-size: 18px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .brkLive{
     	font-size: 18px;
     	padding-right: 4px;
@@ -720,9 +730,11 @@
     .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li, .ttdn>header a, .ngd h5, .tttd>header a, .ngd h4{
         font-size: 24px;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 19px;
+        font-size: 20px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     /*begin 11/01/2019 dangtq fix_loi_font_size*/
     header.tbTcb.txtCent.clrWh.bld.fs18, .vidIt.first a, .nwsTitHm .fs18{
         font-size: 24px!important;
@@ -770,9 +782,11 @@
     .lady a.title.tt{
         background-position: -50px -4140px;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 15px;
+        font-size: 16px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     /*begin 11/01/2019 dangtq fix_loi_font_size*/
     header.tbTcb.txtCent.clrWh.bld.fs18, .vidIt.first a, .nwsTitHm .fs18{
         font-size: 20px!important;
@@ -823,9 +837,11 @@
     .lady a.title.tt{
         background-position: -50px -4140px;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 15px;
+        font-size: 16px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .titNws a.clrTit.bld{
         font-size: 24px;
     }
@@ -878,9 +894,11 @@
     .lady a.title.tt{
         background-position: -50px -4140px;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 17px;
+        font-size: 18px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .titNws a.clrTit.bld{
         font-size: 26px;
     }

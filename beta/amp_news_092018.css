@@ -6,9 +6,11 @@
     line-height: 30px;
     padding: 0 10px;
 }
-.bv-lq, .articleBody>amp-fx-flying-carpet{
+/* AnhTT thay_doi_ads_zone*/
+.bv-lq, .articleBody>amp-fx-flying-carpet, .articleBody>.bnr{
     margin: 0 -10px; /*9/4/2020: dangtq fix_banner_inpage_bi_lech*/
 }
+/* AnhTT thay_doi_ads_zone*/
 /*End 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
 /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
 .articleBody .tuht_show{
@@ -583,9 +585,11 @@ blockquote {
 }*/
 /*End 6/2/2020: dangtq toi_uu_heading_tag*/
 @media only screen and (min-width: 668px){
-    .txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span {
         font-size: 16px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
         .ifTtr,
         .blqPr .extTit,
         .extTit span {
@@ -681,9 +685,11 @@ blockquote {
     }
 
 @media only screen and (min-width: 569px) and (max-width: 667px) {
-    .txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span {
         font-size: 14px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
         .ifTtr,
         .blqPr .extTit,
         .extTit span {
@@ -781,9 +787,11 @@ blockquote {
     }
 
 @media only screen and (min-width: 480px) and (max-width: 568px) {
-    .txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span {
         font-size: 12px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
         .ifTtr,
         .blqPr .extTit,
         .extTit span {
@@ -880,9 +888,11 @@ blockquote {
     }
 }
 @media only screen and (min-width: 321px) and (max-width: 479px) {
-    .txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span {
             font-size: 11px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
         .ifTtr,
         .blqPr .extTit,
         .extTit span {
@@ -1954,9 +1964,11 @@ div.pgS2 .tit:after{
     div.pgS2 .tit:after{
         left: 73%;
     }
-    .txtBnrHor span{
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span{
         font-size: 13px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
     /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
     .sk h3 span, .sk .tbLngble span{
         width: 29%;
@@ -2627,3 +2639,26 @@ p.linkOrigin span {
 /*End 10/4/2020: dangtq fix_bai_album_anh */
 /*End 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
 /*End 6/2/2020: dangtq toi_uu_heading_tag
+
+/* AnhTT thay_doi_ads_zone*/
+.adZone{
+    position: relative;
+    margin: 0 7px 5px;
+    text-align: center;
+    line-height: normal;
+}
+.adZone:before, .adZone:after{
+    content: '';
+    position: absolute;
+    height: 1px;
+    top: 50%;
+    margin-top: -0.5px;
+    left: 0;
+    right: 63%;
+    background: #ddd;
+}
+.adZone:after{
+    right: 0;
+    left: 63%;
+}
+/* AnhTT thay_doi_ads_zone*/

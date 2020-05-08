@@ -929,9 +929,11 @@ blockquote {
     .bxCmSbPg .lstNml {
     	background: url(//cdn.24h.com.vn/images/2014/sprites-eva.png) 2px -548px no-repeat;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .bxCmSbPg .lstNml a {
-    	color: #333;
+    	color: #000000;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .bxCmSbPg .lstNml a:hover {
     	color: #692;
     }

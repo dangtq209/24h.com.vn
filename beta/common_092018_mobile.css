@@ -324,16 +324,14 @@ article {
 	padding-left: 10px;
 	margin-bottom: 2px;
 }
+/*AnhTT thay_doi_ads_zone*/
 .txtBnrVel span, .txtBnrHor span {
 	color: #999;
-	text-transform: uppercase;
-	font-size: 9px;
-	font-weight: 700;
-	position: relative;
-}
-.txtBnrVel span:before, .txtBnrHor span:before {
-	content: "ad zone of 24h";
-}
+  text-transform: none;
+  font-weight: normal; }
+  .txtBnrVel span:before, .txtBnrHor span:before {
+    content: "Advertisement"; }
+/*AnhTT thay_doi_ads_zone*/
 /*---End banner---*/
 
 /*---Start header---*/
@@ -1457,9 +1455,11 @@ article {
 
 		
 		@media only screen and (min-width: 321px) and (max-width: 479px) {
-			.txtBnrHor span {
+			/* AnhTT thay_doi_ads_zone*/
+			/*.txtBnrHor span {
 				font-size: 10px;
-			}
+			}*/
+			/* AnhTT thay_doi_ads_zone*/
 			.ifTtr {
 				font-size: 12px;
 			}
@@ -1496,9 +1496,11 @@ article {
 			}
 		}
 		@media only screen and (min-width: 480px) and (max-width: 568px) {
-			.txtBnrHor span {
+			/* AnhTT thay_doi_ads_zone*/
+			/*.txtBnrHor span {
 				font-size: 12px;
-			}
+			}*/
+			/* AnhTT thay_doi_ads_zone*/
 			.ifTtr {
 				font-size: 14px;
 			}
@@ -1572,9 +1574,11 @@ article {
 			}
 		}
 		@media only screen and (min-width: 569px) and (max-width: 667px) {
-			.txtBnrHor span {
+			/* AnhTT thay_doi_ads_zone*/
+			/*.txtBnrHor span {
 				font-size: 14px;
-			}
+			}*/
+			/* AnhTT thay_doi_ads_zone*/
 			.ifTtr {
 				font-size: 16px;
 			}
@@ -1601,9 +1605,11 @@ article {
 			.mnWrap .inner {
 				max-height: 70px;
 			}
-			.txtBnrHor span {
+			/* AnhTT thay_doi_ads_zone*/
+			/*.txtBnrHor span {
 				font-size: 16px;
-			}
+			}*/
+			/* AnhTT thay_doi_ads_zone*/
 			.ifTtr {
 				font-size: 18px;
 			}
@@ -1945,9 +1951,11 @@ article {
 	.tbCmg ul li > span.inl:last-of-type {
 		margin: 0 5px;
 	}
+	/*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
 	.evtBxSp .clrTit {
-		font-size: 13px
+		font-size: 14px;
 	}
+	/*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
 	.tmPst.pt8 {
 		margin-bottom: 0;
 		margin-top: 8px;
@@ -1971,14 +1979,18 @@ article {
 	/* end bangnd 24/10/2018 */
 
 	/* begin 15/01/2019 dangtq */
+	/*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
 	.lady .nwsTitSlHm{
 		position: relative;
-		color: #333333;
+		/*color: #333333;*/
 	}
+	/*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
+	/*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
 	.lady .clrTit{
-		color: #252525;
-		line-height: 1.3;
+		color: #000;
+		line-height: 22px;
 	}
+	/*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
 	.lady .evtBx .imgNwsMdm{
 		width: 139px;
 		height: 104px;
@@ -2332,9 +2344,11 @@ article {
 		.backhome, .titlesearch{
 			font-size: 18px;
 		}
-		.vf .txtBnrHor span{
-			font-size: 11px; /*25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng*/
-		}
+		/* AnhTT thay_doi_ads_zone*/
+		/*.vf .txtBnrHor span{
+			font-size: 11px; 25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng
+		}*/
+		/* AnhTT thay_doi_ads_zone*/
 	}
 	@media screen and (min-width: 414px) and (max-width: 487px) {
 		.mnWrap .inner {
@@ -2364,9 +2378,11 @@ article {
 		.backhome, .titlesearch{
 			font-size: 20px;
 		}
-		.vf .txtBnrHor span{
-			font-size: 13px; /*25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng*/
-		}
+		/* AnhTT thay_doi_ads_zone*/
+		/*.vf .txtBnrHor span{
+			font-size: 13px; 25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng
+		}*/
+		/* AnhTT thay_doi_ads_zone*/
 	}
 	@media screen and (min-width: 481px) and (max-width: 568px) {
 		.mnWrap .inner {
@@ -2387,9 +2403,11 @@ article {
 		.backhome, .titlesearch{
 			font-size: 18px;
 		}
-		.vf .txtBnrHor span{
-			font-size: 11px; /*25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng*/
-		}
+		/* AnhTT thay_doi_ads_zone*/
+		/*.vf .txtBnrHor span{
+			font-size: 11px; 25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng
+		}*/
+		/* AnhTT thay_doi_ads_zone*/
 	}
 	@media screen and (max-width: 812px) and (min-width: 569px) {
 	/*.mainSec>header{
@@ -2407,9 +2425,11 @@ article {
 		.backhome, .titlesearch{
 			font-size: 20px;
 		}
-		.vf .txtBnrHor span{
-			font-size: 13px; /*25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng*/
-		}
+		/* AnhTT thay_doi_ads_zone*/
+		/*.vf .txtBnrHor span{
+			font-size: 13px; 25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng
+		}*/
+		/* AnhTT thay_doi_ads_zone*/
 	}
 	@media screen and (min-width: 736px) and (max-width: 812px) {
 		.nosearhcontent{
@@ -2421,9 +2441,11 @@ article {
 		.iconhome{
 			vertical-align: initial;
 		}
-		.vf .txtBnrHor span{
-			font-size: 15px; /*25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng*/
-		}
+		/* AnhTT thay_doi_ads_zone*/
+		/*.vf .txtBnrHor span{
+			font-size: 15px; 25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng
+		}*/
+		/* AnhTT thay_doi_ads_zone*/
 	}
 	/* end 30/10/2018 dangtq */
 	/*start 31/10/2018 bangnd */
@@ -3145,3 +3167,158 @@ article {
     }
 }
 /* End 26/12/2019: dangtq logo_tai_tro_nippont */
+/* Begin: 09-04-2020 toi_uu_co_che_xem_bai_chua_xuat_ban_va_che_do_preview */
+.overlay {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  z-index: 999999;
+  background: rgba(0, 0, 0, 0.81); }
+
+.frmCode {
+  width: 95%;
+  border: 1px solid #e4e4e4;
+  color: #333;
+  font-family: Arial, sans-serif;
+  line-height: 1.5;
+  background: #fff;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%); }
+  .frmCode * {
+    box-sizing: border-box;
+    font-size: 14px; }
+  .frmCode .title {
+    font-size: 16px;
+    padding: 5px 10px;
+    background: #e4e4e4;
+    position: relative; }
+  .frmCode .btnClose {
+    width: 26px;
+    height: 26px;
+    line-height: 26px;
+    color: #fff;
+    background: #ff0000;
+    cursor: pointer;
+    text-align: center;
+    position: absolute;
+    top: 50%;
+    margin-top: -13px;
+    right: 10px; }
+  .frmCode .inner {
+    padding: 10px; }
+  .frmCode .txtGreen {
+    color: #008000; }
+  .frmCode input[type="text"] {
+    border: 1px solid #ccc;
+    width: 100%;
+    padding: 8px 5px;
+    margin: 15px 0;
+    outline: none;
+    color: #FF0000; }
+    .frmCode input[type="text"]::placeholder {
+      color: #999; }
+  .frmCode input[type="checkbox"] {
+    margin: 0;
+    vertical-align: -2px; }
+  .frmCode .btn {
+    text-align: center;
+    margin: 10px 0; }
+  .frmCode .btn a {
+    display: inline-block;
+    padding: 5px 30px;
+    border-radius: 5px;
+    border: 1px solid #797979;
+    background: none;
+    outline: none;
+    cursor: pointer;
+    color: #333;
+    font-weight: normal; }
+  .frmCode .err input[type="text"] {
+    border-color: red;
+    margin-bottom: 5px; }
+  .frmCode .txtErr {
+    font-size: 13px;
+    color: #FF0000;
+    margin-bottom: 10px;
+    display: inline-block; }
+
+@media screen and (max-width: 320px) {
+  .frmCode * {
+    font-size: 12px; }
+
+  .frmCode .title {
+    font-size: 14px; }
+
+  .frmCode .txtErr {
+    font-size: 11px; } }
+@media screen and (min-width: 414px) {
+  .frmCode * {
+    font-size: 16px; }
+
+  .frmCode .title {
+    font-size: 18px; }
+
+  .frmCode .txtErr {
+    font-size: 15px; } }
+@media screen and (min-width: 480px) {
+  .frmCode * {
+    font-size: 14px; }
+
+  .frmCode .title {
+    font-size: 16px; }
+
+  .frmCode .txtErr {
+    font-size: 13px; } }
+@media screen and (min-width: 640px) {
+  .frmCode * {
+    font-size: 16px; }
+
+  .frmCode .title {
+    font-size: 18px; }
+
+  .frmCode .txtErr {
+    font-size: 15px; } }
+@media screen and (min-width: 736px) {
+  .frmCode * {
+    font-size: 18px; }
+
+  .frmCode .title {
+    font-size: 20px; }
+
+  .frmCode .txtErr {
+    font-size: 17px; } }
+/* End: 09-04-2020 toi_uu_co_che_xem_bai_chua_xuat_ban_va_che_do_preview */
+/* AnhTT thay_doi_ads_zone*/
+.txtBnrHor span, .adZone {
+  font-size: 10px; 
+}
+@media screen and (max-width: 320px) {
+    .txtBnrHor span, .adZone {
+      font-size: 8px; 
+  } 
+}
+@media screen and (min-width: 414px) {
+    .txtBnrHor span, .adZone {
+      font-size: 12px; 
+  } 
+}
+@media screen and (min-width: 480px) {
+    .txtBnrHor span, .adZone {
+      font-size: 10px; 
+  } 
+}
+@media screen and (min-width: 640px) {
+    .txtBnrHor span, .adZone {
+      font-size: 12px; 
+  } 
+}
+@media screen and (min-width: 736px) {
+    .txtBnrHor span, .adZone {
+      font-size: 14px; 
+  } 
+}
+/* AnhTT thay_doi_ads_zone*/

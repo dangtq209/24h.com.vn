@@ -1028,9 +1028,11 @@ body, body section, footer{
         }
 
         @media only screen and (min-width: 668px) {
-            .txtBnrHor span {
+            /* AnhTT thay_doi_ads_zone*/
+            /*.txtBnrHor span {
                 font-size: 16px;
-            }
+            }*/
+            /* AnhTT thay_doi_ads_zone*/
             .ifTtr,
             .blqPr .extTit,
             .extTit span {
@@ -1127,9 +1129,11 @@ body, body section, footer{
         }
 
         @media only screen and (min-width: 569px) and (max-width: 667px) {
-            .txtBnrHor span {
+            /* AnhTT thay_doi_ads_zone*/
+            /*.txtBnrHor span {
                 font-size: 14px;
-            }
+            }*/
+            /* AnhTT thay_doi_ads_zone*/
             .ifTtr,
             .blqPr .extTit,
             .extTit span {
@@ -1228,9 +1232,11 @@ body, body section, footer{
         }
 
         @media only screen and (min-width: 480px) and (max-width: 568px) {
-            .txtBnrHor span {
+            /* AnhTT thay_doi_ads_zone*/
+            /*.txtBnrHor span {
                 font-size: 12px;
-            }
+            }*/
+            /* AnhTT thay_doi_ads_zone*/
             .ifTtr,
             .blqPr .extTit,
             .extTit span {
@@ -1329,9 +1335,11 @@ body, body section, footer{
         }
 
         @media only screen and (min-width: 321px) and (max-width: 479px) {
-            .txtBnrHor span {
+            /* AnhTT thay_doi_ads_zone*/
+            /*.txtBnrHor span {
                 font-size: 11px;
-            }
+            }*/
+            /* AnhTT thay_doi_ads_zone*/
             .ifTtr,
             .blqPr .extTit,
             .extTit span {
@@ -2772,9 +2780,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         .tmPst.pt8, .sbNws, a.sbevt.clrGr{
             font-size: 16px;
         }
+        /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
         .evtBxSp .clrTit{
-            font-size: 17px;
+            font-size: 18px;
         }
+        /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
         .brkLive{
             font-size: 18px;
             padding-right: 4px;
@@ -2844,9 +2854,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
             font-size: 24px;
         }
         /*End 6/2/2020: dangtq toi_uu_heading_tag*/
+        /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
         .evtBxSp .clrTit{
-            font-size: 19px;
+            font-size: 20px;
         }
+        /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
         header.tbTcb.txtCent.clrWh.bld.fs18, .vidIt.first a, .nwsTitHm h2.fs18{
             font-size: 24px!important;
         }
@@ -2935,9 +2947,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         .lady a.title.tt{
             background-position: -50px -4140px;
         }
+        /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
         .evtBxSp .clrTit{
-            font-size: 15px;
+            font-size: 16px;
         }
+        /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
         header.tbTcb.txtCent.clrWh.bld.fs18, .vidIt.first a, .nwsTitHm h2.fs18, h2.fs18{
             font-size: 20px!important;
         }
@@ -3034,9 +3048,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         .lady a.title.tt{
             background-position: -50px -4140px;
         }
+        /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
         .evtBxSp .clrTit{
-            font-size: 15px;
+            font-size: 16px;
         }
+        /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
         .titNws a.clrTit.bld{
             font-size: 24px;
         }
@@ -3101,9 +3117,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         div.pgS2 .tit:after{
             left: 73%;
         }
-        .txtBnrHor span{
+        /* AnhTT thay_doi_ads_zone*/
+        /*.txtBnrHor span{
             font-size: 13px;
-        }
+        }*/
+        /* AnhTT thay_doi_ads_zone*/
         /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
         .sk h3 span, .sk .tbLngble span{
             width: 29%;
@@ -3161,9 +3179,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         .lady a.title.tt{
             background-position: -50px -4140px;
         }
+        /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
         .evtBxSp .clrTit{
-            font-size: 17px;
+            font-size: 18px;
         }
+        /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
         .titNws a.clrTit.bld{
             font-size: 26px;
         }
@@ -3510,10 +3530,11 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         text-align: center;
         margin: 25px 0;
     }
+    /* AnhTT thay_doi_ads_zone*/
     .adZone{
         color: #999999ad;
-        font-size: 9px;
-        font-weight: 600;
+        /*font-size: 9px;
+        font-weight: 600;*/
         position: relative;
         margin: 0 7px 5px 7px;
     }
@@ -3524,7 +3545,7 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         top: 50%;
         margin-top: -0.5px;
         left: 0;
-        right: 60%;
+        right: 63%;
         background: #ddd;
     }
     .adZone:after{
@@ -3534,16 +3555,18 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         top: 50%;
         margin-top: -0.5px;
         right: 0;
-        left: 60%;
+        left: 63%;
         background: #ddd;
     }
+    /* AnhTT thay_doi_ads_zone*/
     .bnOnPage .line{
         content: '';
         background: #ddd;
         height: 1px;
         margin: 7px 7px 0 7px;
     }
-    @media screen and (min-width: 321px) and (max-width: 413px){
+    /* AnhTT thay_doi_ads_zone*/
+    /*@media screen and (min-width: 321px) and (max-width: 413px){
         .adZone{
             font-size: 10px;
         }
@@ -3572,7 +3595,8 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         .adZone{
             font-size: 12px;
         }
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
     /* End 05-12-2018 trungcq XLCYCMHENG_33523_bo_sung_dau_hieu_banner_onpage */
 
     .quiz-result {
@@ -5192,4 +5216,10 @@ p.linkOrigin .icoDrop {
         padding-right: 0;
     }
     /*End 22/4/2020: dangtq fix_loi_lech_noi_dung_bai_infographic*/
-    /*End 15/4/2020: dangtq fix_loi_lech_noi_dung_bai_infographic*/
+    /*End 15/4/2020: dangtq fix_loi_lech_noi_dung_bai_infographic
+
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
+    .lady .evtBxTit a{
+        color: #000;
+    }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/

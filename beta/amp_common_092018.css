@@ -197,14 +197,14 @@ article,
     display: inline-block;
 }
 
+/* AnhTT thay_doi_ads_zone*/
 .txtTrf,
-.txtBnrVel span, 
-.txtBnrHor span,
 .titTp,
 .lady > header a,
 footer .tbCmg ul li {
     text-transform: uppercase;
 }
+/* AnhTT thay_doi_ads_zone*/
 
 .txtCent, 
 .ct, 
@@ -345,8 +345,8 @@ end toi_uu_css_amp dangtq 2019*/
     padding-left: 10px;
     margin-bottom: 2px;
 }
-
-.txtBnrVel span, .txtBnrHor span {
+/* AnhTT thay_doi_ads_zone*/
+/*.txtBnrVel span, .txtBnrHor span {
     color: #999;
     font-size: 9px;
     font-weight: 700;
@@ -354,7 +354,8 @@ end toi_uu_css_amp dangtq 2019*/
 }
 .txtBnrVel span:before, .txtBnrHor span:before {
     content: "ad zone of 24h";
-}
+}*/
+/* AnhTT thay_doi_ads_zone*/
 /*---End banner---*/
 
 /*---Start header---*/
@@ -888,9 +889,11 @@ end toi_uu_css_amp dangtq 2019*/
     }
 }
 @media only screen and (min-width: 321px) and (max-width: 479px) {
-    .txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span {
         font-size: 10px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
     .ifTtr {
         font-size: 12px;
     }
@@ -919,9 +922,11 @@ end toi_uu_css_amp dangtq 2019*/
     }
 }
 @media only screen and (min-width: 480px) and (max-width: 568px) {
-    .txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span {
         font-size: 12px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
     .ifTtr {
         font-size: 14px;
     }
@@ -977,9 +982,11 @@ end toi_uu_css_amp dangtq 2019*/
     }
 }
 @media only screen and (min-width: 569px) and (max-width: 667px) {
-    .txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span {
         font-size: 14px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
     .ifTtr {
         font-size: 16px;
     }
@@ -1006,9 +1013,11 @@ end toi_uu_css_amp dangtq 2019*/
     .mnWrap .inner {
         max-height: 70px;
     }
-    .txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span {
         font-size: 16px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
     .ifTtr {
         font-size: 18px;
     }
@@ -1363,9 +1372,11 @@ end toi_uu_css_amp dangtq 2019*/
     .txtMn{
         margin-left: 0;
     }
-    .vf .txtBnrHor span{
-        font-size: 11px; /*25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng*/
-    }
+    /* AnhTT thay_doi_ads_zone*/
+    /*.vf .txtBnrHor span{
+        font-size: 11px; 25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
 }
 @media screen and (min-width: 414px) and (max-width: 487px) {
     .mnWrap .inner {
@@ -1383,9 +1394,11 @@ end toi_uu_css_amp dangtq 2019*/
     .icoTit:before{
         right: 6px;
     }
-    .vf .txtBnrHor span{
-        font-size: 13px; /*25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng*/
-    }
+    /* AnhTT thay_doi_ads_zone*/
+    /*.vf .txtBnrHor span{
+        font-size: 13px; 25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
 }
 @media screen and (min-width: 481px) and (max-width: 568px) {
     .mnWrap .inner {
@@ -1394,23 +1407,29 @@ end toi_uu_css_amp dangtq 2019*/
     .mainSec .mnWrap .inner {
         max-height: 55px;
     }
-    .vf .txtBnrHor span{
-        font-size: 11px; /*25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng*/
-    }
+    /* AnhTT thay_doi_ads_zone*/
+    /*.vf .txtBnrHor span{
+        font-size: 11px; 25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
 }
 @media screen and (max-width: 812px) and (min-width: 569px) {
     .icoTit:before{
         right: 6px;
     }
-    .vf .txtBnrHor span{
-        font-size: 13px; /*25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng*/
-    }
+    /* AnhTT thay_doi_ads_zone*/
+    /*.vf .txtBnrHor span{
+        font-size: 13px; 25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
 }
-@media screen and (min-width: 736px) and (max-width: 812px) {
+/* AnhTT thay_doi_ads_zone*/
+/*@media screen and (min-width: 736px) and (max-width: 812px) {
     .vf .txtBnrHor span{
-        font-size: 15px; /*25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng*/
+        font-size: 15px; 25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng
     }
-}
+}*/
+/* AnhTT thay_doi_ads_zone*/
 /* end 30/10/2018 dangtq */
 /*start 31/10/2018 bangnd */
 .sapo {
@@ -1691,3 +1710,38 @@ end toi_uu_css_amp dangtq 2019*/
     }
 }
 /* End tổng hợp các độ phân giải màn hình - dangtq 2019 */
+
+/* AnhTT thay_doi_ads_zone*/
+.txtBnrHor span, .adZone {
+    color: #999;
+    font-size: 10px; 
+}
+.txtBnrHor span:before {
+    content: "Advertisement";
+}
+@media screen and (max-width: 320px) {
+    .txtBnrHor span, .adZone {
+      font-size: 8px; 
+  } 
+}
+@media screen and (min-width: 414px) {
+    .txtBnrHor span, .adZone {
+      font-size: 12px; 
+  } 
+}
+@media screen and (min-width: 480px) {
+    .txtBnrHor span, .adZone {
+      font-size: 10px; 
+  } 
+}
+@media screen and (min-width: 640px) {
+    .txtBnrHor span, .adZone {
+      font-size: 12px; 
+  } 
+}
+@media screen and (min-width: 736px) {
+    .txtBnrHor span, .adZone {
+      font-size: 14px; 
+  } 
+}
+/* AnhTT thay_doi_ads_zone*/

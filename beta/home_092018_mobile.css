@@ -155,9 +155,11 @@ and open the template in the editor.
             }
         }
         @media only screen and (min-width: 668px) {
-            .txtBnrHor span {
+            /* AnhTT thay_doi_ads_zone*/
+            /*.txtBnrHor span {
                 font-size: 16px;
-            }
+            }*/
+            /* AnhTT thay_doi_ads_zone*/
             .tmPst a, .ifTtr, .blqPr .extTit, .extTit span, .extTit a, .tpcHt .tpcLitIt li a, #footer p {
                 font-size: 18px;
             }
@@ -184,9 +186,11 @@ and open the template in the editor.
             }
         }
         @media only screen and (min-width: 569px) and (max-width: 667px) {
-            .txtBnrHor span {
+            /* AnhTT thay_doi_ads_zone*/
+            /*.txtBnrHor span {
                 font-size: 14px;
-            }
+            }*/
+            /* AnhTT thay_doi_ads_zone*/
             .ifTtr, .blqPr .extTit, .extTit span, .tmPst a, .extTit a, .tpcHt .tpcLitIt li a, #footer p {
                 font-size: 16px;
             }
@@ -211,9 +215,11 @@ and open the template in the editor.
             .tbCmCent a{font-size: 21px;}
         }
         @media only screen and (min-width: 480px) and (max-width: 568px) {
-            .txtBnrHor span {
+            /* AnhTT thay_doi_ads_zone*/
+            /*.txtBnrHor span {
                 font-size: 12px;
-            }
+            }*/
+            /* AnhTT thay_doi_ads_zone*/
             #footer p, .ifTtr, .blqPr .extTit, .extTit span, .tmPst a, .extTit a, .tpcHt .tpcLitIt li a, .tmPst{
                 font-size: 14px;
             }
@@ -240,9 +246,11 @@ and open the template in the editor.
             }
         }
         @media only screen and (min-width: 321px) and (max-width: 479px) {
-            .txtBnrHor span {
+            /* AnhTT thay_doi_ads_zone*/
+            /*.txtBnrHor span {
                 font-size: 10px;
-            }
+            }*/
+            /* AnhTT thay_doi_ads_zone*/
             .ifTtr, .blqPr .extTit, .extTit span {
                 font-size: 12px;
             }
@@ -1079,9 +1087,11 @@ header */
     .tmPst.pt8{
         font-size: 16px;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 17px;
+        font-size: 18px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
 }
 @media screen and (min-width: 736px) and (max-width: 812px) {
     .ctTp{
@@ -1106,9 +1116,11 @@ header */
     .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li{
         font-size: 24px;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 19px;
+        font-size: 20px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     header.tbTcb.txtCent.clrWh.bld.fs18, .vidIt.first a{
         font-size: 24px!important;
     }
@@ -1148,9 +1160,11 @@ header */
         .lady a.title.tt{
             background-position: -50px -4140px;
         }
+        /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
         .evtBxSp .clrTit{
-            font-size: 15px;
+            font-size: 16px;
         }
+        /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
         header.tbTcb.txtCent.clrWh.bld.fs18, .vidIt.first a{
             font-size: 20px!important;
         }
@@ -1188,9 +1202,11 @@ header */
         .lady a.title.tt{
             background-position: -50px -4140px;
         }
+        /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
         .evtBxSp .clrTit{
-            font-size: 15px;
+            font-size: 16px;
         }
+        /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
         .titNws a.clrTit.bld{
             font-size: 24px;
         }
@@ -1236,9 +1252,11 @@ header */
         .lady a.title.tt{
             background-position: -50px -4140px;
         }
+        /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
         .evtBxSp .clrTit{
-            font-size: 17px;
+            font-size: 18px;
         }
+        /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
         .titNws a.clrTit.bld{
             font-size: 26px;
         }
@@ -1563,16 +1581,20 @@ header */
   font-size: 16px;
   vertical-align: 2px;
   margin-right: 5px; }
+  /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
 .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
-  font-size: 16px;
+  /*font-size: 16px;*/
   color: #fff; }
+  /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
 
 @media screen and (max-width: 320px) {
   .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
     font-size: 14px; }
-
-  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
-    font-size: 14px; }
+    
+    /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
+  /*.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
+    font-size: 14px; }*/
+    /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
 
     .tabSkdb img{
     	max-height: 17px;
@@ -1580,27 +1602,39 @@ header */
 @media screen and (min-width: 414px) {
   .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
     font-size: 18px; }
-
-  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
-    font-size: 18px; } }
+    
+    /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
+  /*.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
+    font-size: 18px; }*/ 
+    /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
+}
 @media screen and (min-width: 480px) {
   .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
     font-size: 16px; }
-
-  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
-    font-size: 16px; } }
+    
+    /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
+  /*.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
+    font-size: 16px; }*/
+    /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/ 
+}
 @media screen and (min-width: 640px) {
   .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
     font-size: 18px; }
-
-  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
-    font-size: 18px; } }
+    
+    /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
+  /*.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
+    font-size: 18px; }*/
+    /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/ 
+}
 @media screen and (min-width: 736px) {
   .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
     font-size: 20px; }
-
-  .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
-    font-size: 20px; } }
+    
+    /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
+  /*.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
+    font-size: 20px; }*/
+    /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/ 
+}
 
     .boxCateHead.boxCateHead_3 .listMenuChild li:last-child{
         padding-right: 0;

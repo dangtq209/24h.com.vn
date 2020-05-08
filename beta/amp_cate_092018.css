@@ -71,9 +71,11 @@
     }*/
 }
 @media only screen and (min-width: 668px){
-    .txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span {
         font-size: 16px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
     #footer p {
         font-size: 18px;
     }
@@ -94,9 +96,11 @@
     }
 }
 @media only screen and (min-width: 569px) and (max-width: 667px) {
-    .txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span {
         font-size: 14px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
     #footer p {
         font-size: 16px;
     }
@@ -117,9 +121,11 @@
     }
 }
 @media only screen and (min-width: 480px) and (max-width: 568px) {
-    .txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span {
         font-size: 12px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
     #footer p {
         font-size: 14px;
     }
@@ -141,9 +147,11 @@
 }
 
 @media only screen and (min-width: 321px) and (max-width: 479px) {
-    .txtBnrHor span {
+    /* AnhTT thay_doi_ads_zone*/
+    /*.txtBnrHor span {
         font-size: 10px;
-    }
+    }*/
+    /* AnhTT thay_doi_ads_zone*/
     .tmPst, .pagS2 a.Next, .pagS2 a.Prev, .pagPge, .pagS2 .pagPge {
         font-size: 14px;
     }
