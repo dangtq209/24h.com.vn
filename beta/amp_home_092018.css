@@ -490,9 +490,11 @@ and open the template in the editor.
     .tmPst.pt8{
         font-size: 16px;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 17px;
+        font-size: 18px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
 }
 @media screen and (min-width: 736px) and (max-width: 812px) {
     .ctTp{
@@ -517,9 +519,11 @@ and open the template in the editor.
     .nwsItHm>.nwsTitHm>a, .lady > header a, .lady .nwsItHm>.evtBxTit>a, footer .tbCmg ul li{
         font-size: 24px;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 19px;
+        font-size: 20px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     header.tbTcb.txtCent.clrWh.bld.fs18, .vidIt.first a{
         font-size: 24px;
     }
@@ -559,9 +563,11 @@ and open the template in the editor.
     .lady a.title.tt{
         background-position: -50px -4140px;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 15px;
+        font-size: 16px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     header.tbTcb.txtCent.clrWh.bld.fs18, .vidIt.first a{
         font-size: 20px;
     }
@@ -599,9 +605,11 @@ and open the template in the editor.
     .lady a.title.tt{
         background-position: -50px -4140px;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 15px;
+        font-size: 16px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .titNws a.clrTit.bld{
         font-size: 24px;
     }
@@ -647,9 +655,11 @@ and open the template in the editor.
     .lady a.title.tt{
         background-position: -50px -4140px;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 17px;
+        font-size: 18px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .titNws a.clrTit.bld{
         font-size: 26px;
     }

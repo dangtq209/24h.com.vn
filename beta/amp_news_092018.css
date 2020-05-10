@@ -497,10 +497,12 @@ blockquote {
 }*/
 /*end toi_uu_css_amp dangtq 2019*/
 
+/*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
 .evtBxTit a {
     font-size: 18px;
-    color: #333;
+    /*color: #333;*/
 }
+/*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
 .evtBx .imgNwsMdm {
     width: 45%;
     height: auto;
@@ -1685,9 +1687,11 @@ div.pgS2 .tit:after{
     .tmPst.pt8, .sbNws, a.sbevt.clrGr{
         font-size: 16px;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 17px;
+        font-size: 18px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .brkLive{
         font-size: 18px;
         padding-right: 4px;
@@ -1755,9 +1759,11 @@ div.pgS2 .tit:after{
         font-size: 24px;
     }
     /*End 6/2/2020: dangtq toi_uu_heading_tag*/
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 19px;
+        font-size: 20px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .vidIt.first a, .nwsTitHm h2.fs18{
         font-size: 24px;
     }
@@ -1829,9 +1835,11 @@ div.pgS2 .tit:after{
     .lady a.title.tt{
         background-position: -50px -4140px;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 15px;
+        font-size: 16px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .vidIt.first a, .nwsTitHm h2.fs18, h2.fs18{
         font-size: 20px;
     }
@@ -1916,9 +1924,11 @@ div.pgS2 .tit:after{
     .lady a.title.tt{
         background-position: -50px -4140px;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 15px;
+        font-size: 16px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .titNws a.clrTit.bld{
         font-size: 24px;
     }
@@ -2027,9 +2037,11 @@ div.pgS2 .tit:after{
     .lady a.title.tt{
         background-position: -50px -4140px;
     }
+    /*Begin 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .evtBxSp .clrTit{
-        font-size: 17px;
+        font-size: 18px;
     }
+    /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
     .titNws a.clrTit.bld{
         font-size: 26px;
     }
