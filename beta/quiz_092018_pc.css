@@ -908,3 +908,9 @@ a.quiz-question-item-link:hover,
 .quizz7 .quiz-question-item-link{
     border: 2px solid #e0e0e0 !important;
 }
+
+/*Begin 14/5/2020: dangtq Tinh_chinh_text_bai_Quiz_6_Trac_nghiem_phan_trang_tren_PC*/
+.quizz6-question .quiz-five-content-answer p{
+	font-weight: normal;
+}
+/*End 14/5/2020: dangtq Tinh_chinh_text_bai_Quiz_6_Trac_nghiem_phan_trang_tren_PC*/
