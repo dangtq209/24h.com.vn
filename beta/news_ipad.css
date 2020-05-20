@@ -639,6 +639,7 @@ blockquote {
     font-size: 24px;
 
 
+
 }
 
 /*Begin 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
@@ -2793,3 +2794,149 @@ p.linkOrigin .icoDrop {
     font-weight: bold;
 }
 /*End 6/2/2020: dangtq toi_uu_heading_tag*/
+
+/* Begin: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
+.more1 {
+    display: block;
+    background: #ebebeb;
+    text-align: center;
+    padding: 10px;
+    margin: 10px 0;
+    font-size: 14px;
+    color: #000!important;
+}
+.ques_answ .g-recaptcha>div{
+    margin: 0 auto;
+}
+/* End: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
+.ques_answ .middle, .ques_answ .readerOpinionTit .amount, .ques_answ .note .keyQues {
+  vertical-align: middle; }
+.ques_answ .lin {
+  margin: 15px 0; }
+  /* Begin: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
+  .ques_answ .lin.linG {
+    border-color: #36853b; }
+    /* End: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
+.ques_answ p {
+  font-size: 15px;
+  line-height: 1.6; }
+.ques_answ .txtUnder {
+    font-size: 16px;
+    color: #fff;
+}
+.ques_answ .txtUndernew{
+    color: #36853b;
+}
+#hoidap_div_cau_tra_loi .txtCent{
+    margin-top: 20px;
+} 
+#hoidap_div_cau_hoi .txtCent{
+    margin-top: 20px;
+}
+.keyQues_text{
+    font-size: 16px;
+}
+.ques_answ .btnPopup {
+  font-size: 16px;
+  color: #fff;
+  width: 385px;
+  height: 50px;
+  line-height: 50px;
+  background: url('//cdn.24h.com.vn/images/chat-icon-hoidap.png') no-repeat #36853b;
+  background-position: 10px center;
+  border-radius: 15px;
+  margin: 0 auto;
+  cursor: pointer;
+  padding-left: 30px; }
+.ques_answ .readerOpinionTit {
+  color: #36853b;
+  margin-bottom: 18px;
+  font-size: 20px;
+  border-bottom: 3px solid;
+  padding: 0 0 5px 10px; }
+  .ques_answ .readerOpinionTit .amount {
+    display: inline-block;
+    background: #ebebeb;
+    font-size: 12px;
+    width: 40px;
+    height: 20px;
+    line-height: 20px;
+    border-radius: 10px; }
+.ques_answ .readerOpinionCont {
+  padding: 0 20px 0 10px; }
+  .ques_answ .readerOpinionCont .name {
+    font-size: 13px; }
+.ques_answ .note {
+  margin: 20px auto 35px;
+  background: #f7f7f7;
+  color: #36853b;
+  width: 100%;
+  height: 60px;
+  line-height: 60px;
+  border-radius: 0;
+  padding-left: 0; }
+  .ques_answ .note .keyQues {
+    font-size: 38px; }
+.ques_answ .answerTit {
+  font-size: 24px;
+  color: #dc443f;
+  margin-bottom: 10px; }
+.ques_answ .doctorAnswer {
+  background-color: #f4f4f4;
+  padding: 12px 20px; }
+  .ques_answ .doctorAnswer p {
+    margin: 0; }
+    .ques_answ .doctorAnswer p.doctorName {
+      margin-bottom: 10px; }
+
+.fixBtn, .ques_answ_blur .form .closeBtn, .ques_answ_blur .form .submitBtn {
+  border: none;
+  outline: none; }
+
+.ques_answ_blur {
+  position: fixed;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.68);
+  z-index: 999999; }
+  .ques_answ_blur * {
+    box-sizing: border-box; }
+  .ques_answ_blur .form {
+    background: #fff;
+    width: 668px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 15px 20px;
+    border: 3px solid #78b43d; }
+    .ques_answ_blur .form .closeBtn {
+      width: 44px;
+      height: 44px;
+      background: url('//cdn.24h.com.vn/images/closeBtn-hoidap.png') no-repeat;
+      position: absolute;
+      top: -25px;
+      right: -25px; }
+    .ques_answ_blur .form .form-control {
+      width: 100%;
+      outline: none;
+      padding: 9px 20px;
+      border: 1px solid #cccccc;
+      border-radius: 7px;
+      font-size: 15px; }
+      .ques_answ_blur .form .form-control::placeholder {
+        color: #797979;
+        font-size: 12px;
+        font-style: italic; }
+    .ques_answ_blur .form .submitBtn {
+      background: #78b43d;
+      color: #fff;
+      width: 110px;
+      height: 33px;
+      border-radius: 25px;
+      font-size: 14px; 
+        padding: 10px 32px;
+    }
+/* End: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */

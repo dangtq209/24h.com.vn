@@ -4550,6 +4550,7 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
     font-style: italic;
     text-align: center;
 }
+/*Begin 27/2/2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap*/
 @media screen and (min-width: 375px) {
     .articleBody p.img_chu_thich_0407, .articleBody p.img_chu_thich_0407 *{
         font-size: 16px;
@@ -5157,6 +5158,374 @@ p.linkOrigin .icoDrop {
 
 
 
+
+/* Begin: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
+.ques_answ .more1{
+	margin-top: 0;
+}
+.ques_answ{
+	margin: 0 -10px; 
+}
+.data-embed-code-hoidap{
+	z-index: 4!important;
+}
+.ques_answ .g-recaptcha>div{
+	margin: 0 auto;
+}
+.ques_answ .readerOpinionCont .note{
+	margin: 0 -15px 10px;
+}
+/* End: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
+.ques_answ .middle, .ques_answ .note .keyQues {
+  vertical-align: middle; }
+.ques_answ .lin {
+  margin: 15px 0; }
+  /* Begin: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
+  .ques_answ .lin.linG {
+    border-color: #78b43d;}
+    /* End: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
+.ques_answ .txtUnder {
+    color: #fff;
+}
+.ques_answ .txtUndernew{
+    color: #36853b;
+}
+#hoidap_div_cau_tra_loi .txtCent{
+    margin-top: 20px;
+}
+#hoidap_div_cau_hoi .txtCent{
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+/* Begin: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
+/*.ques_answ img{
+    max-width: 100%;
+}*/
+/* End: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
+.ques_answ .head p {
+  font-size: 14px;
+  margin-bottom: 35px!important; }
+  @media screen and (max-width: 320px) {
+    .ques_answ .head p {
+      font-size: 12px; } }
+  @media screen and (min-width: 414px) {
+    .ques_answ .head p {
+      font-size: 16px; } }
+  @media screen and (min-width: 480px) {
+    .ques_answ .head p {
+      font-size: 14px; } }
+  @media screen and (min-width: 640px) {
+    .ques_answ .head p {
+      font-size: 16px; } }
+  @media screen and (min-width: 736px) {
+    .ques_answ .head p {
+      font-size: 18px; } }
+.ques_answ .btnPopup {
+  font-size: 14px;
+  color: #fff;
+  background: url('//cdn.24h.com.vn/images/chat-icon-hoidap.png') no-repeat #36853b;
+  background-position: 10px center;
+  border-radius: 15px;
+  margin: 20px 15px 0; /* Begin: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
+  padding: 16px 0 16px 45px; 
+  line-height: 1.5;
+}
+  @media screen and (max-width: 320px) {
+    .ques_answ .btnPopup {
+      font-size: 12px; } }
+  @media screen and (min-width: 414px) {
+    .ques_answ .btnPopup {
+      font-size: 16px; } }
+  @media screen and (min-width: 480px) {
+    .ques_answ .btnPopup {
+      font-size: 14px; } }
+  @media screen and (min-width: 640px) {
+    .ques_answ .btnPopup {
+      font-size: 16px; } }
+  @media screen and (min-width: 736px) {
+    .ques_answ .btnPopup {
+      font-size: 18px; } }
+.ques_answ .readerOpinionTit {
+  color: #36853b;
+  margin-bottom: 18px;
+  font-size: 20px;
+  border-bottom: 3px solid;
+  padding: 0 0 5px 15px; }
+  @media screen and (max-width: 320px) {
+    .ques_answ .readerOpinionTit {
+      font-size: 18px; } }
+  @media screen and (min-width: 414px) {
+    .ques_answ .readerOpinionTit {
+      font-size: 22px; } }
+  @media screen and (min-width: 480px) {
+    .ques_answ .readerOpinionTit {
+      font-size: 20px; } }
+  @media screen and (min-width: 640px) {
+    .ques_answ .readerOpinionTit {
+      font-size: 22px; } }
+  @media screen and (min-width: 736px) {
+    .ques_answ .readerOpinionTit {
+      font-size: 24px; } }
+  .ques_answ .readerOpinionTit .amount {
+    background: #ebebeb;
+    font-size: 12px;
+    border-radius: 10px;
+    padding: 3px 16px;
+    vertical-align: 3px; }
+    @media screen and (max-width: 320px) {
+      .ques_answ .readerOpinionTit .amount {
+        font-size: 10px; } }
+    @media screen and (min-width: 414px) {
+      .ques_answ .readerOpinionTit .amount {
+        font-size: 14px; } }
+    @media screen and (min-width: 480px) {
+      .ques_answ .readerOpinionTit .amount {
+        font-size: 12px; } }
+    @media screen and (min-width: 640px) {
+      .ques_answ .readerOpinionTit .amount {
+        font-size: 14px; } }
+    @media screen and (min-width: 736px) {
+      .ques_answ .readerOpinionTit .amount {
+        font-size: 16px; } }
+.ques_answ .readerOpinionCont {
+  padding: 0 15px 0; }
+  .ques_answ .readerOpinionCont * {
+    font-size: 17px;
+    padding: 5px 0!important; }
+    @media screen and (max-width: 320px) {
+      .ques_answ .readerOpinionCont * {
+        font-size: 15px; } }
+    @media screen and (min-width: 414px) {
+      .ques_answ .readerOpinionCont * {
+        font-size: 19px; } }
+    @media screen and (min-width: 480px) {
+      .ques_answ .readerOpinionCont * {
+        font-size: 17px; } }
+    @media screen and (min-width: 640px) {
+      .ques_answ .readerOpinionCont * {
+        font-size: 19px; } }
+    @media screen and (min-width: 736px) {
+      .ques_answ .readerOpinionCont * {
+        font-size: 21px; } }
+  .ques_answ .readerOpinionCont .news-image {
+    width: 100%;
+    margin-left: 0; }
+.ques_answ .note {
+  margin: 0 0 10px;
+  background: #f7f7f7;
+  color: #36853b;
+  padding: 14px 0;
+  font-size: 14px;
+  border-radius: 0; }
+  /* Begin: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
+  .ques_answ .keyQues_text{
+    font-size: 14px;
+}
+  @media screen and (max-width: 320px) {
+    .ques_answ .note, .ques_answ .keyQues_text {
+      font-size: 12px; } }
+  @media screen and (min-width: 414px) {
+    .ques_answ .note, .ques_answ .keyQues_text {
+      font-size: 16px; } }
+  @media screen and (min-width: 480px) {
+    .ques_answ .note, .ques_answ .keyQues_text {
+      font-size: 14px; } }
+  @media screen and (min-width: 640px) {
+    .ques_answ .note, .ques_answ .keyQues_text {
+      font-size: 16px; } }
+  @media screen and (min-width: 736px) {
+    .ques_answ .note, .ques_answ .keyQues_text {
+      font-size: 18px; } }
+      /* End: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
+  .ques_answ .note .keyQues {
+    position: absolute;
+    left: 10px;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 33px; }
+    @media screen and (max-width: 320px) {
+      .ques_answ .note .keyQues {
+        font-size: 31px; } }
+    @media screen and (min-width: 414px) {
+      .ques_answ .note .keyQues {
+        font-size: 35px; } }
+    @media screen and (min-width: 480px) {
+      .ques_answ .note .keyQues {
+        font-size: 33px; } }
+    @media screen and (min-width: 640px) {
+      .ques_answ .note .keyQues {
+        font-size: 35px; } }
+    @media screen and (min-width: 736px) {
+      .ques_answ .note .keyQues {
+        font-size: 37px; } }
+.ques_answ .answerTit {
+  font-size: 24px;
+  color: #dc443f;
+  margin: 20px 0; }
+  @media screen and (max-width: 320px) {
+    .ques_answ .answerTit {
+      font-size: 22px; } }
+  @media screen and (min-width: 414px) {
+    .ques_answ .answerTit {
+      font-size: 26px; } }
+  @media screen and (min-width: 480px) {
+    .ques_answ .answerTit {
+      font-size: 24px; } }
+  @media screen and (min-width: 640px) {
+    .ques_answ .answerTit {
+      font-size: 26px; } }
+  @media screen and (min-width: 736px) {
+    .ques_answ .answerTit {
+      font-size: 28px; } }
+.ques_answ .doctorAnswer {
+  background: #f4f4f4;
+  padding: 12px;
+  margin: 0 10px 20px; }
+  .ques_answ .doctorAnswer p {
+    margin: 0;
+    font-size: 15px; }
+    @media screen and (max-width: 320px) {
+      .ques_answ .doctorAnswer p {
+        font-size: 13px; } }
+    @media screen and (min-width: 414px) {
+      .ques_answ .doctorAnswer p {
+        font-size: 17px; } }
+    @media screen and (min-width: 480px) {
+      .ques_answ .doctorAnswer p {
+        font-size: 15px; } }
+    @media screen and (min-width: 640px) {
+      .ques_answ .doctorAnswer p {
+        font-size: 17px; } }
+    @media screen and (min-width: 736px) {
+      .ques_answ .doctorAnswer p {
+        font-size: 19px; } }
+    .ques_answ .doctorAnswer p.doctorName {
+      font-size: 16px;
+      margin-bottom: 10px; }
+      @media screen and (max-width: 320px) {
+        .ques_answ .doctorAnswer p.doctorName {
+          font-size: 14px; } }
+      @media screen and (min-width: 414px) {
+        .ques_answ .doctorAnswer p.doctorName {
+          font-size: 18px; } }
+      @media screen and (min-width: 480px) {
+        .ques_answ .doctorAnswer p.doctorName {
+          font-size: 16px; } }
+      @media screen and (min-width: 640px) {
+        .ques_answ .doctorAnswer p.doctorName {
+          font-size: 18px; } }
+      @media screen and (min-width: 736px) {
+        .ques_answ .doctorAnswer p.doctorName {
+          font-size: 20px; } }
+
+.fixBtn, .ques_answ_blur .form .closeBtn, .ques_answ_blur .form .submitBtn {
+  border: none;
+  outline: none; }
+
+.ques_answ_blur {
+  position: fixed !important;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background: rgba(0, 0, 0, 0.68);
+  z-index: 999999 !important; }
+  .ques_answ_blur * {
+    box-sizing: border-box; }
+  .ques_answ_blur .form {
+    background: #fff;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 10px;
+    border: 3px solid #78b43d;
+    width: 95%; }
+    .ques_answ_blur .form .closeBtn {
+      width: 44px;
+      height: 44px;
+      background: url('//cdn.24h.com.vn/images/closeBtn-hoidap.png') no-repeat;
+      position: absolute;
+      top: -35px;
+      right: -10px; }
+    .ques_answ_blur .form .inner {
+      height: 100%;
+      overflow: hidden;
+      overflow-y: scroll; }
+    @media only screen and (min-width: 321px) and (max-width: 374px) {
+      .ques_answ_blur .form {
+        height: 68%; } }
+    @media only screen and (min-width: 376px) and (max-width: 413px) {
+      .ques_answ_blur .form {
+        height: 68%; } }
+    @media only screen and (min-width: 480px) {
+      .ques_answ_blur .form {
+        height: 80%; } }
+    .ques_answ_blur .form .form-control {
+      width: 100%;
+      outline: none;
+      padding: 9px 20px;
+      border: 1px solid #cccccc;
+      border-radius: 7px;
+      font-size: 15px; }
+      @media screen and (max-width: 320px) {
+        .ques_answ_blur .form .form-control {
+          font-size: 13px; } }
+      @media screen and (min-width: 414px) {
+        .ques_answ_blur .form .form-control {
+          font-size: 17px; } }
+      @media screen and (min-width: 480px) {
+        .ques_answ_blur .form .form-control {
+          font-size: 15px; } }
+      @media screen and (min-width: 640px) {
+        .ques_answ_blur .form .form-control {
+          font-size: 17px; } }
+      @media screen and (min-width: 736px) {
+        .ques_answ_blur .form .form-control {
+          font-size: 19px; } }
+      .ques_answ_blur .form .form-control::placeholder {
+        color: #797979;
+        font-size: 12px;
+        font-style: italic; }
+        @media screen and (max-width: 320px) {
+          .ques_answ_blur .form .form-control::placeholder {
+            font-size: 10px; } }
+        @media screen and (min-width: 414px) {
+          .ques_answ_blur .form .form-control::placeholder {
+            font-size: 14px; } }
+        @media screen and (min-width: 480px) {
+          .ques_answ_blur .form .form-control::placeholder {
+            font-size: 12px; } }
+        @media screen and (min-width: 640px) {
+          .ques_answ_blur .form .form-control::placeholder {
+            font-size: 14px; } }
+        @media screen and (min-width: 736px) {
+          .ques_answ_blur .form .form-control::placeholder {
+            font-size: 16px; } }
+    .ques_answ_blur .form .submitBtn {
+      background: #78b43d;
+      color: #fff;
+      padding: 9px 42px;
+      border-radius: 25px;
+      font-size: 14px; 
+        padding: 10px 32px;
+    }
+      @media screen and (max-width: 320px) {
+        .ques_answ_blur .form .submitBtn {
+          font-size: 12px; } }
+      @media screen and (min-width: 414px) {
+        .ques_answ_blur .form .submitBtn {
+          font-size: 16px; } }
+      @media screen and (min-width: 480px) {
+        .ques_answ_blur .form .submitBtn {
+          font-size: 14px; } }
+      @media screen and (min-width: 640px) {
+        .ques_answ_blur .form .submitBtn {
+          font-size: 16px; } }
+      @media screen and (min-width: 736px) {
+        .ques_answ_blur .form .submitBtn {
+          font-size: 18px; } }
+  /* End: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap 
     /*Begin AnhTT 28/2/2020 toi_uu_breadcrum_cm_cap1*/
     .wlogoTaiTroCap1 .logoTaitro {
         right: auto;

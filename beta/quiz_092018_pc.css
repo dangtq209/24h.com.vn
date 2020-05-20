@@ -1,4 +1,4 @@
-.block-quiz img{
+.quiz8 .pg.block-quiz img{
     max-width:100%;
     /*display: block;*/
 }
@@ -846,12 +846,14 @@ a.quiz-question-item-link:hover,
 .list-quiz-4-1:hover p 
 {color: #78b43d}
 
+/*Begin 19/5/2020: dangtq fix_quiz_8*/
 .quiz-question-quiz5 a.quiz-question-item-link{
     padding: 2%;
     border: 2px solid #e0e0e0;
     padding-bottom: 10px;
-    height: auto!important;
+    height: auto;
 }
+/*End 19/5/2020: dangtq fix_quiz_8*/
 
 /* begin 3/11/2018 dangtq */
 .quiz-question-five .body-quiz-question-inner input, .quiz-question-quiz5 .body-quiz-question-inner input{
@@ -865,9 +867,11 @@ a.quiz-question-item-link:hover,
 .quiz-question-five .body-quiz-question-inner>div{
     margin-bottom: 7px;
 }
+/*Begin 19/5/2020: dangtq fix_quiz_8*/
 .quiz-repeat .body-quiz-question-inner{
-    padding: 0 20px;
+    padding-right: 20px;
 }
+/*End 19/5/2020: dangtq fix_quiz_8*/
 .quiz-question-item5 .img-question{
     margin-top: 10px;
 }
@@ -908,9 +912,69 @@ a.quiz-question-item-link:hover,
 .quizz7 .quiz-question-item-link{
     border: 2px solid #e0e0e0 !important;
 }
+/*    Begin AnhTT 28/4/2020 them_bai_quiz_8*/
+.quiz8 .pg {
+  display: block;
+  padding: 0 7px;
+  display: flex;
+  justify-content: left; }
+.quiz8 .pgIt {
+  margin: 0px 2px;
+  display: inline-block;
+  margin-bottom: 10px; }
+.quiz8 .pgLnk {
+  color: #000;
+  background: #e3e3e3;
+  width: 42px;
+  height: 42px;
+  line-height: 42px; }
+  /*Begin 19/5/2020: dangtq fix_quiz_8*/
+.quiz8 .atv .pgLnk {
+  background: #767776;
+  border-color: #767776;
+  font-size: 15px; }
+.quiz8 .grey .pgLnk {
+  background: #3E8EBA;
+  border-color: #3E8EBA;
+  color: #fff;
+  height: 41px; }
+  /*End 19/5/2020: dangtq fix_quiz_8*/
 
-/*Begin 14/5/2020: dangtq Tinh_chinh_text_bai_Quiz_6_Trac_nghiem_phan_trang_tren_PC*/
+.timeRemain {
+  display: inline-block;
+  width: 225px;
+  height: 40px;
+  line-height: 40px;
+  background: #f2f2f2;
+  font-size: 13px;
+  position: absolute;
+  left: 50%;
+  margin-left: -112px; }
+  .timeRemain .clRed {
+    font-size: 13px;
+    color: #FF0000; }
+
+.tabQuiz {
+  text-align: right; }
+  .tabQuiz a {
+    font-size: 13px;
+    text-align: center;
+    border-radius: 0;
+    text-transform: none;
+    width: 115px;
+    padding: 0;
+    line-height: 40px; }
+  /*    Begin AnhTT 28/4/2020 them_bai_quiz_8*/
+  
+  /*Begin 14/5/2020: dangtq_Tinh_chinh_text_bai_Quiz_6_Trac_nghiem_phan_trang_tren_PC*/
 .quizz6-question .quiz-five-content-answer p{
-	font-weight: normal;
+    font-weight: normal;
+    line-height: 1.6;
 }
-/*End 14/5/2020: dangtq Tinh_chinh_text_bai_Quiz_6_Trac_nghiem_phan_trang_tren_PC*/
+/*End 14/5/2020: dangtq_Tinh_chinh_text_bai_Quiz_6_Trac_nghiem_phan_trang_tren_PC*/
+
+/*Begin 19/5/2020: dangtq fix_quiz_8*/
+.quiz8 .check-quiz-question-item span.lbl-answ{
+	font-size: 13px;
+}
+/*End 19/5/2020: dangtq fix_quiz_8*/
