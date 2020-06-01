@@ -4361,4 +4361,7 @@ p.linkOrigin .icoDrop {
 .ques_answ .g-recaptcha>div{
 	margin: 0 auto;
 }
+.ques_answ>p>img{
+	max-width: 100%;
+}
 /* End: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */

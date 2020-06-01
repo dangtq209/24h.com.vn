@@ -1755,7 +1755,7 @@ a.btnGry {
 
 
 
-    width: 605px;
+    max-width: 605px!important; /*21/5/2020: dangtq fix_tran_anh_bai_tuong_thuat*/
 }
 .att p em span, .att p span em, .att p em{
     font-size: 15px!important;
