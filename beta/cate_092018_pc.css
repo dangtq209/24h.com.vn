@@ -2184,3 +2184,47 @@ div#box_tran_dau_hot_trang_chuyen_muc.block{
 	width: 100%;
 }
 /*End 18/9/2019: dangtq fix_loi_giao_dien*/
+/* begin background premium */
+.wpPremium {
+    position: relative; 
+}
+.wpPremium .bgPremium {
+    margin-top: 250px; 
+}
+.wpPremium .bgPremium > .contnr {
+    overflow: hidden; 
+}
+.wpPremium .bnPremium {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: -1; 
+}
+.wpPremium .contnrd {
+    background: none;
+    position: absolute;
+    bottom: 270px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1004px; 
+}
+.wpPremium .colLt, .wpPremium .colRt {
+    background: #fff; 
+}
+.wpPremium .colLt {
+    padding: 0 6px; 
+}
+.wpPremium .colLt .bnrPtn {
+    margin-left: -5px; 
+}
+.wpPremium .colRt {
+    margin: 0;
+    padding-right: 5px; 
+}
+.wpPremium .footerd {
+    width: 1004px;
+    margin: 0 auto; 
+}
+/* begin background premium */

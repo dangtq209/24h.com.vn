@@ -2389,3 +2389,23 @@ span.mxh-ver-right {
     margin-bottom: 10px;
     display: inline-block; }
 /* End: 09-04-2020 toi_uu_co_che_xem_bai_chua_xuat_ban_va_che_do_preview */
+
+/*Begin 25/5/2020: dangtq icon_bai_hoi_dap*/
+.hoidapIco, .TophoidapIco {
+    background: url('//cdn.24h.com.vn/images/icon_hoi_dap_trong_anh.png') no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.TophoidapIco{
+    left: auto;
+    top: 5px;
+    right: 5px;
+}
+.icohoidap {
+    background: url('//cdn.24h.com.vn/images/icon_hoi_dap_dau_text.png') left 4px no-repeat;
+}
+/*End 25/5/2020: dangtq icon_bai_hoi_dap*/

@@ -1027,27 +1027,32 @@ ul, li {
     padding-bottom: 3px;
 }
 /* End duclv: fixed_banner_cong_chao */
-.txtBnrVtl {
-    position: absolute;
-    left: -7px;
-    bottom: 5px;
-    transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    -ms-transform: rotate(-90deg);
-    transform-origin: left center;
-    -webkit-transform-origin: left center;
-    -ms-transform-origin: left center;
-}
-.txtBnrVtl span, .txtBnrHor span {
-    color: #999;
-    text-transform: uppercase;
-    font-size: 9px;
-    font-weight: 700;
-    position: relative;
-}
-.txtBnrVtl span:before, .txtBnrHor span:before {
-    content: "ad zone of 24h";
-}
+/*AnhTT thay_doi_ads_zone*/
+    .txtBnrVtl {
+        position: absolute;
+        bottom: 5px;
+        transform: rotate(-90deg);
+        -webkit-transform: rotate(-90deg);
+        -ms-transform: rotate(-90deg);
+        transform-origin: left center;
+        -webkit-transform-origin: left center;
+        -ms-transform-origin: left center;
+		left: -9px;
+    }
+	.colRt .txtBnrHor, .txtR {
+		text-align: right;
+	}
+    .txtBnrVtl span, .txtBnrHor span {
+        position: relative;
+        color: #999;
+		text-transform: none;
+		font-size: 10px;
+		font-weight: normal;
+    }
+    .txtBnrVtl span:before, .txtBnrHor span:before {
+        content: "Advertisement"; 
+    }
+	/*AnhTT thay_doi_ads_zone*/
 .bnrHmL {
     float: left;
     width: 336px;

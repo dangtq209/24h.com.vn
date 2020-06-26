@@ -2373,14 +2373,21 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
         border-bottom: 1px solid #78b43d;
         line-height: 2;
     }
+    /*Begin 15/6/2020: dangtq Toi_uu_heading_tag_trang_truc_tiep_bong_da*/
     .ngb .tit{
         font-size: 20px;
         font-weight: bold;
         text-transform: uppercase;
         background: url(//cdn.24h.com.vn/images/Forma-1.png) no-repeat left;
         display: inline-block;
-        padding-left: 25px;
+        padding: 0 0 0 25px!important;
     }
+    .ngb .tit h3.tuht_show{
+        font-size: 20px;
+        font-weight: bold;
+        padding: 0!important;
+    }
+    /*End 15/6/2020: dangtq Toi_uu_heading_tag_trang_truc_tiep_bong_da*/
     .w45{
         width: 45%;
     }
@@ -4550,7 +4557,6 @@ h3.toc_heading, h4.toc_heading, h5.toc_heading {
     font-style: italic;
     text-align: center;
 }
-/*Begin 27/2/2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap*/
 @media screen and (min-width: 375px) {
     .articleBody p.img_chu_thich_0407, .articleBody p.img_chu_thich_0407 *{
         font-size: 16px;
@@ -5197,11 +5203,9 @@ p.linkOrigin .icoDrop {
     margin-top: 20px;
     margin-bottom: 10px;
 }
-/* Begin: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
-/*.ques_answ img{
+.ques_answ img{
     max-width: 100%;
-}*/
-/* End: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
+}
 .ques_answ .head p {
   font-size: 14px;
   margin-bottom: 35px!important; }
@@ -5339,7 +5343,7 @@ p.linkOrigin .icoDrop {
       /* End: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
   .ques_answ .note .keyQues {
     position: absolute;
-    left: 10px;
+    left: 30px;
     top: 50%;
     transform: translateY(-50%);
     font-size: 33px; }

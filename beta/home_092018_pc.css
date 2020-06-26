@@ -725,9 +725,11 @@ a.flRt.seMore{
 .boxTtcbCol.col3 span{
     width: 58px;
 }
+/*Begin 15/6/2020: dangtq toi_uu_box_chi_so_khong_khi*/
 .boxTtcbCol.col3 .colorGrey{
-    width: 81px;
+    width: 85px;
 }
+/*Begin 15/6/2020: dangtq toi_uu_box_chi_so_khong_khi*/
 .boxTtcbCol.col1 .boxTtcbName{
     width: 45px;
     padding-left: 10px;
@@ -760,10 +762,12 @@ a.flRt.seMore{
 .boxTtcbCol.col3 sup{
     font-size: 8px;
 }
+/*Begin 15/6/2020: dangtq toi_uu_box_chi_so_khong_khi*/
 .boxTtcbCol.col3 span:nth-child(2){
-    margin-left: 10px;
-    margin-right: 10px;
+    margin-left: 8px;
+    margin-right: 8px;
 }
+/*End 15/6/2020: dangtq toi_uu_box_chi_so_khong_khi*/
 .boxTtcbCol.col3 .boxTtcbTit{
     width: 58px;
 }
@@ -830,3 +834,93 @@ a.flRt.seMore{
     font-family: Myriad Pro,Arial;
 }
 /* End vietlot*/
+
+/* begin: 11-06-2020: nang_cap_box_vietlott */
+.newVietLot{
+    position: relative;
+}
+.newVietLot .title {
+  font-size: 12px;
+  color: #001b53;
+  font-family: Myriad Pro, arial, sans-serif;
+  float: right; }
+.newVietLot .bor {
+  position: relative; }
+.newVietLot .vlPrev, .newVietLot .vlNext {
+  display: none;
+  width: 15px;
+  height: 30px;
+  background: url("//cdn.24h.com.vn/images/ttcb/prev_vl.png") no-repeat;
+  position: absolute;
+  top: 66%;
+  transform: translateY(-50%);
+  left: 0;
+  cursor: pointer;
+  z-index: 2 }
+.newVietLot .vlNext {
+  left: auto;
+  right: 0;
+  background-image: url("//cdn.24h.com.vn/images/ttcb/next_vl.png"); }
+.newVietLot .list {
+  display: flex;
+  color: #050934;
+  height: 44px; }
+  .newVietLot .list .boxTtcbName {
+    width: 64px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    font-size: 12px; }
+  .newVietLot .list .inner {
+    width: 65px;
+    flex-grow: 1;
+    height: 45px; }
+    .newVietLot .list .inner span {
+      float: none;
+      padding: 0;
+      height: 20px; }
+      .newVietLot .list .inner span.name {
+        width: 45px;
+        text-align: right; }
+    .newVietLot .list .inner .row2 {
+      display: flex; }
+      .newVietLot .list .inner .row2 .item {
+        display: flex;
+        justify-content: space-between;
+        width: 45px;
+        flex-grow: 1;
+        margin-left: 5px;
+        font-weight: bold; }
+        .newVietLot .swiper-pagination-switch{
+            padding: 0!important;
+            width: 4px;
+            height: 4px;
+        }
+        .newVietLot .swiper-active-switch{
+            background: #050934;
+            width: 6px;
+            height: 6px;
+        }
+        .newVietLot .pagination{
+            position: absolute;
+            bottom: 3px;
+            left: 50px;
+        }
+        .newVietLot img{
+            height: auto;
+        }
+        .newVietLot .list .inner>span:first-child{
+            margin-top: 3px;
+        }
+        .newVietLot .list .inner>span:last-child{
+            margin-top: -3px;
+        }
+        .newVietLot .colorRed{
+            font-weight: bold;
+        }
+        .newVietLot:hover .vlPrev, .newVietLot:hover .vlNext{
+            display: inline-block;
+        }
+/* end: 11-06-2020: nang_cap_box_vietlott */

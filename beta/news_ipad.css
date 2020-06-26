@@ -2750,9 +2750,12 @@ strong.timeUpdate *{
     color: #fcf02f;
     font-weight: 600;
 }
+/*Begin 15/6/2020: dangtq Toi_uu_heading_tag_trang_truc_tiep_bong_da*/
 .att .timeStep{
     font-size: 17px !important;
+    display: block;
 }
+/*End 15/6/2020: dangtq Toi_uu_heading_tag_trang_truc_tiep_bong_da*/
 .erGpLnk > a{
 	width: 100%;
 }
@@ -2940,3 +2943,12 @@ p.linkOrigin .icoDrop {
         padding: 10px 32px;
     }
 /* End: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
+
+/*Begin 15/6/2020: dangtq Toi_uu_heading_tag_trang_truc_tiep_bong_da*/
+.doihinhCustom .tit h3.tuht_show{
+    font-size: 22px;
+}
+.tabTThuat .sf h3.tuht_show{
+    font-size: 16px;
+}
+/*End 15/6/2020: dangtq Toi_uu_heading_tag_trang_truc_tiep_bong_da*/

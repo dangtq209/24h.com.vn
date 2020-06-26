@@ -1581,20 +1581,15 @@ header */
   font-size: 16px;
   vertical-align: 2px;
   margin-right: 5px; }
-  /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
 .boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
-  /*font-size: 16px;*/
+  
   color: #fff; }
-  /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
 
 @media screen and (max-width: 320px) {
   .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
     font-size: 14px; }
-    
-    /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
-  /*.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
-    font-size: 14px; }*/
-    /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
+
+
 
     .tabSkdb img{
     	max-height: 17px;
@@ -1602,39 +1597,23 @@ header */
 @media screen and (min-width: 414px) {
   .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
     font-size: 18px; }
-    
-    /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
-  /*.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
-    font-size: 18px; }*/ 
-    /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
-}
+
+   }
 @media screen and (min-width: 480px) {
   .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
     font-size: 16px; }
-    
-    /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
-  /*.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
-    font-size: 16px; }*/
-    /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/ 
-}
+
+   }
 @media screen and (min-width: 640px) {
   .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
     font-size: 18px; }
-    
-    /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
-  /*.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
-    font-size: 18px; }*/
-    /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/ 
-}
+
+   }
 @media screen and (min-width: 736px) {
   .boxCateHead.boxCateHead_3 .mnWrap .tabSkdb {
     font-size: 20px; }
-    
-    /*Begin 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/
-  /*.boxCateHead.boxCateHead_3 .listMenuChild .tabSkdb {
-    font-size: 20px; }*/
-    /*End 7/5/2020: dangtq Tinh_chinh_co_chu_cua_box_chuyen_muc_trang_chu*/ 
-}
+
+   }
 
     .boxCateHead.boxCateHead_3 .listMenuChild li:last-child{
         padding-right: 0;
@@ -1647,3 +1626,148 @@ header */
     	max-height: none;
     }
 /*End 17/3/2020 AnhTT bo_sung_tab_su_kien_dac_biet*/
+
+/*Begin 11/6/2020: dangtq box_tai_tro*/
+.txtBnrBox span:before{
+    content: "Box tài trợ";
+}
+/*End 11/6/2020: dangtq box_tai_tro*/
+
+/* begin: 11-06-2020: nang_cap_box_vietlott */
+.newVietLot {
+  margin: 0 10px;
+  position: relative; }
+  .newVietLot * {
+    font-size: 15px; }
+  .newVietLot .colorRed {
+    color: #fc000c; }
+  .newVietLot .colorOrange {
+    color: #faa61a; }
+  .newVietLot img {
+    max-width: 96px;
+    max-height: 25px; }
+  .newVietLot .title {
+    color: #001b53;
+    font-family: Myriad Pro, arial, sans-serif;
+    float: right;
+    padding-top: 5px; }
+  .newVietLot .bor {
+    position: relative;
+    border: 1px solid #e7e7e7;
+    border-top: 1px solid #fc000c; }
+  .newVietLot .vlPrev, .newVietLot .vlNext {
+    display: inline-block;
+    width: 6px;
+    height: 10px;
+    background: url("//cdn.24h.com.vn/images/2014/ttcb/prev_vl_m.png") no-repeat;
+    position: absolute;
+    top: 65%;
+    transform: translateY(-50%);
+    left: -10px; }
+  .newVietLot .vlNext {
+    left: auto;
+    right: -10px;
+    background-image: url("//cdn.24h.com.vn/images/2014/ttcb/next_vl_m.png"); }
+  .newVietLot .list {
+    display: flex;
+    color: #050934;
+    height: 65px;
+    overflow: hidden; }
+  .newVietLot .boxTtcbName {
+    padding: 20px 9px;
+    font-size: 19px;
+    background: #e7e7e7;
+    min-width: 111px;
+    text-align: center; }
+  .newVietLot .inner {
+    width: 111px;
+    flex-grow: 1;
+    padding: 0 20px 0 10px; }
+    .newVietLot .inner > span:first-child {
+      padding: 10px 0;
+      display: inline-block; }
+    .newVietLot .inner .name {
+      min-width: 60px;
+      text-align: right; }
+  .newVietLot .row2 {
+    display: flex; }
+    .newVietLot .row2 .item {
+      display: flex;
+      justify-content: space-between;
+      width: 45px;
+      flex-grow: 1;
+      margin-left: 5px;
+      font-weight: bold; }
+      .newVietLot .swiper-pagination-switch{
+            width: 4px;
+            height: 4px;
+        }
+      .newVietLot .swiper-active-switch{
+            background: #050934;
+            width: 6px;
+            height: 6px;
+        }
+        .newVietLot .pagination{
+            position: absolute;
+            bottom: 3px;
+            padding-left: 45px;
+            text-align: left;
+            z-index: 1;
+        }
+        .newVietLot .colorRed{
+            font-weight: bold;
+        }
+
+@media screen and (max-width: 360px) {
+  .newVietLot .inner {
+    padding: 0 10px 0 5px; } }
+@media screen and (max-width: 320px) {
+  .newVietLot * {
+    font-size: 13px; }
+
+  .newVietLot .boxTtcbName {
+    font-size: 17px;
+    min-width: 100px; }
+
+  .newVietLot .inner {
+    padding: 0 5px; }
+
+  .newVietLot .inner .name {
+    min-width: 52px; } }
+@media screen and (min-width: 414px) {
+  .newVietLot * {
+    font-size: 17px; }
+
+  .newVietLot .boxTtcbName {
+    font-size: 21px; }
+
+  .newVietLot .inner .name {
+    min-width: 68px; } }
+@media screen and (min-width: 480px) {
+  .newVietLot * {
+    font-size: 15px; }
+
+  .newVietLot .boxTtcbName {
+    font-size: 19px; }
+
+  .newVietLot .inner .name {
+    min-width: 60px; } }
+@media screen and (min-width: 640px) {
+  .newVietLot * {
+    font-size: 17px; }
+
+  .newVietLot .boxTtcbName {
+    font-size: 21px; }
+
+  .newVietLot .inner .name {
+    min-width: 68px; } }
+@media screen and (min-width: 736px) {
+  .newVietLot * {
+    font-size: 19px; }
+
+  .newVietLot .boxTtcbName {
+    font-size: 23px; }
+
+  .newVietLot .inner .name {
+    min-width: 76px; } }
+/* End: 11-06-2020: nang_cap_box_vietlott */

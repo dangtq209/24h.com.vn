@@ -1,0 +1,459 @@
+.calendar {
+  position: relative;
+  margin: 10px -10px 0; }
+  .calendar * {
+    box-sizing: border-box; }
+  .calendar .btn {
+    background: #fff;
+    color: #73ac3a;
+    font-size: 11px;
+    border-radius: 3px;
+    padding: 0 10px;
+    display: inline-block;
+    vertical-align: bottom;
+    margin-left: 10px; }
+  .calendar .icoCalendar {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    background: url("//cdn.24h.com.vn/images/lichvannien/icoCalendar.png") no-repeat;
+    background-size: 100%;
+    vertical-align: middle;
+    margin-left: 3px; }
+  .calendar .row1 {
+    background: #88c685;
+    line-height: 25px;
+    color: #fff;
+    font-size: 18px;
+    padding: 5px 0; }
+  .calendar .row2 {
+    background: #bcdfbb;
+    height: 35px;
+    line-height: 35px;
+    display: flex;
+    justify-content: space-around; }
+    .calendar .row2 .item {
+      font-size: 15px;
+      color: #333;
+      width: 50%;
+      text-align: center; }
+  .calendar .row3 {
+    display: flex;
+    justify-content: space-around;
+    position: relative;
+    padding: 15px 0;
+    border-bottom: 1px solid #d7d7d7; }
+    .calendar .row3 .inner {
+      width: 50%; }
+      .calendar .row3 .inner:nth-child(1) {
+        border-right: 1px solid #d7d7d7; }
+    .calendar .row3 .month {
+      font-size: 15px;
+      color: #7f7f7f;
+      line-height: 1.3; }
+    .calendar .row3 .day {
+      font-size: 48px;
+      color: #73ac3a; }
+    .calendar .row3 .txt {
+      font-size: 12px;
+      color: #bb0017; }
+  .calendar .row4 {
+    padding: 0 15px; }
+    .calendar .row4 .txt {
+      font-size: 12px;
+      color: #7f7f7f;
+      margin: 8px 0; }
+    .calendar .row4 .bld {
+      color: #616161; }
+    .calendar .row4 .clGr {
+      color: #73ac3a; }
+    .calendar .row4 .clBlue {
+      color: #02a7f0; }
+  .calendar .row5 {
+    background: #f2f2f2;
+    padding: 5px 10px;
+    position: relative; }
+    .calendar .row5 .btn {
+      border: 1px solid #d7d7d7;
+      padding: 5px 10px; }
+  .calendar .tbl {
+    border-collapse: collapse;
+    margin: 15px 0; }
+    .calendar .tbl thead td {
+      color: #fea10d;
+      text-align: center;
+      font-size: 15px;
+      padding-bottom: 5px; }
+    .calendar .tbl tbody {
+      border-top: 1px solid #aaaaaa; }
+      .calendar .tbl tbody td {
+        border: 1px solid #f2f2f2;
+        border-top: 0;
+        width: 14.2%; }
+        .calendar .tbl tbody td>a{
+          display: block;
+          padding: 5px;
+        }
+        .calendar .tbl tbody td.bgAtv {
+          background: #daf5d9; }
+      .calendar .tbl tbody .dayCalendar {
+        font-size: 16px;
+        color: #7f7f7f;
+        position: relative;
+        display: inline-block;
+        min-height: 18px;
+        padding-left: 2px; }
+        .calendar .tbl tbody .dayCalendar.atv {
+          color: #d9001b; }
+        .calendar .tbl tbody .dayCalendar.good:before {
+          content: '';
+          width: 5px;
+          height: 5px;
+          background: #78b43d;
+          border-radius: 50%;
+          position: absolute;
+          top: 2px;
+          right: -10px; }
+        .calendar .tbl tbody .dayCalendar.bad:before {
+          content: '';
+          width: 5px;
+          height: 5px;
+          background: #aaaaaa;
+          border-radius: 50%;
+          position: absolute;
+          top: 2px;
+          right: -10px; }
+      .calendar .tbl tbody .lunarCalendar {
+        font-size: 11px;
+        color: #7f7f7f;
+        text-align: right;
+        margin: 5px 3px 5px 0;
+        min-height: 12px; }
+      .calendar .tbl tbody .txt {
+        font-size: 9px;
+        color: #d9001b;
+        text-align: center;
+        min-height: 36px; }
+  .calendar .row6 .txt {
+    margin: 0 20px 0 0;
+    padding-left: 15px;
+    position: relative; }
+    .calendar .row6 .txt.good:before {
+      content: '';
+      width: 5px;
+      height: 5px;
+      background: #78b43d;
+      border-radius: 50%;
+      position: absolute;
+      top: 4px;
+      left: 0; }
+    .calendar .row6 .txt.good.bad:before {
+      background: #aaaaaa; }
+  .calendar .row7 {
+    margin: 15px 0; }
+    .calendar .row7 .title {
+      font-size: 15px;
+      color: #78b43d;
+      margin-bottom: 15px; }
+    .calendar .row7 .list {
+      display: flex;
+      padding: 0 6px; }
+    .calendar .row7 .item {
+      display: inline-block;
+      margin-right: 10px;
+      width: 100%; }
+      .calendar .row7 .item:last-child {
+        margin-right: 0; }
+    .calendar .row7 img {
+      width: 100%; }
+  .calendar .popup {
+    display: none;
+    border: 1px solid #aaaaaa;
+    padding: 15px 30px;
+    width: 276px;
+    position: absolute;
+    top: 30px;
+    right: 0;
+    background: #fff;
+    z-index: 1;
+    border-radius: 5px; }
+    .calendar .popup .title {
+      font-size: 14px;
+      color: #7F7F7F;
+      margin-bottom: 15px; }
+    .calendar .popup .tit {
+      font-size: 14px;
+      color: #555555;
+      padding-left: 30px;
+      background: url("//cdn.24h.com.vn/images/lichvannien/icoSun.png") left center no-repeat;
+      margin-bottom: 10px;
+      height: 24px;
+      line-height: 24px; }
+      .calendar .popup .tit.amLich {
+        background-image: url("//cdn.24h.com.vn/images/lichvannien/icoMoon.png");
+        margin-top: 15px;
+        background-size: 10%; }
+    .calendar .popup .inner {
+      border: 1px solid #d7d7d7;
+      border-radius: 10px; }
+    .calendar .popup .item {
+      display: flex;
+      justify-content: space-around; }
+      .calendar .popup .item div {
+        font-size: 13px;
+        color: #7F7F7F; }
+        .calendar .popup .item div:last-child {
+          border: 0; }
+        .calendar .popup .item div.txt {
+          font-size: 10px;
+          font-weight: normal; }
+      .calendar .popup .item > div {
+        border-right: 1px solid #d7d7d7;
+        padding: 5px 0;
+        width: 100%;
+        text-align: center; }
+      .calendar .popup .item.atv {
+        background: #fffed8; }
+        .calendar .popup .item.atv div {
+          color: #E99327; }
+    .calendar .popup .btnPopup {
+      display: inline-block;
+      font-size: 13px;
+      color: #fff;
+      background: #aaaaaa;
+      padding: 5px 30px;
+      margin-top: 15px;
+      outline: none;
+      border: 0;
+      border-radius: 5px;
+      cursor: pointer; }
+      .calendar .popup .btnPopup.submit {
+        background: #fead16;
+        margin-right: 10px; }
+        .calendar .popup.popup2 {
+      display: none;
+      top: 50px;
+      right: 0;
+      padding: 10px;
+      border-radius: 0; }
+      .calendar .popup.popup2 .tit {
+        text-align: left;
+        height: 25px; }
+      .calendar .popup.popup2 .inner {
+        border: 0;
+        display: flex; }
+      .calendar .popup.popup2 select {
+        font-size: 14px;
+        width: 100%;
+        margin-right: 10px;
+        border: solid 1px #e0e0e0;
+        height: 40px;
+        background: url("//cdn.24h.com.vn/images/lichvannien/arow.svg") no-repeat;
+        background-position: right 8px top 50%;
+        padding: 0 25px 0 10px;
+        -webkit-appearance: none; }
+        .calendar .popup.popup2 select:last-child {
+          margin-right: 0; }
+      .calendar .popup.popup2 .btnPopup {
+        width: 100%;
+        border-radius: 0;
+        background: #dc1435;
+        line-height: 30px; }
+        .calendar .icoPrev, .calendar .icoNext {
+          width: 30px;
+          height: 30px;
+          border-radius: 50%;
+          vertical-align: middle;
+          background: url('//cdn.24h.com.vn/images/lichvannien/left-arrow.png') center #f9f9f9 no-repeat;
+          background-size: 30%;
+          position: absolute;
+          top: 50%;
+          transform: translateY(-50%);
+          left: 5px;
+        }
+        .calendar .icoNext {
+          background-image: url(//cdn.24h.com.vn/images/lichvannien/left-arrow-copy.png);
+          left: auto;
+          right: 5px;
+        }
+        .calendar .row3 .icoPrev, .calendar .row3 .icoNext{
+          top: 60%;
+        }
+        .calendar .row2 .item:first-child{
+          padding-left: 10px;
+        }
+        .calendar .row5 .btn span{
+          vertical-align: middle;
+        }
+        .bgAtvChose{
+          background: #F2F2F2;
+        }
+        .calendar .tbl tbody .lunarCalendar.atv{
+          color: #d9001b;
+        }
+        .calendar .row3 .inner:nth-child(3) {
+          border-right: 1px solid #d7d7d7;
+          padding-left: 2px;
+        }
+        .btnClose{
+          width: 24px;
+          height: 24px;
+          display: inline-block;
+          background: url('//cdn.24h.com.vn/images/lichvannien/imgpsh_fullsize_anim.png') no-repeat;
+          border-radius: 50%;
+          cursor: pointer;
+          position: absolute;
+          top: 10px;
+          right: 10px;
+        }
+
+@media screen and (max-width: 320px) {
+  .calendar .row1 {
+    font-size: 16px; }
+
+  .calendar .btn, .calendar .tbl tbody .lunarCalendar {
+    font-size: 9px; }
+
+  .calendar .row2 .item, .calendar .row3 .month, .calendar .tbl thead td, .calendar .row7 .title {
+    font-size: 13px; }
+
+  .calendar .row3 .day {
+    font-size: 46px; }
+
+  .calendar .row3 .txt, .calendar .row4 .txt {
+    font-size: 10px; }
+
+  .calendar .tbl tbody .dayCalendar {
+    font-size: 14px; }
+
+  .calendar .tbl tbody .txt {
+    font-size: 7px; }
+
+  .calendar .popup .title, .calendar .popup .tit {
+    font-size: 12px; }
+
+  .calendar .popup .item div, .calendar .popup .btnPopup {
+    font-size: 11px; }
+
+  .calendar .popup .item div.txt {
+    font-size: 8px; } }
+@media screen and (min-width: 414px) {
+  .calendar .row1 {
+    font-size: 20px; }
+
+  .calendar .btn, .calendar .tbl tbody .lunarCalendar {
+    font-size: 13px; }
+
+  .calendar .row2 .item, .calendar .row3 .month, .calendar .tbl thead td, .calendar .row7 .title {
+    font-size: 17px; }
+
+  .calendar .row3 .day {
+    font-size: 50px; }
+
+  .calendar .row3 .txt, .calendar .row4 .txt {
+    font-size: 14px; }
+
+  .calendar .tbl tbody .dayCalendar {
+    font-size: 18px; }
+
+  .calendar .tbl tbody .txt {
+    font-size: 11px; }
+
+  .calendar .popup .title, .calendar .popup .tit {
+    font-size: 16px; }
+
+  .calendar .popup .item div, .calendar .popup .btnPopup {
+    font-size: 15px; }
+
+  .calendar .popup .item div.txt {
+    font-size: 12px; } }
+@media screen and (min-width: 480px) {
+  .calendar .row1 {
+    font-size: 18px; }
+
+  .calendar .btn, .calendar .tbl tbody .lunarCalendar {
+    font-size: 11px; }
+
+  .calendar .row2 .item, .calendar .row3 .month, .calendar .tbl thead td, .calendar .row7 .title {
+    font-size: 15px; }
+
+  .calendar .row3 .day {
+    font-size: 48px; }
+
+  .calendar .row3 .txt, .calendar .row4 .txt {
+    font-size: 12px; }
+
+  .calendar .tbl tbody .dayCalendar {
+    font-size: 16px; }
+
+  .calendar .tbl tbody .txt {
+    font-size: 9px; }
+
+  .calendar .popup .title, .calendar .popup .tit {
+    font-size: 14px; }
+
+  .calendar .popup .item div, .calendar .popup .btnPopup {
+    font-size: 13px; }
+
+  .calendar .popup .item div.txt {
+    font-size: 10px; } }
+@media screen and (min-width: 640px) {
+  .calendar .row1 {
+    font-size: 20px; }
+
+  .calendar .btn, .calendar .tbl tbody .lunarCalendar {
+    font-size: 13px; }
+
+  .calendar .row2 .item, .calendar .row3 .month, .calendar .tbl thead td, .calendar .row7 .title {
+    font-size: 17px; }
+
+  .calendar .row3 .day {
+    font-size: 50px; }
+
+  .calendar .row3 .txt, .calendar .row4 .txt {
+    font-size: 14px; }
+
+  .calendar .tbl tbody .dayCalendar {
+    font-size: 18px; }
+
+  .calendar .tbl tbody .txt {
+    font-size: 11px; }
+
+  .calendar .popup .title, .calendar .popup .tit {
+    font-size: 16px; }
+
+  .calendar .popup .item div, .calendar .popup .btnPopup {
+    font-size: 15px; }
+
+  .calendar .popup .item div.txt {
+    font-size: 12px; } }
+@media screen and (min-width: 736px) {
+  .calendar .row1 {
+    font-size: 22px; }
+
+  .calendar .btn, .calendar .tbl tbody .lunarCalendar {
+    font-size: 15px; }
+
+  .calendar .row2 .item, .calendar .row3 .month, .calendar .tbl thead td, .calendar .row7 .title {
+    font-size: 19px; }
+
+  .calendar .row3 .day {
+    font-size: 52px; }
+
+  .calendar .row3 .txt, .calendar .row4 .txt {
+    font-size: 16px; }
+
+  .calendar .tbl tbody .dayCalendar {
+    font-size: 20px; }
+
+  .calendar .tbl tbody .txt {
+    font-size: 13px; }
+
+  .calendar .popup .title, .calendar .popup .tit {
+    font-size: 18px; }
+
+  .calendar .popup .item div, .calendar .popup .btnPopup {
+    font-size: 17px; }
+
+  .calendar .popup .item div.txt {
+    font-size: 14px; } }

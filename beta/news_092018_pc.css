@@ -2481,9 +2481,11 @@ footer */
     	.abd .inner{
     		padding-left: 65px;
     	}
-    	.abd .inner .tit, .abd .time strong{
+    	/*Begin 15/6/2020: dangtq Toi_uu_heading_tag_trang_truc_tiep_bong_da*/
+    	.abd .inner .tit, .abd .time strong, .abd .time .timeStep{
     		font-size: 17px;
     	}
+    	/*End 15/6/2020: dangtq Toi_uu_heading_tag_trang_truc_tiep_bong_da*/
     	.abd p, .abd .stt{
     		font-size: 15px;
     	}
@@ -4365,3 +4367,53 @@ p.linkOrigin .icoDrop {
 	max-width: 100%;
 }
 /* End: 17-02-2020 TuyenNT hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
+
+/*Begin 15/6/2020: dangtq Toi_uu_heading_tag_trang_truc_tiep_bong_da*/
+.doihinhCustom .tit h3.tuht_show{
+	font-size: 22px;
+}
+.tabTThuat .sf h3.tuht_show{
+	font-size: 16px;
+}
+/*End 15/6/2020: dangtq Toi_uu_heading_tag_trang_truc_tiep_bong_da*/
+/* begin background premium */
+.wpPremium {
+  position: relative; }
+  .wpPremium .hdr {
+    z-index: 2;
+    position: relative; }
+  .wpPremium .bgPremium {
+    margin-top: 250px; }
+    .wpPremium .bgPremium > .contnr {
+      overflow: hidden;
+      z-index: 1;
+      position: relative; }
+  .wpPremium .bnPremium {
+    text-align: center;
+    position: fixed;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);
+    z-index: 1; }
+  .wpPremium .contnrd {
+    background: none;
+    position: absolute;
+    bottom: 270px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 1004px; }
+  .wpPremium .colLt, .wpPremium .colRt {
+    background: #fff; }
+  .wpPremium .colLt {
+    padding: 0 6px; }
+    .wpPremium .colLt .bnrPtn {
+      margin-left: -5px; }
+  .wpPremium .colRt {
+    margin: 0;
+    padding-right: 5px; }
+  .wpPremium .footerd {
+    width: 1004px;
+    margin: 0 auto;
+    z-index: 1;
+    position: relative; }
+/* begin background premium */

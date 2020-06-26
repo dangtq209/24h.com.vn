@@ -231,8 +231,8 @@ footer .tbCmg ul li {
 .icoVidLg {
     position: absolute;
 }
-
-.vidIcoLt, .picIco, .quizIco, .infoIco, .magzIco, .livIco {
+/*Begin 25/5/2020: dangtq icon_bai_hoi_dap*/
+.vidIcoLt, .picIco, .quizIco, .infoIco, .magzIco, .livIco, .hoidapIco, .TophoidapIco {
     width: 24px;
     height: 24px;
     position: absolute;
@@ -241,6 +241,18 @@ footer .tbCmg ul li {
     display: block;
     z-index: 1;
 }
+.hoidapIco, .TophoidapIco {
+    background: url('//cdn.24h.com.vn/images/icon_hoi_dap_trong_anh.png') no-repeat;
+}
+.TophoidapIco{
+    left: auto;
+    top: 5px;
+    right: 5px;
+}
+.icohoidap {
+    background: url('//cdn.24h.com.vn/images/icon_hoi_dap_dau_text.png') left 4px no-repeat;
+}
+/*End 25/5/2020: dangtq icon_bai_hoi_dap*/
 .vidIcoLt {
     background: url(//cdn.24h.com.vn/images/sprites092018.png) no-repeat -50px -4515px;
 }
@@ -345,17 +357,7 @@ end toi_uu_css_amp dangtq 2019*/
     padding-left: 10px;
     margin-bottom: 2px;
 }
-/* AnhTT thay_doi_ads_zone*/
-/*.txtBnrVel span, .txtBnrHor span {
-    color: #999;
-    font-size: 9px;
-    font-weight: 700;
-    position: relative;
-}
-.txtBnrVel span:before, .txtBnrHor span:before {
-    content: "ad zone of 24h";
-}*/
-/* AnhTT thay_doi_ads_zone*/
+
 /*---End banner---*/
 
 /*---Start header---*/
@@ -1421,7 +1423,7 @@ end toi_uu_css_amp dangtq 2019*/
     .icoTit:before{
         right: 6px;
     }
-    /* AnhTT thay_doi_ads_zone*/
+	/* AnhTT thay_doi_ads_zone*/
     /*.vf .txtBnrHor span{
         font-size: 13px; 25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng
     }*/
@@ -1714,7 +1716,6 @@ end toi_uu_css_amp dangtq 2019*/
     }
 }
 /* End tổng hợp các độ phân giải màn hình - dangtq 2019 */
-
 /* AnhTT thay_doi_ads_zone*/
 .txtBnrHor span, .adZone {
     color: #999;

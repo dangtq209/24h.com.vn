@@ -1021,7 +1021,7 @@ ul, li {
         margin-left: -1px; /*2/10/2019: dangtq fix_banner_cong_chao_top*/
     }
     /* End duclv: fixed_banner_cong_chao */
-	/*AnhTT thay_doi_ads_zone*/
+    /*AnhTT thay_doi_ads_zone*/
     .txtBnrVtl {
         position: absolute;
         bottom: 5px;
@@ -1042,11 +1042,11 @@ ul, li {
 		text-transform: none;
 		font-size: 10px;
 		font-weight: normal;
-    }	
+    }
     .txtBnrVtl span:before, .txtBnrHor span:before {
         content: "Advertisement"; 
     }
-    /*AnhTT thay_doi_ads_zone*/
+	/*AnhTT thay_doi_ads_zone*/
     .bnrHmL {
         float: left;
         width: 336px;
@@ -2176,6 +2176,7 @@ ul, li {
     	color: #000;
     	padding: 5px 10px;
     	padding-left: 22px;
+
     	line-height: 16px;
     }
     /*End 8/5/2020: dangtq Tinh_chinh_giao_dien_box_Eva_tren_24h*/
@@ -2504,6 +2505,7 @@ ul, li {
         border: 0;
         margin-top: -24px;
         display: block;
+        max-height: 30px; /*24/6/2020 dangtq*/
     }
     /* End 11/9/2019: dangtq Toi_uu_menu_ngang_header */
 .tpMnRtx .icoSch{
@@ -3468,3 +3470,454 @@ ul, li {
     margin-bottom: 10px;
     display: inline-block; }
 /* End: 09-04-2020 toi_uu_co_che_xem_bai_chua_xuat_ban_va_che_do_preview */
+/*Begin 25/5/2020: dangtq icon_bai_hoi_dap*/
+.hoidapIco, .TophoidapIco {
+    background: url('//cdn.24h.com.vn/images/icon_hoi_dap_trong_anh.png') no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.TophoidapIco{
+    left: auto;
+    top: 5px;
+    right: 5px;
+}
+.icohoidap {
+    background: url('//cdn.24h.com.vn/images/icon_hoi_dap_dau_text.png') left 5px no-repeat;
+}
+.Top2hoidapIco{
+    display: inline-block;
+    width: 12px;
+    height: 12px;
+    background: url('//cdn.24h.com.vn/images/icon_hoi_dap_dau_text.png') no-repeat;
+    vertical-align: middle;
+}
+.T2magzIco{
+    width: 12px;
+    height: 11px;
+    display: inline-block;
+    background: url(//cdn.24h.com.vn/images/sprites092018.png) no-repeat -50px -2106px;
+}
+.T2infoIco{
+    width: 11px;
+    height: 10px;
+    display: inline-block;
+    background: url(//cdn.24h.com.vn/images/sprites092018.png) no-repeat -50px -1335px;
+}
+.T2picIco{
+    width: 11px;
+    height: 10px;
+    display: inline-block;
+    background: url(//cdn.24h.com.vn/images/sprites092018.png) no-repeat -50px -1555px;
+}
+/*End 25/5/2020: dangtq icon_bai_hoi_dap*/
+
+/* Begin: 26/5/2020: xay_dung_trang_chi_so_chung_khoan */
+.disFLex, .boxCk .list .item, .boxCk .listBottom, .pageCk .head, .pageCk .listTop, .pageCk .listTop .item div:first-child, .pageCk .chart, .pageCk .tbl .tblHead, .pageCk .tbl .tblBody .row {
+  display: flex; }
+
+.icoUpCk, .icoDownCk, .icoUpCkWhite {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: url("//cdn.24h.com.vn/images/2014/ttcb/btn_up2019.png") no-repeat;
+  background-position: center;
+  margin-top: 3px; }
+
+.icoDownCk {
+  background-image: url("//cdn.24h.com.vn/images/2014/ttcb/btn_down2019.png"); }
+.atv .icoUpCk {
+  background-image: url("//cdn.24h.com.vn/images/icoUpCkWhite.png");
+  background-size: 100%; 
+}
+.atv .icoUpCkWhite {
+  background-image: url("//cdn.24h.com.vn/images/icoUpCkWhite.png");
+  background-size: 100%; 
+}
+.atv .icoDownCk {
+    background-image: url("//cdn.24h.com.vn/images/icoUpCkWhite.png");
+    background-size: 100%; 
+    transform: rotate(180deg);
+}
+.atv .icoyellowCk{
+    background: white;
+}
+.atv .colorUpyellow{
+	color: #fff !important;
+}
+.colorUp {
+  color: #78b43d; }
+
+.colorDown {
+  color: #e01010; }
+
+.bgUp {
+  background: #71b871; }
+
+.bgDown {
+  background: #e01010; }
+
+.txtUp {
+  color: #378b36; }
+
+.txtDown {
+  color: #e11a1a; }
+
+.txtOrange {
+  color: #d95c00; }
+
+.boxCk{
+    margin-top: 10px;
+} 
+.boxCk .icoUpCk, .boxCk .icoDownCk {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: url("//cdn.24h.com.vn/images/2014/ttcb/btn_up2019.png") no-repeat;
+  background-position: center;
+  margin-top: 3px; }
+.boxCk .icoDownCk {
+  background-image: url("//cdn.24h.com.vn/images/2014/ttcb/btn_down2019.png"); }
+.boxCk .title {
+  font-size: 18px;
+  color: #78b43d;
+  background: url("//cdn.24h.com.vn/images/icon_topck.png") no-repeat;
+  border-bottom: 2px solid;
+  padding-left: 35px;
+  display: block;
+  margin-bottom: 5px; }
+.boxCk .list {
+  background: #fafafa;
+  border: 1px solid #EDEDED;
+  /*padding: 8px;*/
+  border-radius: 5px;
+  margin-bottom: 5px; }
+  .boxCk .list .item {
+    display: flex;
+    justify-content: space-between;
+    /*margin-bottom: 5px;*/
+    padding: 5px 8px; }
+    .boxCk .list div:nth-child(5) .item {
+      margin-bottom: 0; }
+    .boxCk .list .item span:nth-child(1) {
+      font-size: 13px;
+      width: 40%;
+      color: #333; }
+    .boxCk .list .item span:nth-child(2) {
+      width: 17%;
+      color: #333;
+      font-size: 13px; }
+    .boxCk .list .item span:nth-child(3) {
+      width: 15%; }
+    .boxCk .list .item span:nth-child(4) {
+      width: 20%;
+      font-size: 13px; }
+    .boxCk .list .item span:nth-child(5) {
+      width: 19%;
+      font-size: 13px; }
+.boxCk .listBottom {
+  display: flex;
+  justify-content: space-between; }
+  .boxCk .listBottom div {
+    background: #fafafa;
+    /*border: 1px solid #d8d6d6;*/
+    /*padding: 5px;*/
+    border-radius: 5px;
+    width: 100%;
+    margin-right: 10px;
+    text-align: center; }
+    .boxCk .listBottom div:nth-child(3) {
+      width: 150%; }
+    .boxCk .listBottom div:nth-child(5) {
+      margin-right: 0; }
+      .boxCk .listBottom .item{
+        font-size: 13px;
+        padding: 5px;
+        display: block;
+        color: #333;
+      }
+
+      .pageCk .title {
+  font-size: 23px;
+  color: #378b36;
+  background: url("//cdn.24h.com.vn/images/icon_topck2.png") left center no-repeat;
+  padding-left: 35px; }
+  .pageCk .title.titleBottom {
+    margin-bottom: 15px;
+    background-image: url("//cdn.24h.com.vn/images/analytics-monitor.png");
+    display: inline-block; }
+.pageCk .head {
+  justify-content: space-between;
+  margin: 25px 0 13px; }
+  .pageCk .head .txt {
+    color: #525252;
+    font-size: 12px;
+    margin-top: 10px; }
+.pageCk .listTop {
+  margin-bottom: 20px; }
+  .pageCk .listTop .item {
+    width: 100%;
+    padding: 5px;
+    border: 1px solid #b7b7b7;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 1.4; 
+    cursor: pointer;
+  }
+    .pageCk .listTop .item * {
+      font-size: 13px; }
+    .pageCk .listTop .item:nth-child(7) {
+      margin-right: 0; }
+    .pageCk .listTop .item.atv {
+      color: #fff;
+      background: #71b871; }
+      .pageCk .listTop .item.atv div{
+        color: #fff;
+      }
+      .pageCk .listTop .item.atv .number {
+        color: #fff; }
+    .pageCk .listTop .item div:first-child {
+      justify-content: space-evenly; }
+    .pageCk .listTop .item .number {
+      color: #000; }
+  .pageCk .listTop .icoUpCk, .pageCk .listTop .icoDownCk, .pageCk .listTop .icoUpCkWhite, .pageCk .listTop .icoUpDown {
+    vertical-align: 1px; }
+.pageCk .colorUp {
+  color: #378b36; }
+.pageCk .chart {
+  margin-bottom: 25px; }
+  .pageCk .chart .cnt {
+    width: 65%;
+    margin-right: 20px; }
+  .pageCk .chart .inner {
+    flex-grow: 1; }
+  .pageCk .chart .bg {
+    background: #edf9fe;
+    padding: 5px 10px;
+    line-height: 2;
+    border-radius: 5px;
+    margin-bottom: 5px; }
+    .pageCk .chart .bg i {
+      color: #727272;
+      margin-left: 10px; }
+  .pageCk .chart .bor {
+    border-bottom: 1px solid #eee;
+    padding-left: 10px;
+    height: 35px;
+    line-height: 35px; }
+    .pageCk .chart .bor span:first-child {
+      display: inline-block;
+      width: 100px;
+      font-size: 13px;
+    margin-right: 15px; }
+.pageCk .tbl {
+  margin-bottom: 30px; }
+  .pageCk .tbl .title {
+    background-image: url("//cdn.24h.com.vn/images/increasing-stocks-graphic-of-bars.png");
+    background-position: unset;
+    margin-bottom: 15px;
+    display: inline-block; }
+  .pageCk .tbl .tblHead {
+    background: #d3f0fd;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px; }
+  .pageCk .tbl .item {
+    font-size: 13px; }
+    .pageCk .tbl .item * {
+      font-size: 13px; }
+    .pageCk .tbl .item:nth-child(1) {
+      width: 60%; }
+       .pageCk .tbl .item:nth-child(1) div:nth-child(1){
+        font-size: 14px;
+       }
+    .pageCk .tbl .item:nth-child(2), .pageCk .tbl .item:nth-child(3) {
+      width: 20%; }
+  .pageCk .tbl .tblBody {
+    border: 1px solid #eee;
+    height: 305px;
+    overflow: hidden;
+    overflow-y: scroll; }
+    .pageCk .tbl .tblBody::-webkit-scrollbar {
+      width: 5px;
+      background-color: #F5F5F5; }
+    .pageCk .tbl .tblBody::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      background: #7C7C7C; }
+    .pageCk .tbl .tblBody .row {
+      padding: 5px 10px;
+      border-bottom: 1px solid #eee; }
+      .pageCk .tbl .tblBody .row:last-child {
+        border: 0; }
+        .pageCk .tbl .tblBody .item:nth-child(1){
+            padding: 5px 0;
+        }
+    .pageCk .tbl .tblBody .item:nth-child(2), .pageCk .tbl .tblBody .item:nth-child(3) {
+      padding-top: 13px; }
+    .pageCk .tbl .tblBody .item:nth-child(3) {
+      color: #8c8c8c;
+      font-size: 11px;
+      line-height: 20px;
+    padding: 5px 0 5px 25px; }
+  .pageCk .tbl .txt {
+    color: #8c8c8c;
+    font-size: 10px;
+    margin-top: 3px; }
+  .pageCk .tbl .percent {
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    width: 55px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 5px; }
+    .ckvn_tc, .cktg_tc {
+        /*background: #f2f2f2;*/
+    }
+    .icoyellowCk{
+        display: inline-block;
+        width: 7px!important;
+        height: 7px;
+        background: #FF9800;
+        vertical-align: middle;
+    }
+    .boxCk .icoyellowCk{
+        margin-top: 3px;
+    }
+    #box_loc_bieu_do_ck{
+    	margin-bottom: 10px;
+    }
+    #box_loc_bieu_do_ck a{
+    	width: 30px;
+        height: 20px;
+        color: #b1b8c8;
+        display: inline-block;
+        font-size: 14px;
+        text-align: center;
+        margin-right: 10px;
+    }
+    #box_loc_bieu_do_ck a.ckatv{
+        color: #47556c;
+        border-bottom: 2px solid #47556c;
+    }
+    .ck_time_atv{
+        color: red !important;
+    }
+    .highcharts-tooltip rect{
+        height: 65px;
+    }
+/* End: 26/5/2020: xay_dung_trang_chi_so_chung_khoan */
+
+/* Begin: 8/6/2020 xay_dung_noi_dung_chi_so_khong_khi */
+.txtAirIndex {
+  width: 161px !important;
+  display: inline-block;
+  text-align: right;
+  padding-right: 13px;
+  position: relative;
+  color: #2c90d0; }
+  .txtAirIndex:before, .txtAirIndex:after {
+    content: '';
+    width: 18px;
+    height: 13px;
+    background: url("//cdn.24h.com.vn/images/ttcb/chisokhongkhi_clound.png") no-repeat;
+    position: absolute;
+    left: 33px; }
+  .txtAirIndex:after {
+    width: 5px;
+    height: 9px;
+    background-image: url("//cdn.24h.com.vn/images/ttcb/chisokhongkhi_next.png");
+    left: auto;
+    right: 0;
+    top: 2px; }
+
+.titleAirIndex {
+  border-bottom: 3px solid #88c685; }
+  .titleAirIndex span {
+    display: inline-block;
+    font-size: 13pt;
+    color: #fff;
+    background: url("//cdn.24h.com.vn/images/ttcb/Rectangle-41.png") no-repeat;
+    background-size: 100%;
+    height: 36px;
+    line-height: 39px;
+    padding: 0 25px 0 10px;
+    margin-bottom: -1px; }
+  .titleAirIndex.titleWeather {
+    border: 0;
+    margin-top: 5px; }
+    .titleAirIndex.titleWeather span {
+      background-image: url("//cdn.24h.com.vn/images/ttcb/Rectangle-4.png"); }
+
+.boxAirIndex * {
+  box-sizing: border-box; }
+.boxAirIndex .good {
+  background: #88c685; }
+.boxAirIndex .bad {
+  background: #fcb44e; }
+.boxAirIndex .least {
+  background: #fc6171; }
+.boxAirIndex .list {
+  display: table;
+  padding: 15px 10px 0; }
+  .boxAirIndex .list .item {
+    display: inline-table;
+    width: 86px;
+    margin-right: 15px;
+    border: 1px solid #b5e6b3;
+    text-align: center;
+    padding: 7px;
+    border-radius: 5px;
+    margin-bottom: 10px; }
+    .boxAirIndex .list .item:last-child {
+      margin: 0;
+      text-align: left;
+      border: 0;
+      padding: 0;
+      position: relative;
+      width: 54px; }
+      .boxAirIndex .list .item:last-child div {
+        color: #969696;
+        font-size: 9pt;
+        margin-bottom: 8px;
+        position: absolute; }
+        .boxAirIndex .list .item:last-child div:first-child{
+            top: -15px;
+        }
+        .boxAirIndex .list .item:last-child div:nth-child(2){
+            top: 5px;
+        }
+        .boxAirIndex .list .item:last-child div:last-child {
+          margin-bottom: 0;
+          top: 25px; }
+      .boxAirIndex .list .item:last-child .color {
+        display: inline-block;
+        width: 20px;
+        height: 12px;
+        border-radius: 3px;
+        vertical-align: top;
+        margin-right: 5px; }
+  .boxAirIndex .list .add {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #565656;
+    margin: 5px 0 10px 0;
+    white-space: nowrap;
+    max-width: 86px;
+    overflow: hidden;
+    text-overflow: ellipsis; }
+  .boxAirIndex .list .number {
+    font-size: 11pt;
+    font-weight: bold;
+    color: #fff;
+    padding: 5px 0;
+    border-radius: 5px; }
+
+.dbtt {
+  margin-top: 0!important; }
+/* End: 8/6/2020 xay_dung_noi_dung_chi_so_khong_khi */

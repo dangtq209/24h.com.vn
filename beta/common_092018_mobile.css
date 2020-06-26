@@ -1610,6 +1610,7 @@ article {
 				font-size: 16px;
 			}*/
 			/* AnhTT thay_doi_ads_zone*/
+
 			.ifTtr {
 				font-size: 18px;
 			}
@@ -2346,8 +2347,7 @@ article {
 		/*.vf .txtBnrHor span{
 			font-size: 11px; 25/12/2018 dangtq Bổ sung text "Ad zone of 24h" cho box PR nhãn hàng
 		}*/
-		/* AnhTT thay_doi_ads_zone*/
-	}
+		/* AnhTT thay_doi_ads_zone*/	}
 	@media screen and (min-width: 414px) and (max-width: 487px) {
 		.mnWrap .inner {
 			max-height: 55px;
@@ -2637,16 +2637,18 @@ article {
 .boxTtcbTt td{
 	width: 126px;
 }
+/* Begin: 8/6/2020 xay_dung_noi_dung_chi_so_khong_khi */
 .boxTtcbTt td.boxTtcbTtTit{
     font-size: 9px;
     font-weight: 600;
     background-color: #254a70;
     color: #fff;
-    height: 40px;
-    line-height: 40px;
+    /*height: 40px;
+    line-height: 40px;*/
     text-align: center;
     width: 50px;
 }
+/* End: 8/6/2020 xay_dung_noi_dung_chi_so_khong_khi */
 .boxTtcbTtTit a{
 	color: #fff;
 }
@@ -3320,3 +3322,568 @@ article {
   } 
 }
 /* AnhTT thay_doi_ads_zone*/
+
+/*Begin 25/5/2020: dangtq icon_bai_hoi_dap*/
+.hoidapIco, .TophoidapIco {
+    background: url('//cdn.24h.com.vn/images/icon_hoi_dap_trong_anh.png') no-repeat;
+    width: 24px;
+    height: 24px;
+    display: inline-block;
+    position: absolute;
+    bottom: 5px;
+    left: 5px;
+}
+.TophoidapIco{
+    left: auto;
+    top: 5px;
+    right: 5px;
+}
+.icohoidap {
+    background: url('//cdn.24h.com.vn/images/icon_hoi_dap_dau_text.png') left 4px no-repeat;
+}
+/*End 25/5/2020: dangtq icon_bai_hoi_dap*/
+
+/* Begin: 26/5/2020: xay_dung_trang_chi_so_chung_khoan */
+.disFLex, .pageCk .listTop, .pageCk .chart, .pageCk .tbl .tblHead, .pageCk .tbl .tblBody .row {
+  display: flex; }
+
+.icoUpCk, .icoDownCk, .icoUpCkWhite {
+  display: inline-block;
+  width: 7px;
+  height: 7px;
+  background: url("//cdn.24h.com.vn/images/2014/ttcb/btn_up2019.png") no-repeat;
+  background-position: center;
+  margin-top: 3px; }
+
+.icoDownCk {
+  background-image: url("//cdn.24h.com.vn/images/2014/ttcb/btn_down2019.png"); }
+.atv .icoUpCk {
+  background-image: url("//cdn.24h.com.vn/images/icoUpCkWhite.png");
+  background-size: 100%; 
+}
+.atv .icoUpCkWhite {
+  background-image: url("//cdn.24h.com.vn/images/icoUpCkWhite.png");
+  background-size: 100%; }
+.atv .icoDownCk {
+    background-image: url("//cdn.24h.com.vn/images/icoUpCkWhite.png");
+    background-size: 100%; 
+    transform: rotate(180deg);
+}
+.atv .icoyellowCk{
+    background: white;
+}
+.atv .colorUpyellow{
+	color: #fff !important;
+}
+.colorUp {
+  color: #78b43d; }
+
+.colorDown {
+  color: #e01010; }
+
+.bgUp {
+  background: #71b871; }
+
+.bgDown {
+  background: #e01010; }
+
+.txtUp {
+  color: #378b36; }
+
+.txtDown {
+  color: #e11a1a; }
+
+.txtOrange {
+  color: #d95c00; }
+
+.pageCk .title {
+  font-size: 20px;
+  color: #378b36;
+  background: url("//cdn.24h.com.vn/images/icon_topck2.png") left center no-repeat;
+  padding-left: 35px; }
+  .pageCk .title.titleBottom {
+    margin-bottom: 15px;
+    background-image: url("//cdn.24h.com.vn/images/analytics-monitor.png"); }
+.pageCk .head {
+  margin: 15px 0; }
+  .pageCk .head .txt {
+    color: #525252;
+    font-size: 12px;
+    margin-top: 10px; }
+.pageCk .listTop {
+  margin-bottom: 15px; }
+  .pageCk .listTop .item {
+    width: 100%;
+    padding: 5px 0;
+    border: 1px solid #b7b7b7;
+    margin-right: 5px;
+    text-align: center;
+    border-radius: 5px;
+    line-height: 1.4;     
+    cursor: pointer;}
+    .pageCk .listTop .item * {
+      font-size: 11px; }
+    .pageCk .listTop .item:nth-child(7) {
+      margin-right: 0; }
+    .pageCk .listTop .item.atv {
+      color: #fff;
+      background: #71b871; }
+      .pageCk .listTop .item.atv *{
+        color: #fff!important;
+      }
+    .pageCk .listTop .item .bld {
+      font-size: 12px;
+      display: block; }
+    .pageCk .listTop .item .number {
+      font-weight: bold;
+      font-size: 12px; }
+  .pageCk .listTop .icoUpCk, .pageCk .listTop .icoDownCk, .pageCk .listTop .icoUpCkWhite, .pageCk .listTop .icoUpDown, .pageCk .listTop .icoUpCkWhite {
+    display: none; }
+.pageCk .colorUp {
+  color: #378b36; }
+.pageCk .chart {
+  flex-direction: column-reverse;
+  margin-bottom: 25px; }
+  .pageCk .chart .bg {
+    background: #edf9fe;
+    padding: 5px 10px;
+    line-height: 1.7;
+    border-radius: 5px;
+    margin-bottom: 15px;
+    font-size: 12px;
+    display: flex; }
+    .pageCk .chart .bg .item {
+      width: 100%; }
+    .pageCk .chart .bg i {
+      color: #727272;
+      display: block; }
+  .pageCk .chart .bor {
+  	border-bottom: 1px solid #eee;
+  	font-size: 12px;
+  	float: left;
+  	width: 50%;
+  	height: 35px;
+  	line-height: 35px; }
+    .pageCk .chart .bor:nth-child(6), .pageCk .chart .bor:nth-child(8) {
+      border-color: #88c685; }
+    .pageCk .chart .bor span:first-child {
+      display: inline-block;
+      width: 95px;
+      font-weight: bold;
+      margin-right: 5px; }
+.pageCk .tbl {
+  margin-bottom: 30px; }
+  .pageCk .tbl .title {
+    background-image: url("//cdn.24h.com.vn/images/increasing-stocks-graphic-of-bars.png");
+    background-position: unset;
+    margin-bottom: 10px; }
+  .pageCk .tbl .tblHead {
+    background: #d3f0fd;
+    padding: 0 10px;
+    height: 30px;
+    line-height: 30px; }
+  .pageCk .tbl .item {
+    font-size: 12px; }
+    .pageCk .tbl .item * {
+      font-size: 12px; }
+    .pageCk .tbl .item:nth-child(2) {
+      width: 20%; }
+    .pageCk .tbl .item:nth-child(1), .pageCk .tbl .item:nth-child(3) {
+      width: 40%; }
+  .pageCk .tbl .tblBody {
+    border: 1px solid #eee;
+    border-bottom: 1px solid #88c685;
+    height: 307px;
+    overflow: hidden;
+    overflow-y: scroll; }
+    .pageCk .tbl .tblBody::-webkit-scrollbar {
+      width: 5px;
+      background-color: #F5F5F5; }
+    .pageCk .tbl .tblBody::-webkit-scrollbar-thumb {
+      border-radius: 10px;
+      -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+      background: #7C7C7C; }
+    .pageCk .tbl .tblBody .row {
+      padding: 5px 10px;
+      border-bottom: 1px solid #eee; }
+      .pageCk .tbl .tblBody .row:last-child {
+        border: 0; }
+        .pageCk .tbl .tblBody .item:nth-child(1){
+            padding-top: 5px;
+        }
+        .pageCk .tbl .tblBody .item:nth-child(1) div:nth-child(1){
+			font-size: 13px;
+        }
+    .pageCk .tbl .tblBody .item:nth-child(2) {
+      padding-top: 12px;
+      font-size: 13px; }
+    .pageCk .tbl .tblBody .item:nth-child(3) {
+      line-height: 20px;
+    padding: 5px 0 5px 25px; }
+    .pageCk .tbl .tblBody .item:nth-child(3) {
+      color: #8c8c8c;
+      font-size: 11px; }
+  .pageCk .tbl .txt {
+    color: #8c8c8c;
+    font-size: 10px;
+    margin-top: 3px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    padding-right: 10px; }
+  .pageCk .tbl .percent {
+    border-radius: 5px;
+    padding: 5px;
+    color: #fff;
+    width: 55px;
+    display: inline-block;
+    box-sizing: border-box;
+    margin-right: 5px; }
+    .pageCk .tbl .item:nth-child(3){
+    	padding-left: 25px;
+    }
+/*.linpageCk {
+    border-bottom: 1px solid #88c685;
+}*/
+.ckvn_tc, .cktg_tc {
+	/*background: #f2f2f2;*/
+}
+#box_loc_bieu_do_ck{
+	margin: 20px 0 10px;
+}
+#box_loc_bieu_do_ck a{
+	padding: 0 5px;
+    margin-right: 10px;
+	color: #b1b8c8;
+	display: inline-block;
+	font-size: 12px;
+	text-align: center;
+}
+#box_loc_bieu_do_ck a.ckatv{
+	color: #47556c;
+	border-bottom: 2px solid #47556c;
+}
+.ck_time_atv{
+    color: red !important;
+}
+.highcharts-tooltip rect{
+	height: 65px;
+}
+    
+@media screen and (max-width: 320px) {
+  .pageCk .title {
+    font-size: 18px; }
+
+  #box_loc_bieu_do_ck a, .pageCk .head .txt, .pageCk .listTop .item .bld, .pageCk .listTop .item .number, .pageCk .chart .bg, .pageCk .chart .bor, .pageCk .tbl .item, .pageCk .tbl .item * {
+    font-size: 10px; }
+
+  .pageCk .listTop .item *, .pageCk .tbl .tblBody .item:nth-child(3) {
+    font-size: 9px; }
+
+  .pageCk .tbl .txt {
+    font-size: 8px; }
+
+  .pageCk .chart .bor span:first-child {
+    width: 80px; }
+    .pageCk .tbl .item:nth-child(3){
+    	padding-left: 15px;
+    }
+    .pageCk .tbl .tblBody .item:nth-child(1) div:nth-child(1), .pageCk .tbl .tblBody .item:nth-child(2){
+    	font-size: 11px;
+     }
+    }
+@media screen and (min-width: 414px) {
+  .pageCk .title {
+    font-size: 22px; }
+
+  #box_loc_bieu_do_ck a, .pageCk .head .txt, .pageCk .listTop .item .bld, .pageCk .listTop .item .number, .pageCk .chart .bg, .pageCk .chart .bor, .pageCk .tbl .item, .pageCk .tbl .item * {
+    font-size: 14px; }
+
+  .pageCk .listTop .item *, .pageCk .tbl .tblBody .item:nth-child(3) {
+    font-size: 13px; }
+
+  .pageCk .tbl .txt {
+    font-size: 12px; }
+
+  .pageCk .chart .bor span:first-child {
+    width: 110px; }
+    .pageCk .tbl .tblBody .item:nth-child(1) div:nth-child(1), .pageCk .tbl .tblBody .item:nth-child(2){
+    	font-size: 15px;
+     }
+}
+@media screen and (min-width: 480px) {
+  .pageCk .title {
+    font-size: 20px; }
+
+  #box_loc_bieu_do_ck a, .pageCk .head .txt, .pageCk .listTop .item .bld, .pageCk .listTop .item .number, .pageCk .chart .bg, .pageCk .chart .bor, .pageCk .tbl .item, .pageCk .tbl .item * {
+    font-size: 12px; }
+
+  .pageCk .listTop .item *, .pageCk .tbl .tblBody .item:nth-child(3) {
+    font-size: 11px; }
+
+  .pageCk .tbl .txt {
+    font-size: 10px; }
+
+  .pageCk .chart .bor span:first-child {
+    width: 150px; }
+
+  .pageCk .tbl .percent {
+    width: 65px; } 
+    .pageCk .tbl .tblBody .item:nth-child(1) div:nth-child(1), .pageCk .tbl .tblBody .item:nth-child(2){
+    	font-size: 13px;
+     }
+}
+@media screen and (min-width: 640px) {
+  .pageCk .title {
+    font-size: 22px; }
+
+  #box_loc_bieu_do_ck a, .pageCk .head .txt, .pageCk .listTop .item .bld, .pageCk .listTop .item .number, .pageCk .chart .bg, .pageCk .chart .bor, .pageCk .tbl .item, .pageCk .tbl .item * {
+    font-size: 14px; }
+
+  .pageCk .listTop .item *, .pageCk .tbl .tblBody .item:nth-child(3) {
+    font-size: 13px; }
+
+  .pageCk .tbl .txt {
+    font-size: 12px; } 
+    .pageCk .tbl .tblBody .item:nth-child(1) div:nth-child(1), .pageCk .tbl .tblBody .item:nth-child(2){
+    	font-size: 15px;
+     }
+}
+@media screen and (min-width: 736px) {
+  .pageCk .title {
+    font-size: 24px; }
+
+  #box_loc_bieu_do_ck a, .pageCk .head .txt, .pageCk .listTop .item .bld, .pageCk .listTop .item .number, .pageCk .chart .bg, .pageCk .chart .bor, .pageCk .tbl .item, .pageCk .tbl .item * {
+    font-size: 16px; }
+
+  .pageCk .listTop .item *, .pageCk .tbl .tblBody .item:nth-child(3) {
+    font-size: 15px; }
+
+  .pageCk .tbl .txt {
+    font-size: 14px; } 
+    .pageCk .tbl .tblBody .item:nth-child(1) div:nth-child(1), .pageCk .tbl .tblBody .item:nth-child(2){
+    	font-size: 17px;
+     }
+}
+
+/* End: 26/5/2020: xay_dung_trang_chi_so_chung_khoan */
+
+/* Begin: 8/6/2020 xay_dung_noi_dung_chi_so_khong_khi */
+.boxTtcbTt {
+  background: none; }
+  .boxTtcbTt table {
+    border: 1px solid #ebebeb; }
+  .boxTtcbTt tr {
+    display: flex;
+    justify-content: space-between; }
+    .boxTtcbTt tr td {
+      width: 100%;
+      border-bottom: 1px solid #ebebeb;
+      padding: 0; }
+      /*.boxTtcbTt tr td.pdL10 {
+        padding-top: 7px; }*/
+      .boxTtcbTt tr td.boxTtcbTtTit {
+        background: url("//cdn.24h.com.vn/images/ttcb/sky-1.png") 2px center no-repeat;
+        width: 100%;
+        padding: 7px 0; }
+        @media screen and (max-width: 360px) {
+          .boxTtcbTt tr td.boxTtcbTtTit {
+            width: 93%; } }
+        .boxTtcbTt tr td.boxTtcbTtTit a {
+          color: #2cb1f5; }
+    .boxTtcbTt tr:last-child td {
+      border: 0; }
+      .boxTtcbTt tr:first-child td.boxTtcbTtTit{
+      	text-align: left;
+      }
+      .boxTtcbTt tr:first-child td.boxTtcbTtTit a{
+      	padding-left: 31px;
+      }
+      .boxTtcbTt tr:last-child td.boxTtcbTtTit {
+        background-image: url("//cdn.24h.com.vn/images/ttcb/chisokhongkhi_02.png");
+        width: 148%;
+        padding-left: 15px; }
+        .boxTtcbTt tr:last-child td.boxTtcbTtTit a {
+          color: #78b43d; }
+      .boxTtcbTt tr:last-child td.pdL10 {
+        padding-top: 7px; }
+        .boxTtcbTt tr:last-child td.pdL10:last-child{
+			padding-left: 25px;
+        }
+    .boxTtcbTt tr:last-child .icoKem, .icoBad, .boxTtcbTt tr:last-child .icoGood {
+      display: inline-block;
+      background: url("//cdn.24h.com.vn/images/ttcb/interface.png") no-repeat;
+      width: 5px;
+      height: 9px; }
+    .boxTtcbTt tr:last-child .icoGood {
+      background-image: url("//cdn.24h.com.vn/images/ttcb/interface-copy.png"); }
+    .boxTtcbTt tr:last-child .colorGood {
+      color: #78b43d; }
+    .boxTtcbTt tr:last-child .colorBad {
+      color: #f13548; }
+      .boxTtcbTt tr:last-child .colorleast {
+      color: #fcb44e; }
+      .boxTtcbTt tr:last-child .colorleast .icoBad{
+        background-image: url("//cdn.24h.com.vn/images/ttcb/interface_kem.png"); }
+      }
+
+.dbttKv {
+  padding: 0;
+  margin-bottom: 30px; }
+
+.titleAirIndex {
+  border-bottom: 3px solid #88c685; }
+  .titleAirIndex span {
+    display: inline-block;
+    font-size: 17px;
+    color: #fff;
+    background: url("//cdn.24h.com.vn/images/ttcb/Rectangle-41.png") no-repeat;
+    background-size: 100%;
+    height: 36px;
+    line-height: 39px;
+    padding: 0 25px 0 10px;
+    margin-bottom: -2px; }
+  .titleAirIndex.titleWeather {
+    margin: 10px -10px 0;
+    border-color: #45befc; }
+    .titleAirIndex.titleWeather span {
+      background-image: url("//cdn.24h.com.vn/images/ttcb/Rectangle-4.png"); }
+
+.boxAirIndex {
+  margin: 5px -10px 0; }
+  .boxAirIndex .good {
+    background: #88c685; }
+  .boxAirIndex .bad {
+    background: #fcb44e; }
+  .boxAirIndex .least {
+    background: #fc6171; }
+  .boxAirIndex .list {
+    /*background: #f5fff5;*/
+    display: table;
+    padding: 10px;
+    width: 100%; }
+    .boxAirIndex .list .item {
+      display: inline-table;
+      width: 49%;
+      margin: 0 2% 5px 0;
+      border: 1px solid #b5e6b3;
+      text-align: center;
+      padding: 3px 10px;
+      border-radius: 5px; }
+      .boxAirIndex .list .item * {
+        font-size: 15px;
+        font-weight: bold;
+        padding-top: 5px; }
+      .boxAirIndex .list .item:nth-child(2n+2) {
+        margin-right: 0; }
+      .boxAirIndex .list .item:last-child {
+        display: flex;
+        justify-content: center;
+        border: 0;
+        width: 100%;
+        margin-top: 5px;
+        padding: 0; }
+        .boxAirIndex .list .item:last-child div {
+          color: #969696;
+          font-size: 12px;
+          margin-right: 20px; }
+          .boxAirIndex .list .item:last-child div:last-child {
+            margin-right: 0; }
+        .boxAirIndex .list .item:last-child .color {
+          display: inline-block;
+          width: 20px;
+          height: 12px;
+          border-radius: 3px;
+          vertical-align: -1px;
+          margin-right: 5px; }
+    .boxAirIndex .list .add {
+      color: #565656;
+      float: left;
+      max-width: 96px;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden; }
+    .boxAirIndex .list .number {
+      color: #fff;
+      padding: 5px 10px;
+      border-radius: 5px;
+      float: right;
+      min-width: 48px; }
+
+      /**/
+      .boxTtcbTt *{
+      	font-weight: bold;
+      }
+      .boxTtcbTt .colorGrey{
+      	padding-left: 7px;
+      }
+      .boxTtcbTt .colorGrey, .boxTtcbTt .colorGrey *{
+      	font-weight: normal;
+      }
+      .dbttHere{
+      	border-top: 0!important;
+      	padding: 0 0 15px!important;
+      	margin-bottom: 0!important;
+      }
+      .dbttKv{
+      	padding: 15px 0!important;
+      	background: #f4fbff;
+      	margin: 0 -10px;
+      }
+
+@media screen and (max-width: 320px) {
+  .titleAirIndex span {
+    font-size: 15px; }
+
+  .boxAirIndex .list .item * {
+    font-size: 13px; }
+
+  .boxAirIndex .list .item:last-child div {
+    font-size: 10px; }
+    .boxAirIndex .list .add{
+    	max-width: 77px;
+    	} }
+@media screen and (min-width: 414px) {
+  .titleAirIndex span {
+    font-size: 19px; }
+
+  .boxAirIndex .list .item * {
+    font-size: 17px; }
+
+  .boxAirIndex .list .item:last-child div {
+    font-size: 14px; } }
+@media screen and (min-width: 480px) {
+  .titleAirIndex span {
+    font-size: 17px; }
+
+  .boxAirIndex .list .item * {
+    font-size: 15px; }
+
+  .boxAirIndex .list .item:last-child div {
+    font-size: 12px; }
+
+    .boxAirIndex .list .add{
+    	max-width: 100%;
+    	}
+    	.boxAirIndex .list .number{
+    		min-width: 60px;
+    		} }
+@media screen and (min-width: 640px) {
+  .titleAirIndex span {
+    font-size: 19px; }
+
+  .boxAirIndex .list .item * {
+    font-size: 17px; }
+
+  .boxAirIndex .list .item:last-child div {
+    font-size: 14px; } }
+@media screen and (min-width: 736px) {
+  .titleAirIndex span {
+    font-size: 21px; }
+
+  .boxAirIndex .list .item * {
+    font-size: 19px; }
+
+  .boxAirIndex .list .item:last-child div {
+    font-size: 16px; } }
+/* end: 8/6/2020 xay_dung_noi_dung_chi_so_khong_khi */

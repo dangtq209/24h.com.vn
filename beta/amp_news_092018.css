@@ -12,7 +12,6 @@
 }
 /* AnhTT thay_doi_ads_zone*/
 /*End 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
-
 /*Begin 6/2/2020: dangtq toi_uu_heading_tag*/
 .articleBody .tuht_show{
     font-size: 18px;
@@ -44,8 +43,6 @@
     background: #ebebeb;
 }
 /*End 10/4/2020: dangtq fix_bai_album_anh */
-
-/* End 24-02-2020: dangtq hoi_dap_xu_ly_frontend_dang_bai_hoi_dap */
 
 /*begin toi_uu_css_amp dangtq 2019*/
 /*.atclRdSb .lind {
@@ -2963,7 +2960,6 @@ p.linkOrigin span {
 /*End 10/4/2020: dangtq fix_bai_album_anh */
 /*End 31/3/2020: dangtq fix_font_chu_to_nho_khong_deu_nhau_noi_dung_bai_viet*/
 /*End 6/2/2020: dangtq toi_uu_heading_tag
-
 /* AnhTT thay_doi_ads_zone*/
 .adZone{
     position: relative;
@@ -2986,3 +2982,12 @@ p.linkOrigin span {
     left: 63%;
 }
 /* AnhTT thay_doi_ads_zone*/
+.phone {
+  /* these you already have */
+  position: absolute;
+  top: 0;
+  left: 0;
+  max-width: 80%;
+  /* add */
+  width: 100%;
+}
