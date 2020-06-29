@@ -39,7 +39,7 @@
 .titleText .wow{
 	visibility: hidden;
 }
-.titleText .fullscreen{
+.titleText img{
 	max-width: 100%;
 	height: auto;
 	width: auto;
