@@ -63,7 +63,7 @@
     top: 20px;
 }
 .anhPhaiTextTrai_twoImg .imgFix img{
-    width: 82%;
+    max-width: 201px;
 }
 .anhPhaiTextTrai_twoImg .imgMobile{
     display: none;

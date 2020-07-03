@@ -50,3 +50,10 @@
 }
 /*-----End section 3*/
 /*-----End Common------*/
+
+@media screen and (min-width: 1024px) {
+    .frameVideo{
+        width: 800px;
+        margin: 0 auto;
+    }
+}
